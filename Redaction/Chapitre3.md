@@ -1,8 +1,29 @@
-# Chapitre 3
+#  Chapitre 3
+
+## Pratique: Visualisation et cartographie
+
+article captures
+
+## Théorie : atlas
+
+article captures
+
+- jacob, besse, didi-huberman
+- interactivité, manipulation
+
+## Prototype atlas numérique & éditorialisation CONBAVIL
+
+Editorialisation et enjeux
+
+Instrument de recherche 
 
 
 
-## Interface
+___
+
+
+
+## Interface - atlas 
 
 - Christian Jacob, *Lieux de savoir* 2013
   - 
