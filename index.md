@@ -4,7 +4,7 @@ Ceci est une page web pour faciliter la relecture de mon mémoire de maîtrise, 
 
 Actuellement en cours de rédaction, je mets en ligne des parties prêtes à la relectures. Ceci est un travail en cours, le contenu va donc évoluer régulièrement. Par exemple, les titres sont tous temporaires. Commentaires et suggestions bienvenus, soit à même la page via [hypothesis](https://web.hypothes.is/#features), soit par courriel: lena.krause@umontreal.ca
 
-Dernière date de modification: 4 décembre 2020.
+Dernière date de modification: 10 décembre 2020.
 
 ___
 
@@ -28,6 +28,7 @@ Introduction (à venir): présentation du contexte, introduction à l'histoire e
 
 - [2.1 Créer une base de données](./Redaction/Chapitre2-p1.md)
 - [2.2 Utiliser une base de données](./Redaction/Chapitre2-p2.md)
+- [2.3 Nouvelle interface, nouvelles utilisations](./Redaction/Chapitre2-p3.md) (partiel - en cours de rédaction)
 
 ### Chapitre 3
 
