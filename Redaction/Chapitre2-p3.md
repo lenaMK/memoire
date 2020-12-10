@@ -28,6 +28,12 @@ La situation pourrait encore devenir tout autre si l'on enrichit la base de donn
 
 ### L'utilisation de sources numériques pour la production de connaissance en histoire de l'art
 
+
+
+[----ici ------]
+
+
+
 Cela ne fait pas si longtemps que nous avons des sources numériques en histoire de l'art. Comme le fait remarquer Jacques Thuillier dans son article sur l'histoire de l'art et l'informatique en 1992, notre discipline est loin d'être un précurseur dans l'adaptation des innovations techniques à ses besoins et intérêts [^2]: "Un quart de siècle d'informatique n'a rien changé aux habitudes de l'histoire de l'art, tant internationale que française" (5). Il relève toutefois 
 
 1) présence/existence de ces sources 
