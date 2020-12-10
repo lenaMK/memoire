@@ -6,39 +6,27 @@ Un des enjeux que nous souhaitons aborder avec la création d'une nouvelle inter
 
 ## Enjeux épistémologiques de la "remédiation" des archives ( )
 
-Nous nous attaquons ici à la question des formes de production du savoir en histoire de l'art. S'il est commun d'utiliser les archives comme source, il faut étudier l'impact de la transformation de ces archives et les méthodes appropriées pour les "exploiter" lorsqu'elles prennent la forme d'une base de données. Nous utilisons le terme "remédiation" pour signaler le changement de médium <!--  à développer -->.
+Nous nous attaquons ici à la question des formes de production du savoir en histoire de l'art. S'il est commun d'utiliser les archives comme source, ont doit se demander quel est l'impact de la transformation de ces archives et les méthodes appropriées pour les "exploiter" lorsqu'elles prennent la forme d'une base de données. Nous utilisons le terme "remédiation" pour signaler le changement de médium et les enjeux de médiation sous-jacents. 
 
-Comme nous l'avons vu dans les deux parties précédentes de ce chapitre, le processus employé dépasse largement une "simple" numérisation[^1] , ce qui équivaudrait à une reproduction numérique des documents d'archive (de leur image).  Le dépouillement analytique est un nouveau contenu, qui dans ce cas, a été prévu dès l'origine sous sa forme numérique. Le statut de cette source reste à définir, car si certaines données sont de réelles transcription du contenu des archives, d'autres sont le produit d'une interprétation des archives, comme dans le cas de la typologie, qui n'est pas toujours inscrite ou dû à l'utilisation du vocabulaire du Thesaurus [^3]. 
+Comme nous l'avons vu dans les deux parties précédentes de ce chapitre, le processus employé dépasse largement une "simple" numérisation, ce qui équivaudrait à une reproduction numérique des documents d'archive (de leur image) [^1]. Le dépouillement analytique est un contenu interprété sous une forme nativement numérique. Si certaines données sont de réelles transcription du contenu des archives, d'autres sont le produit d'une interprétation des archives[^4]. 
 
-[-- ici ---]
+<!-- faire lire à Christelle ? -->
 
-Les champs de textes libres se veulent une retranscription des archives [^4]. Le contenu de ces champs serait donc une source première dans une réédition contemporaine numérique. Toutefois, les champs indexés sont le produit d'une interprétation ou réinterprétation du contenu des archives par l'équipe de chercheur·se·s qui ont créé la base de données. Pour les champs modifiés par les chercheur·se·s, un certain nombre de bonnes pratiques existes. Pour la toponymie, les deux versions, "transcrite" et "actualisées" du nom de la commune ou du département, sont disponibles. . 
+Pour tenter de définir le statut de cette source médiée, nous utilisons la théorie des "savoirs situés" de la chercheuse féministe Donna Haraway. Cette théorie déconstruit l'idée d'un "vrai" savoir. Dans les processus de production du savoir, une position qui n'est pas située se révèle être les perspectives normalisées de l'homme et du blanc - *the unmarked positions of Man and White* (Haraway, 1988: 581). Afin de déconstruire ces déclarations de vérités, il faut révéler les procédés scientifiques, les moyens techniques et les technologies sémiotiques à l'œuvre dans les productions du savoir (Haraway 1988: 582) <!-- à développer ou dire qu'on y reviendra dans chap 3? -->. "L'objectivité féministe signifie tout simplement des savoirs situés". De ce fait, "seules les perspectives partielles peuvent promettre une vision objective" (Haraway 1988: 583) 
 
+Appliquer cette théorie à notre base de données nous permet de lui conférer plusieurs statuts. C'est l'utilisation faite de la base de données qui détermine son statut en tant que source. Il faut situer la production du savoir qui en émane pour identifier son rôle en tant que source primaire, secondaire ou médiée. Si l'objet d'étude est la base de données, alors son contenu est une source primaire. Dans le cas où l'objet d'étude est le contenu des archives du Conseil des bâtiments civils, deux positions, au moins, émergent. La première, lorsqu'on cite un rapport transcrit dans la base de données,se rapproche d une source primaire rééditée. La deuxième se base sur les interprétations des chercheur·se·s et serait, de ce fait, une source secondaire. 
 
+Haraway rapporte également la présence des outils et instruments dont nous nous servons pour voiret savoir. "*Instruments of vision mediate standpoints*" (1988: 586). Il faut donc prendre conscience des nombreuses "épaisseurs" de médiation à l'œuvre. 
 
-source primaire si on considère la base de données 
+Quelques exemples de médiations
 
-source secondaire si on considère les archives: moyen d'accès 
+| Objet d'étude                 | Référence          | médiation                         |
+| ----------------------------- | ------------------ | --------------------------------- |
+| Architecture publique XIXe FR | Histoire, le passé | archive                           |
+| Base de données               | archive            | interprétation des chercheur·se·s |
+| Formulaire INHA               | Base de données    | interface (formulaire...)         |
 
---> savoirs situés (Harroway)
-
-
-
-
-
-milieu archivistique: inventaires de fond d'archive (légiférer et très réglementé mais mouvantes dans le temps.Reflètent préoccupation du moment sur la manière de réfléchir les document. Médiation et accès au document)
-
-modification et évolutions des formes d'accès au savoir (que ce soit physiquement, à la salle des inventaire, avec les classements etc. ou autre, numérique etc)
-
-
-
-Il n'y a donc pas de statut évident à attribuer à cette base de données en tant que source. <!-- source enrichie et remédiatisée? ark -->
-
-La situation pourrait encore devenir tout autre si l'on enrichit la base de données actuelle la reproduction numérique des archives. Ce travail supplémentaire [^6] changerait la donne car les utilisateur·rice·s de la base de données pourront citer leur source de façon beaucoup plus simple, tout en bénéficiant des avantages du dépouillement numérique. Il·elle·s pourront également poser un regard critique sur l'indexation et les champs qui sont le produit d'une interprétation. On atteindrait ainsi une transparence totale 
-
---> enrichir la base avec la reproduction numérique des archives: an entirely different ballgame for citing sources
-
-
+La situation pourrait encore devenir tout autre si l'on enrichit la base de données actuelle la reproduction numérique des archives. Ce travail supplémentaire [^6] changerait la donne car les utilisateur·rice·s de la base de données pourront citer leur source de façon beaucoup plus simple, tout en bénéficiant des avantages du dépouillement numérique. Il·elle·s pourront également poser un regard critique sur l'indexation et les champs qui sont le produit d'une interprétation. On atteindrait ainsi un certain idéal de transparence, même s'il ne faut pas se leurrer qu'il demeure de nombreuses couches de médiations. 
 
 ### L'utilisation de sources numériques pour la production de connaissance en histoire de l'art
 
@@ -47,6 +35,10 @@ Cela ne fait pas si longtemps que nous avons des sources numériques en histoire
 1) présence/existence de ces sources 
 
 2) possibilité de les utiliser pour produire de nouveaux savoirs 
+
+
+
+modification et évolutions des formes d'accès au savoir (que ce soit physiquement, à la salle des inventaire, avec les classements etc. ou autre, numérique etc)
 
 
 
@@ -230,6 +222,6 @@ notion de récurrence (ce qui est souvent rempli, ce qui ne l'est pas)
 
 [^1]: Nous avons mis  "simple" entre guillemets car si le fond reste quasi-identique via reproduction photographie haute résolution, la forme matérielle change. Cela implique la question de la classification, comment stocker et référencer ces archives numérisées.
 [^2]: À contrario, parmi les institutions culturelle, les bibliothèques ont été très rapides pour envisager l'apport conséquent que l'informatique pouvait apporter à leur domaine
-[^3]: C.f. la création de la grille et l'entrée des données, la partie 2.1.1 de ce mémoire 
-[^4]: Des entrées trop longues pour le logiciel TEXTO ont dû être résumées
+[^3]: 
+[^4]: C.f. la création de la grille et l'entrée des données, la partie 2.1.1 de ce mémoire
 [^6]: prévu par Emmnauel et les AN? 

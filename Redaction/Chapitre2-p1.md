@@ -36,13 +36,31 @@ Il faut également penser ces critères de description à partir des archives à
 
 À partir de cet échantillon, les chercheur·se·s identifient des critères pertinents pour leur dépouillement. Ces critères deviendront les propriétés -  ou champs - de la base de données. Le défi est de créer "une grille d'item, assez large pour englober tous les cas traités par le Conseil, assez restreinte pour ne pas rendre l'entreprise démesurée" (Szambien et Boudon, 1990: 3). Dans le modèle mis en place en 1989 puis ajusté aux débuts de l'entreprise [Annexe 2: liste des champs dans TEXTO], chaque entrée est décrite selon des champs qui décrivent tour à tour les documents physiques (la côte d'archive, le registre concerné et la page), la séance (sa date), et l'affaire en question. Celle-ci est constituée d'un rapport (dont le rapporteur est identifié), d'un avis émis par le conseil, des informations géographiques et typologiques, de détails financiers, des mentions de noms de personnes ou de lieu (similaire à un index), l'identification des personnes (intervenants ou architectes) et, finalement, d'éventuels liens vers d'autres rapports ou affaires. En sus, la base de données se décrit elle-même, c'est-à-dire qu'elle contient des champs consacré à documenter l'entrée des données (qui, quand, ...). 
 
+
+[à reprendre en écho avec 2.3.1]
+
 <img src="/home/lenamk/Documents/memoire/Redaction/img/format1-TEXTO-transcrit.png" style="zoom: 33%;" />
+
 
 Pour transposer cette grille dans un modèle de base de donnée, il faut aussi définir le type de réponse attendu pour chaque propriété. On distingue, dans CONBAVIL, des champs à compléter avec des mots clés (il peut y en avoir plusieurs, séparés par des ";") et ceux dont la rédaction se fait en texte libre. Les champs en textes libres sont "proches" du documents. Ils ne sont toutefois pas des transcriptions, mais plutôt des résumés, notamment dû au logiciel employé, TEXTO, qui limitait de la longueur des entrées à 4000 signes. En contrepartie, les champs qui contiennent des mots-clé sont ce qu'on appelle "normalisés". Ils sont le produit de l'interprétation des chercheur·se·s, qui doivent par exemple identifier la catégorie de l'édifice en question dans la base Architecture. Ce travail requiert un degré de spécialisation ainsi que de la recherche, pour la toponymie par exemple, mais il augmente exponentiellement l'efficacité de la base de données car ils sont le moyen d'établir des comparaisons ou des similitudes malgré les différences de formulation dans le document original.
 
+[ <!-- à réintégrer -->
+
+Les champs de textes libres se veulent une retranscription des archives. Ils peuvent contenir des incertitudes ou des erreurs habituelles au processus de réédition. Toutefois, le contenu est limité par l'espace mémoire disponible dans le logiciel - 4000 caractères dans TEXTO -, ce qui implique la nécessité de résumer ou tronquer pour les entrées trop longues. Malgré cela, la majorité des contenus de ces champs serait donc une source première dans une réédition contemporaine numérique. 
+
+En ce qui concerne les champs indexés, ceux-ci sont le produit d'une interprétation ou réinterprétation du contenu des archives par l'équipe de chercheur·se·s qui ont créé la base de données.  Nous pensons notamment à la catégorisation des édifices qui est basée sur le vocabulaire du *Thésaurus de la désignation des œuvres architecturales et des espaces aménagés* (Vergain, 2015)[11](http://revuecaptures.org/article-dune-publication/constellations-de-données-historiques#footnote11_xgwpa0z). Pour les champs actualisés par les chercheur·se·s, comme pour la toponymie, les deux versions du nom de la commune ou du département sont renseignées. Quant aux incertitudes des chercheur·se·s, elles sont signalées par des moyens typographiques, notamment des points d'interrogation, parenthèses ou crochets. 
+
+
+
+]
+
+
+
+
+
 <!-- ajouter citation thuillier sur la différence entre champs texte libre et champs indexés-->
 
-Malgré la charge de travail qui incombe aux chercheur·se·s pour effectuer cette normalisation, l'objectif de ce dépouillement est de produire une "analyse [...] de qualité [pour] obtenir une rédaction synthétique et logique des bordereaux informatisés" (Boudon Szambien 1990: 4). l demeure cependant essentiel de ne pas abuser de l'indexation, ce qui augmenterait exponentiellement le travail nécessaire à la complétion du projet. Ce danger est relevé par Jacques Thuiller dans son article où il établit l'état de la situation entre l'informatique et l'histoire de l'art en 1992. "Dans la plupart des cas, un index très court suffit à une interrogation fine, et de surcroît aboutit à des données plus adéquates et plus complètes. Or ce qui est en jeu, c'est une lourdeur d'indexation qui coûte beaucoup de temps, d'argent et d'efforts, et qui a suffit à étouffer dès le départ les meilleurs projets." (Thuillier 1992: 8) Il recommande plutôt, à juste titre, de faire évoluer le projet par  étapes afin de concrétiser son aboutissement, puis d'éventuelles mises à jour contenu des enrichissements.
+Malgré la charge de travail qui incombe aux chercheur·se·s pour effectuer cette normalisation, l'objectif de ce dépouillement est de produire une "analyse [...] de qualité [pour] obtenir une rédaction synthétique et logique des bordereaux informatisés" (Boudon Szambien 1990: 4). l demeure cependant essentiel de ne pas abuser de l'indexation, ce qui augmenterait exponentiellement le travail nécessaire à la complétion du projet. Ce danger est relevé par Jacques Thuiller dans son article où il établit l'état de la situation entre l'informatique et l'histoire de l'art en 1992. "Dans la plupart des cas, un index très court suffit à une interrogation fine, et de surcroît aboutit à des données plus adéquates et plus complètes. Or ce qui est en jeu, c'est une lourdeur d'indexation qui coûte beaucoup de temps, d'argent et d'efforts, et qui a suffit à étouffer dès le départ les meilleurs projets." (Thuillier 1992: 8) <!-- parle des bd d'objets/inventaires et non de recherche --> Il recommande plutôt, à juste titre, de faire évoluer le projet par  étapes afin de concrétiser son aboutissement, puis d'éventuelles mises à jour contenu des enrichissements.
 
 ### Entrée des données
 
