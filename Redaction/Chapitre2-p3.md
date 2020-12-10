@@ -28,65 +28,12 @@ La situation pourrait encore devenir tout autre si l'on enrichit la base de donn
 
 ### L'utilisation de sources numériques pour la production de connaissance en histoire de l'art
 
-Cela ne fait pas si longtemps que nous avons des sources numériques en histoire de l'art. Comme le fait remarquer Jacques Thuillier dans son article sur l'histoire de l'art et l'informatique en 1992, notre discipline est loin d'être un précurseur dans l'adaptation des innovations techniques à ses besoins et intérêts [^2]: "Un quart de siècle d'informatique n'a rien changé aux habitudes de l'histoire de l'art, tant internationale que française" (5). Il relève toutefois 
-
-1) présence/existence de ces sources 
-
-2) possibilité de les utiliser pour produire de nouveaux savoirs 
-
-
-
-modification et évolutions des formes d'accès au savoir (que ce soit physiquement, à la salle des inventaire, avec les classements etc. ou autre, numérique etc)
-
-
-
-"une seule réussite est évidente: la *B.H.A* (*Bibliographie d'histoire de l'art*) ... "
-
-Passionnément souhaitée par André Chastel depuis 1969, aménagée par un mariage de raison entre le *R.A.A* (*Répertoire Art et Archéologie*, France, CNRS) et le *R.I.L.A* (*Répertoire International de Littérature*
-*art*, U.S.A College Art Association), elle offre un instrument international qu'on peut certes critiquer sur certains détails secondaires, mais qui existe, fonctionne et rend service. Il s'agit là d'une réalisation dont les historiens d'art peuvent à juste titre se vanter. Mais il faut bien remarquer que la *B.H.A.* offre une bibliographie courante de l'histoire de l'art, où l'informatique a simplement ajouté ses facilités (et ses complications) à une bibliographie imprimée préexistante, selon des modèles communs à toutes les bibliographies scientifiques. 
-
-
-
-CONTEXTE: 
-
 - état de l'art: 1992 Thuillier
 - Joyeux-Prunel 2008 
 
 ### Des humanités numériques et des données 
 
 "La production de volumes considérables de données hétérogènes (big data) nécessit[e] le développement de nouvelles méthodes d'extraction et de traitement de l'information" (Gefen 2015: 61)
-
-Données permettre une "approche empirique des faits où l'on peut extraire les phénomènes par des méthodes algorithmiques" (Gefen 2015: 61) <!-- algorithmiques ou computationnelles ? --> 
-
-
-
-Humanitiés numériques: **Apparition d'un paradigme méthodologique et épistémologique qu'il importe de saisir dans toute sa puissante heuristique, sans se laisser entraîner par l'idée naïve d'une production transparente de savoirs par moissonnage du big data des corpus, masses de données qui restent des artefacts muets en l'absence d'une herméneutique spécifique** (Gefen 2015: 62) --> appliqué à l'histoire de l'art <!-- intro chap 2?-->
-
-
-
-Interdisciplinarité --> cartographie  & visualisation de données (sémiologie, graphisme, développement d'interface)
-
-Matteo Treleani, Qu'est-ce que la patrimoine numérique, chap 3: la circulation des archives
-
-[finir écouter conférence Treleani]
-
-nouvelle approche des archives: comme un tout <!-- à déplacer avec les datascapes dans le 2.3 ?? -->
-
-complémente et enrichit l'approche classique en facilitant l'accès justement 
-
-
-
-
-
-les humanités numériques (Gefen 2015: 61)
-
-- tournant informationnel et computationnel du travail scientifique
-- **production de volumes considérables de données hétérogènes (big data), nécessitant le développement de nouvelles méthodes d'extraction et de traitement de l'information** 
-- la production massive de données [...] s'offre à une **approche empirique des faits où l'on peut extraire les phénomènes par des méthodes** algorithmiques à partir de masses de données en limitant l'interférence des présupposés 
-
-
-
-Penser une nouvelle interface (v2) pour la recherche avec Conbavil, c'est, premièrement, la créer en pensant aux questions de recherche évoquées par les chercheur·se·s, impliqués dans la création de la base mais les autres aussi (**chap1**) <!-- faire référence et revenir au chap1-->
 
 
 
@@ -98,37 +45,15 @@ Que faire avec des donnnées, comment penser les données?
 
 - "Database as a symbolic form": constructing a narrive. How to create "interactive narratives? --> "How can our new abilities to store vast amounts of data, to automatically classify, index, link, search and instantly r**etrieve it lead to new kinds of narratives"** Manovich 1999
 
-
-
-
-
-Caviglia - Design and the digital humanities @Séminaire "les fabriques cartographiques contemporaires" 2014
-
-- l'invention ne se situe pas tant au niveau des innovation technologiques en imagerie informatique ou même des techniques de visualisations[...] que dans la manière dont ces techniques sont travaillées et mises en en sens par des praiques de design au contact des contextes effectifs, considérés dans toute leur épaisseur symbolique, psychologique et méthodologique
-- statut des visualisation: ne sont jamais présentées comme des fins en soi ... mais plutôt comme une matière pour l'élaboration intellectuelle ̣- mouvante et incarnée dans divers modes d'inscrption, mobilisant en même temps les nouveaux outils et des séquences de pratiques et des protocloes de travails existants. Les images produites ne sont ainsi pas uniquement conçues comme des outils d'interprétation, mais aussi de tri, de paramétrage, voire même d'enrichissement et de transformation des données
-- traduction des données "numérisées" en matières "digitales", desitnées - via le design d'interface et d'interaction, à utiliser le médium numérique comme un outil de manipulation et d'élaboration renouvelé dans le champs des Digital humanities
-
 "The design of digital tools for scholarship is an intellectual responsibility, not a technical task" (Drucker 2009: B6) --> it is both intellectual and technical, bound by technology (Coleman, Mapping the republic of letters @Séminaire "les fabriques cartographiques contemporaires" 2014)
 
 Donner matière à la construction d'une interface avec une approche bottom-up: partir des données pour construire une interface, même si tout au long, les questions de recherche et l'approche sont informées par le sujet (chap1). (Nos données sont aussi nos connaissances sur le passé)
 
-
-
-
-
 ### Analyse statistique ( )
-
-fdfdfd
-
-
 
 
 
 ### Cartographie ( )
-
-fddfdfs
-
-
 
 
 
@@ -212,7 +137,7 @@ https://aviz.fr/bertifier --> print + read + comment
 
 notion de récurrence (ce qui est souvent rempli, ce qui ne l'est pas)
 
-
+[à terminer + conclusion]
 
 
 
