@@ -2,11 +2,13 @@
 
 Ceci est une page web pour faciliter la relecture de mon mémoire de maîtrise, dirigé par Prof. Emmanuel Château-Dutier à l'université de Montréal.
 
-Actuellement en cours de rédaction, je mets en ligne des parties prêtes à la relectures. Ceci est un travail en cours, le contenu va donc évoluer régulièrement, et les titres sont tous temporaires. 
+Actuellement en cours de rédaction, je mets en ligne des parties prêtes à la relectures. Ceci est un travail en cours, le contenu va donc évoluer régulièrement. Par exemple, les titres sont tous temporaires. Commentaires et suggestions bienvenus, soit à même la page via [hypothesis](https://web.hypothes.is/#features), soit par courriel: lena.krause@umontreal.ca
 
-Commentaires et suggestions bienvenus, soit à même la page via [hypothesis](https://web.hypothes.is/#features), soit par courriel: lena.krause@umontreal.ca
+Dernière date de modification: 4 décembre 2020.
 
+___
 
+## Plan du mémoire
 
 ### Introduction
 
@@ -14,33 +16,29 @@ Commentaires et suggestions bienvenus, soit à même la page via [hypothesis](ht
 
 ### Chapitre 1
 
-Le chapitre 1 est un chantier en cours. Quelques notes et directions:
-
-Ce chapitre est consacré à l'étude du Conseil des bâtiments civils et de la période historique concernée. Ce chapitre nous permettra d'élaborer un modèle conceptuel - ou une "copie théorique" Lepetit 1989: 197) qui servira à la création d'une nouvelle interface pour CONBAVIL. 
-
-[Ébauche de structure](.Redaction/Chapitre1_structure.md)
+Le chapitre 1 est un chantier en cours ([Ébauche de structure](.Redaction/Chapitre1_structure.md)). Quelques notes : ce chapitre est consacré à l'étude du Conseil des bâtiments civils et de la période historique concernée. Ce chapitre nous permettra d'élaborer un modèle conceptuel - ou une "copie théorique" Lepetit 1989: 197) qui servira à la création d'une nouvelle interface pour CONBAVIL. 
 
 ### Interlude
 
-Nous prévoyons une sorte d'interlude entre les deux premiers chapitres car la transition semble (à priori)
+Nous prévoyons une sorte d'interlude entre les deux premiers chapitres car la transition semble (à priori) un peu rude
 
 ### Chapitre 2
+
+Introduction (à venir): présentation du contexte, introduction à l'histoire et aux méthodes quantitatives
 
 - [2.1 Créer une base de données](./Redaction/Chapitre2-p1.md)
 - [2.2 Utiliser une base de données](./Redaction/Chapitre2-p2.md)
 
 ### Chapitre 3
 
-Chapitre construit autour du prototype de l'atlas que nous avons créé. 
+Chapitre construit autour du prototype de l'atlas que nous avons créé. La [Publication](http://revuecaptures.org/article-dune-publication/constellations-de-donn%C3%A9es-historiques) dans la revue *Captures* (2020) devrait servir de base pour une partie de ce chapitre ([Ébauche de structure](.Redaction/Chapitre3_structure.md)).
 
-- [Prototype de l'atlas](http://www.public.archi/atlas-numerique/)
-- La [Publication](http://revuecaptures.org/article-dune-publication/constellations-de-donn%C3%A9es-historiques) dans la revue *Captures* (2020) devrait servir de base pour une partie de ce chapitre
-
-
+___
 
 ## Pour en savoir plus:
 
 - La base de données [CONBAVIL](https://www.inha.fr/fr/ressources/outils-documentaires/conseil-des-batiments-civils-conbavil.html) (site de l'INHA)
+- Le code du projet: https://github.com/imglab/atlas-numerique
 - Mon [CV](lenamk.site)
 
 
