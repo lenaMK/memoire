@@ -12,19 +12,17 @@ Comme nous l'avons vu dans les deux parties précédentes de ce chapitre, le pro
 
 <!-- faire lire à Christelle ? -->
 
-Pour tenter de définir le statut de cette source médiée, nous utilisons la théorie des "savoirs situés" de la chercheuse féministe Donna Haraway. Cette théorie déconstruit l'idée d'un "vrai" savoir. Dans les processus de production du savoir, une position qui n'est pas située se révèle être les perspectives normalisées de l'homme et du blanc - *the unmarked positions of Man and White* (Haraway, 1988: 581). Afin de déconstruire ces déclarations de vérités, il faut révéler les procédés scientifiques, les moyens techniques et les technologies sémiotiques à l'œuvre dans les productions du savoir (Haraway 1988: 582) <!-- à développer ou dire qu'on y reviendra dans chap 3? -->. "L'objectivité féministe signifie tout simplement des savoirs situés". De ce fait, "seules les perspectives partielles peuvent promettre une vision objective" (Haraway 1988: 583) 
+Dans le but de définir le statut de cette source médiée, nous utilisons la théorie des "savoirs situés" de la chercheuse féministe Donna Haraway. Cette théorie déconstruit l'idée d'un "vrai" savoir. Dans les processus de production du savoir, une position qui n'est pas située se révèle être les perspectives normalisées de l'homme et du blanc - *the unmarked positions of Man and White* (Haraway, 1988: 581). Afin de déconstruire ces déclarations de vérités, il faut révéler les procédés scientifiques, les moyens techniques et les technologies sémiotiques à l'œuvre dans les productions du savoir (Haraway 1988: 582) <!-- à développer ou dire qu'on y reviendra dans chap 3? -->. "L'objectivité féministe signifie tout simplement des savoirs situés". De ce fait, "seules les perspectives partielles peuvent promettre une vision objective" (Haraway 1988: 583) 
 
 Appliquer cette théorie à notre base de données nous permet de lui conférer plusieurs statuts. C'est l'utilisation faite de la base de données qui détermine son statut en tant que source. Il faut situer la production du savoir qui en émane pour identifier son rôle en tant que source primaire, secondaire ou médiée. Si l'objet d'étude est la base de données, alors son contenu est une source primaire. Dans le cas où l'objet d'étude est le contenu des archives du Conseil des bâtiments civils, deux positions, au moins, émergent. La première, lorsqu'on cite un rapport transcrit dans la base de données,se rapproche d une source primaire rééditée. La deuxième se base sur les interprétations des chercheur·se·s et serait, de ce fait, une source secondaire. 
 
 Haraway rapporte également la présence des outils et instruments dont nous nous servons pour voiret savoir. "*Instruments of vision mediate standpoints*" (1988: 586). Il faut donc prendre conscience des nombreuses "épaisseurs" de médiation à l'œuvre. 
 
-Quelques exemples de médiations
+```
+Histoire/passé/architecture publique en France au XIXe siècle | archives | base de données | interface de consultation
 
-| Objet d'étude                 | Référence          | médiation                         |
-| ----------------------------- | ------------------ | --------------------------------- |
-| Architecture publique XIXe FR | Histoire, le passé | archive                           |
-| Base de données               | archive            | interprétation des chercheur·se·s |
-| Formulaire INHA               | Base de données    | interface (formulaire...)         |
+
+```
 
 La situation pourrait encore devenir tout autre si l'on enrichit la base de données actuelle la reproduction numérique des archives. Ce travail supplémentaire [^6] changerait la donne car les utilisateur·rice·s de la base de données pourront citer leur source de façon beaucoup plus simple, tout en bénéficiant des avantages du dépouillement numérique. Il·elle·s pourront également poser un regard critique sur l'indexation et les champs qui sont le produit d'une interprétation. On atteindrait ainsi un certain idéal de transparence, même s'il ne faut pas se leurrer qu'il demeure de nombreuses couches de médiations. 
 
