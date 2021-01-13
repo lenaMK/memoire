@@ -26,6 +26,8 @@ Histoire/passé/architecture publique en France au XIXe siècle | archives | bas
 
 La situation pourrait encore devenir tout autre si l'on enrichit la base de données actuelle la reproduction numérique des archives. Ce travail supplémentaire [^6] changerait la donne car les utilisateur·rice·s de la base de données pourront citer leur source de façon beaucoup plus simple, tout en bénéficiant des avantages du dépouillement numérique. Il·elle·s pourront également poser un regard critique sur l'indexation et les champs qui sont le produit d'une interprétation. On atteindrait ainsi un certain idéal de transparence, même s'il ne faut pas se leurrer qu'il demeure de nombreuses couches de médiations. 
 
+[*Nous pouvons, dans tous les cas, affirmer que l'utilisation d'archives pour la production de savoir est affectée par leur remédiation.*]
+
 ### L'utilisation de sources numériques pour la production de connaissance en histoire de l'art
 
 
@@ -53,10 +55,25 @@ Passionnément souhaitée par André Chastel depuis 1969, aménagée par un mari
 
 
 
-CONTEXTE: 
+la production de connaissances à partir d'archives remédiées
 
-- état de l'art: 1992 Thuillier
-- Joyeux-Prunel 2008 
+#### EAT datascape
+
+Notre premier exemple se base sur les archives d'une organisation créée en 1966 par les artistes Robert Rauschenberg et Robert Whitman et les ingénieurs Billy Klüver et Fred Waldhauer (Leclercq 2016: 46). Une équipe interdisciplinaire, au croisement de l'histoire de l'art sociale, du design et des humanités numériques, s'est penchée sur les archives d'*Experiments in Arts and Technology* (E.A.T). Les chercheurs du médialab ont commencé par identifier et interpréter des informations contenues dans les archives pour former un ensemble de données structurées. Après ce processus d'extraction [manuelle et humaine] des données, l'objectif a été de d'équiper les historien·ne·s d'un instrument de recherche pour les explorer (Leclerq et Girard, 2013: 6). Le résultat obtenu prend la forme d'un *datascape*, "à la fois outil et méthode d'analyse, de visualisation et d'exploration d'archives" (Leclercq, 2016: 45). 
+
+L'interface interactive, disponible [en ligne](http://eat_datascape.medialab.sciences-po.fr/), offre la possibilité d'explorer les données sous plusieurs perspectives. Elle permet de "visualiser et [de] penser ensemble, [...], processus et résultat pour rendre compte de la complexité d'une réalisation à la vie particulièrement longue" (Leclercq, 2016: 50).
+
+
+
+#### Verhoeven
+
+
+
+#### Presner et al :temporal topographies
+
+
+
+### 
 
 ### Des humanités numériques et des données 
 
