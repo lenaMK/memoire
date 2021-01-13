@@ -30,32 +30,15 @@ La situation pourrait encore devenir tout autre si l'on enrichit la base de donn
 
 ### L'utilisation de sources numériques pour la production de connaissance en histoire de l'art
 
-
-
-[----ici ------]
-
-
-
 Cela ne fait pas si longtemps que nous avons des sources numériques en histoire de l'art. Comme le fait remarquer Jacques Thuillier dans son article sur l'histoire de l'art et l'informatique en 1992, notre discipline est loin d'être un précurseur dans l'adaptation des innovations techniques à ses besoins et intérêts [^2]: "Un quart de siècle d'informatique n'a rien changé aux habitudes de l'histoire de l'art, tant internationale que française" (5). Il relève toutefois 
 
 1) présence/existence de ces sources 
 
 2) possibilité de les utiliser pour produire de nouveaux savoirs 
 
-
-
 modification et évolutions des formes d'accès au savoir (que ce soit physiquement, à la salle des inventaire, avec les classements etc. ou autre, numérique etc)
 
-
-
-"une seule réussite est évidente: la *B.H.A* (*Bibliographie d'histoire de l'art*) ... "
-
-Passionnément souhaitée par André Chastel depuis 1969, aménagée par un mariage de raison entre le *R.A.A* (*Répertoire Art et Archéologie*, France, CNRS) et le *R.I.L.A* (*Répertoire International de Littérature*
-*art*, U.S.A College Art Association), elle offre un instrument international qu'on peut certes critiquer sur certains détails secondaires, mais qui existe, fonctionne et rend service. Il s'agit là d'une réalisation dont les historiens d'art peuvent à juste titre se vanter. Mais il faut bien remarquer que la *B.H.A.* offre une bibliographie courante de l'histoire de l'art, où l'informatique a simplement ajouté ses facilités (et ses complications) à une bibliographie imprimée préexistante, selon des modèles communs à toutes les bibliographies scientifiques. 
-
-
-
-la production de connaissances à partir d'archives remédiées
+De la *Bibliographie d'histoire de l'art*, "seule réussite [...] évidente" relevée par Thuillier en 1992 à aujourd'hui, la création et l'utilisation de sources numériques ne cesse d'augmenter. Nous avons identifié certains exemples de production de connaissances à partir d'archives remédiées pertinents <!-- et source d'inspiration--> pour situer notre recherche.
 
 #### EAT datascape
 
