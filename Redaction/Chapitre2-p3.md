@@ -2,7 +2,33 @@
 
 ### Faire une recherche, ou *de la* recherche 
 
-Un des enjeux que nous souhaitons aborder avec la création d'une nouvelle interface de recherche pour CONBAVIL est le suivant: comment ne pas faire une recherche mais de la recherche avec une base de données? Nous commençons donc avec les enjeux épistémologiques sous-jacents à un projet de base de données en histoire de l'art. Ensuite, inversement, arrive la question de ce qu'on peut faire avec des données, et plus particulièrement avec les données de CONBAVIL? Finalement, le dernier élément nécessaire pour envisager une nouvelle interface est la préparation des données. Nous abordons donc la question des formats et entrons plus en détail dans la structuration des données dans la dernière sous-partie de ce chapitre. 
+Maintenant que nous avons des données, un des enjeux que nous souhaitons aborder avec la création d'une nouvelle interface de recherche pour CONBAVIL est le suivant: comment ne pas faire une recherche mais de la recherche avec une base de données? Nous commençons donc avec les enjeux épistémologiques sous-jacents à un projet de base de données en histoire de l'art. Ensuite, inversement, arrive la question de ce qu'on peut faire avec des données, et plus particulièrement avec nos données de CONBAVIL? Finalement, le dernier élément nécessaire pour envisager une nouvelle interface est la préparation des données. Nous abordons donc la question des formats et entrons plus en détail dans la structuration des données dans la dernière sous-partie de ce chapitre. 
+
+<!--[ à déplacer? ]--> Faire une historiographie complète des projets de recherche innovants dans la production d'interfaces de recherche dépasse les limites de ce mémoire.L'affluence de projets et leur diversité pose la question s'ils peuvent être recensés de manière systématique à l'internationale. Notons qu'il existe déjà certains recensements très riches dont le travail de Johanna Drucker dans *Graphesis* (2013?). Afin de citer ceux particulièrement pertinents dans le cas de ce mémoire, nous avons réparti des exemples tout au long de ce chapitre (Medialab, Verhoeven, Presner). Ces cas situent notre travail tout comme ils se trouvent parfois à la source de notre inspiration pour la création de notre interface. 
+
+### Des données aux humanités numériques
+
+**On a des données. beaucoup. Maintenant, qu'est-ce qu'on fait? **
+
+Il ne suffit pas d'avoir affaire à des données en sciences humaines pour se situer dans le champs des humanités numériques. Alexandre Gefen, <!-- chercheur en littérature et en humanités numériques? trop de répétition-->, suggère plutôt de concevoir les humanités numériques comme 
+
+> "l'apparition d'un paradigme méthodologique et épistémologique qu'il importe de saisir dans toute sa puissante heuristique, sans se laisser entraîner par l'idée naïve d'une production transparente de savoirs par moissonnage du big data des corpus, masses de données qui restent des artefacts muets en l'absence d'une herméneutique spécifique" (Gefen 2015: 62). 
+
+
+
+En effet, "La production de volumes considérables de données hétérogènes (big data) nécessit[e] le développement de nouvelles méthodes d'extraction et de traitement de l'information" (Gefen 2015: 61)
+
+
+
+nouvelle approche des archives: comme un tout
+
+complémente et enrichit l'approche classique, diversifie la notion d'accès/accessibilité [? treleani? ] 
+
+
+
+Penser une nouvelle interface (v2) pour la recherche avec Conbavil, c'est, premièrement, la créer en pensant aux questions de recherche évoquées par les chercheur·se·s, impliqués dans la création de la base mais les autres aussi (**chap1**) <!-- faire référence et revenir au chap1-->
+
+
 
 ## Enjeux épistémologiques de la "remédiation" des archives ( )
 
@@ -20,81 +46,17 @@ Haraway rapporte également la présence des outils et instruments dont nous nou
 
 ```
 Histoire/passé/architecture publique en France au XIXe siècle | archives | base de données | interface de consultation
-
-
 ```
 
 La situation pourrait encore devenir tout autre si l'on enrichit la base de données actuelle la reproduction numérique des archives. Ce travail supplémentaire [^6] changerait la donne car les utilisateur·rice·s de la base de données pourront citer leur source de façon beaucoup plus simple, tout en bénéficiant des avantages du dépouillement numérique. Il·elle·s pourront également poser un regard critique sur l'indexation et les champs qui sont le produit d'une interprétation. On atteindrait ainsi un certain idéal de transparence, même s'il ne faut pas se leurrer qu'il demeure de nombreuses couches de médiations. 
 
-[*Nous pouvons, dans tous les cas, affirmer que l'utilisation d'archives pour la production de savoir est affectée par leur remédiation.*]
-
 ### L'utilisation de sources numériques pour la production de connaissance en histoire de l'art
 
-Cela ne fait pas si longtemps que nous avons des sources numériques en histoire de l'art. Comme le fait remarquer Jacques Thuillier dans son article sur l'histoire de l'art et l'informatique en 1992, notre discipline est loin d'être un précurseur dans l'adaptation des innovations techniques à ses besoins et intérêts [^2]: "Un quart de siècle d'informatique n'a rien changé aux habitudes de l'histoire de l'art, tant internationale que française" (5). Il relève toutefois 
+Jacques Thuillier, dans son article sur l'histoire de l'art et l'informatique en 1992, sermonne notre discipline de n'avoir su être un précurseur dans l'adaptation des innovations techniques à ses besoins et intérêts [^2]: "Un quart de siècle d'informatique n'a rien changé aux habitudes de l'histoire de l'art, tant internationale que française" (5). De la *Bibliographie d'histoire de l'art*, "seule réussite [...] évidente" relevée par Thuillier en 1992 à aujourd'hui, la création et l'utilisation de sources numériques ne cesse d'augmenter, de se diversifier et d'être encouragée (Joyeux-Prunel: ?). Malgré un côté encore marginal à ces approches, on peut constater des modifications et des évolutions importantes dans les formes d'accès aux archives et dans la production du savoir. 
 
-1) présence/existence de ces sources 
+Un cas actuel et exemplaire d'utilisation d'archives numériques concerne les archives d'une organisation, *Experiments in Arts and Technology* (E.A.T), créée en 1966 par les artistes Robert Rauschenberg et Robert Whitman et les ingénieurs Billy Klüver et Fred Waldhauer (Leclercq 2016: 46). Une équipe interdisciplinaire, au croisement de l'histoire de l'art sociale, du design et des humanités numériques, s'est penchée sur les archives E.A.T.. Les chercheurs du médialab ont commencé par identifier et interpréter des informations contenues dans les archives pour former un ensemble de données structurées. Après ce processus d'extraction [manuelle et humaine] des données, l'objectif a été de d'équiper les historien·ne·s d'un instrument de recherche pour les explorer (Leclerq et Girard, 2013: 6). 
 
-2) possibilité de les utiliser pour produire de nouveaux savoirs 
-
-modification et évolutions des formes d'accès au savoir (que ce soit physiquement, à la salle des inventaire, avec les classements etc. ou autre, numérique etc)
-
-De la *Bibliographie d'histoire de l'art*, "seule réussite [...] évidente" relevée par Thuillier en 1992 à aujourd'hui, la création et l'utilisation de sources numériques ne cesse d'augmenter. Nous avons identifié certains exemples de production de connaissances à partir d'archives remédiées pertinents <!-- et source d'inspiration--> pour situer notre recherche.
-
-#### EAT datascape
-
-Notre premier exemple se base sur les archives d'une organisation créée en 1966 par les artistes Robert Rauschenberg et Robert Whitman et les ingénieurs Billy Klüver et Fred Waldhauer (Leclercq 2016: 46). Une équipe interdisciplinaire, au croisement de l'histoire de l'art sociale, du design et des humanités numériques, s'est penchée sur les archives d'*Experiments in Arts and Technology* (E.A.T). Les chercheurs du médialab ont commencé par identifier et interpréter des informations contenues dans les archives pour former un ensemble de données structurées. Après ce processus d'extraction [manuelle et humaine] des données, l'objectif a été de d'équiper les historien·ne·s d'un instrument de recherche pour les explorer (Leclerq et Girard, 2013: 6). Le résultat obtenu prend la forme d'un *datascape*, "à la fois outil et méthode d'analyse, de visualisation et d'exploration d'archives" (Leclercq, 2016: 45). 
-
-L'interface interactive, disponible [en ligne](http://eat_datascape.medialab.sciences-po.fr/), offre la possibilité d'explorer les données sous plusieurs perspectives. Elle permet de "visualiser et [de] penser ensemble, [...], processus et résultat pour rendre compte de la complexité d'une réalisation à la vie particulièrement longue" (Leclercq, 2016: 50).
-
-
-
-#### Verhoeven
-
-
-
-#### Presner et al :temporal topographies
-
-
-
-### 
-
-### Des humanités numériques et des données 
-
-"La production de volumes considérables de données hétérogènes (big data) nécessit[e] le développement de nouvelles méthodes d'extraction et de traitement de l'information" (Gefen 2015: 61)
-
-Données permettre une "approche empirique des faits où l'on peut extraire les phénomènes par des méthodes algorithmiques" (Gefen 2015: 61) <!-- algorithmiques ou computationnelles ? --> 
-
-
-
-Humanitiés numériques: **Apparition d'un paradigme méthodologique et épistémologique qu'il importe de saisir dans toute sa puissante heuristique, sans se laisser entraîner par l'idée naïve d'une production transparente de savoirs par moissonnage du big data des corpus, masses de données qui restent des artefacts muets en l'absence d'une herméneutique spécifique** (Gefen 2015: 62) --> appliqué à l'histoire de l'art <!-- intro chap 2?-->
-
-
-
-Interdisciplinarité --> cartographie  & visualisation de données (sémiologie, graphisme, développement d'interface)
-
-Matteo Treleani, Qu'est-ce que la patrimoine numérique, chap 3: la circulation des archives
-
-[finir écouter conférence Treleani]
-
-nouvelle approche des archives: comme un tout <!-- à déplacer avec les datascapes dans le 2.3 ?? -->
-
-complémente et enrichit l'approche classique en facilitant l'accès justement 
-
-
-
-
-
-les humanités numériques (Gefen 2015: 61)
-
-- tournant informationnel et computationnel du travail scientifique
-- **production de volumes considérables de données hétérogènes (big data), nécessitant le développement de nouvelles méthodes d'extraction et de traitement de l'information** 
-- la production massive de données [...] s'offre à une **approche empirique des faits où l'on peut extraire les phénomènes par des méthodes** algorithmiques à partir de masses de données en limitant l'interférence des présupposés 
-
-
-
-Penser une nouvelle interface (v2) pour la recherche avec Conbavil, c'est, premièrement, la créer en pensant aux questions de recherche évoquées par les chercheur·se·s, impliqués dans la création de la base mais les autres aussi (**chap1**) <!-- faire référence et revenir au chap1-->
-
-
+Le résultat obtenu prend la forme d'un *datascape*, "à la fois outil et méthode d'analyse, de visualisation et d'exploration d'archives" (Leclercq, 2016: 45).  L'interface interactive, disponible [en ligne](http://eat_datascape.medialab.sciences-po.fr/), offre la possibilité d'explorer les données sous plusieurs perspectives. Elle permet de "visualiser et [de] penser ensemble, et non comme séparés, processus et résultat, pour rendre compte de la complexité d'une réalisation à la vie particulièrement longue" (Leclercq, 2016: 50). Le *datascape* du projet E.A.T., tout comme celui produit pour étudier *Les transformations de l’économie française par le prisme du commerce international, 1716-1821* (TOFLIT18) (Loïc Charles, Guillaume Daudin, Guillaume Plique et Paul Girard, site web TOFLIT18. Consulté le 14 janvier 2021 http://toflit18.medialab.sciences-po.fr), démontrent avec aisance l'apport d'un tel instrument à la production de connaissance.
 
 
 
@@ -110,13 +72,32 @@ Que faire avec des donnnées, comment penser les données?
 
 Caviglia - Design and the digital humanities @Séminaire "les fabriques cartographiques contemporaires" 2014
 
-- l'invention ne se situe pas tant au niveau des innovation technologiques en imagerie informatique ou même des techniques de visualisations[...] que dans la manière dont ces techniques sont travaillées et mises en en sens par des praiques de design au contact des contextes effectifs, considérés dans toute leur épaisseur symbolique, psychologique et méthodologique
+- l'invention ne se situe pas tant au niveau des innovation technologiques en imagerie informatique ou même des techniques de visualisations[...] que dans la manière dont ces techniques sont travaillées et mises en en sens par des pratiques de design au contact des contextes effectifs, considérés dans toute leur épaisseur symbolique, psychologique et méthodologique
 - statut des visualisation: ne sont jamais présentées comme des fins en soi ... mais plutôt comme une matière pour l'élaboration intellectuelle ̣- mouvante et incarnée dans divers modes d'inscrption, mobilisant en même temps les nouveaux outils et des séquences de pratiques et des protocloes de travails existants. Les images produites ne sont ainsi pas uniquement conçues comme des outils d'interprétation, mais aussi de tri, de paramétrage, voire même d'enrichissement et de transformation des données
 - traduction des données "numérisées" en matières "digitales", desitnées - via le design d'interface et d'interaction, à utiliser le médium numérique comme un outil de manipulation et d'élaboration renouvelé dans le champs des Digital humanities
 
 "The design of digital tools for scholarship is an intellectual responsibility, not a technical task" (Drucker 2009: B6) --> it is both intellectual and technical, bound by technology (Coleman, Mapping the republic of letters @Séminaire "les fabriques cartographiques contemporaires" 2014)
 
 Donner matière à la construction d'une interface avec une approche bottom-up: partir des données pour construire une interface, même si tout au long, les questions de recherche et l'approche sont informées par le sujet (chap1). (Nos données sont aussi nos connaissances sur le passé)
+
+
+
+Interdisciplinarité --> cartographie  & visualisation de données (sémiologie, graphisme, développement d'interface)
+
+
+
+### Approche critique des données et des outils
+
+Matteo Treleani, Qu'est-ce que la patrimoine numérique, chap 3: la circulation des archives
+
+- distance par rapport à l'immersion, comment visualiser l'impossibilité de percevoir le passé, et ainsi assurer qu'on garde un regard critique sur le construit présenté
+- visibilité des filtres du dispositif qui nous donne accès au passé
+
+Johanna Drucker: Graphesis 
+
+- data is capta
+
+
 
 
 
@@ -135,6 +116,12 @@ fdfdfd
 fddfdfs
 
 
+
+#### Presner et al :temporal topographies
+
+
+
+#### 
 
 
 
