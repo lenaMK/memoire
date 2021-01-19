@@ -14,7 +14,9 @@ Dans le cas de grands volumes de données, il devient nécessaire de créer de n
 
 CONBAVIL n'est pas ce qu'on considère du *big data*, c'est-à-dire une "masse de données hétérogènes". C'est une forme d'archives numérique où l'extraction de données manuelle par des chercheur·se·s détient un riche potentiel épistémologique. De part la forme choisie pour ces données et leur quantité, il a, dès le départ, été nécessaire d'avoir un outil qui permette leur consultation et leur manipulation. Cet outil a pour but de répondre aux questions de recherche évoquées par les chercheur·se·s (2.2) mais aussi à celles actuelles dans la discipline (chapitre 1). Dans le contexte de création d'une seconde interface CONBAVIL, nous pensons toutefois qu'il est possible d'explorer et de prendre avantage d'un plus grand nombre d'opportunités offertes par le champs des humanités numériques. 
 
-## Enjeux épistémologiques de la "remédiation" des archives ( )
+
+
+## Enjeux épistémologiques de la "remédiation" des archives
 
 Nous reprenons ici plus en détail à la question des formes de production du savoir en histoire de l'art. S'il est commun d'utiliser les archives comme source, ont doit se demander quel est l'impact de la transformation de ces archives et les méthodes appropriées pour les "exploiter" lorsqu'elles prennent la forme d'une base de données. Nous utilisons le terme "remédiation" pour signaler le changement de médium et les enjeux de médiation sous-jacents. 
 
@@ -38,37 +40,33 @@ La situation pourrait encore devenir tout autre si l'on enrichit la base de donn
 
 Jacques Thuillier, dans son article sur l'histoire de l'art et l'informatique en 1992, sermonne notre discipline de n'avoir su être un précurseur dans l'adaptation des innovations techniques à ses besoins et intérêts [^2]: "Un quart de siècle d'informatique n'a rien changé aux habitudes de l'histoire de l'art, tant internationale que française" (5). De la *Bibliographie d'histoire de l'art*, "seule réussite [...] évidente" relevée par Thuillier en 1992 à aujourd'hui, la création et l'utilisation de sources numériques ne cesse d'augmenter, de se diversifier et d'être encouragée (Joyeux-Prunel: ?). Malgré un côté encore marginal à ces approches, on peut constater des modifications et des évolutions importantes dans les formes d'accès aux archives et dans la production du savoir. 
 
+Faire une historiographie complète des projets de recherche innovants dans la production d'interfaces de recherche dépasse les limites de ce mémoire. L'affluence de projets et leur diversité pose la question s'ils peuvent être recensés de manière systématique à l'internationale. Notons qu'il existe déjà certains recensements très riches dont le travail de Johanna Drucker dans *Graphesis* (2013?). Afin de citer ceux particulièrement pertinents dans le cas de ce mémoire, nous les citons à titre d'exemples au long de ce chapitre. Ces cas situent notre travail tout comme ils se trouvent parfois à la source de notre inspiration pour la création de notre interface. 
+
 Un cas actuel et exemplaire d'utilisation d'archives numériques concerne les archives d'une organisation, *Experiments in Arts and Technology* (E.A.T), créée en 1966 par les artistes Robert Rauschenberg et Robert Whitman et les ingénieurs Billy Klüver et Fred Waldhauer (Leclercq 2016: 46). Une équipe interdisciplinaire, au croisement de l'histoire de l'art sociale, du design et des humanités numériques, s'est penchée sur les archives E.A.T.. Les chercheurs du médialab ont commencé par identifier et interpréter des informations contenues dans les archives pour former un ensemble de données structurées. Après ce processus d'extraction [manuelle et humaine] des données, l'objectif a été de d'équiper les historien·ne·s d'un instrument de recherche pour les explorer (Leclerq et Girard, 2013: 6). 
 
 Le résultat obtenu prend la forme d'un *datascape*, "à la fois outil et méthode d'analyse, de visualisation et d'exploration d'archives" (Leclercq, 2016: 45).  L'interface interactive, disponible [en ligne](http://eat_datascape.medialab.sciences-po.fr/), offre la possibilité d'explorer les données sous plusieurs perspectives. Elle permet de "visualiser et [de] penser ensemble, et non comme séparés, processus et résultat, pour rendre compte de la complexité d'une réalisation à la vie particulièrement longue" (Leclercq, 2016: 50). Le *datascape* du projet E.A.T., tout comme celui produit pour étudier *Les transformations de l’économie française par le prisme du commerce international, 1716-1821* (TOFLIT18) (Loïc Charles, Guillaume Daudin, Guillaume Plique et Paul Girard, site web TOFLIT18. Consulté le 14 janvier 2021 http://toflit18.medialab.sciences-po.fr), démontrent avec aisance l'apport d'un tel instrument à la production de connaissance.
 
-Faire une historiographie complète des projets de recherche innovants dans la production d'interfaces de recherche dépasse les limites de ce mémoire. L'affluence de projets et leur diversité pose la question s'ils peuvent être recensés de manière systématique à l'internationale. Notons qu'il existe déjà certains recensements très riches dont le travail de Johanna Drucker dans *Graphesis* (2013?). Afin de citer ceux particulièrement pertinents dans le cas de ce mémoire, nous avons réparti des exemples tout au long de ce chapitre. Ces cas situent notre travail tout comme ils se trouvent parfois à la source de notre inspiration pour la création de notre interface. 
-
-## Espaces et formes d'interprétation des données ( )
-
-Que faire avec des donnnées, comment penser les données? 
-
-- "Database as a symbolic form": constructing a narrive. How to create "interactive narratives? --> "How can our new abilities to store vast amounts of data, to automatically classify, index, link, search and instantly r**etrieve it lead to new kinds of narratives"** Manovich 1999
 
 
+## Espaces et formes d'interprétation des données (ici)
+
+> "How can our new abilities to store vast amounts of data, to automatically classify, index, link, search and instantly retrieve it lead to new kinds of narratives" (Manovich 1999: ?)
+
+Quels moyens existe-t-il employer pour bâtir un *narrative* ou écrire l'histoire avec les données? Face à ce nouvel enjeu, il est nécessaire d'innover dans nos façon de penser et de produire des connaissances. Un défi particulier se situe dans l'interdisciplinarité de cette question. Si l'épistémologie appartient aux chercheur·se·s, les outils informatiques reviennent souvent à des "ingénieurs". Cette division des rôles et des tâches freine voire empêche l'innovation. Johanna Drucker argumente que "le design d'outil numériques pour la recherche est une responsabilité intellectuelle et non une tâche technique" (Drucker 2009: B6). Cela requiert soit une proche collaboration, soit une double formation, afin de saisir les enjeux de recherche tout en choisissant et en adaptant les technologies appropriées pour y répondre. En les considérant "dans toute leur épaisseur symbolique, psychologique et méthodologique" (Caviglia 2014 *Design and the digital humanities @Séminaire "les fabriques cartographiques contemporaires"*), on peut alors parvenir à produire de nouveaux outils et de nouvelles connaissances. 
+
+La création d'interface et l'interactivité transforme des données numériques en une "matière digitale" que les chercheur·se·s peuvent manipuler (Caviglia 2014). En fait, lors du travail avec une base de données, une première étape importante est la familiarisation avec le contenu. 
+
+>  "Being able to download this dataset influenced my perception of a digital collection. Even though I had access to exact copies of archival databases, they still made it difcult to consider a dataset as a single entity, as a whole. **In a database, information is scattered across a number of tables and in order to retrieve it, one has to formulate a precise query** [even when it isn't, it doesn't afford visualisation of the whole]. [...] 
+>
+>  In principle, one could create a single file export from any database, but this is not something the database paradigm afords – in the Gibsonian (1977) sense. **Databases aford partial access, while downloading a file entails that all data is contained within that file**. A study conducted by Harper et al. (2013) highlights how users see files as something they can own and manipulate, giving them a sense of control and completeness – both qualities that are useful also for analysing data." (Kraütli 2016: 145)
 
 
 
-Caviglia - Design and the digital humanities @Séminaire "les fabriques cartographiques contemporaires" 2014
-
-- l'invention ne se situe pas tant au niveau des innovation technologiques en imagerie informatique ou même des techniques de visualisations[...] que dans la manière dont ces techniques sont travaillées et mises en en sens par des pratiques de design au contact des contextes effectifs, considérés dans toute leur épaisseur symbolique, psychologique et méthodologique
-- statut des visualisation: ne sont jamais présentées comme des fins en soi ... mais plutôt comme une matière pour l'élaboration intellectuelle ̣- mouvante et incarnée dans divers modes d'inscrption, mobilisant en même temps les nouveaux outils et des séquences de pratiques et des protocloes de travails existants. Les images produites ne sont ainsi pas uniquement conçues comme des outils d'interprétation, mais aussi de tri, de paramétrage, voire même d'enrichissement et de transformation des données
-- traduction des données "numérisées" en matières "digitales", desitnées - via le design d'interface et d'interaction, à utiliser le médium numérique comme un outil de manipulation et d'élaboration renouvelé dans le champs des Digital humanities
-
-"The design of digital tools for scholarship is an intellectual responsibility, not a technical task" (Drucker 2009: B6) --> it is both intellectual and technical, bound by technology (Coleman, Mapping the republic of letters @Séminaire "les fabriques cartographiques contemporaires" 2014)
+---
 
 Donner matière à la construction d'une interface avec une approche bottom-up: partir des données pour construire une interface, même si tout au long, les questions de recherche et l'approche sont informées par le sujet (chap1). (Nos données sont aussi nos connaissances sur le passé)
 
-
-
 Interdisciplinarité --> cartographie  & visualisation de données (sémiologie, graphisme, développement d'interface)
-
-
 
 ### Approche critique des données et des outils
 
@@ -77,15 +75,9 @@ Matteo Treleani, Qu'est-ce que la patrimoine numérique, chap 3: la circulation 
 - distance par rapport à l'immersion, comment visualiser l'impossibilité de percevoir le passé, et ainsi assurer qu'on garde un regard critique sur le construit présenté
 - visibilité des filtres du dispositif qui nous donne accès au passé
 
-Johanna Drucker: Graphesis 
+#### Johanna Drucker: Graphesis 
 
 - data is capta
-
-
-
-
-
-
 
 ### Analyse statistique ( )
 
@@ -93,19 +85,15 @@ fdfdfd
 
 
 
-
-
 ### Cartographie ( )
 
 fddfdfs
 
-
-
 #### Presner et al :temporal topographies
 
+### Visualisation
 
-
-#### 
+statut des visualisation: ne sont jamais présentées comme des fins en soi ... mais plutôt comme une matière pour l'élaboration intellectuelle ̣- mouvante et incarnée dans divers modes d'inscrption, mobilisant en même temps les nouveaux outils et des séquences de pratiques et des protocloes de travails existants. Les images produites ne sont ainsi pas uniquement conçues comme des outils d'interprétation, mais aussi de tri, de paramétrage, voire même d'enrichissement et de transformation des données (caviglia 2014)
 
 
 
@@ -116,12 +104,6 @@ Pour créer une nouvelle interface, il faut aussi penser aux formats et structur
 <!-- ensuite, on va parler du type de recherche qu'on voudrait faire et comment elles fonctionnent: 2.3) -->
 
 Nous avons déjà analysé un format de base de données dite à plat, TEXTO, et effectué quelques comparaisons avec la possibilité d'une base de données relationnelle. Dans l'ensemble, l'avantage des bases de données est qu'elles permettent d'enregistrer et de faire des requêtes sur un grand nombre de données. Cette efficacité est toutefois due à leur côté boîte noire, on ne voit jamais toutes les données. De plus, Filemaker étant un format propriétaire, il faut payer pour avoir le logiciel qui fonctionne sur un ordinateur. Le jour où la compagnie fait faillite et ne fait plus de mises à jour pour les nouveaux ordinateurs, ça devient très difficile à maintenir. Si l'utilisation à l'interne concerne le Centre André-Chastel, nous nous intéressons aux possibilités d'utilisations par les chercheur·se·s. Pour éviter les contraintes d'accès et d'interopérabilité, nous avons commencé par exporter les données.
-
->  "Being able to download this dataset influenced my perception of a digital collection. Even though I had access to exact copies of archival databases, they still made it difcult to consider a dataset as a single entity, as a whole. **In a database, information is scattered across a number of tables and in order to retrieve it, one has to formulate a precise query** [even when it isn't, it doesn't afford visualisation of the whole]. [...] 
->
->  In principle, one could create a single file export from any database, but this is not something the database paradigm afords – in the Gibsonian (1977) sense. **Databases aford partial access, while downloading a file entails that all data is contained within that file**. A study conducted by Harper et al. (2013) highlights how users see files as something they can own and manipulate, giving them a sense of control and completeness – both qualities that are useful also for analysing data." (Kraütli 2016: 145)
-
-
 
 ### Exportation des données
 
@@ -155,11 +137,7 @@ Une fois cette liste des communes enrichie des géolocalisations, nous avons ajo
 
 Qu'est-ce que le contenu de la base de données CONBAVIL? Comment comprendre une base de données dans son ensemble? Son fonctionnement qui évoque une boîte noire fait son efficacité (on ne charge pas tout) mais mystifie le contenu car on ne peut pas "le voir".
 
-
-
-
-
-
+  
 
 En exportant les données, on peut s'outiller pour produire des vues[^15] sur l'ensemble de la base de données. Il existe par exemple le concept de *datascapes* ou "paysage de données", qui est "à la fois outil et méthode d'analyse, de visualisation et d'exploration d'archives" (Leclerc et Girard, 2017: 45). L'idée est de produire une sorte de topographie des données. Cependant, en lieu des latitudes, longitudes, altitudes et autres éléments figurés se trouvent les données et leur propriétés. 
 
