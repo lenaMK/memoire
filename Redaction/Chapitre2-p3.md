@@ -4,35 +4,19 @@
 
 Maintenant que nous avons des données, un des enjeux que nous souhaitons aborder avec la création d'une nouvelle interface de recherche pour CONBAVIL est le suivant: comment ne pas faire une recherche mais de la recherche avec une base de données? Nous commençons donc avec les enjeux épistémologiques sous-jacents à un projet de base de données en histoire de l'art. Ensuite, inversement, arrive la question de ce qu'on peut faire avec des données, et plus particulièrement avec nos données de CONBAVIL? Finalement, le dernier élément nécessaire pour envisager une nouvelle interface est la préparation des données. Nous abordons donc la question des formats et entrons plus en détail dans la structuration des données dans la dernière sous-partie de ce chapitre. 
 
-<!--[ à déplacer? ]--> Faire une historiographie complète des projets de recherche innovants dans la production d'interfaces de recherche dépasse les limites de ce mémoire.L'affluence de projets et leur diversité pose la question s'ils peuvent être recensés de manière systématique à l'internationale. Notons qu'il existe déjà certains recensements très riches dont le travail de Johanna Drucker dans *Graphesis* (2013?). Afin de citer ceux particulièrement pertinents dans le cas de ce mémoire, nous avons réparti des exemples tout au long de ce chapitre (Medialab, Verhoeven, Presner). Ces cas situent notre travail tout comme ils se trouvent parfois à la source de notre inspiration pour la création de notre interface. 
-
 ### Des données aux humanités numériques
-
-**On a des données. beaucoup. Maintenant, qu'est-ce qu'on fait? **
 
 Il ne suffit pas d'avoir affaire à des données en sciences humaines pour se situer dans le champs des humanités numériques. Alexandre Gefen, <!-- chercheur en littérature et en humanités numériques? trop de répétition-->, suggère plutôt de concevoir les humanités numériques comme 
 
 > "l'apparition d'un paradigme méthodologique et épistémologique qu'il importe de saisir dans toute sa puissante heuristique, sans se laisser entraîner par l'idée naïve d'une production transparente de savoirs par moissonnage du big data des corpus, masses de données qui restent des artefacts muets en l'absence d'une herméneutique spécifique" (Gefen 2015: 62). 
 
+Dans le cas de grands volumes de données, il devient nécessaire de créer de nouveaux moyens pour les étudier et les traiter l'information (Gefen 2015: 61). En fait, même dans le cas de "petites" quantités de données, on peut distinguer les approches "numérisées" de celles "numériques" (Drucker ...) . Dans le premier cas, la numérisation change le médium sans pour autant affecter la méthode. Les chercheur·se·s effectuent sur l'ordinateur un travail qui serait équivalent à celui analogue. On pourrait parler d'une approche numérisée lorsque l'on "feuillette" des archives numérisées, sans autres données ou informations que l'ordre des pages. Pour explorer des méthodes numériques, le changement de médium des archives (qui dans ce cas ne sont pas nativement numériques...) est accompagné d'outils comme l'OCR ou d'une autre forme d'extraction des données qui métamorphose le contenu et les moyens disponibles pour la production de connaissance.
 
-
-En effet, "La production de volumes considérables de données hétérogènes (big data) nécessit[e] le développement de nouvelles méthodes d'extraction et de traitement de l'information" (Gefen 2015: 61)
-
-
-
-nouvelle approche des archives: comme un tout
-
-complémente et enrichit l'approche classique, diversifie la notion d'accès/accessibilité [? treleani? ] 
-
-
-
-Penser une nouvelle interface (v2) pour la recherche avec Conbavil, c'est, premièrement, la créer en pensant aux questions de recherche évoquées par les chercheur·se·s, impliqués dans la création de la base mais les autres aussi (**chap1**) <!-- faire référence et revenir au chap1-->
-
-
+CONBAVIL n'est pas ce qu'on considère du *big data*, c'est-à-dire une "masse de données hétérogènes". C'est une forme d'archives numérique où l'extraction de données manuelle par des chercheur·se·s détient un riche potentiel épistémologique. De part la forme choisie pour ces données et leur quantité, il a, dès le départ, été nécessaire d'avoir un outil qui permette leur consultation et leur manipulation. Cet outil a pour but de répondre aux questions de recherche évoquées par les chercheur·se·s (2.2) mais aussi à celles actuelles dans la discipline (chapitre 1). Dans le contexte de création d'une seconde interface CONBAVIL, nous pensons toutefois qu'il est possible d'explorer et de prendre avantage d'un plus grand nombre d'opportunités offertes par le champs des humanités numériques. 
 
 ## Enjeux épistémologiques de la "remédiation" des archives ( )
 
-Nous nous attaquons ici à la question des formes de production du savoir en histoire de l'art. S'il est commun d'utiliser les archives comme source, ont doit se demander quel est l'impact de la transformation de ces archives et les méthodes appropriées pour les "exploiter" lorsqu'elles prennent la forme d'une base de données. Nous utilisons le terme "remédiation" pour signaler le changement de médium et les enjeux de médiation sous-jacents. 
+Nous reprenons ici plus en détail à la question des formes de production du savoir en histoire de l'art. S'il est commun d'utiliser les archives comme source, ont doit se demander quel est l'impact de la transformation de ces archives et les méthodes appropriées pour les "exploiter" lorsqu'elles prennent la forme d'une base de données. Nous utilisons le terme "remédiation" pour signaler le changement de médium et les enjeux de médiation sous-jacents. 
 
 Comme nous l'avons vu dans les deux parties précédentes de ce chapitre, le processus employé dépasse largement une "simple" numérisation, ce qui équivaudrait à une reproduction numérique des documents d'archive (de leur image) [^1]. Le dépouillement analytique est un contenu interprété sous une forme nativement numérique. Si certaines données sont de réelles transcription du contenu des archives, d'autres sont le produit d'une interprétation des archives[^4]. 
 
@@ -58,7 +42,7 @@ Un cas actuel et exemplaire d'utilisation d'archives numériques concerne les ar
 
 Le résultat obtenu prend la forme d'un *datascape*, "à la fois outil et méthode d'analyse, de visualisation et d'exploration d'archives" (Leclercq, 2016: 45).  L'interface interactive, disponible [en ligne](http://eat_datascape.medialab.sciences-po.fr/), offre la possibilité d'explorer les données sous plusieurs perspectives. Elle permet de "visualiser et [de] penser ensemble, et non comme séparés, processus et résultat, pour rendre compte de la complexité d'une réalisation à la vie particulièrement longue" (Leclercq, 2016: 50). Le *datascape* du projet E.A.T., tout comme celui produit pour étudier *Les transformations de l’économie française par le prisme du commerce international, 1716-1821* (TOFLIT18) (Loïc Charles, Guillaume Daudin, Guillaume Plique et Paul Girard, site web TOFLIT18. Consulté le 14 janvier 2021 http://toflit18.medialab.sciences-po.fr), démontrent avec aisance l'apport d'un tel instrument à la production de connaissance.
 
-
+Faire une historiographie complète des projets de recherche innovants dans la production d'interfaces de recherche dépasse les limites de ce mémoire. L'affluence de projets et leur diversité pose la question s'ils peuvent être recensés de manière systématique à l'internationale. Notons qu'il existe déjà certains recensements très riches dont le travail de Johanna Drucker dans *Graphesis* (2013?). Afin de citer ceux particulièrement pertinents dans le cas de ce mémoire, nous avons réparti des exemples tout au long de ce chapitre. Ces cas situent notre travail tout comme ils se trouvent parfois à la source de notre inspiration pour la création de notre interface. 
 
 ## Espaces et formes d'interprétation des données ( )
 
@@ -133,7 +117,9 @@ Pour créer une nouvelle interface, il faut aussi penser aux formats et structur
 
 Nous avons déjà analysé un format de base de données dite à plat, TEXTO, et effectué quelques comparaisons avec la possibilité d'une base de données relationnelle. Dans l'ensemble, l'avantage des bases de données est qu'elles permettent d'enregistrer et de faire des requêtes sur un grand nombre de données. Cette efficacité est toutefois due à leur côté boîte noire, on ne voit jamais toutes les données. De plus, Filemaker étant un format propriétaire, il faut payer pour avoir le logiciel qui fonctionne sur un ordinateur. Le jour où la compagnie fait faillite et ne fait plus de mises à jour pour les nouveaux ordinateurs, ça devient très difficile à maintenir. Si l'utilisation à l'interne concerne le Centre André-Chastel, nous nous intéressons aux possibilités d'utilisations par les chercheur·se·s. Pour éviter les contraintes d'accès et d'interopérabilité, nous avons commencé par exporter les données.
 
->  Database format: *Being able to download this dataset influenced my perception of a digital collection. Even though I had access to exact copies of archival databases, they still made it difcult to consider a dataset as a single entity, as a whole. **In a database, information is scattered across a number of tables and in order to retrieve it, one has to formulate a precise query** [even when it isn't, it doesn't afford visualisation of the whole]. Many cultural institutions mirror this paradigm of interacting with a collection online by providing search forms and APIs that return only a limited number of records. On GitHub, it is possible to download an entire digital collection as a single CSV file. In principle, one could create a single file export from any database, but this is not something the database paradigm afords – in the Gibsonian (1977) sense. **Databases aford partial access, while downloading a file entails that all data is contained within that file**. A study conducted by Harper et al. (2013) highlights how users see files as something they can own and manipulate, giving them a sense of control and completeness – both qualities that are useful also for analysing data.* (Kraütli 2016: 145)
+>  "Being able to download this dataset influenced my perception of a digital collection. Even though I had access to exact copies of archival databases, they still made it difcult to consider a dataset as a single entity, as a whole. **In a database, information is scattered across a number of tables and in order to retrieve it, one has to formulate a precise query** [even when it isn't, it doesn't afford visualisation of the whole]. [...] 
+>
+>  In principle, one could create a single file export from any database, but this is not something the database paradigm afords – in the Gibsonian (1977) sense. **Databases aford partial access, while downloading a file entails that all data is contained within that file**. A study conducted by Harper et al. (2013) highlights how users see files as something they can own and manipulate, giving them a sense of control and completeness – both qualities that are useful also for analysing data." (Kraütli 2016: 145)
 
 
 
