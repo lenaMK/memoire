@@ -42,7 +42,7 @@ Faire une historiographie complète des projets de recherche innovants dans la p
 
 Un cas actuel et exemplaire d'utilisation d'archives numériques concerne les archives d'une organisation, *Experiments in Arts and Technology* (E.A.T), créée en 1966 par les artistes Robert Rauschenberg et Robert Whitman et les ingénieurs Billy Klüver et Fred Waldhauer (Leclercq 2016: 46). Une équipe interdisciplinaire, au croisement de l'histoire de l'art sociale, du design et des humanités numériques, s'est penchée sur les archives E.A.T.. Les chercheurs du médialab ont commencé par identifier et interpréter des informations contenues dans les archives pour former un ensemble de données structurées. Après ce processus d'extraction [manuelle et humaine] des données, l'objectif a été de d'équiper les historien·ne·s d'un instrument de recherche pour les explorer (Leclerq et Girard, 2013: 6). 
 
-Le résultat obtenu prend la forme d'un *datascape*, "à la fois outil et méthode d'analyse, de visualisation et d'exploration d'archives" (Leclercq, 2016: 45).  L'interface interactive, disponible [en ligne](http://eat_datascape.medialab.sciences-po.fr/), offre la possibilité d'explorer les données sous plusieurs perspectives. Elle permet de "visualiser et [de] penser ensemble, et non comme séparés, processus et résultat, pour rendre compte de la complexité d'une réalisation à la vie particulièrement longue" (Leclercq, 2016: 50). Le *datascape* du projet E.A.T., tout comme celui produit pour étudier *Les transformations de l’économie française par le prisme du commerce international, 1716-1821* (TOFLIT18) (Loïc Charles, Guillaume Daudin, Guillaume Plique et Paul Girard, site web TOFLIT18. Consulté le 14 janvier 2021 http://toflit18.medialab.sciences-po.fr), démontrent avec aisance l'apport d'un tel instrument à la production de connaissance.
+Le résultat obtenu prend la forme d'un *datascape*, "à la fois outil et méthode d'analyse, de visualisation et d'exploration d'archives" (Leclercq, 2016: 45). L'interface interactive, disponible [en ligne](http://eat_datascape.medialab.sciences-po.fr/), offre la possibilité d'explorer les données sous plusieurs perspectives. Elle permet de "visualiser et [de] penser ensemble, et non comme séparés, processus et résultat, pour rendre compte de la complexité d'une réalisation à la vie particulièrement longue" (Leclercq, 2016: 50). Le *datascape* du projet E.A.T., tout comme celui produit pour étudier *Les transformations de l’économie française par le prisme du commerce international, 1716-1821* (TOFLIT18) (Loïc Charles, Guillaume Daudin, Guillaume Plique et Paul Girard, site web TOFLIT18. Consulté le 14 janvier 2021 http://toflit18.medialab.sciences-po.fr), démontrent avec aisance l'apport d'un tel instrument à la production de connaissance.
 
 
 
@@ -66,7 +66,7 @@ Pour des questions de conservation et de pérennité, nous avons tout d'abord ch
 
 Une second élément important l'accès à la nouvelle interface. Tout comme l'outil d'interrogation, nous pensons que pour rendre cette base de données accessible, elle doit être sur le web. En ce qui concerne le web, il est préférable d'utiliser le format JSON (JavaScript Object Notation). C'est un format de données qui est pris en charge nativement dans les standards du web: le trio HTML, CSS et JavaScript. Dans ce trio, HTML contient le contenu textuel, CSS sert à la mise en page et Javascript à la gestion des interactions telles que des mouvements de souris et des clics. 
 
-S'il existe de très nombreuses options de format pour créer une interface de consultation des données CONBAVIL, nous avons choisi d'utiliser uniquement le trio standard du web pour plusieurs raisons. Tout d'abord, nous voulons limiter les dépendances à des logiciels ou à des outils de programmation afin d'assurer un maximum d'autonomie au projet [^12].  
+S'il existe de très nombreuses options de format pour créer une interface de consultation des données CONBAVIL, nous avons choisi d'utiliser uniquement le trio standard du web pour plusieurs raisons. Tout d'abord, nous voulons limiter les dépendances à des logiciels ou à des outils de programmation afin d'assurer un maximum d'autonomie au projet [^12]. 
 
 - minimal (limiter les dépendances, augmenter l'autonomie)
 - volonté de mettre le temps et l'effort dans l'exploration des visualisations avec d3.js
@@ -88,15 +88,15 @@ Une fois cette liste des communes enrichie des géolocalisations, nous avons ajo
 
 
 
-### Vue distante du contenu (  )
+### Vue distante du contenu ( )
 
-Qu'est-ce que le contenu de la base de données CONBAVIL? Comment comprendre une base de données dans son ensemble? Son fonctionnement qui évoque une boîte noire fait son efficacité (on ne charge pas tout) mais mystifie le contenu car on ne peut pas "le voir". <!-- cf citation Krautli plus tôt-->  
+Qu'est-ce que le contenu de la base de données CONBAVIL? Comment comprendre une base de données dans son ensemble? Son fonctionnement qui évoque une boîte noire fait son efficacité (on ne charge pas tout) mais mystifie le contenu car on ne peut pas "le voir". <!-- cf citation Krautli plus tôt--> 
 
 En exportant les données, on peut s'outiller pour produire des vues[^15] sur l'ensemble de la base de données. Il existe par exemple le concept de *datascapes* ou "paysage de données", qui est "à la fois outil et méthode d'analyse, de visualisation et d'exploration d'archives" (Leclerc et Girard, 2017: 45). L'idée est de produire une sorte de topographie des données. Cependant, en lieu des latitudes, longitudes, altitudes et autres éléments figurés se trouvent les données et leur propriétés. 
 
 Nous avons produit deux paysages de données pour expérimenter avec le concept ainsi que pour découvrir le contenu général de CONBAVIL. Le premier est un graphique très simple que l'on peut qualifier de fonctionnel [Annexe en ligne: datascape1]. C'est un histogramme, ou *bar chart*: chaque barre figure une propriété et sa hauteur est calculée par sa récurrence dans la base de données. Lorsque la propriété contient 1 élément pour chaque fiche, le résultat est de 26954. On peut prendre ce chiffre comme référence. 
 
-<!-- trouver la formulation pour dire: Cependant, c'est une somme simple, ce qui signifie que  ce n'est pas "distribué" entre celles qui sont vides et celles qui contiennent plusieurs entrées [ask mom how it's called]:  techniquement, il pourrait y avoir 27'000 de quelque chose qui concerne 9000 délibérations avec en moyenne 3 entrées par exemple.  -->s
+<!-- trouver la formulation pour dire: Cependant, c'est une somme simple, ce qui signifie que ce n'est pas "distribué" entre celles qui sont vides et celles qui contiennent plusieurs entrées [ask mom how it's called]: techniquement, il pourrait y avoir 27'000 de quelque chose qui concerne 9000 délibérations avec en moyenne 3 entrées par exemple. -->s
 
 Le système bicolore permet de distinguer les occurrences uniques (en rose) de celles multiples. Logiquement, les champs normalisés sont majoritairement en bleu tandis que les champs plein texte sont en rose. Il faut noter que le champ "id" est nécessairement rose puisque ce sont les identifiants uniques. En bleu, le champ "file" concerne les 66 registres et le champs meeting sont les 4299 séances dont les procès-verbaux ont étés conservés et dépouillés. Puisqu'il s'agit d'un moyen figurer la base de données, nous n'avons pas retiré les champs moins pertinents, comme "id" par exemple, car c'est plus un exercice de figuration (brute ou directe) que d'expression analytique.
 
@@ -116,7 +116,7 @@ Nous avons augmenté la transparence des champs que nous avons créés lors du n
 
 <!-- à terminer -->
 
-Le principe des matrices de Bertin: système visuel de classification, la diagonalisation, qui permet d'identifier des similarités entre des entités  --> travail / interpréation visuelle, capacité "instinctive" à ranger, classifier
+Le principe des matrices de Bertin: système visuel de classification, la diagonalisation, qui permet d'identifier des similarités entre des entités --> travail / interpréation visuelle, capacité "instinctive" à ranger, classifier
 
 https://aviz.fr/bertifier --> print + read + comment
 
@@ -136,6 +136,16 @@ Nous voulons désormais créer un espace de travail pour l'exploration et l'inte
 
 Donner matière à la construction d'une interface avec une approche bottom-up: partir des données pour construire une interface, même si tout au long, les questions de recherche et l'approche sont informées par le sujet (chap1). 
 
+Une interface donne forme aux données, elle dicte donc notre façon d'y réfléchir et les questions qu'on voudrait y poser. Les interfaces produisent des affordances épistémologiques parce qu'elles sont le cadre au sein duquel nous posons nos questions, nos observations, nos hypothèses et nos déductions à propos de la base de données.
+
+Puisqu'il existe déjà un outil d'interrogation, nous voulons plutôt créer un instrument de recherche. Si le premier permet de chercher un contenu spécifique (heuristique) via des requêtes SQL ou l'outil d'interrogation, le second est pensé comme instrument de recherche et dispositif critique qui serait à l'origine de questionnements (herméneutique). Cela permettrait ainsi de produire de nouvelles connaissances. 
+
+Nous voulons aussi offrir un approche différente de CONBAVIL, faire des données des objets à manipuler. L
+
+=/= mise en page mais mise en scène de l'information [drucker] ; table de travail ou table de montage [Didi-huberman] " introduit le multiple, le divers, l'hybridité de tout montage"
+
+Ce dispositif exploratoire a pour source d'inspiration les questions de recherche évoquées par les chercheur·se·s, impliqués dans la création de la base, l'historiographie des recherches sur le sujet (**chap1**), le contexte historique (statistique, carto thématique, raisonnement administratif) et les moyens techniques actuels qui s'accordent avec ces préoccupations. Il sera question de la forme de ce dispositif dans le troisième chapitre. Dans cette partie, nous allons tout d'abord réfléchir aux éléments que nous souhaitons agencer dans l'interface.
+
 sources d'inspiration 
 
 - critique des données, graphesis 
@@ -143,11 +153,17 @@ sources d'inspiration
 - carto - géographie de l'art
 - visualisation de données
 
-Interdisciplinarité --> cartographie  & visualisation de données (sémiologie, graphisme, développement d'interface)
+Interdisciplinarité --> cartographie & visualisation de données (sémiologie, graphisme, développement d'interface)
 
 
 
-### Approche critique des données et des outils
+<!-- à placer quelque part [Sinclair et al]: rich-prospect interfaces -->
+
+
+
+### Approche critique des données et des outils ( )
+
+
 
 #### Johanna Drucker: Graphesis 
 
@@ -178,13 +194,27 @@ archives d'une administration =
 
 - présence de politiques sous-jacentes --> liens entre les affaires ne sont pas des hasards (coïncidences) mais bien des initiatives (corrélations) verbalisées et concrétisées, exigées par décrets ou plus "flou", tendance-priorités de l'époque
 
-<!-- est-ce que j'ai un exemple de projet intéressant pour les statistiques? Les prénoms, Rencontre des historiens du Limousin, mais ce ne sont pas des archives d'une administration, par contre ça reflète des tendances -->
+<!-- est-ce que j'ai un exemple de projet intéressant pour les statistiques? -->
 
 ### Cartographie ( )
 
-pensée spatiale liée au côté topographique des données, mais aussi à une envie de percevoir les dynamiques et changements, à travers le temps et l'espace. 
+intérêt pour la cartographie --> pensée spatiale liée au côté topographique des données, mais aussi à une envie de percevoir les dynamiques et changements, à travers le temps et l'espace. 
 
-Besse, gamboni
+
+
+Afin de parvenir à un tel résultat, il nous paraît d’abord nécessaire de « déconstruire » la carte, comme nous y invite le géographe et historien de la cartographie postmoderne Brian Harley (1989a). Ce processus a pour objectif de briser le lien entre réalité et représentation dans l’interprétation et l’analyse de la pratique cartographique. Il permet ainsi de révéler de nouvelles approches de la carte et de retracer les mécanismes sociaux liés à sa production. Nous prenons ici appui sur les réflexions du philosophe et historien Jean-Marc Besse, qui propose une conception pragmatique de la carte et, par extension, de l’acte cartographique :
+
+> 1. Toute carte est en même temps une interprétation et un projet vis-à-vis du territoire auquel elle réfère, autrement dit toute carte se présente comme une version possible du territoire. 
+> 2. Toute carte est la traduction et la condition d’un pouvoir qui cherche à s’exercer socialement et culturellement, et qui s’appuie sur la carte pour s’assurer une forme d’autorité. 
+> 3. Toute carte développe sa stratégie par l’intermédiaire de la mise en œuvre d’un univers graphique au sein duquel elle construit son discours, un espace graphique qui n’est rien d’autre que la mise en forme d’un territoire de référence au sujet duquel le discours est construit. (Besse, 2006: 8)
+
+Notre approche de la cartographie a donc pour but de rendre visibles les dimensions interprétatives et graphiques de la carte en investiguant le potentiel du format numérique et interactif. Il s’agit aussi d’essayer de présenter un modèle alternatif de production du savoir en histoire de l’art en usant du caractère visuel et spatial de la carte. L’utilisation de l’interactivité, dont il sera question dans la troisième partie de cet article, nous permet de contrer certains effets d’autorité causés par l’illusion d’une objectivité scientifique et cartographique (Harley, 1989b: 82). Il demeure toutefois essentiel, tout au long de ce processus, de tenir compte des formes de pouvoir impliquées par la création de l’interface et de situer le savoir ainsi produit.
+
+Le traitement des données de Conbavil forme un espace cartographique composé de multiples épaisseurs. D’une part, il est constitué d’un territoire de référence physique, la France de la première moitié du XIXe siècle, sur lequel s’applique une politique architecturale. D’autre part, les archives administratives font partie intégrante du territoire et participent elles aussi à le construire. La cartographie fournit ainsi « une méthode pour unir dans une image le concept d’un territoire et une multitude d’informations dites empiriques livrées par la fréquentation du terrain » (Besse, 2006: 15). Aux informations « empiriques », nous substituons des données issues de sources archivistiques, lesquelles se trouvent enrichies par la géolocalisation que nous leur adjoignons. Notre processus cartographique vient ainsi réinscrire l’action du Conseil des bâtiments civils sur le territoire français et révéler son empreinte sur le pays. Au-delà de l’impact du patrimoine bâti sur le territoire, nous prenons aussi en compte les projets refusés ou inaboutis. Leur cartographie nous invite « à voir et à penser ce que l’on ne voit pas et ne pense pas quand on regarde l’espace réel » (Jacob, 1992: 50). L’imaginaire bâtisseur de l’époque se matérialise par ses archives et nous offre une autre facette de l’histoire de ce territoire. Nous cherchons ainsi à mettre en pratique la pensée de l’historien de l’art Dario Gamboni, selon qui,
+
+> [p]our comprendre l’histoire d’un lieu, il importe de connaître non seulement ce qu’il a été possible d’y réaliser, mais encore ce qu’il était impossible d’y faire pour des raisons esthétiques et culturelles, techniques, sociales ou encore politiques. (2008: 9) 
+
+L’historien Christian Jacob théorise la relation entre archives et cartographie dans son ouvrage majeur, *L’Empire des cartes* (1992). Il y présente un projet de recherche sur les prénoms mené par la *Rencontre des historiens du Limousin*[6](http://revuecaptures.org/article-dune-publication/constellations-de-données-historiques#footnote6_3hkkf7g). Dans le contexte d’un dépouillement massif d’archives, ces chercheur·se·s soulignent le potentiel épistémologique de l’usage de la cartographie pour « le quantitatif et l’étude de l’organisation spatiale des phénomènes » (Pérouas, 1984: 3). Dans le cadre d’un tel projet, la carte devient un instrument d’enquête pour l’historien·ne : elle « ne renvoie pas à une réalité visible sur le terrain — en revanche, elle permet de visualiser différemment des centaines d’archives dépouillées par les historiens » (Jacob, 1992: 32). Dans le cas du Conseil des bâtiments civils, plus de 26 000 affaires situées dans 4 200 lieux sont organisées selon une logique encore enfouie dans les sources. La cartographie de ces éléments nous permet de discerner leur organisation spatiale et de renouveler ainsi la compréhension de l’administration de l’architecture publique française au lendemain de la Révolution.
 
 
 
@@ -200,6 +230,12 @@ Besse, gamboni
 
 ### Visualisation
 
+
+
+En outre, nous élargissons cette approche cartographique pour y inclure des formes visuelles qui ne sont pas spécifiquement topographiques, notamment des diagrammes. C’est pourquoi nous préférerons employer le terme « figuration » à celui de « représentation » pour parler de l’image produite par la cartographie : « [L]a figuration est le dessin d’un objet qui ne préexiste pas à son image, alors que l’usage courant du mot représentation fait de celle-ci la reproduction d’une réalité préexistante. » (Besse, 2006: 12) Rappelant l’étymologie du mot « diagramme », Jean-Marc Besse définit la carte comme « une *eikôn* d’un genre particulier » qui « nous renvoie d’une part à un acte d’écriture (*gramma*, relation avec *graphein*) et d’autre part [à] un acte d’articulation logique (*dia*-, à la fois distinguer et relier, enchaîner ce qui est distingué) » (2006: 15). L’assemblage de ces actes de figuration, d’écriture et d’articulation logique nous permet de définir la visualisation de données comme une forme de pensée visuelle qui figure un imaginaire raisonné et construit.
+
+
+
 statut des visualisation: ne sont jamais présentées comme des fins en soi ... mais plutôt comme une matière pour l'élaboration intellectuelle ̣- mouvante et incarnée dans divers modes d'inscrption, mobilisant en même temps les nouveaux outils et des séquences de pratiques et des protocloes de travails existants. Les images produites ne sont ainsi pas uniquement conçues comme des outils d'interprétation, mais aussi de tri, de paramétrage, voire même d'enrichissement et de transformation des données (caviglia 2014)
 
 
@@ -212,7 +248,7 @@ statut des visualisation: ne sont jamais présentées comme des fins en soi ... 
 
 ## Notes
 
-[^1]: Nous avons mis  "simple" entre guillemets car si le fond reste quasi-identique via reproduction photographie haute résolution, la forme matérielle change. Cela implique la question de la classification, comment stocker et référencer ces archives numérisées.
+[^1]: Nous avons mis "simple" entre guillemets car si le fond reste quasi-identique via reproduction photographie haute résolution, la forme matérielle change. Cela implique la question de la classification, comment stocker et référencer ces archives numérisées.
 [^2]: À contrario, parmi les institutions culturelle, les bibliothèques ont été très rapides pour envisager l'apport conséquent que l'informatique pouvait apporter à leur domaine
 [^3]: 
 [^4]: C.f. la création de la grille et l'entrée des données, la partie 2.1.1 de ce mémoire
