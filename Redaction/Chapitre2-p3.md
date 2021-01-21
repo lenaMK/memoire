@@ -1,6 +1,6 @@
 # Nouvelle interface, nouvelles utilisations
 
-### Faire une recherche, ou *de la* recherche 
+## Enjeux épistémologiques 
 
 Maintenant que nous avons des données, un des enjeux que nous souhaitons aborder avec la création d'une nouvelle interface de recherche pour CONBAVIL est le suivant: comment ne pas faire une recherche mais de la recherche avec une base de données? Nous commençons donc avec les enjeux épistémologiques sous-jacents à un projet de base de données en histoire de l'art. Ensuite, inversement, arrive la question de ce qu'on peut faire avec des données, et plus particulièrement avec nos données de CONBAVIL? Finalement, le dernier élément nécessaire pour envisager une nouvelle interface est la préparation des données. Nous abordons donc la question des formats et entrons plus en détail dans la structuration des données dans la dernière sous-partie de ce chapitre. 
 
@@ -14,9 +14,7 @@ Dans le cas de grands volumes de données, il devient nécessaire de créer de n
 
 CONBAVIL n'est pas ce qu'on considère du *big data*, c'est-à-dire une "masse de données hétérogènes". C'est une forme d'archives numérique où l'extraction de données manuelle par des chercheur·se·s détient un riche potentiel épistémologique. De part la forme choisie pour ces données et leur quantité, il a, dès le départ, été nécessaire d'avoir un outil qui permette leur consultation et leur manipulation. Cet outil a pour but de répondre aux questions de recherche évoquées par les chercheur·se·s (2.2) mais aussi à celles actuelles dans la discipline (chapitre 1). Dans le contexte de création d'une seconde interface CONBAVIL, nous pensons toutefois qu'il est possible d'explorer et de prendre avantage d'un plus grand nombre d'opportunités offertes par le champs des humanités numériques. 
 
-
-
-## Enjeux épistémologiques de la "remédiation" des archives
+### La remédiation des archives
 
 Nous reprenons ici plus en détail à la question des formes de production du savoir en histoire de l'art. S'il est commun d'utiliser les archives comme source, ont doit se demander quel est l'impact de la transformation de ces archives et les méthodes appropriées pour les "exploiter" lorsqu'elles prennent la forme d'une base de données. Nous utilisons le terme "remédiation" pour signaler le changement de médium et les enjeux de médiation sous-jacents. 
 
@@ -48,7 +46,7 @@ Le résultat obtenu prend la forme d'un *datascape*, "à la fois outil et métho
 
 
 
-## Espaces et formes d'interprétation des données (ici)
+## Travail des données
 
 > "How can our new abilities to store vast amounts of data, to automatically classify, index, link, search and instantly retrieve it lead to new kinds of narratives" (Manovich 1999: ?)
 
@@ -60,50 +58,7 @@ La création d'interface et l'interactivité transforme des données numériques
 >
 >  In principle, one could create a single file export from any database, but this is not something the database paradigm afords – in the Gibsonian (1977) sense. **Databases aford partial access, while downloading a file entails that all data is contained within that file**. A study conducted by Harper et al. (2013) highlights how users see files as something they can own and manipulate, giving them a sense of control and completeness – both qualities that are useful also for analysing data." (Kraütli 2016: 145)
 
-
-
----
-
-Donner matière à la construction d'une interface avec une approche bottom-up: partir des données pour construire une interface, même si tout au long, les questions de recherche et l'approche sont informées par le sujet (chap1). (Nos données sont aussi nos connaissances sur le passé)
-
-Interdisciplinarité --> cartographie  & visualisation de données (sémiologie, graphisme, développement d'interface)
-
-### Approche critique des données et des outils
-
-Matteo Treleani, Qu'est-ce que la patrimoine numérique, chap 3: la circulation des archives
-
-- distance par rapport à l'immersion, comment visualiser l'impossibilité de percevoir le passé, et ainsi assurer qu'on garde un regard critique sur le construit présenté
-- visibilité des filtres du dispositif qui nous donne accès au passé
-
-#### Johanna Drucker: Graphesis 
-
-- data is capta
-
-### Analyse statistique ( )
-
-fdfdfd
-
-
-
-### Cartographie ( )
-
-fddfdfs
-
-#### Presner et al :temporal topographies
-
-### Visualisation
-
-statut des visualisation: ne sont jamais présentées comme des fins en soi ... mais plutôt comme une matière pour l'élaboration intellectuelle ̣- mouvante et incarnée dans divers modes d'inscrption, mobilisant en même temps les nouveaux outils et des séquences de pratiques et des protocloes de travails existants. Les images produites ne sont ainsi pas uniquement conçues comme des outils d'interprétation, mais aussi de tri, de paramétrage, voire même d'enrichissement et de transformation des données (caviglia 2014)
-
-
-
-## Travail préparatoire
-
-Pour créer une nouvelle interface, il faut aussi penser aux formats et structures des données. Comme on l'a vu dans ces exemples, le format et la structure ont une forte influence sur ce qu'on peut faire par la suite. Il faut évidemment penser les deux ensemble, mais nous allons commencer par faire un survol des formats et de leur impact sur l'utilisation des données. 
-
-<!-- ensuite, on va parler du type de recherche qu'on voudrait faire et comment elles fonctionnent: 2.3) -->
-
-Nous avons déjà analysé un format de base de données dite à plat, TEXTO, et effectué quelques comparaisons avec la possibilité d'une base de données relationnelle. Dans l'ensemble, l'avantage des bases de données est qu'elles permettent d'enregistrer et de faire des requêtes sur un grand nombre de données. Cette efficacité est toutefois due à leur côté boîte noire, on ne voit jamais toutes les données. De plus, Filemaker étant un format propriétaire, il faut payer pour avoir le logiciel qui fonctionne sur un ordinateur. Le jour où la compagnie fait faillite et ne fait plus de mises à jour pour les nouveaux ordinateurs, ça devient très difficile à maintenir. Si l'utilisation à l'interne concerne le Centre André-Chastel, nous nous intéressons aux possibilités d'utilisations par les chercheur·se·s. Pour éviter les contraintes d'accès et d'interopérabilité, nous avons commencé par exporter les données.
+Il faut aussi effectuer un survol des formats et de leur impact sur l'utilisation des données. Nous avons déjà analysé un format de base de données dite à plat, TEXTO, et effectué quelques comparaisons avec la possibilité d'une base de données relationnelle. Dans l'ensemble, l'avantage des bases de données est qu'elles permettent d'enregistrer et de faire des requêtes sur un grand nombre de données. Cette efficacité est toutefois due à leur côté boîte noire, on ne voit jamais toutes les données. De plus, Filemaker étant un format propriétaire, il faut payer pour avoir le logiciel qui fonctionne sur un ordinateur. Le jour où la compagnie fait faillite et ne fait plus de mises à jour pour les nouveaux ordinateurs, ça devient très difficile à maintenir. Si l'utilisation à l'interne concerne le Centre André-Chastel, nous nous intéressons aux possibilités d'utilisations par les chercheur·se·s. Pour éviter les contraintes d'accès et d'interopérabilité, ainsi que pour manipuler l'ensemble du contenu CONBAVIL, nous avons commencé par exporter les données.
 
 ### Exportation des données
 
@@ -135,9 +90,7 @@ Une fois cette liste des communes enrichie des géolocalisations, nous avons ajo
 
 ### Vue distante du contenu (  )
 
-Qu'est-ce que le contenu de la base de données CONBAVIL? Comment comprendre une base de données dans son ensemble? Son fonctionnement qui évoque une boîte noire fait son efficacité (on ne charge pas tout) mais mystifie le contenu car on ne peut pas "le voir".
-
-  
+Qu'est-ce que le contenu de la base de données CONBAVIL? Comment comprendre une base de données dans son ensemble? Son fonctionnement qui évoque une boîte noire fait son efficacité (on ne charge pas tout) mais mystifie le contenu car on ne peut pas "le voir". <!-- cf citation Krautli plus tôt-->  
 
 En exportant les données, on peut s'outiller pour produire des vues[^15] sur l'ensemble de la base de données. Il existe par exemple le concept de *datascapes* ou "paysage de données", qui est "à la fois outil et méthode d'analyse, de visualisation et d'exploration d'archives" (Leclerc et Girard, 2017: 45). L'idée est de produire une sorte de topographie des données. Cependant, en lieu des latitudes, longitudes, altitudes et autres éléments figurés se trouvent les données et leur propriétés. 
 
@@ -161,13 +114,97 @@ Nous avons augmenté la transparence des champs que nous avons créés lors du n
 
 ![](/home/lenamk/Documents/atlasNumerique/Redaction/img/datascape.png)
 
-<!-- à rédiger -->
+<!-- à terminer -->
 
-Le principe des matrices de Bertin: système visuel de classification, la diagonalisation, qui permet d'identifier des similarités entre des entités 
+Le principe des matrices de Bertin: système visuel de classification, la diagonalisation, qui permet d'identifier des similarités entre des entités  --> travail / interpréation visuelle, capacité "instinctive" à ranger, classifier
 
 https://aviz.fr/bertifier --> print + read + comment
 
 notion de récurrence (ce qui est souvent rempli, ce qui ne l'est pas)
+
+
+
+exploration visuelle, sensorielle, des données --> matière à manipuler
+
+
+
+Les paysages de données que nous avons créés sont pensés comme une étape de travail "préliminaire". Ils ne figurent pas le contenu en soit de CONBAVIL, mais plutôt des métadonnées. La différence entre données et métadonnées est une question de contexte. Dans ce cas, les données sont le contenu de chaque fiche, comme la date, l'avis, les topographie et typologie renseignées. Les métadonnées décrivent le contenu de la base de données, mais ne le contiennent pas. Par exemple, dans notre réinterprétation des matrices de Bertin, nous avons créé une métadonnées qui indiquent si "oui" ou "non" les propriétés, telle que la date, l'avis etc., sont renseignées dans la base de données. 
+
+## Espaces et interprétation des données
+
+Nous voulons désormais créer un espace de travail pour l'exploration et l'interprétation des données de CONBAVIL. 
+
+Donner matière à la construction d'une interface avec une approche bottom-up: partir des données pour construire une interface, même si tout au long, les questions de recherche et l'approche sont informées par le sujet (chap1). 
+
+sources d'inspiration 
+
+- critique des données, graphesis 
+- approche quanti/statistique
+- carto - géographie de l'art
+- visualisation de données
+
+Interdisciplinarité --> cartographie  & visualisation de données (sémiologie, graphisme, développement d'interface)
+
+
+
+### Approche critique des données et des outils
+
+#### Johanna Drucker: Graphesis 
+
+- data is capta
+- importance d'une lecture critique des données --> à même la visualisation/l'interface
+- créer des outils qui privilégient cette approche 
+
+Matteo Treleani, Qu'est-ce que la patrimoine numérique, chap 3: la circulation des archives
+
+- distance par rapport à l'immersion, comment visualiser l'impossibilité de percevoir le passé, et ainsi assurer qu'on garde un regard critique sur le construit présenté
+- visibilité des filtres du dispositif qui nous donne accès au passé
+
+<!-- verhoeven? =/= utiliser les données pour montrer ce qu'on sait déjà, mais propose une approche critique -->
+
+### Analyse statistique ( )
+
+Garric --> comparaisons, statistiques 
+
+explorer les possibilités d'analyses quantitatives
+
+lien avec l'histoire de la statistique, un mode de pensée "fonctionnaliste" de créer et utiliser des données émerge à l'époque
+
+c'est aussi le sens des archives = on conserve tout, on documente et note dans le détail pour pouvoir "reconstruire", retrouver, ...
+
+archives d'une administration = 
+
+- pensée d'ensemble car centralisation, 
+
+- présence de politiques sous-jacentes --> liens entre les affaires ne sont pas des hasards (coïncidences) mais bien des initiatives (corrélations) verbalisées et concrétisées, exigées par décrets ou plus "flou", tendance-priorités de l'époque
+
+<!-- est-ce que j'ai un exemple de projet intéressant pour les statistiques? Les prénoms, Rencontre des historiens du Limousin, mais ce ne sont pas des archives d'une administration, par contre ça reflète des tendances -->
+
+### Cartographie ( )
+
+pensée spatiale liée au côté topographique des données, mais aussi à une envie de percevoir les dynamiques et changements, à travers le temps et l'espace. 
+
+Besse, gamboni
+
+
+
+#### Presner et al :temporal topographies
+
+épaisseur des cartes --> 
+
+- temporalité
+- manipulation 
+- multiplicité des perspectives
+
+
+
+### Visualisation
+
+statut des visualisation: ne sont jamais présentées comme des fins en soi ... mais plutôt comme une matière pour l'élaboration intellectuelle ̣- mouvante et incarnée dans divers modes d'inscrption, mobilisant en même temps les nouveaux outils et des séquences de pratiques et des protocloes de travails existants. Les images produites ne sont ainsi pas uniquement conçues comme des outils d'interprétation, mais aussi de tri, de paramétrage, voire même d'enrichissement et de transformation des données (caviglia 2014)
+
+
+
+
 
 
 
