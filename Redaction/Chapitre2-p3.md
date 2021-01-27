@@ -1,4 +1,4 @@
-# Nouvelle interface, nouvelles utilisations
+# Nouvelle interface, nouvelles approches
 
 ## Enjeux épistémologiques 
 
@@ -60,185 +60,69 @@ La création d'interface et l'interactivité transforme des données numériques
 
 Il faut aussi effectuer un survol des formats et de leur impact sur l'utilisation des données. Nous avons déjà analysé un format de base de données dite à plat, TEXTO, et effectué quelques comparaisons avec la possibilité d'une base de données relationnelle. Dans l'ensemble, l'avantage des bases de données est qu'elles permettent d'enregistrer et de faire des requêtes sur un grand nombre de données. Cette efficacité est toutefois due à leur côté boîte noire, on ne voit jamais toutes les données. De plus, Filemaker étant un format propriétaire, il faut payer pour avoir le logiciel qui fonctionne sur un ordinateur. Le jour où la compagnie fait faillite et ne fait plus de mises à jour pour les nouveaux ordinateurs, ça devient très difficile à maintenir. Si l'utilisation à l'interne concerne le Centre André-Chastel, nous nous intéressons aux possibilités d'utilisations par les chercheur·se·s. Pour éviter les contraintes d'accès et d'interopérabilité, ainsi que pour manipuler l'ensemble du contenu CONBAVIL, nous avons commencé par exporter les données.
 
-### Exportation des données
+### Exportation et transformation
 
 Pour des questions de conservation et de pérennité, nous avons tout d'abord choisi d'exporter les données dans le format XML (eXtensible Markup Language). Étant un simple fichier texte, ce format présente l'avantage d'être lisible sur tous les ordinateurs sans prérequis logiciel. Cela le rend plus résilient face aux évolutions des technologies. Il peut aussi être structuré lorsqu'on l'utilise avec un schéma, un ensemble de règles concernant le document. Pour "trouver" des données dans ce grand fichier linéaire, on utilise le langage XPATH qui trace un chemin vers les éléments qui correspondent à la requête. Il existe également le système de transformation de ces données, nommé XSLT (eXtensible Stylesheet Language Transformation), qui prend les informations et les retranscrit selon le format et la structure désirée. Finalement, c'est un langage qui est lisible par les machines comme par les humains. L'export des données Filemaker en un fichier XML avec un schéma correspondant a été effectué par Emmanuel Château-Dutier dans le cadre de ses recherches sur le conseil des bâtiments civils et les données CONBAVIL. Nous avons ainsi obtenu un premier accès aux données. 
 
 Une second élément important l'accès à la nouvelle interface. Tout comme l'outil d'interrogation, nous pensons que pour rendre cette base de données accessible, elle doit être sur le web. En ce qui concerne le web, il est préférable d'utiliser le format JSON (JavaScript Object Notation). C'est un format de données qui est pris en charge nativement dans les standards du web: le trio HTML, CSS et JavaScript. Dans ce trio, HTML contient le contenu textuel, CSS sert à la mise en page et Javascript à la gestion des interactions telles que des mouvements de souris et des clics. 
 
-S'il existe de très nombreuses options de format pour créer une interface de consultation des données CONBAVIL, nous avons choisi d'utiliser uniquement le trio standard du web pour plusieurs raisons. Tout d'abord, nous voulons limiter les dépendances à des logiciels ou à des outils de programmation afin d'assurer un maximum d'autonomie au projet [^12]. 
+S'il existe de très nombreuses options de format pour créer une interface de consultation des données CONBAVIL, nous avons choisi d'utiliser uniquement le trio standard du web pour plusieurs raisons. Tout d'abord, nous voulons limiter les dépendances à des logiciels ou à des outils de programmation afin d'assurer un maximum d'autonomie au projet [^12]. Cela permet aussi de maximiser le temps disponible pour travailler sur les visualisations de données. Comme il s'agit d'une expérimentation dans le cadre d'un mémoire de maîtrise et que l'apprentissage de nouvelles méthodes en programmation est chronophage, nous avons choisi de limiter la complexité des outils employés. Malgré beaucoup d'hésitation et de conseils divers, React.js, une librairie de code qui assiste la création d'interfaces utilisateur·rice·s, n'a donc pas été utilisé. Le point central du travail consiste de la librairie de code d3.js permet de créer des résultats visuels et interactifs, car l'inspiration, dès, dès le départ, était de créer une interface web visuelle et interactive.
 
-- minimal (limiter les dépendances, augmenter l'autonomie)
-- volonté de mettre le temps et l'effort dans l'exploration des visualisations avec d3.js
-- simplicité : ceci est une expérimentation, il fallait essayer de limiter la complexité pour pouvoir se rendre à un résultat intéressant (dur à justifier, rien ne dit que j'ai pris les bonnes décisions de ne pas utiliser React par exemple)
+Au vu de ces décision, la chaîne de production se présente comme suit: travail à l'interne sur la base de données Filemaker, exportation vers XML pour la conservation des données, puis transformation en JSON pour leur utilisation web. Les scripts qui permettent de passer d'un format à l'autre sont faits pour être réutilisés et adaptés en cas de mise à jour dans les données. 
 
-<!-- aucune idée comment expliquer tout: ce que c'est PHP, les autres formats, CMS, react, .... il y a beaucoup trop à dire et rien qui semble si pertinent en soit -->
-
-inspiration, dès le départ, de créer une interface (web) interactive et de visualiser les données (aller plus loin que le contenu texte). 
-
-La chaîne de production est donc la suivante: travail à l'interne sur la base de données Filemaker, exportation vers XML pour la conservation des données, puis transformation en JSON pour leur utilisation web. Les scripts qui permettent de passer d'un format à l'autre sont faits pour être réutilisés et adaptés en cas de mise à jour dans les données. 
-
-Nous avons donc écrit un script (avec l'aide de Stéfan Sinclair) pour transformer le fichier XML en JSON. Les propriétés sont structurées différemment et certains noms ont été changés car ce travail a été effectué avec l'appui de collaborateurs et à un stade nous n'étions pas très familiers avec les données. Le choix des nom de propriété est un peu aléatoire, mais ils peuvent facilement être changés dans le script si désiré. Ensuite, il a fallut régulariser plusieurs éléments de la base de données, c'est qu'on appelle le nettoyage des données. Il a notamment été nécessaire de séparer les marqueurs d'incertitude du contenu concerné. À l'écrit, on a tendance à mettre les choses entre parenthèses ou crochet, ou encore à ajouter un point d'interrogation. Cependant, pour les machines, il vaut mieux les indiquer de la même façon, et de préférence distinguer cette information du contenu textuel. Nous avons donc retiré tous ces marqueurs pour les remplacer par une propriété supplémentaire: "unsure-" dont la valeur est vraie quand le texte comportait une indication d'incertitude. Cela permet d'uniformiser les données sans pour autant perdre cette information importante. Nous avons aussi mis à jour les références vers le Thésaurus de la désignation des œuvres architecturales, car il été modifié et ne correspondait plus tout à fait aux entrées dans CONBAVIL. 
+Nous avons donc écrit un script (avec l'aide précieuse de Stéfan Sinclair) pour transformer le fichier XML en JSON. Les propriétés sont structurées différemment et certains noms ont été changés car ce travail a été effectué avec l'appui de collaborateurs et à un stade nous n'étions pas très familiers avec les données. Le choix des nom de propriété est un peu aléatoire, mais ils peuvent facilement être changés dans le script si désiré. Ensuite, il a fallut régulariser plusieurs éléments de la base de données, c'est qu'on appelle le nettoyage des données. Il a notamment été nécessaire de séparer les marqueurs d'incertitude du contenu concerné. À l'écrit, on a tendance à mettre les choses entre parenthèses ou crochet, ou encore à ajouter un point d'interrogation. Cependant, pour les machines, il vaut mieux les indiquer de la même façon, et de préférence distinguer cette information du contenu textuel. Nous avons donc retiré tous ces marqueurs pour les remplacer par une propriété supplémentaire: "unsure-" dont la valeur est vraie quand le texte comportait une indication d'incertitude. Cela permet d'uniformiser les données sans pour autant perdre cette information importante. Nous avons aussi mis à jour les références vers le Thésaurus de la désignation des œuvres architecturales, car il été modifié et ne correspondait plus tout à fait aux entrées dans CONBAVIL. 
 
 ### Enrichir les données
 
 L'aspect spatial important dans CONBAVIL nous a aussi tout de suite inspiré une approche cartographique. C'est pourquoi il fallait compléter les noms de communes, dûment ajustés aux divisions de la France actuelle par les checheur·se·s du CAC, par leur géolocalisation. Pour ce faire, nous avons tout d'abord fait une liste de toutes les communes mentionnées dans CONBAVIL. Nous avons ensuite cherché un fichier de données ouvertes qui contient la géolocalisation de toutes les communes françaises. Il a ainsi été possible de trouver de compléter la liste des communes de leur géolocalisation. Il reste certains problèmes d'encodage (la façon dont on écrit les accent) qui causent des erreurs dans l'alignement des données. Pour ce qui est des emplacements qui ne font pas partie de la France actuelle, les données comportaient le nom et le pays actuel. Nous avons utilisé un service de géolocalisation d'Open Street Map intitulé "Nominatim" pour obtenir les géolocalisations de ces lieux.
 
-Une fois cette liste des communes enrichie des géolocalisations, nous avons ajouté les géolocalisations de ces communes pour l'ensemble des mentions de communes de CONBAVIL. Nous avons cependant fait face à des difficultés majeures, causées par une absence ou une perte de structuration des données au fil des changements. En effet, de nombreuses délibérations ne concernent pas un seul emplacement, mais plusieurs. Pour documenter cela, les chercheur·se·s ont entré les différentes communes, généralement séparées par des points virgules. Cependant, comme la propriété commune est un champ distinct de celle "département" et "numéro de département", il·elle·s ont également dû entrer ces informations dans leurs champs respectifs, à nouveau séparés par des points virgules lorsqu'il y en avait plusieurs. Le problème auquel nous avons fait face est la relative fréquence des homonymies entre les communes de départements distincts. Il s'est avéré à de multiples reprises qu'il n'était pas possible de déduire informatiquement quelle commune correspondait à quel département, n'ayant pas trouvé d'ordre entre les champs et leurs entrées respectives (quelle commune correspond à quel département et numéro de département). Malgré ces difficultés, nous avons réussi à compléter la géolocalisation de 22'000 délibérations <!-- reprendres le chiffres -->. Il nous semble possible de compléter celles manquantes, toutefois, dû aux contraintes temporelles, cela n'a pas été fait pour le moment.
+Une fois cette liste des communes enrichie des géolocalisations, nous avons ajouté les géolocalisations de ces communes pour l'ensemble des mentions de communes de CONBAVIL. Nous avons cependant fait face à des difficultés majeures, causées par une absence ou une perte de structuration des données au fil des changements. En effet, de nombreuses délibérations ne concernent pas un seul emplacement, mais plusieurs. Pour documenter cela, les chercheur·se·s ont entré les différentes communes, généralement séparées par des points virgules. Cependant, comme la propriété commune est un champ distinct de celle "département" et "numéro de département", il·elle·s ont également dû entrer ces informations dans leurs champs respectifs, à nouveau séparés par des points virgules lorsqu'il y en avait plusieurs. Le problème auquel nous avons fait face est la relative fréquence des homonymies entre les communes de départements distincts. Il s'est avéré à de multiples reprises qu'il n'était pas possible de déduire informatiquement quelle commune correspondait à quel département, n'ayant pas trouvé d'ordre entre les champs et leurs entrées respectives (quelle commune correspond à quel département et numéro de département). Malgré ces difficultés, nous avons réussi à compléter la géolocalisation de 22'000 délibérations <!-- reprendres le chiffre -->. Il nous semble possible de compléter celles manquantes, toutefois, dû aux contraintes temporelles, cela n'a pas été fait pour le moment.
 
 
 
-### Vue distante du contenu ( )
+## Vue distante du contenu
 
-Qu'est-ce que le contenu de la base de données CONBAVIL? Comment comprendre une base de données dans son ensemble? Son fonctionnement qui évoque une boîte noire fait son efficacité (on ne charge pas tout) mais mystifie le contenu car on ne peut pas "le voir". <!-- cf citation Krautli plus tôt--> 
+Qu'est-ce que le contenu de la base de données CONBAVIL? Comment comprendre une base de données dans son ensemble? Son fonctionnement qui évoque une boîte noire fait son efficacité (on ne charge pas tout) mais mystifie le contenu car on ne peut pas "le voir". Avec l'exportation des données à laquelle nous avons procédé, on peut ensuite s'outiller pour produire des vues[^15] sur l'ensemble de la base de données. Nous reprenons le concept de *datascape* ou "paysage de données", qui est "à la fois outil et méthode d'analyse, de visualisation et d'exploration d'archives" (Leclerc et Girard, 2017: 45). L'idée est de produire une sorte de topographie des données de CONBAVIL. Cependant, en lieu des latitudes, longitudes, altitudes et autres éléments figurés se trouvent les données et leur propriétés. Nous avons produit deux paysages de données pour expérimenter avec le concept ainsi que pour découvrir le contenu général de CONBAVIL. 
 
-En exportant les données, on peut s'outiller pour produire des vues[^15] sur l'ensemble de la base de données. Il existe par exemple le concept de *datascapes* ou "paysage de données", qui est "à la fois outil et méthode d'analyse, de visualisation et d'exploration d'archives" (Leclerc et Girard, 2017: 45). L'idée est de produire une sorte de topographie des données. Cependant, en lieu des latitudes, longitudes, altitudes et autres éléments figurés se trouvent les données et leur propriétés. 
+### Datascape 1: occurences et valeurs distinctes de chaque propriété 
 
-Nous avons produit deux paysages de données pour expérimenter avec le concept ainsi que pour découvrir le contenu général de CONBAVIL. Le premier est un graphique très simple que l'on peut qualifier de fonctionnel [Annexe en ligne: datascape1]. C'est un histogramme, ou *bar chart*: chaque barre figure une propriété et sa hauteur est calculée par sa récurrence dans la base de données. Lorsque la propriété contient 1 élément pour chaque fiche, le résultat est de 26954. On peut prendre ce chiffre comme référence. 
-
-<!-- trouver la formulation pour dire: Cependant, c'est une somme simple, ce qui signifie que ce n'est pas "distribué" entre celles qui sont vides et celles qui contiennent plusieurs entrées [ask mom how it's called]: techniquement, il pourrait y avoir 27'000 de quelque chose qui concerne 9000 délibérations avec en moyenne 3 entrées par exemple. -->s
-
-Le système bicolore permet de distinguer les occurrences uniques (en rose) de celles multiples. Logiquement, les champs normalisés sont majoritairement en bleu tandis que les champs plein texte sont en rose. Il faut noter que le champ "id" est nécessairement rose puisque ce sont les identifiants uniques. En bleu, le champ "file" concerne les 66 registres et le champs meeting sont les 4299 séances dont les procès-verbaux ont étés conservés et dépouillés. Puisqu'il s'agit d'un moyen figurer la base de données, nous n'avons pas retiré les champs moins pertinents, comme "id" par exemple, car c'est plus un exercice de figuration (brute ou directe) que d'expression analytique.
-
-L'interactivité du graphique permet d'explorer le contenu de chaque barre en cliquant dessus. Cela affiche en dessous le nombre d'occurrences total, ainsi que les valeurs distinctes, puis une liste de ces dernières. 
+Le premier est un simple histogramme, ou *bar chart*. [Annexe en ligne: datascape1]. Chaque barre figure une propriété et sa hauteur est calculée selon sa récurrence dans la base de données. Le système bicolore permet de distinguer les occurrences uniques (en rose) de celles multiples. L'interactivité du graphique permet d'explorer le contenu de chaque barre en cliquant dessus. Cela affiche en dessous le nombre d'occurrences total, ainsi que les valeurs distinctes, puis une liste de ces dernières. 
 
 ![](/home/lenamk/Documents/atlasNumerique/Redaction/img/datascape_propriétés.png)
 
+Logiquement, les champs normalisés sont majoritairement en bleu tandis que les champs plein texte sont en rose. Dû aux grandes disparités entre les valeurs <!-- on aurait pu mettre une échelle log--->, on ne peut pas voir la partie rose, c'est-à-dire les occurrences distinctes, de certaines propriétés comme les registres (valeur: 66) ou les catégories architecturales (16). Il faut noter que le champ "id" est nécessairement rose puisque ce sont les identifiants uniques. Puisqu'il s'agit d'un moyen figurer la base de données, nous n'avons pas retiré ce champs même s'il est moins pertinent, car c'est plus un exercice de figuration (brute ou directe) que d'expression analytique.
 
+Lorsque la propriété contient 1 élément pour chaque fiche, le résultat est de 26954. C'est le cas pour la date de réunion. Il y a exactement une date par fiche, donc 26954 valeurs pour le champs date. Les valeurs distinctes nous informent que la base de données contient 4199 dates différentes. C'est une façon d'inférer que, sauf erreur [^ 7], c'est un poil moins de 4200 séances du conseil dont les procès-verbaux ont été numérisés.
 
-Le second datascape est un graphique complexe et long, plutôt conceptuel ou poétique[Annexe en ligne: datascape 2]. Il s'agit d'une trame composée des propriétés dont chaque ligne est une fiche. Ce système binaire, qui signale si la propriété est renseignée (sombre) ou non (clair), est inspiré par les matrices de l'éminent cartographe et sémiologue français, Jaques Bertin[^14]. Cela crée un motif qui évoque la texture de la dentelle ou les partitions à trous d'une boîte à musique.
+Le type de bâtiment est un exemple d'une propriété est renseignée plusieurs fois par fiche. Le nombre d'occurrence monte à 43555, ce qui donne une moyenne de 1.5. Statistiquement parlant, on pourrait penser que la moitié des fiches comportent 1 type d'édifice, et l'autre moitié 2. Cependant, nous savons que plusieurs fiches ne comportent pas de type de bâtiment car il s'agit d'affaires administratives. Nous relevons donc ici l'utilité relative de ces chiffres. L'objectif est de donner une idée, mais à eux seuls, ces chiffres ne permettent pas de tirer des conclusions. Pour arriver à une évaluation statistique plus probante, il faudrait par exemple calculer la moyenne et les écarts-types. 
 
-Nous avons augmenté la transparence des champs que nous avons créés lors du nettoyage des données car ces champs n'existent pas en tant que tel dans la base (voir chp 2.2.2). Les propriétés sont regroupées thématiquement (toponymie, rapports et avis, détails)
+ <!-- ajouter exemple des dessins? 3665, Valeurs distinctes de la propriété: 3607. Si on regroupe par affaires, encore moins.. est-ce que les côtes des dessins permettraient de regrouper les affaires??? -->
+
+S'il était évident avant de produire ce graphique que la base de données contenait les 66 premiers registres des procès-verbaux, il n'y a pas eu, à notre connaissance, d'étude "distante" du contenu de CONBAVIL. Ce type de graphique donne un contexte aux informations contenues dans la base de données. Il s'agit d'un outil utile pour situer des résultats (fiche classique, fiche hors normes etc.) dans l'ensemble des données.
+
+### Datascape 2: approche sensible d'un million d'affirmations
+
+27000 x 33 = 891'000
+
+Le second datascape est un graphique complexe et long, plutôt conceptuel ou poétique [Annexe en ligne: datascape 2]. Il s'agit d'une trame composée des propriétés dont chaque ligne est une fiche. Ce système binaire, qui signale si la propriété est renseignée (sombre) ou non (clair), est inspiré par les matrices de l'éminent cartographe et sémiologue français, Jaques Bertin[^14]. Cela crée un motif qui évoque la texture de la dentelle ou les partitions à trous d'une boîte à musique.
 
 <!-- Il faut l'imprimer pour voir l'ensemble et pouvoir parler de dimension + faire des extraits de différentes parties, pour voir si du début à la fin ça a beaucoup changé -->
 
 ![](/home/lenamk/Documents/atlasNumerique/Redaction/img/datascape.png)
 
-<!-- à terminer -->
+<!-- à terminer: volonté de l'imprimer pour de vrai, voir ce qui est possible -->
+
+Nous avons augmenté la transparence des champs que nous avons créés lors du nettoyage des données car ces champs n'existent pas en tant que tel dans la base (voir chp 2.2.2). Les propriétés sont regroupées thématiquement (toponymie, rapports et avis, détails)
 
 Le principe des matrices de Bertin: système visuel de classification, la diagonalisation, qui permet d'identifier des similarités entre des entités --> travail / interpréation visuelle, capacité "instinctive" à ranger, classifier
 
-https://aviz.fr/bertifier --> print + read + comment
-
-notion de récurrence (ce qui est souvent rempli, ce qui ne l'est pas)
-
-
-
-exploration visuelle, sensorielle, des données --> matière à manipuler
+- https://aviz.fr/bertifier --> print + read + comment
+- notion de rythme, récurrence (ce qui est souvent rempli, ce qui ne l'est pas)
+- exploration visuelle, sensorielle, des données --> matière à manipuler
 
 
 
 Les paysages de données que nous avons créés sont pensés comme une étape de travail "préliminaire". Ils ne figurent pas le contenu en soit de CONBAVIL, mais plutôt des métadonnées. La différence entre données et métadonnées est une question de contexte. Dans ce cas, les données sont le contenu de chaque fiche, comme la date, l'avis, les topographie et typologie renseignées. Les métadonnées décrivent le contenu de la base de données, mais ne le contiennent pas. Par exemple, dans notre réinterprétation des matrices de Bertin, nous avons créé une métadonnées qui indiquent si "oui" ou "non" les propriétés, telle que la date, l'avis etc., sont renseignées dans la base de données. 
-
-## Espaces et interprétation des données
-
-Nous voulons désormais créer un espace de travail pour l'exploration et l'interprétation des données de CONBAVIL. 
-
-Donner matière à la construction d'une interface avec une approche bottom-up: partir des données pour construire une interface, même si tout au long, les questions de recherche et l'approche sont informées par le sujet (chap1). 
-
-Une interface donne forme aux données, elle dicte donc notre façon d'y réfléchir et les questions qu'on voudrait y poser. Les interfaces produisent des affordances épistémologiques parce qu'elles sont le cadre au sein duquel nous posons nos questions, nos observations, nos hypothèses et nos déductions à propos de la base de données.
-
-Puisqu'il existe déjà un outil d'interrogation, nous voulons plutôt créer un instrument de recherche. Si le premier permet de chercher un contenu spécifique (heuristique) via des requêtes SQL ou l'outil d'interrogation, le second est pensé comme instrument de recherche et dispositif critique qui serait à l'origine de questionnements (herméneutique). Cela permettrait ainsi de produire de nouvelles connaissances. 
-
-Nous voulons aussi offrir un approche différente de CONBAVIL, faire des données des objets à manipuler. L
-
-=/= mise en page mais mise en scène de l'information [drucker] ; table de travail ou table de montage [Didi-huberman] " introduit le multiple, le divers, l'hybridité de tout montage"
-
-Ce dispositif exploratoire a pour source d'inspiration les questions de recherche évoquées par les chercheur·se·s, impliqués dans la création de la base, l'historiographie des recherches sur le sujet (**chap1**), le contexte historique (statistique, carto thématique, raisonnement administratif) et les moyens techniques actuels qui s'accordent avec ces préoccupations. Il sera question de la forme de ce dispositif dans le troisième chapitre. Dans cette partie, nous allons tout d'abord réfléchir aux éléments que nous souhaitons agencer dans l'interface.
-
-sources d'inspiration 
-
-- critique des données, graphesis 
-- approche quanti/statistique
-- carto - géographie de l'art
-- visualisation de données
-
-Interdisciplinarité --> cartographie & visualisation de données (sémiologie, graphisme, développement d'interface)
-
-
-
-<!-- à placer quelque part [Sinclair et al]: rich-prospect interfaces -->
-
-
-
-### Approche critique des données et des outils ( )
-
-
-
-#### Johanna Drucker: Graphesis 
-
-- data is capta
-- importance d'une lecture critique des données --> à même la visualisation/l'interface
-- créer des outils qui privilégient cette approche 
-
-Matteo Treleani, Qu'est-ce que la patrimoine numérique, chap 3: la circulation des archives
-
-- distance par rapport à l'immersion, comment visualiser l'impossibilité de percevoir le passé, et ainsi assurer qu'on garde un regard critique sur le construit présenté
-- visibilité des filtres du dispositif qui nous donne accès au passé
-
-<!-- verhoeven? =/= utiliser les données pour montrer ce qu'on sait déjà, mais propose une approche critique -->
-
-### Analyse statistique ( )
-
-Garric --> comparaisons, statistiques 
-
-explorer les possibilités d'analyses quantitatives
-
-lien avec l'histoire de la statistique, un mode de pensée "fonctionnaliste" de créer et utiliser des données émerge à l'époque
-
-c'est aussi le sens des archives = on conserve tout, on documente et note dans le détail pour pouvoir "reconstruire", retrouver, ...
-
-archives d'une administration = 
-
-- pensée d'ensemble car centralisation, 
-
-- présence de politiques sous-jacentes --> liens entre les affaires ne sont pas des hasards (coïncidences) mais bien des initiatives (corrélations) verbalisées et concrétisées, exigées par décrets ou plus "flou", tendance-priorités de l'époque
-
-<!-- est-ce que j'ai un exemple de projet intéressant pour les statistiques? -->
-
-### Cartographie ( )
-
-intérêt pour la cartographie --> pensée spatiale liée au côté topographique des données, mais aussi à une envie de percevoir les dynamiques et changements, à travers le temps et l'espace. 
-
-
-
-Afin de parvenir à un tel résultat, il nous paraît d’abord nécessaire de « déconstruire » la carte, comme nous y invite le géographe et historien de la cartographie postmoderne Brian Harley (1989a). Ce processus a pour objectif de briser le lien entre réalité et représentation dans l’interprétation et l’analyse de la pratique cartographique. Il permet ainsi de révéler de nouvelles approches de la carte et de retracer les mécanismes sociaux liés à sa production. Nous prenons ici appui sur les réflexions du philosophe et historien Jean-Marc Besse, qui propose une conception pragmatique de la carte et, par extension, de l’acte cartographique :
-
-> 1. Toute carte est en même temps une interprétation et un projet vis-à-vis du territoire auquel elle réfère, autrement dit toute carte se présente comme une version possible du territoire. 
-> 2. Toute carte est la traduction et la condition d’un pouvoir qui cherche à s’exercer socialement et culturellement, et qui s’appuie sur la carte pour s’assurer une forme d’autorité. 
-> 3. Toute carte développe sa stratégie par l’intermédiaire de la mise en œuvre d’un univers graphique au sein duquel elle construit son discours, un espace graphique qui n’est rien d’autre que la mise en forme d’un territoire de référence au sujet duquel le discours est construit. (Besse, 2006: 8)
-
-Notre approche de la cartographie a donc pour but de rendre visibles les dimensions interprétatives et graphiques de la carte en investiguant le potentiel du format numérique et interactif. Il s’agit aussi d’essayer de présenter un modèle alternatif de production du savoir en histoire de l’art en usant du caractère visuel et spatial de la carte. L’utilisation de l’interactivité, dont il sera question dans la troisième partie de cet article, nous permet de contrer certains effets d’autorité causés par l’illusion d’une objectivité scientifique et cartographique (Harley, 1989b: 82). Il demeure toutefois essentiel, tout au long de ce processus, de tenir compte des formes de pouvoir impliquées par la création de l’interface et de situer le savoir ainsi produit.
-
-Le traitement des données de Conbavil forme un espace cartographique composé de multiples épaisseurs. D’une part, il est constitué d’un territoire de référence physique, la France de la première moitié du XIXe siècle, sur lequel s’applique une politique architecturale. D’autre part, les archives administratives font partie intégrante du territoire et participent elles aussi à le construire. La cartographie fournit ainsi « une méthode pour unir dans une image le concept d’un territoire et une multitude d’informations dites empiriques livrées par la fréquentation du terrain » (Besse, 2006: 15). Aux informations « empiriques », nous substituons des données issues de sources archivistiques, lesquelles se trouvent enrichies par la géolocalisation que nous leur adjoignons. Notre processus cartographique vient ainsi réinscrire l’action du Conseil des bâtiments civils sur le territoire français et révéler son empreinte sur le pays. Au-delà de l’impact du patrimoine bâti sur le territoire, nous prenons aussi en compte les projets refusés ou inaboutis. Leur cartographie nous invite « à voir et à penser ce que l’on ne voit pas et ne pense pas quand on regarde l’espace réel » (Jacob, 1992: 50). L’imaginaire bâtisseur de l’époque se matérialise par ses archives et nous offre une autre facette de l’histoire de ce territoire. Nous cherchons ainsi à mettre en pratique la pensée de l’historien de l’art Dario Gamboni, selon qui,
-
-> [p]our comprendre l’histoire d’un lieu, il importe de connaître non seulement ce qu’il a été possible d’y réaliser, mais encore ce qu’il était impossible d’y faire pour des raisons esthétiques et culturelles, techniques, sociales ou encore politiques. (2008: 9) 
-
-L’historien Christian Jacob théorise la relation entre archives et cartographie dans son ouvrage majeur, *L’Empire des cartes* (1992). Il y présente un projet de recherche sur les prénoms mené par la *Rencontre des historiens du Limousin*[6](http://revuecaptures.org/article-dune-publication/constellations-de-données-historiques#footnote6_3hkkf7g). Dans le contexte d’un dépouillement massif d’archives, ces chercheur·se·s soulignent le potentiel épistémologique de l’usage de la cartographie pour « le quantitatif et l’étude de l’organisation spatiale des phénomènes » (Pérouas, 1984: 3). Dans le cadre d’un tel projet, la carte devient un instrument d’enquête pour l’historien·ne : elle « ne renvoie pas à une réalité visible sur le terrain — en revanche, elle permet de visualiser différemment des centaines d’archives dépouillées par les historiens » (Jacob, 1992: 32). Dans le cas du Conseil des bâtiments civils, plus de 26 000 affaires situées dans 4 200 lieux sont organisées selon une logique encore enfouie dans les sources. La cartographie de ces éléments nous permet de discerner leur organisation spatiale et de renouveler ainsi la compréhension de l’administration de l’architecture publique française au lendemain de la Révolution.
-
-
-
-#### Presner et al :temporal topographies
-
-épaisseur des cartes --> 
-
-- temporalité
-- manipulation 
-- multiplicité des perspectives
-
-
-
-### Visualisation
-
-
-
-En outre, nous élargissons cette approche cartographique pour y inclure des formes visuelles qui ne sont pas spécifiquement topographiques, notamment des diagrammes. C’est pourquoi nous préférerons employer le terme « figuration » à celui de « représentation » pour parler de l’image produite par la cartographie : « [L]a figuration est le dessin d’un objet qui ne préexiste pas à son image, alors que l’usage courant du mot représentation fait de celle-ci la reproduction d’une réalité préexistante. » (Besse, 2006: 12) Rappelant l’étymologie du mot « diagramme », Jean-Marc Besse définit la carte comme « une *eikôn* d’un genre particulier » qui « nous renvoie d’une part à un acte d’écriture (*gramma*, relation avec *graphein*) et d’autre part [à] un acte d’articulation logique (*dia*-, à la fois distinguer et relier, enchaîner ce qui est distingué) » (2006: 15). L’assemblage de ces actes de figuration, d’écriture et d’articulation logique nous permet de définir la visualisation de données comme une forme de pensée visuelle qui figure un imaginaire raisonné et construit.
-
-
-
-statut des visualisation: ne sont jamais présentées comme des fins en soi ... mais plutôt comme une matière pour l'élaboration intellectuelle ̣- mouvante et incarnée dans divers modes d'inscrption, mobilisant en même temps les nouveaux outils et des séquences de pratiques et des protocloes de travails existants. Les images produites ne sont ainsi pas uniquement conçues comme des outils d'interprétation, mais aussi de tri, de paramétrage, voire même d'enrichissement et de transformation des données (caviglia 2014)
-
-
 
 
 
@@ -253,3 +137,5 @@ statut des visualisation: ne sont jamais présentées comme des fins en soi ... 
 [^3]: 
 [^4]: C.f. la création de la grille et l'entrée des données, la partie 2.1.1 de ce mémoire
 [^6]: prévu par Emmnauel et les AN? 
+[^ 7]: Au-delà des potentielles erreurs de transcription, il pourrait y avoir des irrégularités dans la conversion du calendrier républicain par exemple.
+

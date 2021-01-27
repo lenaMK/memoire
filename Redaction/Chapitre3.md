@@ -1,5 +1,117 @@
 #  Chapitre 3
 
+## Espaces et interprétation des données 
+
+Nous voulons désormais créer un espace de travail pour l'exploration et l'interprétation des données de CONBAVIL. 
+
+Donner matière à la construction d'une interface avec une approche bottom-up: partir des données pour construire une interface, même si tout au long, les questions de recherche et l'approche sont informées par le sujet (chap1). 
+
+Une interface donne forme aux données, elle dicte donc notre façon d'y réfléchir et les questions qu'on voudrait y poser. Les interfaces produisent des affordances épistémologiques parce qu'elles sont le cadre au sein duquel nous posons nos questions, nos observations, nos hypothèses et nos déductions à propos de la base de données.
+
+Puisqu'il existe déjà un outil d'interrogation, nous voulons plutôt créer un instrument de recherche. Si le premier permet de chercher un contenu spécifique (heuristique) via des requêtes SQL ou l'outil d'interrogation, le second est pensé comme instrument de recherche et dispositif critique qui serait à l'origine de questionnements (herméneutique). Cela permettrait ainsi de produire de nouvelles connaissances. 
+
+Nous voulons aussi offrir un approche différente de CONBAVIL, faire des données des objets à manipuler. L
+
+=/= mise en page mais mise en scène de l'information [drucker] ; table de travail ou table de montage [Didi-huberman] " introduit le multiple, le divers, l'hybridité de tout montage"
+
+Ce dispositif exploratoire a pour source d'inspiration les questions de recherche évoquées par les chercheur·se·s, impliqués dans la création de la base, l'historiographie des recherches sur le sujet (**chap1**), le contexte historique (statistique, carto thématique, raisonnement administratif) et les moyens techniques actuels qui s'accordent avec ces préoccupations. Il sera question de la forme de ce dispositif dans le troisième chapitre. Dans cette partie, nous allons tout d'abord réfléchir aux éléments que nous souhaitons agencer dans l'interface.
+
+sources d'inspiration 
+
+- critique des données, graphesis 
+- approche quanti/statistique
+- carto - géographie de l'art
+- visualisation de données
+
+Interdisciplinarité --> cartographie & visualisation de données (sémiologie, graphisme, développement d'interface)
+
+
+
+<!-- à placer quelque part [Sinclair et al]: rich-prospect interfaces -->
+
+
+
+### Approche critique des données et des outils 
+
+
+
+#### Johanna Drucker: Graphesis 
+
+- data is capta
+- importance d'une lecture critique des données --> à même la visualisation/l'interface
+- créer des outils qui privilégient cette approche 
+
+Matteo Treleani, Qu'est-ce que la patrimoine numérique, chap 3: la circulation des archives
+
+- distance par rapport à l'immersion, comment visualiser l'impossibilité de percevoir le passé, et ainsi assurer qu'on garde un regard critique sur le construit présenté
+- visibilité des filtres du dispositif qui nous donne accès au passé
+
+<!-- verhoeven? =/= utiliser les données pour montrer ce qu'on sait déjà, mais propose une approche critique -->
+
+### Analyse statistique 
+
+Garric --> comparaisons, statistiques 
+
+explorer les possibilités d'analyses quantitatives
+
+lien avec l'histoire de la statistique, un mode de pensée "fonctionnaliste" de créer et utiliser des données émerge à l'époque
+
+c'est aussi le sens des archives = on conserve tout, on documente et note dans le détail pour pouvoir "reconstruire", retrouver, ...
+
+archives d'une administration = 
+
+- pensée d'ensemble car centralisation, 
+
+- présence de politiques sous-jacentes --> liens entre les affaires ne sont pas des hasards (coïncidences) mais bien des initiatives (corrélations) verbalisées et concrétisées, exigées par décrets ou plus "flou", tendance-priorités de l'époque
+
+<!-- est-ce que j'ai un exemple de projet intéressant pour les statistiques? -->
+
+### Cartographie 
+
+intérêt pour la cartographie --> pensée spatiale liée au côté topographique des données, mais aussi à une envie de percevoir les dynamiques et changements, à travers le temps et l'espace. 
+
+
+
+Afin de parvenir à un tel résultat, il nous paraît d’abord nécessaire de « déconstruire » la carte, comme nous y invite le géographe et historien de la cartographie postmoderne Brian Harley (1989a). Ce processus a pour objectif de briser le lien entre réalité et représentation dans l’interprétation et l’analyse de la pratique cartographique. Il permet ainsi de révéler de nouvelles approches de la carte et de retracer les mécanismes sociaux liés à sa production. Nous prenons ici appui sur les réflexions du philosophe et historien Jean-Marc Besse, qui propose une conception pragmatique de la carte et, par extension, de l’acte cartographique :
+
+> 1. Toute carte est en même temps une interprétation et un projet vis-à-vis du territoire auquel elle réfère, autrement dit toute carte se présente comme une version possible du territoire. 
+> 2. Toute carte est la traduction et la condition d’un pouvoir qui cherche à s’exercer socialement et culturellement, et qui s’appuie sur la carte pour s’assurer une forme d’autorité. 
+> 3. Toute carte développe sa stratégie par l’intermédiaire de la mise en œuvre d’un univers graphique au sein duquel elle construit son discours, un espace graphique qui n’est rien d’autre que la mise en forme d’un territoire de référence au sujet duquel le discours est construit. (Besse, 2006: 8)
+
+Notre approche de la cartographie a donc pour but de rendre visibles les dimensions interprétatives et graphiques de la carte en investiguant le potentiel du format numérique et interactif. Il s’agit aussi d’essayer de présenter un modèle alternatif de production du savoir en histoire de l’art en usant du caractère visuel et spatial de la carte. L’utilisation de l’interactivité, dont il sera question dans la troisième partie de cet article, nous permet de contrer certains effets d’autorité causés par l’illusion d’une objectivité scientifique et cartographique (Harley, 1989b: 82). Il demeure toutefois essentiel, tout au long de ce processus, de tenir compte des formes de pouvoir impliquées par la création de l’interface et de situer le savoir ainsi produit.
+
+Le traitement des données de Conbavil forme un espace cartographique composé de multiples épaisseurs. D’une part, il est constitué d’un territoire de référence physique, la France de la première moitié du XIXe siècle, sur lequel s’applique une politique architecturale. D’autre part, les archives administratives font partie intégrante du territoire et participent elles aussi à le construire. La cartographie fournit ainsi « une méthode pour unir dans une image le concept d’un territoire et une multitude d’informations dites empiriques livrées par la fréquentation du terrain » (Besse, 2006: 15). Aux informations « empiriques », nous substituons des données issues de sources archivistiques, lesquelles se trouvent enrichies par la géolocalisation que nous leur adjoignons. Notre processus cartographique vient ainsi réinscrire l’action du Conseil des bâtiments civils sur le territoire français et révéler son empreinte sur le pays. Au-delà de l’impact du patrimoine bâti sur le territoire, nous prenons aussi en compte les projets refusés ou inaboutis. Leur cartographie nous invite « à voir et à penser ce que l’on ne voit pas et ne pense pas quand on regarde l’espace réel » (Jacob, 1992: 50). L’imaginaire bâtisseur de l’époque se matérialise par ses archives et nous offre une autre facette de l’histoire de ce territoire. Nous cherchons ainsi à mettre en pratique la pensée de l’historien de l’art Dario Gamboni, selon qui,
+
+> [p]our comprendre l’histoire d’un lieu, il importe de connaître non seulement ce qu’il a été possible d’y réaliser, mais encore ce qu’il était impossible d’y faire pour des raisons esthétiques et culturelles, techniques, sociales ou encore politiques. (2008: 9) 
+
+L’historien Christian Jacob théorise la relation entre archives et cartographie dans son ouvrage majeur, *L’Empire des cartes* (1992). Il y présente un projet de recherche sur les prénoms mené par la *Rencontre des historiens du Limousin*[6](http://revuecaptures.org/article-dune-publication/constellations-de-données-historiques#footnote6_3hkkf7g). Dans le contexte d’un dépouillement massif d’archives, ces chercheur·se·s soulignent le potentiel épistémologique de l’usage de la cartographie pour « le quantitatif et l’étude de l’organisation spatiale des phénomènes » (Pérouas, 1984: 3). Dans le cadre d’un tel projet, la carte devient un instrument d’enquête pour l’historien·ne : elle « ne renvoie pas à une réalité visible sur le terrain — en revanche, elle permet de visualiser différemment des centaines d’archives dépouillées par les historiens » (Jacob, 1992: 32). Dans le cas du Conseil des bâtiments civils, plus de 26 000 affaires situées dans 4 200 lieux sont organisées selon une logique encore enfouie dans les sources. La cartographie de ces éléments nous permet de discerner leur organisation spatiale et de renouveler ainsi la compréhension de l’administration de l’architecture publique française au lendemain de la Révolution.
+
+
+
+#### Presner et al :temporal topographies
+
+épaisseur des cartes --> 
+
+- temporalité
+- manipulation 
+- multiplicité des perspectives
+
+
+
+### Visualisation
+
+
+
+En outre, nous élargissons cette approche cartographique pour y inclure des formes visuelles qui ne sont pas spécifiquement topographiques, notamment des diagrammes. C’est pourquoi nous préférerons employer le terme « figuration » à celui de « représentation » pour parler de l’image produite par la cartographie : « [L]a figuration est le dessin d’un objet qui ne préexiste pas à son image, alors que l’usage courant du mot représentation fait de celle-ci la reproduction d’une réalité préexistante. » (Besse, 2006: 12) Rappelant l’étymologie du mot « diagramme », Jean-Marc Besse définit la carte comme « une *eikôn* d’un genre particulier » qui « nous renvoie d’une part à un acte d’écriture (*gramma*, relation avec *graphein*) et d’autre part [à] un acte d’articulation logique (*dia*-, à la fois distinguer et relier, enchaîner ce qui est distingué) » (2006: 15). L’assemblage de ces actes de figuration, d’écriture et d’articulation logique nous permet de définir la visualisation de données comme une forme de pensée visuelle qui figure un imaginaire raisonné et construit.
+
+
+
+statut des visualisation: ne sont jamais présentées comme des fins en soi ... mais plutôt comme une matière pour l'élaboration intellectuelle ̣- mouvante et incarnée dans divers modes d'inscrption, mobilisant en même temps les nouveaux outils et des séquences de pratiques et des protocloes de travails existants. Les images produites ne sont ainsi pas uniquement conçues comme des outils d'interprétation, mais aussi de tri, de paramétrage, voire même d'enrichissement et de transformation des données (caviglia 2014)
+
+
+
+
+
 ## Pratiques de visualisation et de cartographie
 
 L’exploitation des données de Conbavil que nous proposons prend diverses formes diagrammatiques : cartographie, mais aussi chronologie et typologie. Ces formes visuelles sont réexaminées à travers l’utilisation d’un nouveau format de production : la visualisation interactive. Grâce aux technologies du web 2.0 et particulièrement à la bibliothèque JavaScript D3.js, les données sont converties en graphiques directement dans le navigateur. Ces *data-driven visualizations* sont programmées pour s’animer sous l’action de l’utilisateur, qui peut ainsi sélectionner les données à afficher ou régler le niveau de détail lors de sa consultation (Bostock, 2019a). Dès lors, chaque visualisation devient une proposition, une vue sur les données. La perspective change selon la caractéristique mise de l’avant par le graphique : la géolocalisation pour la carte, la date de discussion de l’affaire pour la chronologie et le type architectural pour la classification hiérarchique rayonnante.
@@ -40,7 +152,7 @@ Notre soleil interactif Conbavil présente donc le contenu de la base de donnée
 
 La carte comme le soleil sont des graphiques cumulatifs, ce qui signifie que certaines délibérations y figurent plusieurs fois si elles sont associées à plusieurs lieux ou types architecturaux. Cette décision provient, entre autres, d’une incertitude dans les données, qui ne signalent pas de hiérarchie en cas d’attribution multiple. Il faut également garder à l’esprit que la carte, par exemple, ne représente pas le phénomène bâtisseur, mais reflète plutôt les délibérations du Conseil. La taille des points dépend donc du nombre de mentions lors des séances et non de la quantité de chantiers ouverts. Les graphiques créés sont exploratoires, ils ont pour but de mener à la découverte du contenu des archives. C’est pourquoi il nous a semblé pertinent d’offrir le plus grand nombre de points d’entrée possibles dans les données.
 
-## L'atlas
+## Editorialisation : atlas
 
 ### Théorie ( )
 
@@ -78,7 +190,7 @@ Lena Krause, *Modélisation de l’atlas* (2019) , Produite comme prototype dans
 
 La création d’une nouvelle interface pour la base de données Conbavil sous la forme d’un atlas peut être comprise comme un acte d’éditorialisation[14](http://revuecaptures.org/article-dune-publication/constellations-de-données-historiques#footnote14_psr6wnd). Il s’agit d’une démarche processuelle, expérimentale et surtout multiple (Vitali-Rosati, 2016: 68). La visualisation et la cartographie ont considérablement évolué avec l’apparition des logiciels et outils informatiques. D’après les historiennes Claire Lemercier et Claire Zalc, « il n’est plus question de publier chaque tableau ou graphique péniblement obtenu, mais plutôt de les utiliser pour avancer dans une recherche, quitte à n’en montrer au lecteur final que quelques-uns » (2008: n.p.). Comparativement aux grandes équipes de chercheur·se·s, ingénieur·e·s, informaticien·ne·s, cartographes et perforateur·rice·s de cartes, indispensables aux grandes enquêtes collectives menées dans les années 70, il est de nos jours possible de réduire le personnel, le temps, les connaissances et les coûts nécessaires à la création de cartes (Lemercier, 2008)[15](http://revuecaptures.org/article-dune-publication/constellations-de-données-historiques#footnote15_7tulxje). Cela favorise particulièrement l’expérimentation, tant avec les formes et les variables graphiques qu’avec les calculs et les statistiques privilégiés pour la cartographie thématique. Aussi, les nombreuses itérations possibles au cours du processus de production nous invitent à repenser chaque élément jusqu’à ce qu’il convienne aux besoins du projet.
 
-## Editorialisation ( )
+### Editorialisation ( )
 
 - Editorialisation et enjeux
 - Instrument de recherche 
