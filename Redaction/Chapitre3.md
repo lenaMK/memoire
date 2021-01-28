@@ -1,6 +1,6 @@
 #  Chapitre 3
 
-## Espaces et interprétation des données 
+## 3.1 Espaces et interprétation des données 
 
 Nous voulons désormais créer un espace de travail pour l'exploration et l'interprétation des données de CONBAVIL. 
 

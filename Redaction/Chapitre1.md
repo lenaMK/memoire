@@ -47,6 +47,8 @@ Ces référentiels lui permettent d'analyser la situation et d'agir face à la r
 
 ## Formes de savoir et de pouvoir au début du XIXème siècle
 
+Gouverner par les nombres
+
 ### Pensée cartographique
 
 La fin du XVIIIème et le début du XIXème sont marqués par l’émergence d’une pensée cartographique (Lepetit 1988: 122). La carte permet une représentation du territoire national mais elle occupe également une fonction cognitive, au niveau d’actes administratifs par exemple. Dès le départ, elle a eu un rôle décisif dans la détermination des limites départementales. Elle a servi non seulement à représenter le territoire à diviser, mais elle était également le support d'arguments ... <!-- citation sur l'utilisation des cartes dans l'argumentaire -->
