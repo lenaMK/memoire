@@ -4,15 +4,21 @@ Ceci est une page web pour faciliter la relecture de mon mémoire de maîtrise, 
 
 Actuellement en cours de rédaction, je mets en ligne des parties prêtes à la relectures. Ceci est un travail en cours, le contenu va donc évoluer régulièrement. Par exemple, les titres sont tous temporaires. Commentaires et suggestions bienvenus, soit à même la page via [hypothesis](https://web.hypothes.is/#features), soit par courriel: lena.krause@umontreal.ca
 
-Dernière date de modification: 4 décembre 2020.
+Dernière date de modification: 10 décembre 2020.
 
 ___
 
+
+
 ## Plan du mémoire
+
+
 
 ### Introduction
 
 -  [Début de l'introduction](./Redaction/Introduction_public.md): présentation du sujet, cas d'étude et ébauche de la problématique
+
+
 
 ### Chapitre 1: Administration et architecture publique en France au XIXe siècle
 
@@ -31,16 +37,18 @@ Le chapitre 1 est un chantier en cours ([Ébauche de structure](.Redaction/Chapi
 
 Nous prévoyons une sorte d'interlude entre les deux premiers chapitres car la transition semble (à priori) un peu rude
 
-### Chapitre 2 CONBAVIL et ses données
+
+
+### Chapitre 2: CONBAVIL et ses données
 
 *Introduction* (à venir): présentation du contexte, introduction à l'histoire et aux méthodes quantitatives
 
 - [2.1 Créer une base de données](./Redaction/Chapitre2-p1.md)
 - [2.2 Utiliser une base de données](./Redaction/Chapitre2-p2.md)
-- [2.3 Nouvelle interface, nouvelles utilisations](./Redaction/Chapitre2-p2.md)
-  - problèmes: Datascape (mise en ligne ) + datascape 2
 
-### Chapitre 3 Atlas
+
+
+### Chapitre 3: Atlas
 
 - 3.1 Espaces et interprétation des données 
 

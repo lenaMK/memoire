@@ -36,11 +36,13 @@ La situation pourrait encore devenir tout autre si l'on enrichit la base de donn
 
 ### L'utilisation de sources numériques pour la production de connaissance en histoire de l'art
 
+
 Jacques Thuillier, dans son article sur l'histoire de l'art et l'informatique en 1992, sermonne notre discipline de n'avoir su être un précurseur dans l'adaptation des innovations techniques à ses besoins et intérêts [^2]: "Un quart de siècle d'informatique n'a rien changé aux habitudes de l'histoire de l'art, tant internationale que française" (5). De la *Bibliographie d'histoire de l'art*, "seule réussite [...] évidente" relevée par Thuillier en 1992 à aujourd'hui, la création et l'utilisation de sources numériques ne cesse d'augmenter, de se diversifier et d'être encouragée (Joyeux-Prunel: ?). Malgré un côté encore marginal à ces approches, on peut constater des modifications et des évolutions importantes dans les formes d'accès aux archives et dans la production du savoir. 
 
 Faire une historiographie complète des projets de recherche innovants dans la production d'interfaces de recherche dépasse les limites de ce mémoire. L'affluence de projets et leur diversité pose la question s'ils peuvent être recensés de manière systématique à l'internationale. Notons qu'il existe déjà certains recensements très riches dont le travail de Johanna Drucker dans *Graphesis* (2013?). Afin de citer ceux particulièrement pertinents dans le cas de ce mémoire, nous les citons à titre d'exemples au long de ce chapitre. Ces cas situent notre travail tout comme ils se trouvent parfois à la source de notre inspiration pour la création de notre interface. 
 
 Un cas actuel et exemplaire d'utilisation d'archives numériques concerne les archives d'une organisation, *Experiments in Arts and Technology* (E.A.T), créée en 1966 par les artistes Robert Rauschenberg et Robert Whitman et les ingénieurs Billy Klüver et Fred Waldhauer (Leclercq 2016: 46). Une équipe interdisciplinaire, au croisement de l'histoire de l'art sociale, du design et des humanités numériques, s'est penchée sur les archives E.A.T.. Les chercheurs du médialab ont commencé par identifier et interpréter des informations contenues dans les archives pour former un ensemble de données structurées. Après ce processus d'extraction [manuelle et humaine] des données, l'objectif a été de d'équiper les historien·ne·s d'un instrument de recherche pour les explorer (Leclerq et Girard, 2013: 6). 
+
 
 Le résultat obtenu prend la forme d'un *datascape*, "à la fois outil et méthode d'analyse, de visualisation et d'exploration d'archives" (Leclercq, 2016: 45). L'interface interactive, disponible [en ligne](http://eat_datascape.medialab.sciences-po.fr/), offre la possibilité d'explorer les données sous plusieurs perspectives. Elle permet de "visualiser et [de] penser ensemble, et non comme séparés, processus et résultat, pour rendre compte de la complexité d'une réalisation à la vie particulièrement longue" (Leclercq, 2016: 50). Le *datascape* du projet E.A.T., tout comme celui produit pour étudier *Les transformations de l’économie française par le prisme du commerce international, 1716-1821* (TOFLIT18) (Loïc Charles, Guillaume Daudin, Guillaume Plique et Paul Girard, site web TOFLIT18. Consulté le 14 janvier 2021 http://toflit18.medialab.sciences-po.fr), démontrent avec aisance l'apport d'un tel instrument à la production de connaissance.
 
@@ -51,6 +53,7 @@ Le résultat obtenu prend la forme d'un *datascape*, "à la fois outil et métho
 > "How can our new abilities to store vast amounts of data, to automatically classify, index, link, search and instantly retrieve it lead to new kinds of narratives" (Manovich 1999: ?)
 
 Quels moyens existe-t-il employer pour bâtir un *narrative* ou écrire l'histoire avec les données? Face à ce nouvel enjeu, il est nécessaire d'innover dans nos façon de penser et de produire des connaissances. Un défi particulier se situe dans l'interdisciplinarité de cette question. Si l'épistémologie appartient aux chercheur·se·s, les outils informatiques reviennent souvent à des "ingénieurs". Cette division des rôles et des tâches freine voire empêche l'innovation. Johanna Drucker argumente que "le design d'outil numériques pour la recherche est une responsabilité intellectuelle et non une tâche technique" (Drucker 2009: B6). Cela requiert soit une proche collaboration, soit une double formation, afin de saisir les enjeux de recherche tout en choisissant et en adaptant les technologies appropriées pour y répondre. En les considérant "dans toute leur épaisseur symbolique, psychologique et méthodologique" (Caviglia 2014 *Design and the digital humanities @Séminaire "les fabriques cartographiques contemporaires"*), on peut alors parvenir à produire de nouveaux outils et de nouvelles connaissances. 
+
 
 La création d'interface et l'interactivité transforme des données numériques en une "matière digitale" que les chercheur·se·s peuvent manipuler (Caviglia 2014). En fait, lors du travail avec une base de données, une première étape importante est la familiarisation avec le contenu. 
 
@@ -126,7 +129,7 @@ Les paysages de données que nous avons créés sont pensés comme une étape de
 
 
 
-
+[à terminer + conclusion]
 
 
 
