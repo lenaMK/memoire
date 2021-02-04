@@ -12,17 +12,13 @@
 
 contexte de production, politique et construction de l'autorité (Desrosières, Soupiot, Chaptal)
 
-l'administration comme une "opération d'objectivation [...] qui remplace des objets et le monde par des référentiels" (Sabatier)
 
-"À cette époque, le gouvernement, usa et abusa d’expédients pour se maintenir au pouvoir. **L’administration fut mise au service du politique pour lui assurer des élections conformes à ses attentes** [Cette fusion entre administration et gouvernement est dénoncée en creux par Tocqueville dans La Démocratie en Amérique. Cf.« La réélection des députés promus à des fonctions publiques (1828-1831) », in La France au XIXè siècle, Études historiques, Études (Paris : Publications de la Sorbonne, 1973, pp. 227-244).] Politique et administratif sont ainsi liés de manière indissoluble pendant cette période. "  (Château-Dutier 2016: T1, 257)
-
-besoin de connaître la nation pour l'administrer (Desrosières 2008: 28)
 
 #### Prise de décision - rationalisation
 
-"La centralisation découle de la nécessité de maintenir l'unité de l'action publique" (Moullier 2004: 77)
 
-"Montalivet entendait cependant donner à son action des bases rationnelles et uniformes. Il fallait, tout en ayant une action impulsive, combiner celle-ci avec une marche réglée des affaires, faire fonctionner l'administration nouvelle comme si elle existait déjà de toute éternité." ([Moullier 2004:77](zotero://open-pdf/library/items/45VTP5XT?page=77))
+
+
 
 "la rationalisation des lois et de l'action publique était au fondement de la légitimité du gouvernement napoléonien. Le ministère de l'intérieur devait donc se doter d'une méthode de fonctionnement qui permette à la fois la surveillance de la bonne exécution des lois et sa rationalisation." ([Moullier 2004:77](zotero://open-pdf/library/items/45VTP5XT?page=77))
 
