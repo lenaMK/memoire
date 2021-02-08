@@ -4,7 +4,7 @@ Afin de travailler sur la base de données CONBAVIL, nous devons commencer par �
 
 <!--Finalement, nous chercherons à identifier un modèle, ou une copie théorique, qui servira de se source d'inspiration pour notre nouvelle interface pour CONBAVIL.-->
 
-## Administration en France au lendemain de la Révolution
+## L'administration en France au lendemain de la Révolution
 
 La notion de bien public prend son importance en France au lendemain de la Révolution française. L'abolition des privilèges tout comme de l'esclavage place les citoyens sur un relatif pied d'égalité [^22] . C'est l'émergence de tout un raisonnement rationnel où l'État-nation a pour rôle de fournir des biens et des services pour tous. Nous allons étudier l'instauration et l'institutionnalisation de ce paradigme issu des grandes idées des Lumières. Nous verrons ses débuts suivant la Révolution de 1789 et nous le détaillerons dans le cadre spécifique de l'architecture publique.
 
@@ -19,85 +19,71 @@ La France est régie par une administration centralisée à partir de 1660. Elle
 <img src="/home/lenamk/Documents/atlasNumerique/Redaction/img/CarteDeFrance_1754.jpeg" alt="Fig.1" style="zoom: 33%;" />
 Fig.1, _Carte de France divisée en ses XXXI gouvernements militaires et en ses provinces, dressée sur les meilleures cartes qui ont parues jusqu'à présent et sur la carte des triangles en XVIII petites feuilles, levée géométriquement par ordre du Roi, et mise au jour par Mr. Cassini de Thury, ... Dédiée et présentée à Mons. le comte de St. Florentin..._ 1754, Roch-Joseph Julien (cartographe), César-François Cassini de Thury (cartographe du modèle), H. Boyet (graveur), Bibliothèque nationale de France: https://catalogue.bnf.fr/ark:/12148/cb40653848g
 
-Dès le 7 septembre 1789, l'Assemblée nationale nomme un comité chargé de la division du territoire en départements. L'objectif est que "la France puisse former un seul tout, soumis uniformément, dans toutes ses parties, à une législation ou une administration commune" (Sieyès cité par @lepetitEchelleFrance1990 : 433). Le projet de découpage en 81 "carrés uniformes" conçu par le géographe Robert de Hessln est énoncé, mais il doit être adapté aux conditions locales du territoire (@lepetitEchelleFrance1990 : 433). Ce processus de découpage offre une nouvelle prise sur le territoire. Sa logique rationnelle et spatiale influera non seulement sur le fonctionnement de l'administration mais également sur la perception du territoire (@lepetitEchelleFrance1990 : 437). La volonté de rationalisation géométrique et démographique, issue d'un savoir cartographique et statistique, remplace les privilèges de la noblesse. 
+Dès le 7 septembre 1789, l'Assemblée nationale nomme un comité chargé de la division du territoire en départements. L'objectif est que "la France puisse former un seul tout, soumis uniformément, dans toutes ses parties, à une législation ou une administration commune" (Sieyès cité par @lepetitEchelleFrance1990 : 433). Le projet de découpage en 81 "carrés uniformes" conçu par le géographe Robert de Hessln est énoncé, mais il doit être adapté aux conditions locales du territoire (@lepetitEchelleFrance1990 : 433). Ce processus de découpage offre une nouvelle prise sur le territoire.  Il s'agit de remplacer les privilèges de la noblesse par une rationalisation géométrique et démographique. Cette logique rationnelle et spatiale aura une influence non seulement sur le fonctionnement de l'administration mais également sur la perception du territoire français (@lepetitEchelleFrance1990 : 437).
 
+Dans la mise en place du système administratif comme dans les actions ministérielles, on distingue une réelle volonté de se distinguer de l'Ancien Régime tout en construisant une unité nationale([Chateau-Dutier 2016:40](zotero://open-pdf/library/items/ZTRDV8HS?page=40)). Outre l'exemple de la division en départements, cela concerne l'unification des poids et des mesures via le système métrique, la généralisation de la langue française et l'universalisation des droits de l'homme. Ces mesures instituent une réalité nationale dans le but "d'assurer la justice des relations entre hommes et garantir la justesse des étalonnages des choses", tout en "donn[ant] une conscience objective à des choses qui, sans [ces codages administratifs et juridiques], ne pourraient pas être comptées"(@desrosieresArgumentStatistique2008 : 2, 43). 
 
+### Une administration centralisée
 
+Cette structuration et unification du territoire va de pair avec une centralisation des pouvoirs. « On ne peut plus maintenir la séparation qui ralentit l’action au profit de la justice, empêche l’efficacité au profit de la liberté. » ( Jacques Ellul, Histoire des institutions (Paris : Presses universitaires de France, 1999), p. 91. dans Chateau-Dutier 2016: T1, 42). L'administration nouvelle doit prendre sa place rapidement et s'assurer de maintenir une unité dans ses actions. Elle utilise des arguments rationnels et se justifie en laissant entendre qu'il ne s'agit plus de "mettre en place quelque chose de nouveau", mais simplement d'abolir les privilèges et les différences ([Moullier 2004:77](zotero://open-pdf/library/items/45VTP5XT?page=77)). Les décisions misent en place apparaissent ainsi comme intemporelles et irréfutables sur le plan intellectuel.
 
+C'est ainsi qu'on instaure le système administratif centralisé et hiérarchique que nous connaissons aujourd'hui. Au sommet de la pyramide, Paris et les Ministères. Puis viennent les nouvelles unités géographiques et administratives: les départements, les préfectures et les sous-préfectures. À plus petite échelle, nous retrouvons les communes et les chef-lieux. Cette structure pyramidale du pouvoir permet d'instaurer une "discipline nationale et une administration simple, solide et facile à gouverner"(@foucaultSurveillerPunirNaissance1975 : 171<!-- page à vérifier -->). Du haut de la pyramide, le pouvoir se propage et descend les échelons administratifs pour avoir un impact sur chaque lopin de terre et chaque individu qui s'y trouve. 
 
+Ce schéma ne saurait fonctionner sans une "véritable philosophie de l'action administrative, un appel à chaque employé pour qu'il saisisse ce qu'était l'esprit de l'administration rationnelle d'un grand empire et s'y conforme dans son travail" (Moullier 2004:79). Au-delà de cet idéal, l'assise du pouvoir était contrôlée par une surveillance réciproque entre chacun des échelons ([Chateau-Dutier 2016:123](zotero://open-pdf/library/items/ZTRDV8HS?page=123)). 
 
+Le Ministère de l'Intérieur avait pour rôle particulier de coordonner l'articulation entre l'Assemblée et le pays réel, avec l'assistance de la Police qui, elle, avait pour mandat la sûreté de l'État ([Chateau-Dutier 2016: T1, 63](zotero://open-pdf/library/items/ZTRDV8HS?page=63)). Il se munissait également d'organismes consultatifs. Ces commissions spécialisées "lui permett[ent] d'acquérir un savoir spécialisé dont elle était dépourvue" (Château-Dutier 2016: T1, 197).
 
-### Système d'administration centralisée
+> "La centralisation [...]allait de pair avec la consultation. Cette dernière n'était pas seulement un geste symbolique ou une opération de légitimation du nouveau pouvoir: l'administration centrale avait besoin, pour fonctionner, d'une part de sources d'information fiables, d'autre part de relais de son action" (Moullier ??)
 
-Cette structuration du territoire facilite la mise en place d'un système administratif centralisé et hiérarchique. Au sommet de la pyramide, Paris et les Ministères. Puis viennent les départements, les préfectures et les sous-préfectures. À plus petite échelle, nous retrouvons les communes et les chef-lieux. Cette structure pyramidale du pouvoir permet d'instaurer une "discipline nationale et une administration simple, solide et facile à gouverner"(@foucaultSurveillerPunirNaissance1975 : 171) <!-- à vérifier -->. 
+### Opération d'objectivation de la réalité - rapport au territoire et à la population? = Miroir du prince
 
-Le Ministère de l'Intérieur avait pour rôle particulier de coordonner l'articulation entre l'Assemblée et le pays réel, avec l'assistance de la Police qui, elle, avait pour mandat la sûreté de l'État ([Chateau-Dutier 2016: T1, 63](zotero://open-pdf/library/items/ZTRDV8HS?page=63)). 
+centralisation + consultation: toujours loin de la réalité (littéralement à Paris). 
 
-Cette coordination nécessite une emprise à toutes les échelles du territoire. L'assise du pouvoir était contrôlée par le système administratif pyramidal au sein duquel était instaurée une surveillance réciproque entre chacun des échelons([Chateau-Dutier 2016:123](zotero://open-pdf/library/items/ZTRDV8HS?page=123)). 
+La structure hiérarchique comme rapport au territoire n'est pas bien différente de l'Ancien régime. Ainsi, la stratégie pour connaître le territoire s'enligne dans /poursuit/est dans la continuité de la tradition médiévale du miroir du prince. 
 
-On instaure une "véritable philosophie de l'action administrative, un appel à chaque employé pour qu'il saisisse ce qu'était l'esprit de l'administration rationnelle d'un grand empire et s'y conforme dans son travail" ([Moullier 2004:79](zotero://open-pdf/library/items/45VTP5XT?page=79)). 
+tableau général et descriptif réservé au Roi = puissance du roi, effet de sa grandeur et de son royaume+  limites de son action) (Soupiot : 131)
 
+- miroir - reflet illusion de la réalité
+- Vue du ciel / dieu
+- réalisme photographique, suppose transparence et évidence 
 
+langage et outils qui suppriment le travail de construction pour "déformer la réalité jusqu'à la faire entrer sur une feuille de papier" 
 
+*instruments of vision* "power to see and not to be seen", "conquering gaze from nowhere" (Haraway 581)
 
-
-C'est avec une réelle volonté de se distinguer de l'Ancien Régime que l'administration accompagne la centralisation du de rationalisation de l'action ministérielle ([Chateau-Dutier 2016:40](zotero://open-pdf/library/items/ZTRDV8HS?page=40)). La rationalité d'une décision se défini par la "capacité à prendre appui sur des choses dotées de sens stable" (Desrosières 2008: 11?) . Il faut donc définir, inscrire et surtout construire des équivalences, afin de rendre les choses comparables. Outre la division en départements que nous avons déjà mentionnée, il s'agit notamment de l'unification des poids et des mesures via le système métrique, la généralisation de la langue française et l'universalisation des droits de l'homme. Ces mesures instituent une réalité nationale dans le but "d'assurer la justice des relations entre hommes et garantir la justesse des étalonnages des choses", tout en "donn[ant] une conscience objective à des choses qui, sans [ces codages administratifs et juridiques], ne pourraient pas être comptées"(@desrosieresArgumentStatistique2008 : 2, 43). 
-
-
-
-Le gouvernement était dit révolutionnaire parce qu’il agissait en dehors des principes constitutionnels et de la Déclaration des droits qui étaient suspendus. « Pour agir avec rapidité, le gouvernement révolutionnaire doit être centralisé. Et ceci suppose l’unité des pouvoirs : on ne peut plus maintenir la séparation qui ralentit l’action au profit de la justice, empêche l’efficacité au profit de la liberté. »(  Jacques Ellul, Histoire des institutions (Paris : Presses universitaires de France, 1999), p. 91. dans [Chateau-Dutier 2016: T1, 42](zotero://open-pdf/library/items/ZTRDV8HS?page=42))
-
-Pour institutionnaliser le pouvoir, son administration devait, "tout en ayant une action impulsive, combiner celle-ci avec une marche réglée des affaires, faire fonctionner l'administration nouvelle comme si elle existait déjà de toute éternité." ([Moullier 2004:77](zotero://open-pdf/library/items/45VTP5XT?page=77)). 
-
-"La centralisation découle de la nécessité de maintenir l'unité de l'action publique" (Moullier 2004: 77)
-
-"la rationalisation des lois et de l'action publique était au fondement de la légitimité du gouvernement napoléonien. Le ministère de l'intérieur devait donc se doter d'une méthode de fonctionnement qui permette à la fois la surveillance de la bonne exécution des lois et sa rationalisation." ([Moullier 2004:77](zotero://open-pdf/library/items/45VTP5XT?page=77))
-
-"La surveillance exercée au jour le jour n'était rien sans une mémoire qui permette de la constituer en savoir." ([Moullier 2004:78](zotero://open-pdf/library/items/45VTP5XT?page=78)) Les documents qui arrivent au Ministère doivent être gérés, comptabilisés et classés afin qu'ils soient faciles à retrouver au besoin ([Moullier 2004:80](zotero://open-pdf/library/items/45VTP5XT?page=80)). 
-
-
-
-### Opération d'objectivation de la réalité - rapport au territoire et à la population? 
-
-
-
-L'administration centrale est en quelque sorte aveugle <!-- isn't its own eyes and ears-->, elle ne voit pas le territoire ni la population, ni l'effet qu'elle peut avoir sur eux. Elle ne peut le percevoir qu'à travers des instruments du savoir, tel que la carte et la statistique
-
-besoin de connaître la nation pour l'administrer (Desrosières 2008: 28)
-
-
-
-De ce fait, on peut définir l'administration comme une "opération d'objectivation [...] qui remplace des objets et le monde par des référentiels" (Sabatier ?). 
+On peut alors définir l'administration comme une "opération d'objectivation [...] qui remplace des objets et le monde par des référentiels" (Sabatier ?). 
 
 Ces référentiels lui permettent d'analyser la situation et d'agir face à la responsabilité qu'elle se donne, c'est-à-dire le "devoir de prévoir, nécessité d'évaluer, obligation de la programmation et du contrôle" (Fortier 1978: 88)
 
+Documentation de la construction/déconstruction , de l'opération d'objectivation:
+
+- **spécificité de la construction de l'Etat, à laquelle la statistique et la cartographie sont associées**
+- _autorité/légitimité_ des deux institutions distinctes = Etat + Science
+- état administratif : informations fondées sur _récapitulation d'actes administratifs = comptabilité des activité_
+-  `Derosières 2008b: 110`
+
+
+
+> "La rationalisation des lois et de l'action publique était au fondement de la légitimité du gouvernement napoléonien. Le ministère de l'intérieur devait donc se doter d'une méthode de fonctionnement qui permette à la fois la surveillance de la bonne exécution des lois et sa rationalisation." ([Moullier 2004:77](zotero://open-pdf/library/items/45VTP5XT?page=77))
+
+Comment assurer "la surveillance et la bonne exécution" alors que l'administration centrale est en quelque sorte aveugle? Du haut de la pyramide, elle ne voit ni territoire, ni la population, ni l'effet qu'elle peut avoir sur eux. Il est toutefois nécessaire de connaître la nation pour l'administrer (Desrosières 2008: 28). 
+
+
+
+#### les outils "moderne" de l'Etat-Nation = 1.2
+
+Elle doit donc s'outiller pour rassembler des renseignements sur les sujets et les objets qu'elle veut contrôler (Moullier 2004:78).  --> 
+
+instruments de mesure ou des "instruments de vision" (Harroway <!--? à voir-->), tels que la carte et la statistique pour représenter la nation à partir d'un savoir inductif (Moullier 2004:78)
+
+
+
+- moyen technique:  fiabilité (technique et sociale) =/= réalité
+- science, technologie: confiance acquise, qualité d' 'information', mot qui **suppose transparence et évidence, supprime et oublie le travail de construction** ( Desrosières 2008b: `104?`)
+
 <!--Rôle des représentations et du savoir [des statistiques] dans l'administration, capacité à justifier les décisions et à légitimer le pouvoir en place [Moullier]-->
 
-"À cette époque, le gouvernement, usa et abusa d’expédients pour se maintenir au pouvoir. **L’administration fut mise au service du politique pour lui assurer des élections conformes à ses attentes** [Cette fusion entre administration et gouvernement est dénoncée en creux par Tocqueville dans La Démocratie en Amérique. Cf.« La réélection des députés promus à des fonctions publiques (1828-1831) », in La France au XIXè siècle, Études historiques, Études (Paris : Publications de la Sorbonne, 1973, pp. 227-244).] Politique et administratif sont ainsi liés de manière indissoluble pendant cette période. "  (Château-Dutier 2016: T1, 257)
 
-
-
-"Les organismes consultatifs ne devaient servir qu'à éclairer l'administration. Celle-ci exigeant une connaissance exacte des choses et des hommes, il s'agit en réalité de structures qui allaient lui permettre d'acquérir un savoir spécialisé dont elle était dépourvue" (Château-Dutier 2016: T1, 197)
-
-"La centralisation [...]allait de pair avec la consultation. Cette dernière n'était pas seulement un geste symbolique ou une opération de légitimation du nouveau pouvoir: l'administration centrale avait besoin, pour fonctionner, d'une part de sources d'information fiables, d'autre part de relais de son action" (Moullier 
-
-"ensemble de commissions spécialisées, toutes subordonnées au pouvoir central, dirigeant les mécanismes du gouvernement révolutionnaire" ([Chateau-Dutier 2016:79](zotero://open-pdf/library/items/ZTRDV8HS?page=79))
-
-
-
-Volonté de savoir/visualiser les connaissances
-
-"L’organisation prévoyait également de confier à plusieurs architectes la direction de différents édifices. Elle traduisait la volonté du ministre d’employer un maximum d’artistes. De ce point de vue, la faculté que s’était donnée le ministre d’employer des architectes à traitement fixe et d’autres avec des honoraires proportionnels lui donnait une grande latitude dans les nominations. Afin de garantir l’équité dans l’accès aux places, le Conseil des bâtiments civils à la séance du 17 nivôse an IV (6 janvier 1796) décidait de « de former un tableau sur lequel seront inscrits les noms de ces artistes lequel sera mis sous les yeux du Conseil qui le consultera chaque fois qu’il y aura quelque emploi à donner, afin de désigner pour le remplir, celui qui réunira le plus de titre à cet effet » (A.N., F21* 2470, Registre des Procès-verbaux du Conseil des bâtiments civils, séance du 17 nivôse an IV [6 janvier 1796], n° 33, p. 11. Les articles F13 331 et 332 sont probablement le résultat de ce travail... dans (Château-Dutier 2016: T1, 141)
-
-"L’examen des plans d’alignement tout en constituant un formidable instrument de contrôle pour le Conseil des bâtiments civils, était déterminant pour les formes de l’architecture publique dans cette première moitié du XIXe siècle. Mais surtout en voulant tout représenter et tout définir, il alimentait le fantasme d’une administration omnisciente capable de tout voir et de tout contrôler." (Château-Dutier 2016: T2, 589)
-
-
-
-"centralisation toute nouvelle des matières administratives qui s'était accompagnée d'une rationalisation de l'action ministérielle" ([Chateau-Dutier 2016:40](zotero://open-pdf/library/items/ZTRDV8HS?page=40)) --> rationalité d'une décision : capacité à prendre appui sur des choses dotées de sens stable  (Desrosières 2008: 11?) 
-
-
-
-**distinction entre langage de l'explication tourné vers l'action et le contrôle, et langage de description tourné vers la visualisation et la narration** `141`
 
 
 
@@ -129,35 +115,94 @@ lorsque les moyens sont disponibles,la production de cartographies thématiques 
 
 De plus, à cette époque sont inventées ce qu'on appelle les visualisations de données, avec notamment le travail de William Playfair en Angleterre et de Charles Joseph Minard (1781-1870) en France [Friendly].
 
+carte, statistique & effet de réalité
 
-
-
-
-
-
-
-
-### Pensée cartographique
-
-La fin du XVIIIème et le début du XIXème sont marqués par l’émergence d’une pensée cartographique (Lepetit 1988: 122). La carte permet une représentation du territoire national mais elle occupe également une fonction cognitive, au niveau d’actes administratifs par exemple. Dès le départ, elle a eu un rôle décisif dans la détermination des limites départementales. En effet, la matérialisation qu’offre la cartographie permet d’appuyer des plaidoyers effectués auprès du Comité de division afin d’orienter leur décision dans le découpage du territoire (Lepetit 1990: 435). Le changement de régime politique influe également sur la place de la cartographie. Son usage se diversifie, quitte l’espace confidentiel des stratégies militaires pour se diffuser plus largement auprès de la population et devenir un savoir public (Pelletier 1996: 8). 
-
-L’invention de la lithographie contribue à ce déliement des utilisations et on assiste à un véritable bourgeonnement d’usages de la cartographie, pour témoigner ou argumenter autour de sujets aussi divers que l’état de l’instruction ou la criminalité. Le Baron Pierre Charles Dupin, véritable pionnier dans la représentation cartographique, crée en 1826 la première carte faisant état d’une distribution, celle du degré d’instruction de la population (Annexe 1). S’ensuit rapidement l’idée d’une *Statistique comparée de l’état de l’instruction et du nombre de crimes* (Adriano Balbi et André Michel Guerry, 1829. Annexe 2) ou de la distribution de la population (Frère Armand Joseph de Montizon, 1830. Annexe 3)[1](#sdfootnote1sym). La cartographie dépasse la représentation topographique pour devenir thématique et s’allie aux premières études statistiques (Palsky 1996). Son usage est primé pour sa capacité à exprimer des informations quantitatives et sa qualité d’immédiateté visuelle. La première moitié du XIXème siècle est donc pleinement investie d’une pensée cartographique dont les formes et usages connaissent une expansion sans précédents. 
-
-
-
-- rôle carto : changement régulier des limites --> carte aux bâtiments civils
-
-
-
-
-
-- naissance de l'urbanisme: carte pour planification des actions sur le territoire
+"Un tel savoir devenait un instrument de pouvoir, non pas au sens où il aurait conféré une supériorité intellectuelle à l'administrateur, mais parce qu'il renforçait sa position institutionnelle et son contrôle sur les hommes, en lui donnant « les moyens de prouver à chaque agent que rien n'est perdu de ce qu'il fait en bien ou en mal, que son exactitude ou son incurie, que ses soins particuliers dans telle ou telle partie sont appréciés, que rien de la correspondance antérieure n'est perdu, que chaque objet, chaque individu a, si je puis m'exprimer ainsi, ses annales, où tout ce qui le concerne est soigneusement noté. » La surveillance exercée au jour le jour n'était rien sans une mémoire qui permette de la constituer en savoir." ([Moullier 2004:78](zotero://open-pdf/library/items/45VTP5XT?page=78))
 
 
 
 
 
 ### Statistique
+
+
+
+- tradition médiévale du miroir du prince (effet de sa grandeur et de son royaume) = tableau général et descriptif réservé au Roi = puissance du roi (& limites de son action)
+- dès le XVIIIe: ensemble de _connaissances particulières, quantifiées et périodiques, destinées aux administrateurs_ --> plus plus immédiates et pratiques: enquêtes spécialisées et quantitatives (Souvent avec des objectifs fiscaux)
+
+- à l'origine, la statistique était complètement ancrée dans une description locale du territoire, divers et hétérogène  (Desrosières 1997: 53)
+- L'histoire de la statistique publique peut être lue comme celle de progressive construction d'une 'information', issue du territoire mais de plus en plus détachée de lui, comme 'déterritorialisée' et concentrée dans des lieux et des langages spécialisés, autonomes et comparables aux laboratoires des sciences de la nature (Desrosières 1997: 53)
+
+_Après la période révolutionnaire:_
+
+- statistique bascule de son sens allemand à son sens moderne: **système de description quantitatif**
+
+1789 - 1815 : formation des **outillages politiques, cognitifs et administratifs** 
+
+condition de la statistique des préfets: 
+
+- _nécessité de réduire la complexité du monde, pour en isoler certains aspects, en les standardisant, en les rendant comparables, et en les transportant dans un lieu organisé spécialement pour traiter des faits ainsi découpés et agrégés, et en déduire des assertions plus générales que les observations particulières initiales_ <!-- s'applique aussi à la cartgraphie -->
+- 1800: explore son département pour le compte d'une autorité centrale 
+- met en œuvre des mesures administratives formulées  par une autorité bien assise, éclairées par les mesures statistiques rendues possibles par cette vérification du territoire 
+
+Volonté d'avoir un bureau de statistique officiel requiert une _Standardisation du territoire_: **espace de commune mesure** `17`
+
+**Entreprise de construction d'équivalence**  voulue, pensée et mise en œuvre systématiquement
+
+- système métrique, unification des poids et des mesures
+- généralisation de la langue françaises (réduction des patois dans les écoles et les armées)
+- universalisation des droits de l'homme (libre et égal)
+- abolition des privilèges nobiliaires et des corporations de métiers 
+- création de l'état civil laic
+- code civil
+- découpage administratif du territoire de la nation en départements, organisés identiquement et de taille comparable `44`  
+  - Table rase d'une société caractérisée par ses privilèges 
+  - départements et préfêts: **instruments** de l'administration
+  - **unification politique et administrative du territoire (1790) ouvre la voie à un mouvement de cartographie statistique, qui s'amorce dès 1830**
+
+Bureau de statistique officielle : 
+
+- activité de production administrative du savoir statistique
+- Combine univers et normes de la sciences et celes de l'Etat moderne et rationel (Derosières 2008: 16)
+- finalité : service de l'intérêt général et efficacité
+- **statistique est associée à la construction de l'Etat**
+
+Installation d'un **pouvoir fort et autoritaire: traduit les projets antérieurs ambitieux en des institutions efficaces** (code civil, lyscée, administration préfectoriale, recensements, bureau de la statistique)
+unification de la nation passe par une _diffusion des connaissances sur les territoires qui la composent_
+
+- **statistique passe du  monument enfermée dans les archivés à l'imprimé destiné en principe à un large public**
+- état républic = devient la chose de tous 
+- représente la société entière = statistiques miroir de la nation (et non plus du prince) `48`
+
+#### Raisonnement, forme de pensée - la statistique et l'état
+
+- un regard nouveau sur la société émerge (Desrosières 1997: 54)
+- implique de _changer non seulement le territoire, mais aussi les mots et les outils pour le décrire_ `56`
+- Cette forme de raisonnement (recherche de causalité et de corrélations territoriales) est comme imposée par la structure institutionnelle et cognitive e la statistique au XIXe siècle.  (Desrosières 1997: 57)
+- La _statistique naissante est tributaire de la mise en place de circuits administratifs routinisés, d'une bureaucratie abstraite et rationnelle_, au sens de Max Weber
+  **Structurant le territoire de façon pyramidale, de la commune à la capitale, cette administration fournit une statistique à son image. Elle décrit sa propre activité, plutôt que la société: la délinquance punie par la justice, la pauvreté secourue, plutôt qu'une délinquance ou une pauvreté réelles, qui seraient antérieures à ces procédures et que nul ne connaît**  (Desrosières 1997: 57)
+- Double dimension: cognitive et économique
+  - construction pour rendre les mesures, jugements, codages répétables à l'identique, transportables, généralisables
+  - _assurer la justice des relations entre hommes et garantir la justesse des étalonnages des choses_ 
+  - codages administratifs et juridiques = indispensables pour donner une conscience objective à des choses qui, sans eux, ne pourraient être comptées
+  - unification du territoire national = unification voulue des systèmes de références 
+
+« la statistique au sens le plus ancien, celui du XVIIIe siècle, était une description de l'État, par lui-même et pour lui-même » (180) au XIXe siècle : 
+
+- pratiques administratives et techniques de mise en forme centrée sur les nombres 
+- bureau spécialisé : organise recensement est compilé registres
+- mise en forme : récapitulation, codage, totalisation, calcul construction de tableaux et de graphiques permettant d'embrasser d'un seul regard et de comparer les objets nouveaux créés par cette pratique de l'État.(Desrosières 2008: chap 5?)
+
+La statistique fait maintenant partie des attributs d'un État démocratique, au même titre que d'autres attributs juridiques ou politiques. Elle est également dépendante des formes singulières tissées par ces états et la nature des liens entre les options publiques et autres parties de la société : 
+
+- centralisation administrative et territoriale statut des corps de fonctionnaires 
+- relation avec centre d'expertise (universités, sociétés savantes avec une haute importance au XIXe siècle) 
+
+"La statistique est unlangage nouveau contribuant à unifier l'État et à en transformer le rôle"
+
+publication de traités de statistiques, information principalement quantitative, sous-produit des pratiques administratives
+
+objets mesurés : (gouvernement) **pas uniquement 'reflets de la réalité', mais agents de transformation de celle-ci** (Desrosières 2008b: 15?S)
 
 **statistique comme outil essentiel de rationalisation de la conduite des affaires humaines, substitue la raison de la mesure et du calcul à l'arbitraire des passions et au jeu des rapports de force** (Desrosières 2008b: 24?)
 
@@ -185,17 +230,82 @@ Le **graphique** permet de rapprocher et de mettre en relation, sous le regard, 
 
 Procédure de comptage, disparition de la singularité de l'individu, acte fondateur d'addition, fusion dans un tout
 
+"les langages statistiques constituent les faits sociaux en choses. L'histoire fait comprendre comment les faits sociaux sont devenus des choses et comment ils deviennent des techniques statistiques " (Derosières 2008: 10?)
 
+"la statistique est lelieu d'interaction entre les mondes du savoir et du pouvoir, description/ décision, il y a / il faut" (Desrosières 2008: 11?) --> problème de l'Etat et de la décision: rationalité d'une décision : capacité à prendre appui sur des choses dotées de sens stable
+
+**Double mouvement de réduction** caractérise démarche du statisticien, savant 
+
+- réduction: passage du territoire au laboratoire
+- généralisation: retour du laboratoire vers la société 
+
+>  Les statistiques, telles que nous les pratiquons actuellement, sont dans la très grande majorité des cas, des statistiques établies administrativement, comptabilité régulièrement tenue, selon des règles connues. Elles sont nées, se sont développées, se sont perfectionnées autant par des nécessités administratives que par certaines exigences scientifiques" (Gille 1980: intro? )
+
+Si l'administration des bâtiments civils ne pratiquait pas une statistique officielle, son fonctionnement "comptable" a été documenté à travers son fonctionnement bureaucratique et la tenue de procès-verbaux quasi-systématique. 
+
+Il y a plusieurs travaux effectués sur les statistiques qui ont été tentées à l'époque. Ici, il s'agit plutôt de produire une statistique à partir de "données" de l'époque, dont le fondement est intrinsèque à l'administration de l'époque même si les moyens n'étaient pas encore disponibles pour l'appliquer.
+
+"L'objet statistique est d'autant plus facile à saisir qu'il est déjà comptabilités" (Gille 1980: intro?) --> Le travail de dépouillement systématique des archives du CBC a transformé les procès-verbaux en des données quantifiables. L'action du CBC devient ainsi mesurable. Crée une source statistique à partir d'un texte manuscrit.
+
+#### 
 
 Cette nouvelle science est néanmoins tout aussi prescriptive que descriptive (Desrosières 2010 : 13-17). Cela s’éclaircit lorsqu’on examine plus attentivement le processus de quantification, de *mesure*, effectuée par les ingénieurs d’État. Ils suivent avec assiduité les critères de mesure émis l'administration en charge. Ces mesures, pourtant centrales à la production de statistiques, ne sont donc pas si objectives. Puis, ces informations, « révélées » ou « représentées » par la statistique justifient et appuient les décisions, les *mesures* administratives mises en place par la suite (Desrosières 2008b: 84). Ainsi, les deux utilisations du terme « mesure » permettent de rendre compte de la relation quelque peu incestueuse qui existe entre les statistiques et les décisions de l’État.
 
 > Structurant le territoire de façon pyramidale, de la commune à la capitale, cette administration fournit une statistique à son image. Elle décrit sa propre activité, plutôt que la société: la délinquance punie par la justice, la pauvreté secourue, plutôt qu'une délinquance ou une pauvreté réelles, qui seraient antérieures à ces procédures et que nul ne connaît. (@desrosieresTerritoireAuLaboratoire1997 : 57)
+
+### Pensée cartographique
+
+La fin du XVIIIème et le début du XIXème sont marqués par l’émergence d’une pensée cartographique (Lepetit 1988: 122). La carte permet une représentation du territoire national mais elle occupe également une fonction cognitive, au niveau d’actes administratifs par exemple. Dès le départ, elle a eu un rôle décisif dans la détermination des limites départementales. En effet, la matérialisation qu’offre la cartographie permet d’appuyer des plaidoyers effectués auprès du Comité de division afin d’orienter leur décision dans le découpage du territoire (Lepetit 1990: 435). Le changement de régime politique influe également sur la place de la cartographie. Son usage se diversifie, quitte l’espace confidentiel des stratégies militaires pour se diffuser plus largement auprès de la population et devenir un savoir public (Pelletier 1996: 8). 
+
+L’invention de la lithographie contribue à ce déliement des utilisations et on assiste à un véritable bourgeonnement d’usages de la cartographie, pour témoigner ou argumenter autour de sujets aussi divers que l’état de l’instruction ou la criminalité. Le Baron Pierre Charles Dupin, véritable pionnier dans la représentation cartographique, crée en 1826 la première carte faisant état d’une distribution, celle du degré d’instruction de la population (Annexe 1). S’ensuit rapidement l’idée d’une *Statistique comparée de l’état de l’instruction et du nombre de crimes* (Adriano Balbi et André Michel Guerry, 1829. Annexe 2) ou de la distribution de la population (Frère Armand Joseph de Montizon, 1830. Annexe 3)[1](#sdfootnote1sym). La cartographie dépasse la représentation topographique pour devenir thématique et s’allie aux premières études statistiques (Palsky 1996). Son usage est primé pour sa capacité à exprimer des informations quantitatives et sa qualité d’immédiateté visuelle. La première moitié du XIXème siècle est donc pleinement investie d’une pensée cartographique dont les formes et usages connaissent une expansion sans précédents. 
+
+
+
+
+
+Carte rattachée à l'origine de la statistique car description plus ou moins standardisée du royaume (Desrosières 2008b: classer et mesurer? )
+
+"carte statistique": 
+
+- ne remonte pas au-delà du XIXe (Palsky)
+- "Condition de possibilité d'un projet sur l'espace qui se veut à la fois objectif et prédictif, la carte statistique est en même temps le support de conceptions théoriques se donnant comme vérités admises" (Chapel, 2010: 13)
+- "toutes ces visualisations thématiques entraînent une véritable dissection de l'image de la ville, qui permet de saisir et de débattre des questions d'hygiène, de circulation et d'aménagement au moment où l'espace urbain est de plus en plus pensé en termes d'équipements et de réseaux (Picon, Robert, 1999 dans Chapel 2010: 20)"
+- "ce n'est pas seulement la description statistique d'un état présent, étant donné que les statistiques permettent d'extrapoler l'avenir (dans le but de planifier), sur la base d'un réel mesuré de façon rétrospective" <!-- temporalités!--> (Chapel 2010: 21)
+- les données chiffrées recueillies et spatialisées, juxtaposées et comprées, ont comme effet de faire apparaître des constantes et donc des principes pouvant ramener l'apparent désordre urbain à une raison supérieure et globalisante (Chapel 2010: 21)
+- **Le découpage standardisée du territoire selon les départements, parcourus par leurs préfets, ne suffit pas, à lui seul,  à la production d'une information totalisable pour la France entière. Il doit être inscrit dans une réseau administratif et matériel plus vaste**, permettant de rlier, de proche en proche, d'une part, l'individu, la famille, la ferme, l'atelier ou la boutique, et, d'autre part, le Bureau central responsable de la totalisation national (Desrosières 1997: 54?)
+- la carte, outil de prédiction: le maillage départemental, cohérent et stable après 1840 est systématiquement utilisé pour faire apparaître les régulairté de l'organisation spatiale des diverses parties de la France. Tout au long du XIXe siècle, les cartes thématiques, dr-essées à partir des statistiques du territoire, servent de support à des rapprochements, à des mises en corrélation entre les phénomènes les plus variés.  (Desrosières 1997: 57)
+
+
+
+"Médiation visible et matérialisée générant une image mentale, la carte met peut-être en évidence une constante de notre organisation cognitive, du moins dans notre tradition culturelle: l'image inscrite et visible a plus d'impact que le discours qui la décrirait" (Jacob 1992: 51)
+
+"Par sa fonction d'interface entre le sujet et l'objet, la carte apparaît ... comme l'un des dispositifs fondateurs de la pensée occidentale " (Jacob 1992: 52)
+
+- rôle carto : changement régulier des limites --> carte aux bâtiments civils
+
+
+
+
+
+- naissance de l'urbanisme: carte pour planification des actions sur le territoire
+
+
+
+
+
+
 
 
 
 ### Rationalisation de l'action publique comme attribut des états modernes
 
 "La centralisation découle de la nécessité de maintenir l'unité de l'action publique" (Moullier 2004: 77)
+
+"centralisation toute nouvelle des matières administratives qui s'était accompagnée d'une rationalisation de l'action ministérielle" ([Chateau-Dutier 2016:40](zotero://open-pdf/library/items/ZTRDV8HS?page=40)) 
+
+--> rationalité d'une décision : capacité à prendre appui sur des choses dotées de sens stable  (Desrosières 2008: 11?) 
+
+
 
 "Montalivet entendait cependant donner à son action des bases rationnelles et uniformes. Il fallait, tout en ayant une action impulsive, combiner celle-ci avec une marche réglée des affaires, faire fonctionner l'administration nouvelle comme si elle existait déjà de toute éternité." ([Moullier 2004:77](zotero://open-pdf/library/items/45VTP5XT?page=77))
 
@@ -219,9 +329,29 @@ Comme mentionné précédemment, l’évolution des techniques de cartographie a
 
 Nous avons ainsi démontré la présence ainsi que l'utilisation gouvernementale de la cartographie et de la statistique à l'époque, alliant pouvoir et territoire dans l’affirmation d’un Etat-nation. Conscientisé·e·s au fonctionnement de ce raisonnement quantitatif au sein du gouvernement et de son adminstration, nous pourrons plonger dans l’œuvre du Conseil des bâtiments civils avec une perspective, certes contemporaine, mais de nature similaire puisque cartographique et quantitative. Ainsi, nous nous attendons à révéler certaines politiques d’équipements qu’il a instaurées et dont on ne saurait comprendre le sens sans s’imprégner de cette pensée cartographique.
 
+- **C'est par ce qu'on souhaite agir sur elles qu'il faut nommer et décrire des choses **(Desrosières 1997: 56)
+- tentative de construire un "laboratoire central" du savoir social
+- questions économiques urgentes (1805: blocus) **gouvernement a besoin d'informations chiffrées sur les productions et les consommations _nationales_ des principaux produits agricoles et industriels**
 
+Esprit nouveau des lumières: circulation et publicité des connaissances sont des conditions essentielles pour le progrès de la société 
 
+Rôle de la statistique dans la scientifisation: histoire prétend s'appuyer sur des faits (Desrosières 2008b: 20?). Les faits sociaux sont mesurés ou instittués par la statistique
 
+> "La production d'une matrice cognitive est un processus politique: on peut même définir la politique comme le lieu d'interprétation de la réalité sociale" (Moullier 2004: 22). "Le projet de statistique, à cet égard, est emblématique de la perspective de François de NEufchâteau: il s'agit moins de parvenir à une description globale du territoire, que de disposer d'un outil fiable pour évaluer l'action de l'Etat. Les tableaux statistiques sont découpés en rubriques qui doivent permettre de mesurer l'efficacité de la législation et de l'action de chaque autorité départementale" (Moullier 2004: 36)
+
+#### archive
+
+"La rapidité devait s'accompagner de la précision : chaque pièce devait pouvoir être retrouvée facilement quand on en avait besoin. Montalivet rappela donc une fois de plus l'importance de l'enregistrement et de l'expédition. L'uniformité de l'enregistrement devait absolument être respectée : « Il est très important de garantir la conservation et le bon ordre de toutes les pièces qui arrivent au ministère. C'est un genre de comptabilité qu'il faut régulariser. La pièce rentre au compte du ministère par l'enregistrement général : les bureaux ne peuvent en recevoir aucune que par cette voie »." ([Moullier 2004:80](zotero://open-pdf/library/items/45VTP5XT?page=80))
+
+"La surveillance exercée au jour le jour n'était rien sans une mémoire qui permette de la constituer en savoir." ([Moullier 2004:78](zotero://open-pdf/library/items/45VTP5XT?page=78)) Les documents qui arrivent au Ministère doivent être gérés, comptabilisés et classés afin qu'ils soient faciles à retrouver au besoin ([Moullier 2004:80](zotero://open-pdf/library/items/45VTP5XT?page=80)). 
+
+#### cbc + approche visuelle 
+
+Volonté de savoir/visualiser les connaissances
+
+"L’organisation prévoyait également de confier à plusieurs architectes la direction de différents édifices. Elle traduisait la volonté du ministre d’employer un maximum d’artistes. De ce point de vue, la faculté que s’était donnée le ministre d’employer des architectes à traitement fixe et d’autres avec des honoraires proportionnels lui donnait une grande latitude dans les nominations. Afin de garantir l’équité dans l’accès aux places, le Conseil des bâtiments civils à la séance du 17 nivôse an IV (6 janvier 1796) décidait de « de former un tableau sur lequel seront inscrits les noms de ces artistes lequel sera mis sous les yeux du Conseil qui le consultera chaque fois qu’il y aura quelque emploi à donner, afin de désigner pour le remplir, celui qui réunira le plus de titre à cet effet » (A.N., F21* 2470, Registre des Procès-verbaux du Conseil des bâtiments civils, séance du 17 nivôse an IV [6 janvier 1796], n° 33, p. 11. Les articles F13 331 et 332 sont probablement le résultat de ce travail... dans (Château-Dutier 2016: T1, 141)
+
+"L’examen des plans d’alignement tout en constituant un formidable instrument de contrôle pour le Conseil des bâtiments civils, était déterminant pour les formes de l’architecture publique dans cette première moitié du XIXe siècle. Mais surtout en voulant tout représenter et tout définir, il alimentait le fantasme d’une administration omnisciente capable de tout voir et de tout contrôler." (Château-Dutier 2016: T2, 589)
 
 
 
