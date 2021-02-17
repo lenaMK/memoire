@@ -26,8 +26,10 @@ Le chapitre 1 est un chantier en cours ([Ébauche de structure](.Redaction/Chapi
 
 - 1.1 Administration en France au lendemain de la Révolution
   - La division du territoire en départements
-  - *Système d'administration centralisée*
+  - Une administration centralisée
+  - La rationalisation de l'action public
 - 1.2 Formes de savoir et de pouvoir au début du XIXème siècle 
+  - Miroirs du territoire
   - *Pensée cartographique*
   - *Statistique*
 - 1.3 Le conseil des bâtiments civils
