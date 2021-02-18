@@ -41,7 +41,7 @@ La centralisation administrative est accompagnée d'une rationalisation de l'act
 
 > "La rationalisation des lois et de l'action publique était au fondement de la légitimité du gouvernement napoléonien. Le ministère de l'intérieur devait donc se doter d'une méthode de fonctionnement qui permette à la fois la surveillance de la bonne exécution des lois et sa rationalisation." ([Moullier 2004:77](zotero://open-pdf/library/items/45VTP5XT?page=77))
 
-Le sociologue et historien de la statistique, Alain Desrosières, définit la rationalité d'une décision comme la "capacité à prendre appui sur des choses dotées de sens stable"  (Desrosières 2008:11). L'administration va dès lors s'organiser dans une tentative de construire un laboratoire central du savoir social afin d'avoir de produire des informations chiffrées sur lesquelles se baser, notamment face aux questions économiques urgentes dues au blocus de 1805 (Desrosières 1997: 55). Elle se présente comme une "opération d'objectivation [...] qui remplace des objets et le monde par des référentiels" (Sabatier 2010: 29). Ces référentiels lui permettent d'analyser la situation selon son "devoir de prévoir, nécessité d'évaluer, obligation de la programmation et du contrôle" (Fortier 1978: 88). 
+Le sociologue et historien de la statistique, Alain Desrosières, définit la rationalité d'une décision comme la "capacité à prendre appui sur des choses dotées de sens stable"  (Desrosières 2008:11). Il est d'une véritable nécessité pour l'administration de tout savoir et de tout connaître "d'être constamment et parfaitement informée de tout ce qui se passait dans l'État [...] pour agir à propos" (Woolf dans Perrot et at. 1981: 85). En ce sens, elle va s'organiser dans une tentative de construire un laboratoire central du savoir social afin d'avoir de produire des informations chiffrées sur lesquelles se baser, notamment face aux questions économiques urgentes dues au blocus de 1805 (Desrosières 1997: 55). L'administration se présente comme une "opération d'objectivation [...] qui remplace des objets et le monde par des référentiels" (Sabatier 2010: 29). Ces référentiels lui permettent d'analyser la situation selon son "devoir de prévoir, nécessité d'évaluer, obligation de la programmation et du contrôle" (Fortier 1978: 88). 
 
 La première étape consiste donc à nommer et à décrire des choses, processus que nous allons détailler dans la prochaine partie de ce chapitre, dans le but, dans un second temps, d'agir sur elles (Desrosières 1997: 56). S'ensuit la documentation, qui a pour rôle de preuve et de justification des actions en même temps. Chaque action est un dossier, soigneusement complété à chaque étape puis archivé en bonne et due forme. L'objectif est de produire des enregistrements uniformes, avec précision et rapidité, pour régulariser les entrées tout en s'assurant de leur bon ordre". Les documents qui arrivent au Ministère doivent être gérés, comptabilisés et classés afin qu'ils soient faciles à retrouver au besoin" ([Moullier 2004:80](zotero://open-pdf/library/items/45VTP5XT?page=80)). L'état administratif est fondé sur un système d'information qui comptabilise ses actions  afin d'être capable d'en produire un récapitulatif (Derosières 2008b: 110).
 
@@ -49,99 +49,60 @@ La première étape consiste donc à nommer et à décrire des choses, processus
 
 L'ensemble de ces informations ainsi rassemblées et documentées permet ensuite à produire un savoir. Leur analyse et leur organisation visuelle, comme dans des listes et des tableaux, prolonge encore la volonté de rationaliser les décisions. Par exemple, dans la distribution de direction d'édifices aux architectes, une volonté de rationaliser l'accès mais aussi d'en garantir l'équité motive le Conseil des bâtiments civils à « former un tableau sur lequel seront inscrits les noms de ces artistes lequel sera mis sous les yeux du Conseil qui le consultera chaque fois qu’il y aura quelque emploi à donner, afin de désigner pour le remplir, celui qui réunira le plus de titre à cet effet » (A.N., F21* 2470, Registre des Procès-verbaux du Conseil des bâtiments civils, séance du 17 nivôse an IV [6 janvier 1796], n° 33, p. 11 dans Château-Dutier 2016: T1, 141)
 
+<!--mini-conclu-->
+
+Malgré cette volonté d'organisation intemporelle à la logique transcendante, la réalité de la structuration de l'administration comme du territoire est mouvante. Il y a une très grande instabilité des divisions, des bureaux, des subdivisions et des effectifs administratifs (organigramme fluctuant) (Chassagne dans Perrot et al. 1981: 155-156)
+
+[Installation d'un **pouvoir fort et autoritaire: traduit les projets antérieurs ambitieux en des institutions efficaces** (code civil, lycée, administration préfectorale, recensements, bureau de la statistique)
+unification de la nation passe par une _diffusion des connaissances sur les territoires qui la composent_]
+
 ## Formes de savoir et de pouvoir au début du XIXème siècle
 
-Les exigences vont donc toujours plus loin dans le contrôle et la surveillance, et ce, à chaque échelon de la pyramide administrative. "En voulant tout représenter et tout définir, [cela] alimentait le fantasme d’une administration omnisciente capable de tout voir et de tout contrôler." (Château-Dutier 2016: T2, 589) L'époque étudiée commence donc à produire, selon un terme anachronique, des données. En effet, ils créent le bureau de la statistique et les essais et expérimentations du siècle précédent mènent à un intérêt grandissant pour un concept "d'information" rationnelle, mesurable, et obtenue de façon et scientifique. Coquebert, professeur de statistique à l'école des Mines, propose de "transformer le bureau de la statistique en une mémoire collective pour tous les autres bureaux; mais, s'il réussit à créer une collecte centrale des données, ce fut précisément l'échec de ses méthodes de traitement qui amena à la suppression du bureau" (Perrot et Al. 1981: 10)
-
-Face à cette production de "données" émerge le besoin grandissant de les comprendre, on se met donc à "ranger visuellement", à les mettre en table. Ces mesures sont unifiées grâce au système métrique et la division en département crée une échelle d'éléments comparables. Ce processus rationalise la compréhension du territoire et les actions qu'on y pose. 
-
-Il s'ensuit un engouement pour l'usage de la carte par les administrations (Verdier 2005: 2). On constate tout d'abord la "mise en place d'une _nouvelle grammaire figurative du territoire_" (Verdier 2015: 13). Ensuite, lorsque les moyens sont disponibles,la production de cartographies thématiques [Palsky]. De plus, à cette époque sont inventées ce qu'on appelle les visualisations de données, avec notamment le travail de William Playfair en Angleterre et de Charles Joseph Minard (1781-1870) en France [Friendly].
-
-
+Les exigences vont donc toujours plus loin dans le contrôle et la surveillance, et ce, à chaque échelon de la pyramide administrative. "En voulant tout représenter et tout définir, [cela] alimentait le fantasme d’une administration omnisciente capable de tout voir et de tout contrôler." (Château-Dutier 2016: T2, 589) L'époque étudiée commence donc à produire, selon un terme anachronique, des données. Ils créent le bureau de la statistique et les essais ainsi que les expérimentations du siècle précédent mènent à un intérêt grandissant pour la production "d'information" rationnelle, mesurable, et obtenue avec une méthode scientifique, à propos du territoire comme de la population et des richesses.
 
 ### Miroir du territoire ou du pouvoir
 
-La structure hiérarchique comme rapport au territoire n'est pas bien différente de l'Ancien régime. Ainsi, la stratégie pour le connaître est dans la continuité de la tradition médiévale du *miroir du prince*. Il s'agit d'un "tableau général et descriptif réservé au Roi", destiné à lui montrer sa puissance, l'effet de sa grandeur et de son royaume ainsi que les limites de son action (Soupiot : 131). Ce tableau descriptif peut comprendre des listes, par exemple, des régions et provinces avec des descriptions qualitatives ou quantitatives des hommes et des richesses qui s'y trouvent. Il peut également prendre la forme d'une description littéraire ou d'une carte.La notion de miroir sous-entend que la représentation - qu'il s'agisse d'un texte, d'un tableau ou d'une carte - serait un reflet de la réalité. Cette métaphore suppose transparence et vérité des faits représentés. 
+La structure hiérarchique comme rapport au territoire n'est pas bien différente de l'Ancien régime. Ainsi, la stratégie pour le connaître est dans la continuité de la tradition médiévale du *miroir du prince*. Il s'agit d'un "tableau général et descriptif réservé au Roi", destiné à lui montrer sa puissance, l'effet de sa grandeur et de son royaume ainsi que les limites de son action (Soupiot : 131). Ce tableau descriptif peut comprendre des listes, par exemple, des régions et provinces avec des descriptions qualitatives ou quantitatives des hommes et des richesses qui s'y trouvent. Il peut également prendre la forme d'une description littéraire ou d'une carte. La notion de miroir sous-entend que la représentation - qu'il s'agisse d'un texte, d'un tableau ou d'une carte - serait un reflet de la réalité. Cette métaphore suppose transparence et vérité des faits représentés. 
 
-Selon la perception traditionnelle de la cartographie, le rôle de la carte serait de créer une représentation précise - ou du moins objective de la réalité. Elle reflète précisément (*miror accurately*) des facettes d'une réalité qui serait "simple, connaissable et qui peut être exprimée comme un système de faits" (Harley 1989b: 82).  Face à cet imaginaire de la carte comme mimèsis, le géographe J.B. Harley propose une approche critique afin de déconstruire l'illusion de l'objectivité cartographique. Le processus de déconstruction permet d’interroger les intentions dissimulées de la cartographie, de révéler de nouvelles approches de la carte et de retracer les mécanismes sociaux liés à sa production (Harley 1989a).
+Selon la perception traditionnelle de la cartographie, le rôle de la carte serait de créer une représentation précise - ou du moins objective de la réalité. Elle reflète précisément (*miror accurately*) des facettes d'une réalité qui serait "simple, connaissable et qui peut être exprimée comme un système de faits" (Harley 1989b: 82). La statistique se présente elle aussi comme un miroir de la nation (Desrosières 2008: 48). Elle est un "outil essentiel de rationalisation de la conduite des affaires humaines [qui prétend] substitue[r] la raison de la mesure et du calcul à l'arbitraire des passions et au jeu des rapports de force" (Desrosières 2008b: 24?). 
 
-La statistique se présente elle aussi comme un miroir de la nation (Desrosières 2008: 48). Elle est un "outil essentiel de rationalisation de la conduite des affaires humaines [qui prétend] substitue[r] la raison de la mesure et du calcul à l'arbitraire des passions et au jeu des rapports de force" (Desrosières 2008b: 24?).
-
-Cartographie et statistique sont des instruments de vision, qui donne le "pouvoir de voir sans être vu" (Haraway 581). Elles représentent tout en excluant celui·elle qui les regardent, les plaçant ainsi au-dessus du monde représentée, telle une perspective divine. 
-
-Employées comme sciences de l'Etat, elle s'octroient une autorité (Etat) et une légitimité (scientifique). Les moyens techniques employés sont validés socialement parlant pour leur fiabilité, qu'il ne faudrait cependant confondre avec la réalité. La confiance acquise en ces moyens de production d'information "suppose transparence et évidence, [mais en] supprime et oublie le travail de construction" ( Desrosières 2008b: `104?` <!-- à vérifier -->). Le terme "réalisme photographique" est souvent employé pour parler tant de la cartographie que la statistique. Pourtant, la photographie elle aussi déforme la réalité, à commencer par le passage d'une réalité tridimensionnelle à une image bidimensionnelle. 
-
-abstraction 7 objectivation de la réalité
-
-On peut alors comprendre l'administration comme une "opération d'objectivation [...] qui remplace des objets et le monde par des référentiels" (Sabatier 2010: 29).
+Employées comme sciences de l'Etat, elle s'octroient une autorité (Etat) et une légitimité (scientifique). Les moyens techniques employés sont validés socialement parlant pour leur fiabilité, qu'il ne faudrait cependant confondre avec la réalité. La confiance acquise en ces moyens de production d'information "suppose transparence et évidence, [mais en] supprime et oublie le travail de construction" ( Desrosières 2008b: `104?` <!-- à vérifier -->). 
 
 > "La production d'une matrice cognitive est un processus politique: on peut même définir la politique comme le lieu d'interprétation de la réalité sociale" (Moullier 2004: 22). 
 
+Le terme "réalisme photographique" est souvent employé pour parler tant de la cartographie que la statistique. Pourtant, la photographie elle aussi déforme la réalité, à commencer par le passage d'une réalité tridimensionnelle à une image bidimensionnelle. Tous ces instruments de vision donnent le "pouvoir de voir sans être vu" (Haraway 581). La cartographie et la statistique représentent le monde tout en excluant celui·elle qui les regardent. L'abstraction ou l'objectivation opérée (Sabatier 2010: 29) place l'observateur (ou l'administration) au-dessus du monde et obtient ainsi une perspective "divine" ou du moins souveraine. 
 
+Un double mouvement de réduction caractérise la démarche du statisticien comme celle du savant ou du cartographe. La première étape est le passage du territoire au laboratoire, réduction de la réalité à une entité mesurable et qui se résume à sa documentation par le chercheur. La seconde étape concerne le mouvement inverse: le retour du laboratoire vers la société est une généralisation tout aussi réductrice. 
 
-_nécessité de réduire la complexité du monde, pour en isoler certains aspects, en les standardisant, en les rendant comparables, et en les transportant dans un lieu organisé spécialement pour traiter des faits ainsi découpés et agrégés, et en déduire des assertions plus générales que les observations particulières initiales_ 
+> Il faut réduire la complexité du monde, pour en isoler certains aspects, en les standardisant, en les rendant comparables, et en les transportant dans un lieu organisé spécialement pour traiter des faits ainsi découpés et agrégés, et en déduire des assertions plus générales que les observations particulières initiales. (Desrosières 1997: 54)
 
+En réponse au problème de l'illusion cartographique, le géographe J.B. Harley propose une approche critique afin de déconstruire l'illusion de l'objectivité cartographique. Le processus de déconstruction permet d’interroger les intentions dissimulées de la cartographie, de révéler de nouvelles approches de la carte et de retracer les mécanismes sociaux liés à sa production (Harley 1989a). Nous employons cette idée de déconstruction des instruments de savoir dans ce mémoire, en commençant par analyser en détail le fonctionnement et le rôle de la statistique puis de la cartographie au début du XIXème siècle.
 
-
-### Statistique
-
-L'histoire de la statistique - miroir du prince
-
-La statistique apparaît comme outil administratif dès le XVIIIe. À cette époque, onpeutla définir comme un ensemble de _connaissances particulières, quantifiées et périodiques, destinées aux administrateurs_. Il s'agit généralement d'un outil employé en pratique, dans un temps immédiat, dans le cadre d'enquêtes spécialisées et quantitatives. Exemple : objectifs fiscaux. La statistique était ancrée dans une description locale du territoire, divers et hétérogène  (Desrosières 1997: 53)
-
-Dès le siècle suivant, la statistique publique s'érige comme une progressive construction d'une 'information', issue du territoire mais de plus en plus détachée de lui. Déterritorialisée, concentrée dans des lieux et des langages spécialisés, elle en devient autonome et comparable aux laboratoires des sciences de la nature (Desrosières 1997: 53)
-
-Après la période révolutionnaire, la statistique bascule de son sens allemand à son sens moderne: **système de description quantitatif**. Nous avons pu constater, par la division du territoire, la construction d'équivalence et la mise en place de l'administration centralisée. Entre 1789 et 1815 sont formé les **outillages politiques, cognitifs et administratifs** nécessaire à une statistique d'État, notamment lamise en place de circuits administratifs routinisés et d'une bureaucratie abstraite et rationnelle, au sens de Max Weber (Desrosières 1997: 57)
-
-
-
-La statistique se présente comme un moyen « objectif » de représenter la nation. La formation d’un État républicain, égalitaire et au service de "tous"[^33] a besoin de connaître la nation afin de l’administrer et cherche des sources d'information rationnelle, mesurable, et obtenue de façon et scientifique (Desrosières 2008: 28). Il met ainsi en place des pratiques statistiques, initiées au siècle précédent mais dont la réalisation ne pouvait se compléter qu'avec une administration centralisée et rigoureusement structurée à tous les échelons (Desrosières 1997:57).  
-
-> **statistique comme outil essentiel de rationalisation de la conduite des affaires humaines, substitue la raison de la mesure et du calcul à l'arbitraire des passions et au jeu des rapports de force** (Desrosières 2008b: 24?)
-
-Mène à la statistique des préfets développer (**Perrot)** en 1800. Devoir d'explorer et documenter son département pour le compte d'une autorité centrale . Mise en œuvre des mesures administratives formulées  par une autorité bien assise. Souhaite être éclairée par les mesures statistiques rendues possibles par cette vérification du territoire 
-
-Bureau de statistique officielle : activité de production administrative du savoir statistique. Combine univers et normes de la sciences et celes de l'Etat moderne et rationel (Derosières 2008: 16). finalité : service de l'intérêt général et efficacité.**statistique est associée à la construction de l'Etat**
-
-> "Le projet de statistique, à cet égard, est emblématique de la perspective de François de NEufchâteau: il s'agit moins de parvenir à une description globale du territoire, que de disposer d'un outil fiable pour évaluer l'action de l'Etat. Les tableaux statistiques sont découpés en rubriques qui doivent permettre de mesurer l'efficacité de la législation et de l'action de chaque autorité départementale" (Moullier 2004: 36)
-
-Installation d'un **pouvoir fort et autoritaire: traduit les projets antérieurs ambitieux en des institutions efficaces** (code civil, lyscée, administration préfectoriale, recensements, bureau de la statistique)
-unification de la nation passe par une _diffusion des connaissances sur les territoires qui la composent_
-
-
-
-#### diffusion & atlas statistiques
-
-- **statistique passe du  monument enfermée dans les archivés à l'imprimé destiné en principe à un large public**
-- état république = devient la chose de tous 
-- représente la société entière = statistiques miroir de la nation (et non plus du prince) `48`
-
-​	La statistique fait maintenant partie des attributs d'un État démocratique, au même titre que d'autres attributs juridiques ou politiques. Elle est également dépendante des formes singulières tissées par ces états et la nature des liens entre les options publiques et autres parties de la société : 
-
-- centralisation administrative et territoriale statut des corps de fonctionnaires 
-- relation avec centre d'expertise (universités, sociétés savantes avec une haute importance au XIXe siècle) 
+### La statistique
 
 "La statistique est un langage nouveau contribuant à unifier l'État et à en transformer le rôle"
 
-publication de traités de statistiques, information principalement quantitative, sous-produit des pratiques administratives
+La statistique apparaît comme outil administratif dès le XVIIIe. À cette époque, on peut la définir comme un ensemble de connaissances particulières, quantifiées et périodiques, destinées aux administrateurs (Desrosières 2008: 28?). Il s'agit généralement d'un outil employé en pratique, dans un temps immédiat, dans le cadre d'enquêtes spécialisées et quantitatives, à des fins d'objectifs fiscaux par exemple. La statistique était ancrée dans une description locale d'un territoire divers et hétérogène (Desrosières 1997: 53).
 
-objets mesurés : (gouvernement) **pas uniquement 'reflets de la réalité', mais agents de transformation de celle-ci** (Desrosières 2008b: 15?S)
+Après la période révolutionnaire, la statistique bascule de son sens allemand à son sens moderne de système de description quantitatif. Entre 1789 et 1815 sont formé les outillages politiques, cognitifs et administratifs nécessaire à une statistique d'État (Desrosières 1997: 57). D'une part, la division du territoire et la construction d'équivalences prépare le terrain et les mesures. D'autre part, les pratiques statistiques, initiées au siècle précédent, se réalisent de façon plus complète grâce à une administration centralisée et rigoureusement structurée à tous les échelons (Desrosières 1997:57).  
 
-- production d' à l'époque
+On assiste à la naissance d'un bureau de statistique officielle dont émerge une activité de production administrative du savoir statistique. Combinant les univers et les normes de la sciences avec celles de l'État moderne et rationel, elle a pour finalité le service efficace de l'intérêt général et efficacité  (Derosières 2008: 16). La statistique est donc directement associée à la construction de l'Etat, qui a "grand besoin en permanence de compter et de chiffrer pour délimiter les nouvelles frontières administratives ou pour organiser les élections" (Woolf dans Perrot et Al. 1981: 58).
 
-#### CBC
+De plus, elle est employée pour justifier la Révolution par la démonstration et la quantification de progrès acquis depuis la fin de l'Ancien régime. (Woolf dans Perrot et at. 1981: 8). Le premier exemple à cet effet concerne l'enquête des préfets de 1800. Il s'agit d'une enquête statistique monumentale qui, dans une situation de crise extrême tant économique, politique que militaire, utilise de nombreux projets de recensements et d'enquêtes approfondies pour refonder la société sur des bases nouvelles (Desrosières 2008: 45).  Les préfets sont chargés d'explorer et de documenter leur département puis d'en transmettre un compte-rendu à l'autorité centrale afin de l'éclairer. 
 
-Si l'administration des bâtiments civils ne pratiquait pas une statistique officielle, son fonctionnement "comptable" a été documenté à travers son fonctionnement bureaucratique et la tenue de procès-verbaux quasi-systématique. 
+S'ensuit, entre 1801 et 1805, le projet de "compiler et [de] publier une énorme topographique descriptive de la France [qui] mit la statistique au rang des premières affaires de l'Etat" (Woolf dans Perrot et al. 1981: 71). Durant la dernière période de l'Empire, dès 1810-1811, l'emploi de la statistique est  plus pragmatique et restreint. De conception utilitaire, elle est un "instrument au service de la formulation d'une politique économique"  (Woolf dans Perrot et at. 1981: 8).
 
-Il y a plusieurs travaux effectués sur les statistiques qui ont été tentées à l'époque. Ici, il s'agit plutôt de produire une statistique à partir de "données" de l'époque, dont le fondement est intrinsèque à l'administration de l'époque même si les moyens n'étaient pas encore disponibles pour l'appliquer.
+> "Le projet de statistique, à cet égard, est emblématique de la perspective de François de Neufchâteau: il s'agit moins de parvenir à une description globale du territoire, que de disposer d'un outil fiable pour évaluer l'action de l'Etat".  (Moullier 2004: 36)
 
-"L'objet statistique est d'autant plus facile à saisir qu'il est déjà comptabilités" (Gille 1980: intro?) --> Le travail de dépouillement systématique des archives du CBC a transformé les procès-verbaux en des données quantifiables. L'action du CBC devient ainsi mesurable. Crée une source statistique à partir d'un texte manuscrit.
+La statistique prétend ainsi représenter la nation de façon « objective ». La formation d’un État républicain, égalitaire et au service de "tous"[^33] a besoin de connaître la nation afin de l’administrer. Elle cherche et choisit de créer des sources d'information rationnelle, mesurable, et obtenue de façon et scientifique (Desrosières 2008: 28). La statistique est employée comme un "outil essentiel de rationalisation de la conduite des affaires humaines, [qui] substitue la raison de la mesure et du calcul à l'arbitraire des passions et au jeu des rapports de force** (Desrosières 2008b: 24?). Elle s'érige comme une progressive construction d'une 'information', issue du territoire mais de plus en plus détachée de lui. Déterritorialisée, concentrée dans des lieux et des langages spécialisés, elle en devient autonome et comparable aux laboratoires des sciences de la nature (Desrosières 1997: 53).
 
-
+> Les statistiques, telles que nous les pratiquons actuellement, sont dans la très grande majorité des cas, des statistiques établies administrativement, comptabilité régulièrement tenue, selon des règles connues. Elles sont nées, se sont développées, se sont perfectionnées autant par des nécessités administratives que par certaines exigences scientifiques" (Gille 1980: intro? )
 
 #### visualiser pour comprendre
 
 Le **graphique** permet de rapprocher et de mettre en relation, sous le regard, des grandeurs séparées tant par les conditions et les lieux de leurs enregistrements que par leur nature (Desrosières 2008b: 124-125)
+
+"Les tableaux statistiques sont découpés en rubriques qui doivent permettre de mesurer l'efficacité de la législation et de l'action de chaque autorité départementale" (Moullier 2004: 36)
 
 "La méthode graphique simplifie et rend attrayantes des statistiques ennuyeuses et complexes"
 "permet" porter attention sur des configurations générales .. sans la fatigue et l'ennui de l'étude de cas particuliers dont elles sont composées
@@ -155,28 +116,43 @@ Le **graphique** permet de rapprocher et de mettre en relation, sous le regard, 
 
 Procédure de comptage, disparition de la singularité de l'individu, acte fondateur d'addition, fusion dans un tout
 
+
+
+#### diffusion & atlas statistiques
+
+"La statistique n'est pas seulement la chose du prince et de l'Etat, un moyen de gouvernement, elle doit être aussi à l'usage de la nation, du moins à ces élites" 
+
+"Au lieu de servir le dirigisme, la statistique dûment diffusée par l'Etat lui-même, favoriserait au contraire un fonctionnement plus libre et plus harmonieux de la société civile" (Bourguet dans Perrot et al. 1981: 134)
+
+- **statistique passe du  monument enfermée dans les archivés à l'imprimé destiné en principe à un large public**
+- état république = devient la chose de tous 
+- représente la société entière = statistiques miroir de la nation (et non plus du prince) `48`
+
+- publication de traités de statistiques, information principalement quantitative, sous-produit des pratiques administratives
+
+#### démarche & critique 
+
 "les langages statistiques constituent les faits sociaux en choses. L'histoire fait comprendre comment les faits sociaux sont devenus des choses et comment ils deviennent des techniques statistiques " (Derosières 2008: 10?)
 
-#### démarche
+"la statistique est le lieu d'interaction entre les mondes du savoir et du pouvoir, description/ décision, il y a / il faut" (Desrosières 2008: 11?) 
 
-"la statistique est le lieu d'interaction entre les mondes du savoir et du pouvoir, description/ décision, il y a / il faut" (Desrosières 2008: 11?) --> problème de l'Etat et de la décision: rationalité d'une décision : capacité à prendre appui sur des choses dotées de sens stable
+objets mesurés : (gouvernement) **pas uniquement 'reflets de la réalité', mais agents de transformation de celle-ci** (Desrosières 2008b: 15?S)
 
-**Double mouvement de réduction** caractérise démarche du statisticien, savant 
-
-- réduction: passage du territoire au laboratoire
-- généralisation: retour du laboratoire vers la société 
-
->  Les statistiques, telles que nous les pratiquons actuellement, sont dans la très grande majorité des cas, des statistiques établies administrativement, comptabilité régulièrement tenue, selon des règles connues. Elles sont nées, se sont développées, se sont perfectionnées autant par des nécessités administratives que par certaines exigences scientifiques" (Gille 1980: intro? )
+Coquebert, professeur de statistique à l'école des Mines, propose de "transformer le bureau de la statistique en une mémoire collective pour tous les autres bureaux.. s'il réussit à créer une collecte centrale des données, ce fut précisément l'échec de ses méthodes de traitement qui amena à la suppression du bureau" (Perrot dns Perrot et Al. 1981: 10) <!-- échec par "manque de moyens" -->
 
 
 
-#### critique statistique
+#### 
 
 Cette nouvelle science est néanmoins tout aussi prescriptive que descriptive (Desrosières 2010 : 13-17). Cela s’éclaircit lorsqu’on examine plus attentivement le processus de quantification, de *mesure*, effectuée par les ingénieurs d’État. Ils suivent avec assiduité les critères de mesure émis l'administration en charge. Ces mesures, pourtant centrales à la production de statistiques, ne sont donc pas si objectives. Puis, ces informations, « révélées » ou « représentées » par la statistique justifient et appuient les décisions, les *mesures* administratives mises en place par la suite (Desrosières 2008b: 84). Ainsi, les deux utilisations du terme « mesure » permettent de rendre compte de la relation quelque peu incestueuse qui existe entre les statistiques et les décisions de l’État.
 
 > Structurant le territoire de façon pyramidale, de la commune à la capitale, cette administration fournit une statistique à son image. Elle décrit sa propre activité, plutôt que la société: la délinquance punie par la justice, la pauvreté secourue, plutôt qu'une délinquance ou une pauvreté réelles, qui seraient antérieures à ces procédures et que nul ne connaît. (@desrosieresTerritoireAuLaboratoire1997 : 57)
 
+De plus "en étudiant l'enquête Champagny, [Serge Chassagne avait] montré que c'était une plaisanterie, puisqu'on lance une enquête et que l'on prend une décision avant les résultats..." (Chassagne dans Perrot et al. 1981: 142)
+
 ### Pensée cartographique
+
+Il s'ensuit un engouement pour l'usage de la carte par les administrations (Verdier 2005: 2). On constate tout d'abord la "mise en place d'une _nouvelle grammaire figurative du territoire_" (Verdier 2015: 13). Ensuite, lorsque les moyens sont disponibles,la production de cartographies thématiques [Palsky]. De plus, à cette époque sont inventées ce qu'on appelle les visualisations de données, avec notamment le travail de William Playfair en Angleterre et de Charles Joseph Minard (1781-1870) en France [Friendly].
 
 La fin du XVIIIème et le début du XIXème sont marqués par l’émergence d’une pensée cartographique (Lepetit 1988: 122). La carte permet une représentation du territoire national mais elle occupe également une fonction cognitive, au niveau d’actes administratifs par exemple. Dès le départ, elle a eu un rôle décisif dans la détermination des limites départementales. En effet, la matérialisation qu’offre la cartographie permet d’appuyer des plaidoyers effectués auprès du Comité de division afin d’orienter leur décision dans le découpage du territoire (Lepetit 1990: 435). Le changement de régime politique influe également sur la place de la cartographie. Son usage se diversifie, quitte l’espace confidentiel des stratégies militaires pour se diffuser plus largement auprès de la population et devenir un savoir public (Pelletier 1996: 8). 
 
@@ -278,6 +254,18 @@ Bruno Fortier lie cette logique de l'équipement à une quantification du projet
 
 --> fait/pensé dans une logique d'ensemble et non pas à l'échelle individuelle
 
+#### CBC & statistique
+
+Si l'administration des bâtiments civils ne pratiquait pas une statistique officielle, son fonctionnement "comptable" a été documenté à travers son fonctionnement bureaucratique et la tenue de procès-verbaux quasi-systématique. 
+
+Il y a plusieurs travaux effectués sur les statistiques qui ont été tentées à l'époque. Ici, il s'agit plutôt de produire une statistique à partir de "données" de l'époque, dont le fondement est intrinsèque à l'administration de l'époque même si les moyens n'étaient pas encore disponibles pour l'appliquer.
+
+"L'objet statistique est d'autant plus facile à saisir qu'il est déjà comptabilités" (Gille 1980: intro?) --> Le travail de dépouillement systématique des archives du CBC a transformé les procès-verbaux en des données quantifiables. L'action du CBC devient ainsi mesurable. Crée une source statistique à partir d'un texte manuscrit.
+
+Face à cette production de "données" émerge le besoin grandissant de les comprendre, on se met donc à "ranger visuellement", à les mettre en table. Ces mesures sont unifiées grâce au système métrique et la division en département crée une échelle d'éléments comparables. Ce processus rationalise la compréhension du territoire et les actions qu'on y pose. 
+
+
+
 #### pensée visuelle
 
 "L’organisation prévoyait également de confier à plusieurs architectes la direction de différents édifices. Elle traduisait la volonté du ministre d’employer un maximum d’artistes. De ce point de vue, la faculté que s’était donnée le ministre d’employer des architectes à traitement fixe et d’autres avec des honoraires proportionnels lui donnait une grande latitude dans les nominations. Afin de garantir l’équité dans l’accès aux places, le Conseil des bâtiments civils à la séance du 17 nivôse an IV (6 janvier 1796) décidait de « de former un tableau sur lequel seront inscrits les noms de ces artistes lequel sera mis sous les yeux du Conseil qui le consultera chaque fois qu’il y aura quelque emploi à donner, afin de désigner pour le remplir, celui qui réunira le plus de titre à cet effet » (A.N., F21* 2470, Registre des Procès-verbaux du Conseil des bâtiments civils, séance du 17 nivôse an IV [6 janvier 1796], n° 33, p. 11. Les articles F13 331 et 332 sont probablement le résultat de ce travail... dans (Château-Dutier 2016: T1, 141)
@@ -327,6 +315,10 @@ Grâce à cette étude systématique du contenu des archives  et à leur catégo
 ## Conclusions du chapitre
 
 => Contexte qui situe les mentalités et priorités à la première moitié du XIXe: les choses "en marche" et celles qui sont en train d'émerger pour devenir les visualisations et cartographies thématiques et autres modes de pensées qui nous sont familier
+
+mais, s'il réussit à créer une collecte centrale des données, ce fut précisément l'échec de ses méthodes de traitement qui amena à la suppression du bureau" (Perrot et Al. 1981: 10)
+
+ce qui n'était pas possible à l'époque, ce qu'on peut réaliser aujourd'hui
 
 ==> État de la question et contexte historique XIXe informent la création de l'instrument de recherche. Éviter les gros anachronismes et utiliser ce qu'on sait sur l'époque pour l'interroger. Poursuivre des recherches prometteuses qui peuvent être renouvelée grâce à l'apport de nouvelles technologies.
 
