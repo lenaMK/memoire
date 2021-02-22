@@ -80,11 +80,15 @@ En réponse au problème de l'illusion cartographique, le géographe J.B. Harley
 
 ### La statistique
 
-"La statistique est un langage nouveau contribuant à unifier l'État et à en transformer le rôle"
+> "La statistique est un langage nouveau contribuant à unifier l'État et à en transformer le rôle" (Desrosières 2008: 306)
 
 La statistique apparaît comme outil administratif dès le XVIIIe. À cette époque, on peut la définir comme un ensemble de connaissances particulières, quantifiées et périodiques, destinées aux administrateurs (Desrosières 2008: 28?). Il s'agit généralement d'un outil employé en pratique, dans un temps immédiat, dans le cadre d'enquêtes spécialisées et quantitatives, à des fins d'objectifs fiscaux par exemple. La statistique était ancrée dans une description locale d'un territoire divers et hétérogène (Desrosières 1997: 53).
 
 Après la période révolutionnaire, la statistique bascule de son sens allemand à son sens moderne de système de description quantitatif. Entre 1789 et 1815 sont formé les outillages politiques, cognitifs et administratifs nécessaire à une statistique d'État (Desrosières 1997: 57). D'une part, la division du territoire et la construction d'équivalences prépare le terrain et les mesures. D'autre part, les pratiques statistiques, initiées au siècle précédent, se réalisent de façon plus complète grâce à une administration centralisée et rigoureusement structurée à tous les échelons (Desrosières 1997:57).  
+
+La statistique prétend ainsi représenter la nation de façon « objective ». La formation d’un État républicain, égalitaire et au service de "tous"[^33] a besoin de connaître la nation afin de l’administrer. Elle cherche et choisit de créer des sources d'information rationnelle, mesurable, et obtenue de façon et scientifique (Desrosières 2008: 28). La statistique est employée comme un "outil essentiel de rationalisation de la conduite des affaires humaines, [qui] substitue la raison de la mesure et du calcul à l'arbitraire des passions et au jeu des rapports de force** (Desrosières 2008b: 24?). Elle s'érige comme une progressive construction d'une 'information', issue du territoire mais de plus en plus détachée de lui. Déterritorialisée, concentrée dans des lieux et des langages spécialisés, elle en devient autonome et comparable aux laboratoires des sciences de la nature (Desrosières 1997: 53).
+
+> Les statistiques, telles que nous les pratiquons actuellement, sont dans la très grande majorité des cas, des statistiques établies administrativement, comptabilité régulièrement tenue, selon des règles connues. Elles sont nées, se sont développées, se sont perfectionnées autant par des nécessités administratives que par certaines exigences scientifiques" (Gille 1980: intro? )
 
 On assiste à la naissance d'un bureau de statistique officielle dont émerge une activité de production administrative du savoir statistique. Combinant les univers et les normes de la sciences avec celles de l'État moderne et rationel, elle a pour finalité le service efficace de l'intérêt général et efficacité  (Derosières 2008: 16). La statistique est donc directement associée à la construction de l'Etat, qui a "grand besoin en permanence de compter et de chiffrer pour délimiter les nouvelles frontières administratives ou pour organiser les élections" (Woolf dans Perrot et Al. 1981: 58).
 
@@ -94,75 +98,33 @@ S'ensuit, entre 1801 et 1805, le projet de "compiler et [de] publier une énorme
 
 > "Le projet de statistique, à cet égard, est emblématique de la perspective de François de Neufchâteau: il s'agit moins de parvenir à une description globale du territoire, que de disposer d'un outil fiable pour évaluer l'action de l'Etat".  (Moullier 2004: 36)
 
-La statistique prétend ainsi représenter la nation de façon « objective ». La formation d’un État républicain, égalitaire et au service de "tous"[^33] a besoin de connaître la nation afin de l’administrer. Elle cherche et choisit de créer des sources d'information rationnelle, mesurable, et obtenue de façon et scientifique (Desrosières 2008: 28). La statistique est employée comme un "outil essentiel de rationalisation de la conduite des affaires humaines, [qui] substitue la raison de la mesure et du calcul à l'arbitraire des passions et au jeu des rapports de force** (Desrosières 2008b: 24?). Elle s'érige comme une progressive construction d'une 'information', issue du territoire mais de plus en plus détachée de lui. Déterritorialisée, concentrée dans des lieux et des langages spécialisés, elle en devient autonome et comparable aux laboratoires des sciences de la nature (Desrosières 1997: 53).
+La procédure de comptage est l'acte central dans les statistiques. L'acte d'addition, qui permet la fusion dans un tout, implique la disparition de la singularité de l'individu. Le graphique permet de rapprocher et de mettre en relation, sous le regard, des grandeurs séparées tant par les conditions et les lieux de leurs enregistrements que par leur nature (Desrosières 2008b: 124-125). 
 
-> Les statistiques, telles que nous les pratiquons actuellement, sont dans la très grande majorité des cas, des statistiques établies administrativement, comptabilité régulièrement tenue, selon des règles connues. Elles sont nées, se sont développées, se sont perfectionnées autant par des nécessités administratives que par certaines exigences scientifiques" (Gille 1980: intro? )
+L'utilisation d'un support matériel comme le papier pour le traitement de l'information offre la possibilité de déployer des capacité logiques et cognitives. L'organisation de l'information prend alors de l'importance. Une liste par exemple, aligne des personnes ou des choses et permet de traiter chaque item sur le même plan. Elle présente déjà une vue d'ailleurs et de nulle part, une position d'extériorité similaire au tableau, au graphique ou à la carte.  (Desrosières ArgumentStat: ~110). L'administration centrale emploie des tableaux statistiques, structurés par rubriques, qui ont pour objectif de mesurer l'efficacité des autorités départementales (Moullier 2004: 36).
 
-#### visualiser pour comprendre
+Ces tableaux, diffusés sous la formes de périodiques ou d'atlas statistiques, ne sont pas uniquement destinés à l'Etat. La République en fait l'affaire de tous et les destine à l'usage de la nation, La statistique prétend représenter la société entière, devenant ainsi le miroir de la nation et plus celui du prince (Desrosières 2008: 48). "Au lieu de servir le dirigisme, la statistique dûment diffusée par l'Etat lui-même, favoriserait au contraire un fonctionnement plus libre et plus harmonieux de la société civile" (Bourguet dans Perrot et al. 1981: 134) Il s'agit de nourrir l'idéal d'une société plus égale et d'un Etat au service de ses citoyens.
 
-Le **graphique** permet de rapprocher et de mettre en relation, sous le regard, des grandeurs séparées tant par les conditions et les lieux de leurs enregistrements que par leur nature (Desrosières 2008b: 124-125)
+Coquebert, professeur de statistique à l'école des Mines, propose de "transformer le bureau de la statistique en une mémoire collective pour tous les autres bureaux.. s'il réussit à créer une collecte centrale des données, ce fut précisément l'échec de ses méthodes de traitement qui amena à la suppression du bureau" (Perrot dans Perrot et al. 1981: 10). L'engouement pour la statistique et son utilité potentielle pour l'administration est toutefois limitée par le succès relatif, voir l'échec selon certains, de la discipline. En effet, dû notamment à un manque d'effectifs, de complétion ou de cohérence des statistiques des préfets, l'information nécessaire n'atteint pas toujours l'administration centrale à temps ou dûment complétée. Parfois, au contraire, des préfets minutieux envoient de longs rapports peu pratiques pour la production de statistiques. Face aux doutes quant à l'emploi de l'information fournie, comme l'impact du recensement sur le statut des villes et villages par exemple, on constate  la présence de "choix stratégiques" dans les chiffres transmis dans les statistiques. Finalement, dans le cas de l'enquête Champagny effectuée par Serge Chassagne, il ne peut s'empêcher de qualifier le projet de "plaisanterie, puisqu'on lance une enquête et que l'on prend une décision avant les résultats..." (Chassagne dans Perrot et al. 1981: 142)
 
-"Les tableaux statistiques sont découpés en rubriques qui doivent permettre de mesurer l'efficacité de la législation et de l'action de chaque autorité départementale" (Moullier 2004: 36)
-
-"La méthode graphique simplifie et rend attrayantes des statistiques ennuyeuses et complexes"
-"permet" porter attention sur des configurations générales .. sans la fatigue et l'ennui de l'étude de cas particuliers dont elles sont composées
-
-**papier**: support matériel et possibilité pratique de déployer des capacité logiques et cognitives
-
-**Liste** --> aligner des personnes  / des choses
-
-- traiter chaque item sur le même plan = vue d'ailleurs et de nulle part
-- liste, tableau, graphique, carte = position d'extériorité
-
-Procédure de comptage, disparition de la singularité de l'individu, acte fondateur d'addition, fusion dans un tout
-
-
-
-#### diffusion & atlas statistiques
-
-"La statistique n'est pas seulement la chose du prince et de l'Etat, un moyen de gouvernement, elle doit être aussi à l'usage de la nation, du moins à ces élites" 
-
-"Au lieu de servir le dirigisme, la statistique dûment diffusée par l'Etat lui-même, favoriserait au contraire un fonctionnement plus libre et plus harmonieux de la société civile" (Bourguet dans Perrot et al. 1981: 134)
-
-- **statistique passe du  monument enfermée dans les archivés à l'imprimé destiné en principe à un large public**
-- état république = devient la chose de tous 
-- représente la société entière = statistiques miroir de la nation (et non plus du prince) `48`
-
-- publication de traités de statistiques, information principalement quantitative, sous-produit des pratiques administratives
-
-#### démarche & critique 
-
-"les langages statistiques constituent les faits sociaux en choses. L'histoire fait comprendre comment les faits sociaux sont devenus des choses et comment ils deviennent des techniques statistiques " (Derosières 2008: 10?)
-
-"la statistique est le lieu d'interaction entre les mondes du savoir et du pouvoir, description/ décision, il y a / il faut" (Desrosières 2008: 11?) 
-
-objets mesurés : (gouvernement) **pas uniquement 'reflets de la réalité', mais agents de transformation de celle-ci** (Desrosières 2008b: 15?S)
-
-Coquebert, professeur de statistique à l'école des Mines, propose de "transformer le bureau de la statistique en une mémoire collective pour tous les autres bureaux.. s'il réussit à créer une collecte centrale des données, ce fut précisément l'échec de ses méthodes de traitement qui amena à la suppression du bureau" (Perrot dns Perrot et Al. 1981: 10) <!-- échec par "manque de moyens" -->
-
-
-
-#### 
-
-Cette nouvelle science est néanmoins tout aussi prescriptive que descriptive (Desrosières 2010 : 13-17). Cela s’éclaircit lorsqu’on examine plus attentivement le processus de quantification, de *mesure*, effectuée par les ingénieurs d’État. Ils suivent avec assiduité les critères de mesure émis l'administration en charge. Ces mesures, pourtant centrales à la production de statistiques, ne sont donc pas si objectives. Puis, ces informations, « révélées » ou « représentées » par la statistique justifient et appuient les décisions, les *mesures* administratives mises en place par la suite (Desrosières 2008b: 84). Ainsi, les deux utilisations du terme « mesure » permettent de rendre compte de la relation quelque peu incestueuse qui existe entre les statistiques et les décisions de l’État.
+Finalement, nous devons également souligner que cette nouvelle science est tout aussi prescriptive que descriptive (Desrosières 2010 : 13-17). Cela s’éclaircit lorsqu’on examine plus attentivement le processus de quantification, de *mesure*, effectuée par les ingénieurs d’État. Ils suivent avec assiduité les critères de mesure émis l'administration en charge. Ces mesures, pourtant centrales à la production de statistiques, ne sont donc pas si objectives. Puis, ces informations, « révélées » ou « représentées » par la statistique justifient et appuient les décisions, les *mesures* administratives mises en place par la suite (Desrosières 2008b: 84). Ainsi, les deux utilisations du terme « mesure » permettent de rendre compte de la relation quelque peu incestueuse qui existe entre les statistiques et les décisions de l’État. Les objets mesurés ne sont pas uniquement des reflets de la réalité, mais aussi agents de transformation de celle-ci (Desrosières 2008b: 15)
 
 > Structurant le territoire de façon pyramidale, de la commune à la capitale, cette administration fournit une statistique à son image. Elle décrit sa propre activité, plutôt que la société: la délinquance punie par la justice, la pauvreté secourue, plutôt qu'une délinquance ou une pauvreté réelles, qui seraient antérieures à ces procédures et que nul ne connaît. (@desrosieresTerritoireAuLaboratoire1997 : 57)
 
-De plus "en étudiant l'enquête Champagny, [Serge Chassagne avait] montré que c'était une plaisanterie, puisqu'on lance une enquête et que l'on prend une décision avant les résultats..." (Chassagne dans Perrot et al. 1981: 142)
+
+
+> "la statistique est le lieu d'interaction entre les mondes du savoir et du pouvoir, description/ décision, il y a / il faut" (Desrosières 2008: 11) 
+
+
 
 ### Pensée cartographique
 
-Il s'ensuit un engouement pour l'usage de la carte par les administrations (Verdier 2005: 2). On constate tout d'abord la "mise en place d'une _nouvelle grammaire figurative du territoire_" (Verdier 2015: 13). Ensuite, lorsque les moyens sont disponibles,la production de cartographies thématiques [Palsky]. De plus, à cette époque sont inventées ce qu'on appelle les visualisations de données, avec notamment le travail de William Playfair en Angleterre et de Charles Joseph Minard (1781-1870) en France [Friendly].
+La fin du XVIIIème et le début du XIXème sont également marqués par l’émergence d’une pensée cartographique (Lepetit 1988: 122). La carte permet une représentation du territoire national mais elle occupe également une fonction cognitive, au niveau d’actes administratifs par exemple. Dès le départ, elle a eu un rôle décisif dans la détermination des limites départementales. En effet, la matérialisation qu’offre la cartographie permet d’appuyer des plaidoyers effectués auprès du Comité de division afin d’orienter leur décision dans le découpage du territoire (Lepetit 1990: 435). Le changement de régime politique influe également sur la place de la cartographie. Son usage se diversifie, quitte l’espace confidentiel des stratégies militaires pour se diffuser plus largement auprès de la population et devenir un savoir public (Pelletier 1996: 8). 
 
-La fin du XVIIIème et le début du XIXème sont marqués par l’émergence d’une pensée cartographique (Lepetit 1988: 122). La carte permet une représentation du territoire national mais elle occupe également une fonction cognitive, au niveau d’actes administratifs par exemple. Dès le départ, elle a eu un rôle décisif dans la détermination des limites départementales. En effet, la matérialisation qu’offre la cartographie permet d’appuyer des plaidoyers effectués auprès du Comité de division afin d’orienter leur décision dans le découpage du territoire (Lepetit 1990: 435). Le changement de régime politique influe également sur la place de la cartographie. Son usage se diversifie, quitte l’espace confidentiel des stratégies militaires pour se diffuser plus largement auprès de la population et devenir un savoir public (Pelletier 1996: 8). 
-
-L’invention de la lithographie contribue à ce déliement des utilisations et on assiste à un véritable bourgeonnement d’usages de la cartographie, pour témoigner ou argumenter autour de sujets aussi divers que l’état de l’instruction ou la criminalité. Le Baron Pierre Charles Dupin, véritable pionnier dans la représentation cartographique, crée en 1826 la première carte faisant état d’une distribution, celle du degré d’instruction de la population (Annexe 1). S’ensuit rapidement l’idée d’une *Statistique comparée de l’état de l’instruction et du nombre de crimes* (Adriano Balbi et André Michel Guerry, 1829. Annexe 2) ou de la distribution de la population (Frère Armand Joseph de Montizon, 1830. Annexe 3)[1](#sdfootnote1sym). La cartographie dépasse la représentation topographique pour devenir thématique et s’allie aux premières études statistiques (Palsky 1996). Son usage est primé pour sa capacité à exprimer des informations quantitatives et sa qualité d’immédiateté visuelle. La première moitié du XIXème siècle est donc pleinement investie d’une pensée cartographique dont les formes et usages connaissent une expansion sans précédents. 
+#### concept carte
 
 "Médiation visible et matérialisée générant une image mentale, la carte met peut-être en évidence une constante de notre organisation cognitive, du moins dans notre tradition culturelle: l'image inscrite et visible a plus d'impact que le discours qui la décrirait" (Jacob 1992: 51)
 
 "Par sa fonction d'interface entre le sujet et l'objet, la carte apparaît ... comme l'un des dispositifs fondateurs de la pensée occidentale " (Jacob 1992: 52)
-
-- 
 
 
 
@@ -170,21 +132,33 @@ La dimension politique de la carte va au-delà d’une représentation topograph
 
 Carte rattachée à l'origine de la statistique car description plus ou moins standardisée du royaume (Desrosières 2008b: classer et mesurer? )
 
+#### lien avec statistique
+
+- **Le découpage standardisée du territoire selon les départements, parcourus par leurs préfets, ne suffit pas, à lui seul,  à la production d'une information totalisable pour la France entière. Il doit être inscrit dans une réseau administratif et matériel plus vaste**, permettant de relier, de proche en proche, d'une part, l'individu, la famille, la ferme, l'atelier ou la boutique, et, d'autre part, le Bureau central responsable de la totalisation national (Desrosières 1997: 54?)
+
+- la carte, outil de prédiction: le maillage départemental, cohérent et stable après 1840 est systématiquement utilisé pour faire apparaître les régulairté de l'organisation spatiale des diverses parties de la France. Tout au long du XIXe siècle, les cartes thématiques, dr-essées à partir des statistiques du territoire, servent de support à des rapprochements, à des mises en corrélation entre les phénomènes les plus variés.  (Desrosières 1997: 57)
+
+  
+
+unification politique et administrative du territoire (1790) ouvre la voie à un mouvement de cartographie statistique, qui s'amorce dès 1830 (Palsky 1996). Cette cartographie reste cependant, tout comme statistique, au service de ses commanditaires. Pelletier, citant Palsky, insiste bien que « les premières cartes thématiques du XIXème siècle sont ainsi ‘moins spectacles ou inventaires que moyens de persuasion’ » (Pelletier 1996 : 7).
+
+
+
 #### "carte statistique": 
 
 - ne remonte pas au-delà du XIXe (Palsky)
-- "Condition de possibilité d'un projet sur l'espace qui se veut à la fois objectif et prédictif, la carte statistique est en même temps le support de conceptions théoriques se donnant comme vérités admises" (Chapel, 2010: 13)
+
+L’invention de la lithographie contribue à ce déliement des utilisations et on assiste à un véritable bourgeonnement d’usages de la cartographie, pour témoigner ou argumenter autour de sujets aussi divers que l’état de l’instruction ou la criminalité. Le Baron Pierre Charles Dupin, véritable pionnier dans la représentation cartographique, crée en 1826 la première carte faisant état d’une distribution, celle du degré d’instruction de la population (Annexe 1). S’ensuit rapidement l’idée d’une *Statistique comparée de l’état de l’instruction et du nombre de crimes* (Adriano Balbi et André Michel Guerry, 1829. Annexe 2) ou de la distribution de la population (Frère Armand Joseph de Montizon, 1830. Annexe 3)[1](#sdfootnote1sym). La cartographie dépasse la représentation topographique pour devenir thématique et s’allie aux premières études statistiques (Palsky 1996). Son usage est primé pour sa capacité à exprimer des informations quantitatives et sa qualité d’immédiateté visuelle. La première moitié du XIXème siècle est donc pleinement investie d’une pensée cartographique dont les formes et usages connaissent une expansion sans précédents. 
+
+"Condition de possibilité d'un projet sur l'espace qui se veut à la fois objectif et prédictif, la carte statistique est en même temps le support de conceptions théoriques se donnant comme vérités admises" (Chapel, 2010: 13)
+
 - "toutes ces visualisations thématiques entraînent une véritable dissection de l'image de la ville, qui permet de saisir et de débattre des questions d'hygiène, de circulation et d'aménagement au moment où l'espace urbain est de plus en plus pensé en termes d'équipements et de réseaux (Picon, Robert, 1999 dans Chapel 2010: 20)"
 - "ce n'est pas seulement la description statistique d'un état présent, étant donné que les statistiques permettent d'extrapoler l'avenir (dans le but de planifier), sur la base d'un réel mesuré de façon rétrospective" <!-- temporalités!--> (Chapel 2010: 21)
 - les données chiffrées recueillies et spatialisées, juxtaposées et comprées, ont comme effet de faire apparaître des constantes et donc des principes pouvant ramener l'apparent désordre urbain à une raison supérieure et globalisante (Chapel 2010: 21)
-- **Le découpage standardisée du territoire selon les départements, parcourus par leurs préfets, ne suffit pas, à lui seul,  à la production d'une information totalisable pour la France entière. Il doit être inscrit dans une réseau administratif et matériel plus vaste**, permettant de rlier, de proche en proche, d'une part, l'individu, la famille, la ferme, l'atelier ou la boutique, et, d'autre part, le Bureau central responsable de la totalisation national (Desrosières 1997: 54?)
-- la carte, outil de prédiction: le maillage départemental, cohérent et stable après 1840 est systématiquement utilisé pour faire apparaître les régulairté de l'organisation spatiale des diverses parties de la France. Tout au long du XIXe siècle, les cartes thématiques, dr-essées à partir des statistiques du territoire, servent de support à des rapprochements, à des mises en corrélation entre les phénomènes les plus variés.  (Desrosières 1997: 57)
 
-**unification politique et administrative du territoire (1790) ouvre la voie à un mouvement de cartographie statistique, qui s'amorce dès 1830 (Palsky 1996). Cette cartographie reste cependant, tout comme statistique, au service de ses commanditaires. Pelletier, citant Palsky, insiste bien que « les premières cartes thématiques du XIXème siècle sont ainsi ‘moins spectacles ou inventaires que moyens de persuasion’ » (Pelletier 1996 : 7).
+#### carte & administration
 
-
-
-#### carte au CBC
+On relève également un engouement pour l'usage de la carte par les administrations (Verdier 2005: 2), avec la "mise en place d'une _nouvelle grammaire figurative du territoire_" (Verdier 2015: 13). 
 
 - naissance de l'urbanisme: carte pour planification des actions sur le territoire
 
@@ -192,7 +166,7 @@ rôle carto : changement régulier des limites --> carte aux bâtiments civils
 
 
 
-Nous avons ainsi démontré la présence ainsi que l'utilisation gouvernementale de la cartographie et de la statistique à l'époque, alliant pouvoir et territoire dans l’affirmation d’un Etat-nation. Conscientisé·e·s au fonctionnement de ce raisonnement quantitatif au sein du gouvernement et de son adminstration, nous pourrons plonger dans l’œuvre du Conseil des bâtiments civils avec une perspective, certes contemporaine, mais de nature similaire puisque cartographique et quantitative. Ainsi, nous nous attendons à révéler certaines politiques d’équipements qu’il a instaurées et dont on ne saurait comprendre le sens sans s’imprégner de cette pensée cartographique.
+Nous avons ainsi démontré la présence ainsi que l'utilisation gouvernementale de la cartographie et de la statistique à l'époque, alliant pouvoir et territoire dans l’affirmation d’un Etat-nation. Conscientisé·e·s au fonctionnement de ce raisonnement quantitatif au sein du gouvernement et de son administration, nous pourrons plonger dans l’œuvre du Conseil des bâtiments civils avec une perspective, certes contemporaine, mais de nature similaire puisque cartographique et quantitative. Ainsi, nous nous attendons à révéler certaines politiques d’équipements qu’il a instaurées et dont on ne saurait comprendre le sens sans s’imprégner de cette pensée quantitative et cartographique.
 
 
 
@@ -264,7 +238,9 @@ Il y a plusieurs travaux effectués sur les statistiques qui ont été tentées 
 
 Face à cette production de "données" émerge le besoin grandissant de les comprendre, on se met donc à "ranger visuellement", à les mettre en table. Ces mesures sont unifiées grâce au système métrique et la division en département crée une échelle d'éléments comparables. Ce processus rationalise la compréhension du territoire et les actions qu'on y pose. 
 
+#### carte au CBC
 
+carte CBC
 
 #### pensée visuelle
 
