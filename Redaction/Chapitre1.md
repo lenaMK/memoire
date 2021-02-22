@@ -118,55 +118,31 @@ Finalement, nous devons également souligner que cette nouvelle science est tout
 
 ### Pensée cartographique
 
-La fin du XVIIIème et le début du XIXème sont également marqués par l’émergence d’une pensée cartographique (Lepetit 1988: 122). La carte permet une représentation du territoire national mais elle occupe également une fonction cognitive, au niveau d’actes administratifs par exemple. Dès le départ, elle a eu un rôle décisif dans la détermination des limites départementales. En effet, la matérialisation qu’offre la cartographie permet d’appuyer des plaidoyers effectués auprès du Comité de division afin d’orienter leur décision dans le découpage du territoire (Lepetit 1990: 435). Le changement de régime politique influe également sur la place de la cartographie. Son usage se diversifie, quitte l’espace confidentiel des stratégies militaires pour se diffuser plus largement auprès de la population et devenir un savoir public (Pelletier 1996: 8). 
+> "Par sa fonction d'interface entre le sujet et l'objet, la carte apparaît ... comme l'un des dispositifs fondateurs de la pensée occidentale " (Jacob 1992: 52)
 
-#### concept carte
+La fin du XVIIIème et le début du XIXème sont également marqués par l’émergence d’une pensée cartographique (Lepetit 1988: 122). La carte permet une représentation du territoire national mais elle occupe également une fonction cognitive, au niveau d’actes administratifs par exemple. Dès le départ, elle a eu un rôle décisif dans la détermination des limites départementales. En effet, la matérialisation qu’offre la cartographie permet d’appuyer des plaidoyers effectués auprès du Comité de division afin d’orienter leur décision dans le découpage du territoire (Lepetit 1990: 435). 
 
-"Médiation visible et matérialisée générant une image mentale, la carte met peut-être en évidence une constante de notre organisation cognitive, du moins dans notre tradition culturelle: l'image inscrite et visible a plus d'impact que le discours qui la décrirait" (Jacob 1992: 51)
+> "Médiation visible et matérialisée générant une image mentale, la carte met peut-être en évidence une constante de notre organisation cognitive, du moins dans notre tradition culturelle: l'image inscrite et visible a plus d'impact que le discours qui la décrirait" (Jacob 1992: 51)
 
-"Par sa fonction d'interface entre le sujet et l'objet, la carte apparaît ... comme l'un des dispositifs fondateurs de la pensée occidentale " (Jacob 1992: 52)
+Le changement de régime politique influe également sur la place de la cartographie. Son usage se diversifie, quitte l’espace confidentiel des stratégies militaires pour se diffuser plus largement auprès de la population et devenir un savoir public (Pelletier 1996: 8). 
 
+> Le découpage standardisée du territoire selon les départements, parcourus par leurs préfets, ne suffit pas, à lui seul,  à la production d'une information totalisable pour la France entière. Il doit être inscrit dans une réseau administratif et matériel plus vaste, permettant de relier, de proche en proche, d'une part, l'individu, la famille, la ferme, l'atelier ou la boutique, et, d'autre part, le Bureau central responsable de la totalisation national (Desrosières 1997: 54?)
 
+La carte produit une description plus ou moins standardisée du royaume (Desrosières 2008b: classer et mesurer?). Elle devient de ce fait, et comme la statistique, un outil de prédiction pour l'administration. Le maillage départemental, cohérent et stable après 1840, est systématiquement utilisé pour faire apparaître les régularité de l'organisation spatiale des diverses parties de la France. Tout au long du XIXe siècle, les cartes thématiques, dressées à partir des statistiques du territoire, servent de support à des rapprochements, à des mises en corrélation entre les phénomènes les plus variés (Desrosières 1997: 57). 
 
-La dimension politique de la carte va au-delà d’une représentation topographique ou symbolique de l’espace car elle « oriente les décisions […] elle met en forme la vision du monde sur laquelle ces décisions prennent appuis »(Besse 2006: 5).
+L'unification politique et administrative du territoire (1790) ouvre aussi la voie à un mouvement de cartographie statistique, qui s'amorce dès 1830 (Palsky 1996). L’invention de la lithographie contribue à ce déliement des utilisations et on assiste à un véritable bourgeonnement d’usages de la cartographie, pour témoigner ou argumenter autour de sujets aussi divers que l’état de l’instruction ou la criminalité. Le Baron Pierre Charles Dupin, véritable pionnier dans la représentation cartographique, crée en 1826 la première carte faisant état d’une distribution, celle du degré d’instruction de la population (Annexe 1). S’ensuit rapidement l’idée d’une *Statistique comparée de l’état de l’instruction et du nombre de crimes* (Adriano Balbi et André Michel Guerry, 1829. Annexe 2) ou de la distribution de la population (Frère Armand Joseph de Montizon, 1830. Annexe 3)[1](#sdfootnote1sym). La cartographie dépasse la représentation topographique pour devenir thématique et s’allie aux premières études statistiques (Palsky 1996). Son usage est primé pour sa capacité à exprimer des informations quantitatives et sa qualité d’immédiateté visuelle. 
 
-Carte rattachée à l'origine de la statistique car description plus ou moins standardisée du royaume (Desrosières 2008b: classer et mesurer? )
+La corrélation entre cartographie et statistique n'est pas ancrée dans le présent. Au contraire, il s'agit d'utiliser des mesures qui ont été prises dans le passé dans le but de planifier, et en quelques sortes prévoir, le futur (Chapel 2010: 21). La carte statistique contient une foule de projections et de conceptions théoriques considérée comme vraies afin de réunir les "condition[s] de possibilité d'un projet sur l'espace qui se veut à la fois objectif et prédictif" (Chapel, 2010: 13)
 
-#### lien avec statistique
+Ces outils de mesure, ces instruments de savoir, permettent la naissance de l'urbanisme. L'abstraction présentée par la carte et la statistique permet de saisir/comprendre la ville, puis de projeter de le contrôler. Ces données chiffrées, tout d'abord recueillies et spatialisées, puis juxtaposées et comparées, révèlent des constantes et donc des principes pouvant ramener l'apparent désordre urbain à une raison supérieure et globalisante (Chapel 2010: 21)
 
-- **Le découpage standardisée du territoire selon les départements, parcourus par leurs préfets, ne suffit pas, à lui seul,  à la production d'une information totalisable pour la France entière. Il doit être inscrit dans une réseau administratif et matériel plus vaste**, permettant de relier, de proche en proche, d'une part, l'individu, la famille, la ferme, l'atelier ou la boutique, et, d'autre part, le Bureau central responsable de la totalisation national (Desrosières 1997: 54?)
+> "Toutes ces visualisations thématiques entraînent une véritable dissection de l'image de la ville, qui permet de saisir et de débattre des questions d'hygiène, de circulation et d'aménagement au moment où l'espace urbain est de plus en plus pensé en termes d'équipements et de réseaux (Picon, Robert, 1999 dans Chapel 2010: 20)"
 
-- la carte, outil de prédiction: le maillage départemental, cohérent et stable après 1840 est systématiquement utilisé pour faire apparaître les régulairté de l'organisation spatiale des diverses parties de la France. Tout au long du XIXe siècle, les cartes thématiques, dr-essées à partir des statistiques du territoire, servent de support à des rapprochements, à des mises en corrélation entre les phénomènes les plus variés.  (Desrosières 1997: 57)
+Cette cartographie reste cependant, tout comme statistique, au service de ses commanditaires. Pelletier, citant Palsky, insiste bien que « les premières cartes thématiques du XIXème siècle sont ainsi ‘moins spectacles ou inventaires que moyens de persuasion’ » (Pelletier 1996 : 7). Il s'agit de présenter une vision du monde à partir de laquelle prendre des décisions (Besse 2006: 5). On peut ainsi comprendre l'engouement pour l'usage de la carte par les administrations (Verdier 2005: 2).  Son emploi régulier à des fins précises mène à la "mise en place d'une _nouvelle grammaire figurative du territoire_" (Verdier 2015: 13). La première moitié du XIXème siècle est donc pleinement investie d’une pensée cartographique dont les formes et usages connaissent une expansion sans précédents. 
 
-  
+Nous avons ainsi démontré la présence ainsi que l'utilisation gouvernementale de la cartographie et de la statistique à l'époque, alliant pouvoir et territoire dans l’affirmation d’un Etat-nation. 
 
-unification politique et administrative du territoire (1790) ouvre la voie à un mouvement de cartographie statistique, qui s'amorce dès 1830 (Palsky 1996). Cette cartographie reste cependant, tout comme statistique, au service de ses commanditaires. Pelletier, citant Palsky, insiste bien que « les premières cartes thématiques du XIXème siècle sont ainsi ‘moins spectacles ou inventaires que moyens de persuasion’ » (Pelletier 1996 : 7).
-
-
-
-#### "carte statistique": 
-
-- ne remonte pas au-delà du XIXe (Palsky)
-
-L’invention de la lithographie contribue à ce déliement des utilisations et on assiste à un véritable bourgeonnement d’usages de la cartographie, pour témoigner ou argumenter autour de sujets aussi divers que l’état de l’instruction ou la criminalité. Le Baron Pierre Charles Dupin, véritable pionnier dans la représentation cartographique, crée en 1826 la première carte faisant état d’une distribution, celle du degré d’instruction de la population (Annexe 1). S’ensuit rapidement l’idée d’une *Statistique comparée de l’état de l’instruction et du nombre de crimes* (Adriano Balbi et André Michel Guerry, 1829. Annexe 2) ou de la distribution de la population (Frère Armand Joseph de Montizon, 1830. Annexe 3)[1](#sdfootnote1sym). La cartographie dépasse la représentation topographique pour devenir thématique et s’allie aux premières études statistiques (Palsky 1996). Son usage est primé pour sa capacité à exprimer des informations quantitatives et sa qualité d’immédiateté visuelle. La première moitié du XIXème siècle est donc pleinement investie d’une pensée cartographique dont les formes et usages connaissent une expansion sans précédents. 
-
-"Condition de possibilité d'un projet sur l'espace qui se veut à la fois objectif et prédictif, la carte statistique est en même temps le support de conceptions théoriques se donnant comme vérités admises" (Chapel, 2010: 13)
-
-- "toutes ces visualisations thématiques entraînent une véritable dissection de l'image de la ville, qui permet de saisir et de débattre des questions d'hygiène, de circulation et d'aménagement au moment où l'espace urbain est de plus en plus pensé en termes d'équipements et de réseaux (Picon, Robert, 1999 dans Chapel 2010: 20)"
-- "ce n'est pas seulement la description statistique d'un état présent, étant donné que les statistiques permettent d'extrapoler l'avenir (dans le but de planifier), sur la base d'un réel mesuré de façon rétrospective" <!-- temporalités!--> (Chapel 2010: 21)
-- les données chiffrées recueillies et spatialisées, juxtaposées et comprées, ont comme effet de faire apparaître des constantes et donc des principes pouvant ramener l'apparent désordre urbain à une raison supérieure et globalisante (Chapel 2010: 21)
-
-#### carte & administration
-
-On relève également un engouement pour l'usage de la carte par les administrations (Verdier 2005: 2), avec la "mise en place d'une _nouvelle grammaire figurative du territoire_" (Verdier 2015: 13). 
-
-- naissance de l'urbanisme: carte pour planification des actions sur le territoire
-
-rôle carto : changement régulier des limites --> carte aux bâtiments civils
-
-
-
-Nous avons ainsi démontré la présence ainsi que l'utilisation gouvernementale de la cartographie et de la statistique à l'époque, alliant pouvoir et territoire dans l’affirmation d’un Etat-nation. Conscientisé·e·s au fonctionnement de ce raisonnement quantitatif au sein du gouvernement et de son administration, nous pourrons plonger dans l’œuvre du Conseil des bâtiments civils avec une perspective, certes contemporaine, mais de nature similaire puisque cartographique et quantitative. Ainsi, nous nous attendons à révéler certaines politiques d’équipements qu’il a instaurées et dont on ne saurait comprendre le sens sans s’imprégner de cette pensée quantitative et cartographique.
+*Conscientisé·e·s au fonctionnement de ce raisonnement quantitatif au sein du gouvernement et de son administration, nous pourrons plonger dans l’œuvre du Conseil des bâtiments civils avec une perspective, certes contemporaine, mais de nature similaire puisque cartographique et quantitative. Ainsi, nous nous attendons à révéler certaines politiques d’équipements qu’il a instaurées et dont on ne saurait comprendre le sens sans s’imprégner de cette pensée quantitative et cartographique.*
 
 
 
@@ -240,7 +216,7 @@ Face à cette production de "données" émerge le besoin grandissant de les comp
 
 #### carte au CBC
 
-carte CBC
+rôle carto : changement régulier des limites --> carte aux bâtiments civils
 
 #### pensée visuelle
 
