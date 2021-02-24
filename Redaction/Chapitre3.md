@@ -1,6 +1,6 @@
 #  Chapitre 3
 
-## Espaces et interprétation des données 
+## 3.1 Espaces et interprétation des données 
 
 Nous voulons désormais créer un espace de travail pour l'exploration et l'interprétation des données de CONBAVIL. 
 
@@ -27,28 +27,7 @@ Interdisciplinarité --> cartographie & visualisation de données (sémiologie, 
 
 
 
-<!-- à placer quelque part [Sinclair et al]: rich-prospect interfaces -->
-
-
-
-### Approche critique des données et des outils 
-
-
-
-#### Johanna Drucker: Graphesis 
-
-- data is capta
-- importance d'une lecture critique des données --> à même la visualisation/l'interface
-- créer des outils qui privilégient cette approche 
-
-Matteo Treleani, Qu'est-ce que la patrimoine numérique, chap 3: la circulation des archives
-
-- distance par rapport à l'immersion, comment visualiser l'impossibilité de percevoir le passé, et ainsi assurer qu'on garde un regard critique sur le construit présenté
-- visibilité des filtres du dispositif qui nous donne accès au passé
-
-<!-- verhoeven? =/= utiliser les données pour montrer ce qu'on sait déjà, mais propose une approche critique -->
-
-### Analyse statistique 
+### Analyse quantitative et statistique --> chap1.3.3 ?
 
 Garric --> comparaisons, statistiques 
 
@@ -64,9 +43,9 @@ archives d'une administration =
 
 - présence de politiques sous-jacentes --> liens entre les affaires ne sont pas des hasards (coïncidences) mais bien des initiatives (corrélations) verbalisées et concrétisées, exigées par décrets ou plus "flou", tendance-priorités de l'époque
 
-<!-- est-ce que j'ai un exemple de projet intéressant pour les statistiques? -->
+<!-- est-ce que j'ai un exemple de projet intéressant pour les statistiques? placer Joyeux-Prunel ici?? -->
 
-### Cartographie 
+### De la cartographie à la visualisation de données
 
 intérêt pour la cartographie --> pensée spatiale liée au côté topographique des données, mais aussi à une envie de percevoir les dynamiques et changements, à travers le temps et l'espace. 
 
@@ -86,29 +65,56 @@ Le traitement des données de Conbavil forme un espace cartographique composé d
 
 L’historien Christian Jacob théorise la relation entre archives et cartographie dans son ouvrage majeur, *L’Empire des cartes* (1992). Il y présente un projet de recherche sur les prénoms mené par la *Rencontre des historiens du Limousin*[6](http://revuecaptures.org/article-dune-publication/constellations-de-données-historiques#footnote6_3hkkf7g). Dans le contexte d’un dépouillement massif d’archives, ces chercheur·se·s soulignent le potentiel épistémologique de l’usage de la cartographie pour « le quantitatif et l’étude de l’organisation spatiale des phénomènes » (Pérouas, 1984: 3). Dans le cadre d’un tel projet, la carte devient un instrument d’enquête pour l’historien·ne : elle « ne renvoie pas à une réalité visible sur le terrain — en revanche, elle permet de visualiser différemment des centaines d’archives dépouillées par les historiens » (Jacob, 1992: 32). Dans le cas du Conseil des bâtiments civils, plus de 26 000 affaires situées dans 4 200 lieux sont organisées selon une logique encore enfouie dans les sources. La cartographie de ces éléments nous permet de discerner leur organisation spatiale et de renouveler ainsi la compréhension de l’administration de l’architecture publique française au lendemain de la Révolution.
 
-
-
-#### Presner et al :temporal topographies
-
-épaisseur des cartes --> 
-
-- temporalité
-- manipulation 
-- multiplicité des perspectives
-
-
-
-### Visualisation
-
-
-
 En outre, nous élargissons cette approche cartographique pour y inclure des formes visuelles qui ne sont pas spécifiquement topographiques, notamment des diagrammes. C’est pourquoi nous préférerons employer le terme « figuration » à celui de « représentation » pour parler de l’image produite par la cartographie : « [L]a figuration est le dessin d’un objet qui ne préexiste pas à son image, alors que l’usage courant du mot représentation fait de celle-ci la reproduction d’une réalité préexistante. » (Besse, 2006: 12) Rappelant l’étymologie du mot « diagramme », Jean-Marc Besse définit la carte comme « une *eikôn* d’un genre particulier » qui « nous renvoie d’une part à un acte d’écriture (*gramma*, relation avec *graphein*) et d’autre part [à] un acte d’articulation logique (*dia*-, à la fois distinguer et relier, enchaîner ce qui est distingué) » (2006: 15). L’assemblage de ces actes de figuration, d’écriture et d’articulation logique nous permet de définir la visualisation de données comme une forme de pensée visuelle qui figure un imaginaire raisonné et construit.
 
 
 
 statut des visualisation: ne sont jamais présentées comme des fins en soi ... mais plutôt comme une matière pour l'élaboration intellectuelle ̣- mouvante et incarnée dans divers modes d'inscrption, mobilisant en même temps les nouveaux outils et des séquences de pratiques et des protocloes de travails existants. Les images produites ne sont ainsi pas uniquement conçues comme des outils d'interprétation, mais aussi de tri, de paramétrage, voire même d'enrichissement et de transformation des données (caviglia 2014)
 
+### Approche critique des données et des outils 
 
+#### critique des données = Johanna Drucker: Graphesis 
+
+- data is capta
+- importance d'une lecture critique des données --> à même la visualisation/l'interface
+- créer des outils qui privilégient cette approche 
+
+Matteo Treleani, Qu'est-ce que la patrimoine numérique, chap 3: la circulation des archives
+
+- distance par rapport à l'immersion, comment visualiser l'impossibilité de percevoir le passé, et ainsi assurer qu'on garde un regard critique sur le construit présenté
+- visibilité des filtres du dispositif qui nous donne accès au passé
+
+<!-- verhoeven? =/= utiliser les données pour montrer ce qu'on sait déjà, mais propose une approche critique -->
+
+#### critique de la carto, miroir, inverser opération
+
+l'administration comme une "opération d'objectivation [...] qui remplace des objets et le monde par des référentiels" (Sabatier)
+
+contre-administration? comment inverser cette opération objectivation pour retrouver, sous une forme théorique, ces objets et le monde. 
+
+Réflexion inspirée par la contre-cartographie: utiliser les instruments du pouvoir contre lui pour révéler son fonctionnement (invert), ses éventuels biais
+
+ch1: "copie théorique": n'est pas une simple reproduction du "réel" à l'identique. C'est une représentation simplifiée et abstraite, construite à partir des relations fonctionnelles dont on s'est assuré qu'elles n'entre pas en contradiction avec les données disponibles et qu'elles répondent à des principes de cohérence interne. Ainsi, elle ne constitue pas une duplication du réel mais le produit d'une structure qui en réduit - en fonction des hypothèses initiales et de règles logico-mathématiques préalables - l'opacité. (Lepetit, 1989: 197)
+
+- l'analyse historique n'atteint jamais son but: le réel est hors de nos prises
+- **aucun objet d'étude historique ne frappe par son évidence, la métaphore du miroir est de ce point de vue trompeuse**
+- exprimée en termes réalistes, l'opposition entre micro et macro-analyse est mal posée. Elle ne se situe pas au niveau du réel mais de sa représentation: il s'agit de deux modes de saisie conceptuelle des phénomènes, de deux manières de réduire leur opacité. Aucune n'est plus "réelle" que l'autre.
+
+ (Lepetit, 1989: 197)
+
+### Interfaces
+
+Outre exemples déjà donné: EAT ...
+
+#### Sinclair et al]: rich-prospect interfaces 
+
+#### Exemple: Presner et al :temporal topographies
+
+épaisseur des cartes --> 
+
+- temporalité
+- manipulation 
+- multiplicité des perspectives
 
 
 

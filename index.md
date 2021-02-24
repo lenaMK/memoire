@@ -4,7 +4,7 @@ Ceci est une page web pour faciliter la relecture de mon mémoire de maîtrise, 
 
 Actuellement en cours de rédaction, je mets en ligne des parties prêtes à la relectures. Ceci est un travail en cours, le contenu va donc évoluer régulièrement. Par exemple, les titres sont tous temporaires. Commentaires et suggestions bienvenus, soit à même la page via [hypothesis](https://web.hypothes.is/#features), soit par courriel: lena.krause@umontreal.ca
 
-Dernière date de modification: 1 février 2021.
+Dernière date de modification: 24 février 2021.
 
 ___
 
@@ -22,18 +22,22 @@ ___
 
 ### Chapitre 1: Administration et architecture publique en France au XIXe siècle
 
-Le chapitre 1 est un chantier en cours ([Ébauche de structure](.Redaction/Chapitre1_structure.md)). Quelques notes : ce chapitre est consacré à l'étude du Conseil des bâtiments civils et de la période historique concernée. Ce chapitre nous permettra d'élaborer un modèle conceptuel - ou une "copie théorique" Lepetit 1989: 197) qui servira à la création d'une nouvelle interface pour CONBAVIL. 
+[Chapitre 1](.Redaction/Chapitre1.md) 
 
 - 1.1 Administration en France au lendemain de la Révolution
   - La division du territoire en départements
-  - *Système d'administration centralisée*
+
+  - Une administration centralisée
+  - La rationalisation de l'action public
 - 1.2 Formes de savoir et de pouvoir au début du XIXème siècle 
-  - *Pensée cartographique*
-  - *Statistique*
+  
+  - Miroirs du territoire
+  - Statistique
+  - Pensée cartographique
 - 1.3 Le conseil des bâtiments civils
-  - *à propos*
-  - *historio* 
-  - *modèle / copie théorique?* 
+  - L'administration de l'architecture publique
+  - Archives du projet architectural
+  - Approches quantitatives, spatiales et cartographiques
 
 Nous prévoyons une sorte d'interlude entre les deux premiers chapitres car la transition semble (à priori) un peu rude
 

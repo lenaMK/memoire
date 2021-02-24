@@ -8,7 +8,7 @@ La définition du mot "donnée" se poursuit avec son acceptation dans un domaine
 
 Finalement, une base de données est une banque de données dans un format informatique normé, dont nous explorerons les spécificités structurelles et les utilisations associées dans le cadre de ce travail. Cette définition s'attèle au format, au contenant. Nous devons ensuite distinguer les contenus: il existe des bases de données documentaires, qui permettent la recherche automatisée, et des bases de données de recherche, dont l'objectif est l'analyse de leur contenu. Nous pouvons catégoriser ainsi les bases de données en histoire de l'art, en prenant spécifiquement des exemples issus de l'histoire de l'architecture pour introduire notre cas d'étude. 
 
-Une base de données documentaire comme *Mérimée* -  "base de données du patrimoine monumental français de la Préhistoire à nos jours" (https://www.culture.gouv.fr/Espace-documentation/Base-de-donnees-Culture/Merimee-une-base-de-donnees-du-patrimoine-monumental-francais-de-la-Prehistoire-a-nos-jours) - indexe divers contenus [*terminologie ?*]; on y effectue des recherche ponctuelles pour trouver du contenu qui répont à des critères sélectionnés. Par exemple, chercher le patrimoine architectural attribué à Henri Labrouste. La liste de résultat indexe les édifices dont l'auteur est Henri Labrouste (https://www.pop.culture.gouv.fr/search/list?auteur=%5B%22Labrouste%20Henri%20%28architecte%29%22%2C%22LABROUSTE%20Henri%20%28architecte%29%22%5D&base=%5B%22Patrimoine%20architectural%20%28M%C3%A9rim%C3%A9e%29%22%5D). On peut ensuite sélectionner un édifice, comme la Bibliothèque Ste-Geneviève, pour avoir accès à l'ensemble des informations contenues dans *Mérimée* (https://www.pop.culture.gouv.fr/notice/merimee/PA00088394). Les bases de données documentaires assistent l'accès à des informations préétablies. Leur rôle est de de documenter des contenus et de centraliserl'information, sous la logique de l'inventaire. Elles sont ainsi produites par des institutions de conservation (musées) ou d'inventaire, comme dans le cas de *Mérimée*: la base est coproduite et mise à jour par l'Inventaire général du patrimoine culturel et par la Médiathèque de l'architecture du patrimoine, au sein du Ministère de la Culture.  	
+Une base de données documentaire comme *Mérimée* -  "base de données du patrimoine monumental français de la Préhistoire à nos jours" (https://www.culture.gouv.fr/Espace-documentation/Base-de-donnees-Culture/Merimee-une-base-de-donnees-du-patrimoine-monumental-francais-de-la-Prehistoire-a-nos-jours) - indexe divers contenus [*terminologie ?*]; on y effectue des recherche ponctuelles pour trouver du contenu qui répont à des critères sélectionnés. Par exemple, on peut chercher le patrimoine architectural attribué à Henri Labrouste. La liste de résultat indexe les édifices dont l'auteur est Henri Labrouste (https://www.pop.culture.gouv.fr/search/list?auteur=%5B%22Labrouste%20Henri%20%28architecte%29%22%2C%22LABROUSTE%20Henri%20%28architecte%29%22%5D&base=%5B%22Patrimoine%20architectural%20%28M%C3%A9rim%C3%A9e%29%22%5D). On peut ensuite sélectionner un édifice, comme la Bibliothèque Ste-Geneviève, pour avoir accès à l'ensemble des informations contenues dans *Mérimée* (https://www.pop.culture.gouv.fr/notice/merimee/PA00088394). Les bases de données documentaires assistent l'accès à des informations préétablies. Leur rôle est de de documenter des contenus et de centraliserl'information, sous la logique de l'inventaire. Elles sont ainsi produites par des institutions de conservation (musées) ou d'inventaire, comme dans le cas de *Mérimée*: la base est coproduite et mise à jour par l'Inventaire général du patrimoine culturel et par la Médiathèque de l'architecture du patrimoine, au sein du Ministère de la Culture.  	
 
 Les bases de données de recherche, quant à elles, ont été créée dans l'objectif de poursuivre la recherche académique et de produire de nouvelles connaissances. Des chercheur·se·s sélectionnent un contenu (corpus spécifique et circonscrit) à "mettre en base" (Dépouillement pas juste signalement)  afin de permettre son analyse. Le travail est centré sur une ou des questions de recherche qui motivent la création de la base de données. La (première) base de données de recherche en histoire de l'art (en France? à notre connaissance) est le projet CATART - Catalogue de ventes d’art - pris en charge par Jacques Thuillier. Il s'agissait d'entrer dans une base de données le contenu des registres de vente des œuvres d'art au X??? siècle afin d'évaluer la valeur des tableaux à leur vente et ainsi faire une nouvelle histoire du goût. <!-- à développer/corriger -->.
 
@@ -42,23 +42,13 @@ Pour ce faire,
 
 <!-- reprendre cadre théorique SE mémoire: carto -->
 
-Nous poursuivons l'étude de ces archives et de cette base de données avec pour fil conducteur la théorie critique appliquée aux formes d'autorités, que ce soit l'administration et le gouvernement, des données, de la cartographie, de la statistique, ou les formes de production du savoir. Il s'agira de produire une critique des sources, du document et des épistémologies employées. 
+Nous poursuivons l'étude de ces archives et de cette base de données avec pour fil conducteur la théorie critique appliquée aux formes d'autorités, que ce soit l'administration et le gouvernement, les données, la cartographie, la statistique, ou les formes de production du savoir. Il s'agira de produire une critique des sources, du document et des épistémologies employées.
 
-Notre cadre théorique est basé sur une approche critique des formes d'autorités et de production du savoir.
-
-1. déconstruction d'une forme de pourvoir ch 1-1
-2. identification de ses formes de savoir ch 1-2
-3. déconstruction des formes de savoir ch 1-3
-4. élaborer une forme critique de ce savoir 
-   - critique des archives, puis de la base de données, de sa conception à son utilisation actuelle
-5. qui formerait un contre-savoir ch 3
-6. qui contient un potentiel contre-pouvoir ch 3
-
-déconstruction d'un discours et de ses effets d'autorité et de contrôle --> effet de "vérité" des données (à toutes les échelles)
+déconstruire effet de "vérité" x(à toutes les échelles)
 
 Le travail entrepris est inspiré par les fondement de la cartographie critique. D'une part, l'approche théorique vise à déconstruire les formes de savoir et de pouvoir présentes. Cela inclut une critique des sources et du contexte de production de ces dernières, dans l'ensemble, il s'agit de situer le savoir. Il faut aussi identifier les formes de savoir et les modes opératoires, notamment lien entre réalité et représentation-référence:. Enlever le voile de la "neutralité", déconstruire effet du  "miroir" de la société et du territoire, effet de "vérité" des données (à toutes les échelles). Formes de pouvoir: transparence des "mesures" et des actions (deviendrait contestable), justification/légitimité/autorité par la science et la rationalité (mais on ne s'oppose pas à la raison ni à la science)
 
-D'autre part, une approche pratique offre une terrain d'action. À l'image de la contre-cartographie, nous recherche une forme de contestation ou subversion par une réutilisation ou réappropriation qui ne va pas dans le sens initial donné par l'autorité. Cette profanation (Agamben) rend visible la *constructedness* . En se réappropriant l'action dessus, en la rendant maniable, on peut la remettre en question donc son autorité devient relative)
+D'autre part, l'approche pratique offre une terrain d'action. À l'image de la contre-cartographie, nous recherche une forme de contestation ou subversion par une réutilisation ou réappropriation qui ne va pas dans le sens initial donné par l'autorité. Cette profanation (Agamben) rend visible la *constructedness* . En se réappropriant l'action, en la rendant maniable, on peut la remettre en question donc son autorité devient relative (questionnable).
 
 peut-on imaginer une contre-statistique, qui révèle plutôt que [coule, efface] la construction derrière les "données" scientifiques?  développer une critique du quantitatif
 
@@ -119,6 +109,8 @@ Dans le deuxième chapitre, il s'agira de produire analyse critique de la "mise 
 
 Dans notre troisième chapitre, nous pourrons alors présenter notre proposition pour un atlas numérique ainsi qu'un premier prototype du fonctionnement de ce dernier.  
 
+-  formes et espaces d'interprétation critique des données
+-  visualisation interactives
 -  conceptualiser ce nouvel espace numérique à travers le cadre de l'éditorialisation
 
 
