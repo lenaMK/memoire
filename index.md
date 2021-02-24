@@ -18,11 +18,9 @@ ___
 
 -  [Début de l'introduction](./Redaction/Introduction_public.md): présentation du sujet, cas d'étude et ébauche de la problématique
 
-
-
 ### Chapitre 1: Administration et architecture publique en France au XIXe siècle
 
-[Chapitre 1](.Redaction/Chapitre1.md) 
+[Chapitre 1](./Redaction/Chapitre1.md) 
 
 - 1.1 Administration en France au lendemain de la Révolution
   - La division du territoire en départements
