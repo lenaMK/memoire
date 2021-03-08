@@ -1,139 +1,487 @@
-# Chapitre 2 intro
+# Chapitre 2: les données CONBAVIL
 
-(100 mots)
+Ce chapitre présente une analyse critique des données de CONBAVIL. En amont des particularités de notre base de données, une première critique concerne le terme "données", qui sonne intrinsèquement comme un fait, quelque chose qui "est donné". Pour contrer cet effet, la chercheuse et *digital humanist* Johanna Drucker martèle "*data is capta*" (Drucker 2013: 125-129 <!-- double-check page-->). Par ce changement de terminologie, elle souhaite souligner le cadre interprétatif sous-jacent à la captation des données. 
 
-Ce qu'on appelle des données : chapitre qui critique la transformation des archives en données et les usages subséquents
+Pour les données de CONBAVIL, nous allons tout d'abord de présenter le contexte du projet. Nous passerons ensuite au peigne fin la transformation des archives en données ainsi que les usages subséquents afin d'arriver à une compréhension approfondie de notre matériel de recherche. Finalement, nous poursuivons avec la question de l'emploi des bases de données en histoire. Nous étudions l'interface actuelle pour l'interrogation de CONBAVIL afin d'identifier les apports (ou *affordances*) et ses limites pour la recherche. Cette analyse a pour but de penser plus loin, d'expérimenter avec le potentiel d'interfaces pour la recherche. 
 
-du contexte (déconstruction de l'administration et modèle de production des archives) aux données - L'importance du contexte pour éclairer les "données". Démarche qui oui, s'inscrit dans la logique d'une meilleure "exploitation des bases de données en histoire de l'art", mais qui est basée sur une "recherche historique" qui informe l'"exploitation" pour augmenter sa pertinence -lui donner tout son sens. Les deux approches se complètent et permettent une recherche approfondie, pour "aller plus loin" dans les deux cas.
+Dans l'ensemble, il s'agit de déconstruire la "rationalité scientifique" d'une base de données pour "embrace" (épouser, adopter, adhérer à) l’herméneutique, incertitude et la complexité du sujet comme de l'approche. La lecture rapprochée du contenu de CONBAVIL et des moyens pour y accéder sera effectuée par la pratique. Nous employons, tout au long de ce chapitre, des exemples issus de la base de données pour expliciter son contenu ainsi que sa forme.  
 
-## Intro aux méthodes quantitatives (200 mots)
+## 2.1 Créer une base de données 
 
-Il nous faut tout d'abord définir notre vision des méthodes quantitatives, afin de circonscrire le sujet abordé dans ce mémoire. Le quantitatif a pour base un raisonnement ou une argumentation par l'évaluation chiffrée, sous forme numérique. abstraction et mesure, qui "crée une nouvelle façon de penser, de représenter, d'exprimer le monde et d'agir sur lui" (Desrosières 2008 : T1 (?), 11). 
+### 2.1.1 La naissance d'un projet
 
-il y  a les méthodes employées par les gouvernements (cartographie, statistique) et celles employées "contre", pour révéler les biais et la construction qui a été lissée pour ne montrer que la surface (brillante) de la Science.
+#### Documenter des archives
 
-mais ici (contrairement au 1er chapitre) ce n'est pas la statistique du gouvernement, c'est une statistique employée pour la recherche
+Le fort intérêt que présente le fond d'archives du Conseil des bâtiments civils mène à une initiative de préservation et de mise au point de leur utilisation par des chercheur·se·s du Centre André-Chastel. L'objectif est de faciliter l'accès au contenu de ces archives, particulièrement en l'absence d'un répertoire détaillé, tout en les préservant de l'usure causée par leur consultation régulière (Boudon Szambien 1990 : 2). 
 
-## Méthodes quantitatives en recherche en sciences humaines (350 mots)
+Les chercheur·se·s doivent commencer par choisir quel processus employer pour atteindre cet objectif. À la fin des années 1980, un solution populaire pour lutter contre l'usure des documents est de se tourner vers la reproduction mécanique comme des microfilms afin de préserver les originaux [^8]. Pour ce qui est de faciliter l'accès à leur contenu, la pratique courante est de produire un répertoire numérique détaillé ─ le terme "numérique" est employé au sens de "numéroté". Cet instrument de recherche archivistique permet aux chercheur·se·s d'identifier les côtes des documents à consulter. Il contient des descriptions formelles des documents qui composent le fond d'archives [^4] . Il ne présente toutefois que des indications limitées sur le contenu des archives. La vocation de cet instrument est descriptive, il s’agit de faciliter la découvrabilité des fonds et ainsi la recherche.
 
-historio, à commencer par les méthodes quantitatives en histoire: 
+Une option pour approfondir l'accès au contenu consiste à l'indexer en produisant un dépouillement signalétique des archives. Cela signifie parcourir l'ensemble des documents pour produire un index des lieux, des types architecturaux ou des personnes mentionnées par exemple. Les chercheur·se·s peuvent ainsi cibler les documents dont le contenu semble pertinent pour la consultation. Il est possible de produire certaines analyses [^5] ou d'élaborer des hypothèses à partir d'un index. En revanche, il·elle·s doivent tout de même accéder aux archives pour approfondir le sujet car l'index ne présente pas d'information détaillée ou contextuelle sur le contenu. 
 
--  historiquement: le raisonnement derrière l'école des Annales: envisager une quantification [...] c'est l'occasion d'expliciter, donc d'affiner une hypothèse, de sortir de l'affirmation tellement générale qu'elle en devient simple affaire d'opinion [Lepetit 1989] (lemercier zalc)
--  archives sérielles: "**chiffre peut révéler le poids des structure**", en France, l'accent est mis sur les séries...il s'agit [...] de reconstituer un fait historique sous forme de séries temporelles d'unités homogènes et comparables(lemercier zalc:)
--  ouvrage de lemercier et zalc, méthodes et enjeux actuels
+Les chercheur·se·s du Centre André-Chastel ont cependant choisit une approche encore plus poussée en procédant à un dépouillement analytique. Il s'agit d'extraire méthodiquement des caractéristiques de chaque entrée dans les registres. Guidé par des questions de recherches, ce processus devient doté d'une véritable valeur scientifique(Szambien et Boudon, 1990: 3). Le contenu produit est beaucoup plus riche que l'index ou le répertoire détaillé car il documente les caractéristiques avec une plus grande variété et plus en détail. Cette forme de dépouillement réduit ainsi les besoins de consultation des archives. Il s'agit également d'une approche plus analytique qu'une retranscription complète des documents, car la normalisation des contenus ─ des types architecturaux ou des décisions du conseil par exemple ─ les rend comparables malgré les différences de formulation. L'option d'un dépouillement analytique apparaît donc comme un "investissement plus coûteux en temps, en argent, mais infiniment plus stimulant pour l'esprit" (Szambien et Boudon, 1990: 3). Ce type de dépouillement fonctionne également comme une sorte de mémoire externe aux documents. En effet, un·e chercheur·se retire des connaissances à une échelle individuelle lors de sa consultation des archives. Le fait de procéder à un dépouillement analytique enregistre formellement un certain nombre de ces informations et les rends accessibles à toutes les personnes ayant accès à ce dépouillement. 
 
-usage du quantitatif en histoire de l'art (selon l'ouvrage de Joyeux Prunel (2008) et article (2009))
+#### L'approche quantitative ( - )
 
-- utilisation du chiffre pour élaborer une histoire sociale et économique de l'art (joyeux-prunel 2008: 9) incitation à une histoire élargie (par des recherches chiffrées) 35	
-- "confirmer ou infirmer des hypothèses 
-- mettre au jour des corrélations entre des variables ou des faits
-- accentuer la lisibilité de certains phénomènes" (sofio 2008: 114)
+Le choix d'un dépouillement analytique reflète également un intérêt des chercheur·se·s du Centre André-Chastel pour une approche quantitative. En effet, s'il n'est pas question, à cette époque, de penser une histoire de l'art quantitative (Joyeux-Prunel. ...), l'avènement de l'histoire quantitative et de l'école des Annales inspirent des approches moins événementielles mais plutôt sociales ou économiques par exemple. L'emploi de nouvelles sources avec une approche quantitative a pour but de r
 
-n'est pas une méthode "classique" en histoire de l'art (plutôt le connoisseurship), l'argument ici n'est pas de faire valoir l'un "par dessus" l'autre, mais d'ajouter un outil à l'éventail du chercher, de démontrer de la pertinence de cette approche pour l'histoire de l'art avec les idées de:
+Nous allons brièvement présenter les enjeux d'une histoire de l'art quantitative afin de situer le projet CONBAVIL dans ce contexte. 
 
-constitution de "big" corpus pour étudier l'histoire de l'art avec une approche plus large:
+Faire du quantitatif, ça provient d'une histoire.. (histoire de l'art est restée à l'extérieur un peu)
 
-- répertorier, organiser, la description méthodique--> c'est déjà du quantitatif
-- provient en partie des idées d'inventaire 
-- étude des collections
-- ensembles qui sont plus grand que (élargir) le champs d'étude classique d'un·e historien·ne de l'art classique? 
-  - tendances et phénomènes: sujets larges. 
-  - pattern (schéma, modèle, motifs)
-  - changement d'échelle?
+- avènement de l'histoire quantitative: après-guerre, histoire sociale et économique. quitter histoire événementielle
+- passer par le quantitatif pour prendre en compte le social: nouvelles sources. école des annales (inspiration marxiste) --> vogue de l'histoire quantitative. passe avec l'émergence de la nouvelle histoire mais certains continuent à la favoriser
 
-**différences disciplinaires** : leur analyse et leur approche considère un corpus textuel, alors qu'**en histoire de l'art un corpus** (même textuel comme CONBAVIL) **référence des objets** ( ==> impression/crainte d'une dématérialisation de l'objet d'étude) L'approche quantitative a un autre sens et d'autres méthodes. 
-
-pourquoi parler des disciplines? parce que le CBC et CONBAVIL ont été le sujet des deux disciplines, mais le traitement n'est peut-être pas le même ou ne le sera pas maintenant? (non)
-
-changement d'échelle : économique, sociale, étude de nouveaux groupes conceptuels (femmes, enfants, villages = considérer d'autres acteurs que ceux des pouvoirs politiques et décisionnels) requiert d'autres sources (vu que l'histoire c'est la critique des sources) il faut trouver une histoire "difficile d'accès" = sources sérielles pour reconsitituer des séries qui permettent d'accéder à des nouveaux types d'acteurs historiques == utilisation du quantitatif. Mise en fiche, mise en série avec les problèmes méthodologiques (*Lepetit, l'histoire quantitative ou deux ou trois choses que je sais d'elle*). Histoire sociale, histoire marxiste (lutte des classes comme moteur de la société, s'analyse donc par l'économie). École des Annales, fer de lance de cette nouvelle manière de faire l'histoire, engagée, renouvelle questions historiques, s'intéresse à de nouvelles populations ---> implique la mise en œuvre de gros instruments mais crée de la distinction (accès à un ordinateur, financements requis, petites mains qui travaillent pour les chercheur·se·s).
-
-Discipline n'existait pas en tant que corps, pas de multiplicité des profs en **histoire de l'art 60** (chastel seul, jusqu' ajout progressif de thuillier etc). enseignement = maîtres assistants...
-
-Mouvement de la nouvelle histoire = fin 70 début 80, renouvelle les questions de l'histoire ; histoire des émotions, questions de genre, pose de nouvelles questions. Se désintéresse du quantitatif pour aller vers l'interprétatif et l'herméneutique. Rend le quanti ringard (critique : Ginzboug et micro-histoire. critique histoire sérielle. Comment rentrer dans la tête d'un homme d'une époque. *Julien Savageau*: homme du peuple, sabotier, histoire à partir des sources disponibles. Question de ce qui est possible de reconsituer sur les trajectoires indidivuelles à partir des sources). Lepetit veut réconciler la nouvelle histoire et l'histoire quantitative = bilan des expériences passées,
-
-conclusion demeure identique --> en ayant conscience des "postulats voire [d]es biais connus, chaque méthode peut être utilisée à bon escient, pourvu qu'elle ait été **choisie en connaissance de cause, adaptée aux sources et aux questions de recherche**" (lemercier zalc)
-
-interprétation proposée ici est moins l'usage du quantitatif pour démonstration ou résultats ("préjugé" des résultats quantitatifs: on a prouvé car x chiffre),  plus se servir des méthodes quantitatives pour "trigger" pour créer des nouvelles questions de recherche, s'aider à réfléchir, s'armer d'un nouveau point de vue sur son sujet d'étude. Ce nouveau point de vue provient notamment d'un "recul" ou une "distance" pour étudier des phénomènes: élargir le champs d'étude pour avoir une vision plus "large" ou "située". Sources d'inspiration pour cette approche proviennent de méthodes "confirmées" en histoire de l'art:  de la géographie artistique ( Situer les objets dans le monde), une autre est la production d'inventaires et études de collection (relations entre les objets et étude d'un ensemble)
-
-### du quantitatif au spatial (350 mots)
-
-Approches spatiales (Besse --> parle de Gamboni): géographie artistique passe souvent par la cartographie, qui requiert (non seulement des techniques et connaissances spécifiques) et surtout, requiert des données systématiques et quantifiables
-
-En 1987, Dario Gamboni regrettait, dans sa Géographie artistique de la Suisse, le caractère exceptionnel de l’usage de la carte en histoire de l’art, d’une part **faute de « données systématiques et quantifiables** comme celles que travaillent à recueillir ethnologues, dialectologues, économistes ou sociologues » (Gamboni, 1987, p. 2), et d’autre part en raison d’une conception de la culture « qui voit dans l’œuvre d’art le produit d’une activité échappant par essence aux déterminations historiques, telles qu’elles se matérialisent notamment dans l’espace » (id.). Ce défaut de cartographie est (Besse 2010: 214) --> geography of art, cartography = méthodes nécessairement quantitatives
-
-*Corboz, territoire comeme palimpseste*
-
-territoire comme palimpseste + inventaire à n-dimension: construction d'une méthode pour quantifier en géographie artistique? 
-
-3e dimension, épaisseur = temps.
-
-approche diachronique = appréhension  dans son évolution à travers le temps (Moretti 2008: préface)
-
-### méthodes "informatiques" (175 mots)
-
-en histoire comme en histoire de l'art, il y a un avant et un après les bases de données
-
-- avant: recherche prénoms limousin, historio CBC (lepetit et teyssot)
-- y avait-il une histoire de l'art quantitative avant les bases de données? le plus proche serait-il l'approche géographique, qui par son étude d'un phénomène spatialisé est "nécessairement quantitatif"?
-- n'y avait-il tout simplement pas d'histoire de l'art en tant que discipline (avec ses méthodes), émerge et se définit en même temps que l'arrivée de l'informatique personnelle
-- nouveaux moyens avec les méthodes informatiques, notamment plus d'expérimentation: cartes de teyssot et érourd vs notre processus (lemercier zalc + vitali-Rosati). cartographie numérique est encore jeune, la difficulté à créer, la spécialisation requise n'est pas "moindre"
-
-## méthodes quantitatives et informatiques en histoire (de l'art) : (175 mots)
-
-### Les bases de données
-
-étendre le modèle du "conception, création, complétion (BD), interface de base (1.0)", vers les 'bases de données 2.0'
-
-Modèle de conception des BD de recherche
-
-1. les idées, l'objectif de recherche -->1990: riche potentiel
-
-2. interrogation
-   1. exemples de requêtes simples
-   2. exemples de requêtes dans l'interface inha et exemples de ses limites
-
-essoufflement financier, longue durée de ces première étapes.
-
-pourtant, les gens veulent toujours créer des nouvelles bases de données pour leurs recherches, et on se retrouve avec vraiment beaucoup de bases de données mais leur accumulation n'est pas un progrès dans leur utilisation. Au contraire, difficultés de maintenance, d'offrir un accès, de diffuser (penser les droits etc.) qui freinent la discipline et limitent l'impact positif que ces années de travail peuvent avoir sur la recherche. 
-
-position de chercheuse qui n'est (pas en train de promouvoir un projet personnel mais qui contribue à un projet à la visée collective: permet de reprendre le travail là où la fin des financements et l'essoufflement ont mis fin, par défaut, à l'avancement d'un projet qui présente un premier état terminé (1.0)
-
-3. aller plus loin avec une interface 2.0 
-   1. nettoyer + enrichir les données 
-
-sortir d'un modèle linéaire 1-->2 mais de voir 1-2 comme une phase d'un cycle qui s'étend progressivement (spirale)
+faire le lien avec teyssot et lepetit
 
 
 
-#### **1) créer**
+#### Informatique
 
-naissance des bases de données: thuillier, catart, CONBAVIL
+Durant les années 1980, l'utilisation d'outils informatiques pour travailler avec un fond d'archives est encore inhabituel. Malgré plusieurs formes d'utilisation quotidienne, cette nouvelle technique n'a pas encore été mise au service de la discipline spécifiquement (Thuillier 1992: 5). L'informatique a pourtant comme potentiel de "modifier l'échelle des recherches, et du même coup leur nature" (Thuillier 1992: 5). 
 
-c'est presque plus facile et naturel de créer des bases de données en histoire de l'art, avec chaque entrée qui décrit un objet 
+revenir à CONBAVIL
 
-#### **2) utiliser**
+C'est notamment un appel d'offre du ministère de l'Équipement, en conjonction avec l'actualité (popularité) de l'histoire quantitative, qui stimule l'intérêt des chercheur·se·s en histoire de l'art pour la production d'une base de données. 
 
-utilisation des bases de données: joyeux-prunel: *art et la mesure*
+Il devient rapidement évident que le potentiel d'un dépouillement analytique est décuplé par l'informatique. "Un dépouillement informatisé permet non seulement d'enregistrer mais surtout de traiter la masse énorme d'informations contenues dans ces rapports et de diffuser les résultats obtenus" (Szambien et Boudon, 1990: 3). Cette transformation des archives en une base de données permet également de les appréhender comme un tout. Plutôt que de consulter les archives une page après l'autre, on se dote d'une vue "distante": les documents peuvent être "étudiés dans leur ensemble[. Ils] offrent une vision continue, dans l'espace et dans le temps, et détaillée de l'activité architecturale"(Szambien et Boudon, 1990: 10). La structuration du contenu le rend comparable, ce qui permet ensuite son analyse en tant que phénomène dont les dynamiques (ou tendances) ─ spatio-temporelles ou typologiques ─ pourront être révélées. "En traitant tous les rapports selon une analyse informatisée, on les a rendus, en bloc, supérieurs à ce qu'ils sont chacun dans leur individualité, c'est-à-dire comparables" (Boudon 2009: 13). Ces nouveaux moyens techniques impliquent un véritable renouvellement des méthodes de production de connaissances. 
 
-- prendre appuis sur les critiques sur la constitution et l'utilisation des bases de données en histoire de l'art 
-- usage du quantitatif (plutôt que perspective documentaliste ou encyclopédique 36)
-- "Une fois une base constituée, comment en retirer le plus d'information possibles. Le mieux et de l'analyser à partir des interrogations suscitées par l'objet sur lequel on travaille 178"
+La création de ce dispositif sera étudié selon deux phases. Tout d'abord, 
 
-### Historio
+la création de la base de données. 
 
-(projets de grandes bases de données) (350 mots)
+trois étapes dont: le choix d'un format de données et d'un logiciel concordant, la construction d'un modèle dont le système d'équivalence rend les éléments individuels comparables ̣-  étape à laquelle nous nous référerons comme la création de la grille d'analyse pour modeler le contenu des archives dans un système de base de donnée -, et, finalement, l'entrée de toutes les données dans le système. 
 
-**Historio** (pour interfaces et utilisations 350 mots)
+l'utilisation de la base de données, dans la partie suivante de ce chapitre.
 
-Krautli *Visualising Cultural Data*: imaginer, à partir de la disponibilité de données, tech en collaboration avec les responsables des collections
+<!-- Note qu'il faudrait au minimum ajouter une phase 3 l'archivage et la conservation à long terme (project death). Déjà, il reste à déterminer sous quel angle la partie 2.3 sera présentée. Probablement sous l'angle des interfaces pour étendre l'utilisation etc., les "interfaces 2.0" -->
 
-EAT Datascape + medialab : maîtriser et "exploiter" une base de données, connaissance et maîtrise des outils "far-sightedness" pour la conception pas juste de la base de données mais de son utilisation et de sa pertinence pour la recherche. Equipe interdisciplinaire !
+### 2.1.2 La création de la base de données
 
-## Objectifs du chapitre: (100 mots)
+#### Choix du logiciel 
 
-déconstruire l'idée de la rationalité scientifique d'une base de données pour "embrace" (épouser, adopter, adhérer à) l’herméneutique, incertitude et la complexité du sujet comme de l'approche 
+À l'aube du processus de création d'une base de données, il faut commencer par étudier le choix de moyens techniques et logiciels disponibles afin de sélectionner le plus approprié. Les logiciels disposent tous d'avantages et d'inconvénients, dans la forme du contenu tout comme dans leur utilisation. Au centre André-Chastel, les critères de sélection identifiés par les chercheurs sont les suivants: "facile à manier et assez puissant pour engranger une masse de données distribuées en un grand nombre de champs indexés ou rédigé et permettre des questionnements croisés" (Boudon 2009: 8). Parmi les qualités recherchées, on identifie d'une part la simplicité d'utilisation, puisqu'elle sera manipulée par des historien·ne·s dont la formation en informatique devra nécessairement être limitée. D'autre part, la puissance technique séduit, face à la quantité de données à enregistrer - on pouvait probablement estimer qu'il y aurait plusieurs milliers d'entrées - tout comme pour la consultation des informations ainsi recueillies .
 
-analyser le contenu et les moyens pour y accéder
+Le principe des logiciels de base de données est assez particulier. Dans la première phase, on entre les données. On complète les champs connus, une entrée à la fois. Le logiciel stocke ces informations, un peu comme une boîte noire. Il faut cependant déjà penser à comment faire sortir des informations de cette boîte noire dans la seconde phase. C'est en effectuant des requêtes (en posant des questions au logiciel), qu'il nous retourne le contenu. Par exemple, on peut sélectionner toutes les entrées (SELECT *) qui concernent les prisons (WHERE type="prison"). C'est donc en gardant en tête que ces champs servent d'identifiants pour retrouver des éléments dans la base de données qu'il faut les définir.
 
-démontrer par la "pratique" le passage et les conséquences de la structuration : décortiquer le processus = étape essentielle pour développer un instrument de recherche, car connaissance détaillée et critique du contenu est requise pour situer le savoir produit à partir de la BD. (=/= le SAVOIR, mais une connaissance produite par un contexte)
+#### Création de la grille
+
+Il faut également penser ces critères de description à partir des archives à dépouiller. Ce sont des textes manuscrits, plus précisément une série de procès-verbaux structurés par séance et délibérations (composées d'un rapport et d'un avis), avec quelques annotations en marge [Annexe 1: exemple de procès-verbal et sa transcription]. Ces procès-verbaux sont produits dès la création du Conseil en 1795 et le modèle de base de données doit prendre en compte leur évolution à travers le temps, jusqu'en 1840 [^6]. Pour ce faire, on procède par carottage pour obtenir un échantillon des procès-verbaux réparti au fil des années. L'étude rapprochée de cet échantillon permet de prendre en compte les changements dans le processus administratif à travers le temps. 
+
+<img src="/home/lenamk/Documents/memoire/Redaction/img/fiche2308-f-21-2534-001/f-21-2534-0001-a1.JPG" alt="Annexe1" style="zoom:50%;" />
+
+À partir de cet échantillon, les chercheur·se·s identifient des critères pertinents pour leur dépouillement. Ces critères deviendront les propriétés -  ou champs - de la base de données. Le défi est de créer "une grille d'item, assez large pour englober tous les cas traités par le Conseil, assez restreinte pour ne pas rendre l'entreprise démesurée" (Szambien et Boudon, 1990: 3). Dans le modèle mis en place en 1989 puis ajusté aux débuts de l'entreprise [Annexe 2: liste des champs dans TEXTO], chaque entrée est décrite selon des champs qui décrivent tour à tour les documents physiques (la côte d'archive, le registre concerné et la page), la séance (sa date), et l'affaire en question. Celle-ci est constituée d'un rapport (dont le rapporteur est identifié), d'un avis émis par le conseil, des informations géographiques et typologiques, de détails financiers, des mentions de noms de personnes ou de lieu (similaire à un index), l'identification des personnes (intervenants ou architectes) et, finalement, d'éventuels liens vers d'autres rapports ou affaires. En sus, la base de données se décrit elle-même, c'est-à-dire qu'elle contient des champs consacré à documenter l'entrée des données (qui, quand, ...). 
+
+
+[à reprendre en écho avec 2.3.1]
+
+<img src="/home/lenamk/Documents/memoire/Redaction/img/format1-TEXTO-transcrit.png" style="zoom: 33%;" />
+
+
+Pour transposer cette grille dans un modèle de base de donnée, il faut aussi définir le type de réponse attendu pour chaque propriété. On distingue, dans CONBAVIL, des champs à compléter avec des mots clés (il peut y en avoir plusieurs, séparés par des ";") et ceux dont la rédaction se fait en texte libre. Les champs en textes libres sont "proches" du documents. Ils ne sont toutefois pas des transcriptions, mais plutôt des résumés, notamment dû au logiciel employé, TEXTO, qui limitait de la longueur des entrées à 4000 signes. En contrepartie, les champs qui contiennent des mots-clé sont ce qu'on appelle "normalisés". Ils sont le produit de l'interprétation des chercheur·se·s, qui doivent par exemple identifier la catégorie de l'édifice en question dans la base Architecture. Ce travail requiert un degré de spécialisation ainsi que de la recherche, pour la toponymie par exemple, mais il augmente exponentiellement l'efficacité de la base de données car ils sont le moyen d'établir des comparaisons ou des similitudes malgré les différences de formulation dans le document original.
+
+[ <!-- à réintégrer -->
+
+Les champs de textes libres se veulent une retranscription des archives. Ils peuvent contenir des incertitudes ou des erreurs habituelles au processus de réédition. Toutefois, le contenu est limité par l'espace mémoire disponible dans le logiciel - 4000 caractères dans TEXTO -, ce qui implique la nécessité de résumer ou tronquer pour les entrées trop longues. Malgré cela, la majorité des contenus de ces champs serait donc une source première dans une réédition contemporaine numérique. 
+
+En ce qui concerne les champs indexés, ceux-ci sont le produit d'une interprétation ou réinterprétation du contenu des archives par l'équipe de chercheur·se·s qui ont créé la base de données.  Nous pensons notamment à la catégorisation des édifices qui est basée sur le vocabulaire du *Thésaurus de la désignation des œuvres architecturales et des espaces aménagés* (Vergain, 2015)[11](http://revuecaptures.org/article-dune-publication/constellations-de-données-historiques#footnote11_xgwpa0z). Pour les champs actualisés par les chercheur·se·s, comme pour la toponymie, les deux versions du nom de la commune ou du département sont renseignées. Quant aux incertitudes des chercheur·se·s, elles sont signalées par des moyens typographiques, notamment des points d'interrogation, parenthèses ou crochets. 
+
+
+
+]
+
+
+
+
+
+<!-- ajouter citation thuillier sur la différence entre champs texte libre et champs indexés-->
+
+Malgré la charge de travail qui incombe aux chercheur·se·s pour effectuer cette normalisation, l'objectif de ce dépouillement est de produire une "analyse [...] de qualité [pour] obtenir une rédaction synthétique et logique des bordereaux informatisés" (Boudon Szambien 1990: 4). l demeure cependant essentiel de ne pas abuser de l'indexation, ce qui augmenterait exponentiellement le travail nécessaire à la complétion du projet. Ce danger est relevé par Jacques Thuiller dans son article où il établit l'état de la situation entre l'informatique et l'histoire de l'art en 1992. "Dans la plupart des cas, un index très court suffit à une interrogation fine, et de surcroît aboutit à des données plus adéquates et plus complètes. Or ce qui est en jeu, c'est une lourdeur d'indexation qui coûte beaucoup de temps, d'argent et d'efforts, et qui a suffit à étouffer dès le départ les meilleurs projets." (Thuillier 1992: 8) <!-- parle des bd d'objets/inventaires et non de recherche --> Il recommande plutôt, à juste titre, de faire évoluer le projet par  étapes afin de concrétiser son aboutissement, puis d'éventuelles mises à jour contenu des enrichissements.
+
+Entrée des données
+
+Une fois la grille définie, il faut la compléter pour chaque délibération. C'est le début du long processus d'entrée des données. Prenons pour exemple la première délibération de la séance du 9 juin 1838 (Annexe 1)  [^9], qui provient du registre F21*2534 (COF21), dossier n1 (DOS), page 1 (PAG). On identifie en marge le département et l'objet de l'affaire. La date de la séance est en titre, et le nom du rapporteur se trouve en dessous. S'ensuit le rapport dont on peut extraire l'historique (Conseil municipal: délibération du 14 août 1836 approuvé), qu'il s'agit d'un aménagement de place (nature du projet), à la place d'Orléans (rue) à Vic (ville - ancienne graphie). L'avis du rapporteur et celui du conseil ont été résumés. 
+
+<img src="/home/lenamk/Documents/memoire/Redaction/img/fiche2308-f-21-2534-001/2308_json.png" alt="Vue des données" style="zoom:35%;" />
+
+<img src="/home/lenamk/Documents/memoire/Redaction/img/fiche2308-f-21-2534-001/fiche2308.png" style="zoom: 67%;" />
+
+Le travail des chercheur·se·s consiste donc à lire (déchiffrer) le texte manuscrit, puis à identifier les éléments requis pour compléter la grille d'analyse. Cet exercice de lecture analytique permet d'isoler des détails pertinents dans les champs indexés tout en résumant le contexte dans les champs plein texte (Boudon 2009: 14). L'entrée des données se faisait en deux temps. D'abord la lecture et la complétion de la grille sur papier, puis la transcription dans le logiciel TEXTO, installé sur un bull micral 65 [Annexe 4: image de bull micral]. Cette double saisie était une mesure de sécurité (Boudon Szambien 1990: 6). Nous pensons qu'il s'agit également d'une question de confort, car les ordinateurs de l'époque n'étaient pas encore dotés d'interfaces conviviales, comme le démontre par exemple les noms des champs à compléter (Annexe 2). 
+
+<img src="/./img/bull_micral_60.png" alt="exemple Bull Micral: http://jean.thiery.pagesperso-orange.fr/en/2010/collect/BM-60.html" style="zoom:33%;" />
+
+### 2.1.3 Contraintes conceptuelles et logicielles
+
+#### Interprétation: des archives aux données
+
+L'approche systématique requise par les bases de données impose une rigueur dans l'interprétation des archives. Si une fiche ne correspond pas au modèle choisi, il faut parfois forcer, comme pour "faire entrer le carré dans le triangle" et le résultat peut être moins pertinent. D'une structure inadaptée dans un cas précis aux difficultés d'attribution d'une typologie ou d'un toponyme en passant par la question de la lisibilité du texte manuscrit, il existe une marge de manœuvre pour laquelle où il serait nécessaire de pouvoir signaler ou exprimer le doute quand il advient. Cela a parfois été fait dans la base, par le moyen de parenthèses, crochets et points d'interrogation par exemple. Cependant, l'utilisation de ces marqueurs d'incertitude n'est ni normalisée, ni spécifique. 
+
+Face à la complexité des graphies des noms de personnes, le choix a été fait de les inscrire tel quel (Boudon Szambien 1990: 8). Cela couplé avec de possibles erreurs typographiques signifie toutefois qu'il faut considérer toutes les graphies possible lorsque l'on recherche, par exemple, l'architecte Boissonnade, qui est parfois entré comme "Boissonade".  Dû à la haute complexité des champs financiers, notamment dû au multiples devises employées, on n'a pas pu normaliser les entrées, un travail qu'il restera à faire. Au fur et à mesure des lectures de dépouillements, il a été également été convenu de l'ajout du champ "éléments remarquables" pour signaler des spécificité sinon pas exprimées par la grille d'analyse. Il reste à trouver comment les valoriser de façon adéquate
+
+#### La "reconstitution conceptuelle" 
+
+Une limite importante de la base de donnée concerne le regroupement des délibérations en affaires. En effet, le conseil pouvait délibérer à plusieurs reprises concernant la même affaire. Refus, ajournement (pour obtenir d'avantage de documents par exemple) ou adoption avec réserve, ajustement et plus encore, une affaire importante peut passer un très grand nombre fois au Conseil. 
+
+Les entrées dans CONBAVIL sont, quant à elles, le produit d'une lecture linéaire des documents. Les instances ne sont pas regroupées conceptuellement, ce qui change complètement le sens du "nombre d'entrées qui correspondent à votre recherche". Nous faisons face à un problème conceptuel et méthodologique de "peut-on et si oui comment regrouper par affaire de façon systématique?". Il existe des mentions "Event precedent" et "Event begining", mais elle sont irrégulières et relativement imprécises. 
+
+Il ne nous semble pas réaliste d'effectuer ce travail via un algorithme qui identifierait des affaires "similaires". Cela pourrait cependant servir de point de départ, tout comme les mentions relatives aux autres affaires, pour que des chercheur·se·s identifient et confirment (lorsque possible) ces regroupement de délibérations en affaires. Il s'agit là d'un travail de fond dont le potentiel serait décuplé par la mise en commun de ces efforts individuels. Il sera question des moyens de contribution au contenu dans la section sur l'éditorialisation (Chapitre 3).
+
+#### Les limites du logiciel
+
+<!-- problème étant que je ne sais pas grand chose de TEXTO et que je ne sais pas comment trouver des informations sur le logiciel -->
+
+Même s'il a été choisi pour sa "très grande souplesse" (Boudon Szambien 1990), nous devons identifions des contraintes liées au fonctionnement du logiciel TEXTO. Une contrainte générale aux bases de données est qu'on doit définir la structure avant de commencer à entrer les données. Il faut donc décider du nombre de champs descriptifs (colonnes), et on ne pourra pas en rajouter par la suite s'il en manque. Il faut également prendre en compte que [la majorité des] bases de données [aujourd'hui] sont relationnelles, c'est-à-dire qu'elles sont composées de plusieurs tables. Chaque table modélise un élément de l'univers représenté et chaque entrée (ligne) est décrite par des propriété (colonnes). Par exemple, pour CONBAVIL, il y aurait notamment des délibérations (ou fiche), des personnes, des lieux, ou même les pages des archives. On relie ensuite les tables via des "tables de liens": si une fiche fait mention de l'architecte Boissonnade, dans la table des liens entre les fiches et les personnes, on trouvera l'identifiant de la fiche, et l'identifiant de Boissonnade[^10]. 
+
+En contrepartie, TEXTO est une base de données "à plat", ce qui signifie qu'elle constituée d'une seule table[^32] . La structure prédéfinie est donc encore plus contraignante, car la totalité de l'information doit être contenue dans le monolithe de la grille. Par exemple, le nombre d'architectes ou d'intervenants pour une affaire varie[^11]  et les chercheur·se·s ne pouvaient qu'estimer le nombre "raisonnable" à prendre en compte. Il·elle·s ont ainsi décidé de créer trois champs: AUT, AUT1 et AUT2. Dans les cas où le nombre dépasse, le contenu a été condensé dans AUT2, en séparant les noms par des points virgule. Cette solution est un bricolage qui fonctionne, mais qu'il faut également prendre en compte quand on cherche un architecte, conservons l'exemple de Boissonnade, dans la base. On ne cherche pas juste les délibérations dont l'architecte est "Boissonnade" ou "Boissonade", mais également celles dont le nom de l'architecte contient "Boissonnade" ou "Boissonade" (puisque le nom pourrait être parmi une série de noms séparés par des points virgule).
+
+<!-- beaucoup d'aller-retour entre les deux exemples, essayer de reformuler? -->
+
+Si la base était relationnelle, il y aurait une entité "Boissonnade", dont l'identifiant serait utilisé à chaque mention. L'utilisation de l'identifiant évite la redondance[^12]  et les erreurs ortho-typographiques. Pour chaque entité "personne", on pourrait spécifier qu'il existe d'autres orthographes. De plus, si d'avantage de recherches sont effectuées - par exemple les dates de naissance et de décès, le lieu de travail, ou encore des références bibliographiques concernant l'architecte - l'information serait centralisée et ainsi présente quelle que soit la fiche consultée.
+
+### Les premiers résultats
+
+L'ampleur de ce projet est extraordinaire: les 66 premiers registres des procès-verbaux des séances du Conseil des bâtiments civils, soit les années 1795 à 1840, contenant 300 à 500 affaires par volume, allant jusqu'à "1100 dans les moments de frénésie constructive des années 1812 ou 1820" (Boudon 2009: 9), dépouillés en un total 26'900 rapports. "Il ne s'agit de rien de moins que [d']une des premières bases de données d'histoire de l'architecture française" (Szambien et Boudon, 1990: 3). Un projet si titanesque que malgré l'entrain soulevé et la détermination de l'équipe, les délais furent excessivement supérieurs à ceux énoncés lors du rapport rédigé en 1990. La saisie informatique a débuté en mars 1989 et, en octobre 1990, 15'000 affaires sont analysées et dont 5'500 "saisis en machine"[^13] . L'achèvement du dépouillement des années 1795 à 1840 était prévu pour fin 1991. En réalité, le travail se prolonge jusqu'en 1998, où les deux-tiers des rapports (~18000) sont lus, analysés, saisis et corrigés. Après un arrêt du travail entre 1998 et 2005, l'Institut national d'histoire de l'art (INHA) soutient le projet afin qu'il soit achevé et mis en ligne. D'après l'institut, le projet CONBAVIL s'accorde avec leur vocation de "favoriser la réalisation de projets d'intérêt collectif dont la qualité et l'ampleur enrichissent le regard et les perspectives de chacun[·e]" (Garric [préface] dans Boudon 2009: 5). 
+
+Lorsque le projet reprend suite sa suspension de huit ans, il est nécessaire de faire des ajustements matériels, car l'informatique personnelle a beaucoup évolué durant ce laps de temps. Le premier logiciel documentaire utilisé, Texto, était dans les années 1990 considéré comme le meilleur disponible, mais sa capacité limitée (pas plus de 4000 signes par fiche) obligeait à adopter un style télégraphique, voire à réduire le texte avec la simple mention « [détail] »(Boudon 2009: 26). Le nouveau logiciel, FileMaker Pro, n'impose pas de limite. La rédaction des fiches en devient plus naturelle et lisible, sans les "abréviations qui gênent la lecture" (Boudon 2009: 26). On a aussi renommé les champs, ce qui a augmenté la lisibilité et le confort pour l'entrée des données (Annexe [InterfaceFileMaker]). <!-- et filemaker est relationnel, mais ça aurait été trop de travail de tout refaire donc ils ont juste essayé de créer des entrées pour les auteurs, mais ce n'est pas systématique, donc c'est compliqué?-->
+
+![](/home/lenamk/Documents/memoire/Redaction/img/format3-Filemaker.png)
+
+Dans ce laps de temps, d'autres projets de numérisations ont aussi été réalisés, dont la série iconographique F21 1875-1908 aux archives nationales. Ce fond contient les images numérisées des calques des projets acceptés, généralement datés du jour d'adoption du projet et parfois assortis de légendes. Ces dessins sont donc un complément d'un grand intérêt pour CONBAVIL. Leur numérisation et mise en ligne sur Archim (http://www2.culture.gouv.fr/documentation/archim/Batim.html), désormais classés topographiquement et majoritairement datés et identifiés, a permis un travail systématique de mise en relation entre le fond iconographique et les rapports dans CONBAVIL. Les cotes des dessins ont donc été ajoutées à la base lors de cette seconde étape dans sa création (Boudon 2009: 10-11).
+
+Finalement, une fois les 26'900 rapports analysés, entrés dans la base et mis en relations avec les 3700 dessins, il il a été convenu de la création d'un outil d'interrogation en ligne. Dès la création de la base, l'enjeu de la rendre accessible aux chercheur·se·s externes au centre André-Chastel était considéré. Au temps et au travail nécessaire pour créer une base de données, ce n'est pas l'idée d'une utilisation non pas individuelle ni locale mais bien celle d'un avancement collectif et une multitude de perspectives de recherche qui étaient visés par ce travail de longue haleine. "Les auteurs de la base ne pourront exploiter que quelques aspects du travail, qui sera par conséquent mis à la disposition des chercheurs et des institutions selon les modalités qui s'imposeront." (Szambien et Boudon, 1990: 23).  De plus, la collaboration avec les chercheur·se·s / utilisateur·rice·s de la base s'impose pour corriger les erreurs et coquilles, ainsi que pour enrichir la base davantage de leur expérience d'utilisation de la base (Boudon 2009: 16). 
+
+Ce contenu initial a effectivement évolué depuis la présentation détaillée publiée en 2009, les changements ne sont toutefois pas aussi clairement documentés. Un accès à la base à travers un outil d'interrogation en ligne est disponible depuis 2009 sur le site internet de l'INHA. 
+
+<!-- lien vers l'utilisation de la BD et l'outil d'interrogation en ligne de l'IHNA, partie 2.2-->
+
+retour sur le processus de création d'une base de données à partir du dépouillement analytique d'archives 
+
+Signification (hint at 2.3) et impact de la complétion de la base de données --> 2-2
+
+
+
+
+
+## 2.2 Utiliser une base de données 
+
+#### Que fait-on avec une base de données?
+
+Lorsqu'une base de données a été complétée, on peut commencer à l'interroger. Les chercheur·se·s ont bel et bien créé la base de données avec des idées de ce qu'ils aimeraient en retirer une fois l'entrée des données terminées. Nous avons décider de remonter à la source pour retrouver, dans le rapport rédigé par Françoise Boudon et Werner Szambien en 1990, un certain nombre de requêtes qu'ils souhaitaient effectuer. Ils étaient encore au début de l'étape de création de la base de données, mais l'engouement pour les potentiel d'utilisation de CONBAVIL est déjà présent. "On pourra établir à volonté en quelques minutes la liste :
+
+1. [dépôts de mendicité créés par Napoléon](http://192.168.0.144:8080/viz/BoudonSzambien/#q1)
+2. [églises transformées en école dans le département de la Nièvre entre 1802 et 1810](http://192.168.0.144:8080/viz/BoudonSzambien/#q2)
+3. [rapports confiés à Chalgrin dès son retour "au pouvoir" sous le Directoire](http://192.168.0.144:8080/viz/BoudonSzambien/#q3)
+4. [le nombre et la nature des chantiers dirigés par l'architecte Boissonnade en Aveyron dans les années 1830](http://192.168.0.144:8080/viz/BoudonSzambien/#q4)
+5. [le pourcentage des dossiers de construction et de réparation présentés au conseil pendant dix ans](http://192.168.0.144:8080/viz/BoudonSzambien/#q5)
+6. [le pourcentage de ceux qu'il rejette et ceux qu'il adopte](http://192.168.0.144:8080/viz/BoudonSzambien/#q6)
+7. [l'activité de Rondelet comme auteur de projets et comme rapporteur de dossiers](http://192.168.0.144:8080/viz/BoudonSzambien/#q7)           
+
+etc..." (Szambien et Boudon, 1990: 10)
+
+Nous allons utiliser ces questions pour démontrer par l'exemple comment utiliser la base de données CONBAVIL.
+
+### 2.2.1 Les requêtes SQL
+
+Du point de vue informatique, l'interrogation d'une base de données se fait par le moyen de requêtes dans un langage structuré, SQL (Structured Query Language). Lorsqu'on apprend à créer une base de données, on apprend donc également comment faire une requête SQL. On effectue ces requêtes sur l'ordinateur qui contient la base de données, soit dans le terminal, soit dans l'interface du gestionnaire de base de données utilisé. Une requête SQL est une instruction informatique textuelle dont les trois instructions débutent par des mots-clefs et se terminent par un retour à la ligne. La première, "SELECT", concerne l'information à afficher comme résultat de la requête. L'élément complet se désigne par l'astérisque, sinon il faut lister les propriétés que l'on veut afficher.  La deuxième, "FROM", sélectionne la table. dans la base de données, dans laquelle est stockée l'information. Puisque CONBAVIL est une base de données dite "à plat" et non pas relationnelle, elle ne contient qu'une seule table. Nous allons donc toujours chercher l'information dans la table "conbavil" avec l'instruction "FROM conbavil". La dernière instruction, "WHERE", contient les conditions pour retourner un élément dans le résultat. On choisit donc des valeurs souhaitées pour certains champs dans la base de données. Nous avons sélectionné deux questions qui correspondent à des requêtes types comme exemples. [^1]
+
+#### Q2
+
+Pour connaître le nombre d'églises transformées en école dans le département de la Nièvre entre 1802 et 1810 (question 2), ou pour effectuer toute requête, il faut commencer par identifier les éléments dans la question qui correspondent à des champs de la base de données. Dans cette requête, on identifie "église" et "école", qui sont des types d'édifices. "Nouvelle affectation" correspond à un type d'intervention. Puis on a un département, la Nièvre, ainsi qu'une fourchette de dates "entre 1802 et 1810".
+
+Nous voulons donc interroger la base de données pour savoir s'il existe des fiches qui correspondent aux critères suivants: la date (DAR) de la fiche doit être comprise entre 1802 et 1810 ─ '1802-01-01' et '1810-12-31' . Le département doit correspondre à la Nièvre; on peut l'écrire en toutes lettres 'AL = "Nièvre" ' mais si l'on veut éviter des problèmes d'orthographe et d'accents, on peut également utiliser le numéro de département (L), '59'. Le type d'intervention(PJT) doit être une nouvelle affectation et le type d'édifice (DES) soit une église, soit une école, ou les deux. Dans les cas de nouvelles affectations, les chercheur·se·s ont tenté de documenter les deux fonctions de l'édifice, c'est-à-dire le type d'édifice avant (église) et après (école) le changement. Cependant, ce n'était pas toujours possible. Dans ces situations, il est recommandé de "viser large" au début ─ le type d'édifice est soit une église, soit une école─ puis de choisir une façon de trier les résultats s'il y en a trop.
+
+`SELECT *`
+`FROM conbavil`
+`WHERE (DAR BETWEEN '1802-01-01' AND '1810-12-31') AND L='58' AND (DES='église'|'école') AND PJT='nouvelle affectation'`
+
+Lorsqu'on effectue une telle requête, on a en tête une hypothèse concernant le nombre de résultats. Dans ce cas-ci, on commence avec les 27'000 fiches contenues dans CONBAVIL. Par un simple calcul de probabilité (qui ne prend pas en compte les spécificités de la base), on peut estimer que la fourchette de date en élimine environs les 4/5èmes (8 ans sur 45). Dans le cas d'une répartition égale à travers le temps, il nous en reste un cinquième, donc environ 5000 fiches. Le choix du département de la Nièvre exclut tous les autres (plus d'une centaine, surtout avec les régions annexées à l'époque). À nouveau, même en faisant l'hypothèse d'une répartition égale des fiches entre les départements (on sait que n'est pas le cas, mais nous visons large), il resterait un centième donc 500 fiches. De plus, en ne considérant que les nouvelles affectations, on élimine toutes les nouvelles constructions ainsi que les réparation. on peut ainsi se douter qu'on aura peu de résultats pour cette requête. Finalement, si l'on spécifie les deux types d'édifices, église et école, en restera-t-il? 
+
+Ces hypothèses issues des probabilités peuvent être enrichies par des connaissances historiques et la familiarité avec les données. Travailler ses hypothèses n'est toutefois pas forcément nécessaire car c'est très rapide de lancer une requête, le résultat est quasi-immédiat. On peut simplement fonctionner par essais-erreurs et ajuster le tir au fur et à mesure de la lecture des résultats obtenus. On peut même aller contre l'instinct, faire une recherche "même si on y croit pas trop"; la facilité et la rapidité d'obtention des résultats invite même à élargir ses questionnements.
+
+#### Q4
+
+Comme second exemple, nous avons choisi le nombre et la nature des chantiers dirigés par l'architecte Boissonnade en Aveyron dans les années 1830 (q4). On cherche des fiches dont l'auteur est un architecte (PAUT = "architecte") et dont le nom est "Boissonnade", au cours des années 1830 (DAR BETWEEN '1830-01-01' AND '1839-12-31')[^2]. Il faudra ensuite les regrouper par type d'intervention et compter les occurrences pour chaque type. Initialement, identifier les délibérations en Aveyron dont Boissonnade est l'architecte semble plutôt évident: AUT="Boissonnade". Il faut toutefois prendre en compte les problèmes d'orthographe, car les noms de personnes ont été mentionnées et orthographiées telles que les chercheur·se·s ont pu les lire (Boudon 2009: 20). En parcourant les données, nous avons remarqué qu'il y a deux orthographes employées: "Boissonnade" et "Boissonade". De plus, nous avons soulevé dans la partie 2.1 le problème de TEXTO, dont le fonctionnement à plat requiert d'entrer les cas avec de multiples auteurs dans les champs AUT, AUT1, AUT2, puis d'inclure une série de nom séparés par des virgules dans AUT2 s'il y en a encore plus, et il reste à savoir si les professions (PAUT2) sont renseignées de la même façon.
+
+`SELECT PJT, Count(*)`
+`FROM conbavil`
+`WHERE Depart='12 AND (DAR BETWEEN '1830-01-01' AND '1839-12-31')(((AUT='Boissonnade' OR AUT='Boissonade) AND PAUT='architecte') OR ((AUT1='Boissonnade' OR AUT1='Boissonade) AND PAUT1='architecte') OR (Contains(AUT2, 'Boissonnade') OR Contains(AUT2, 'Boissonade')) AND Contains(PAUT2,'architecte'))`
+`GROUP BY PJT` 
+
+Afin d'identifier la nature et le nombre des projets, nous regroupons (Group by) par nature du projet (PJT) et sélectionnons le résultat en affichant chaque groupe et son nombre d'occurrences (Count). L'absence de normalisation dans les noms, en sus du problème des multiples champs auteurs, rend la requête complexe et touffue. Si on ne connaît pas les spécificités de la base, il y a un gros risque de ne pas penser à ces détails et d'ainsi passer à côté de plusieurs résultats. 
+
+#### L'accès à la base de données
+
+La première et la plus "basique" façon d'utiliser une base de données consiste donc à l'interroger via le langage SQL. Ce langage est très puissant et permet d'effectuer des recherches complexes avec rapidité. Il faut non seulement connaître le langage des requêtes mais également être familier·ère avec le contenu de CONBAVIL, comme nous avons pu le voir avec l'exemple de la q4. Il s'agit là d'un niveau de littératie numérique peu commun parmi la majorité des chercheur·se·s qui étudient l'architecture publique en France durant la première moitié du XIXe siècle. 
+
+Afin de faciliter l'utilisation de bases de données, l'informatique prévoit donc des interfaces, ou des vues, qui permettent à des utilisateurs qui ne connaissent pas le langage SQL ou même les détails de la base de données de données de s'en servir malgré tout. Ces interfaces sont plus visuelles que textuelles: plutôt que d'écrire la requête, on est dans un environnement "boîte à clics" où l'on sélectionne, dans des listes déroulantes par exemple, des critères pour filtrer la base de données. C'est un dispositif où l'on peut visualiser sa requête via les champs du formulaire. Il est interactif dans le sens où l'utilisateur peut agir via la sélection d'un élément dans une liste déroulante, le choix de cases à cocher ou en entrant des chaînes de caractères (du texte). L'interface sert d'intermédiaire, elle est programmée pour transformer l'équivalent d'un formulaire en une requête SQL. 
+
+Cette interface peut être conçue au sein du logiciel de base de données, ce qui signifie qu'elle s'utilise localement, sur l'ordinateur où la base de données est installée. Cela signifie que qu'un·e chercheur·se ne peut y avoir accès que s'il·elle se rend au Centre André-Chastel afin d'utiliser les machines équipées à cet effet, après avoir obtenu les autorisations nécessaires [^6]. 
+
+### 2.2.2 Interface de l'INHA
+
+Avec l'avènement du web, il a été question de rendre les bases de données accessibles en ligne. Cela signifie que la base de données se trouve sur un serveur connecté à internet. L'interface est un site web qui communique avec le serveur pour envoyer des requêtes et recevoir des résultats. Le langage utilisé change, mais le principe d'interface qui permet de créer des requête structurée et l'affichage des résultats reste identique. 
+
+Il faut toutefois prendre note que la base de données "en ligne" est un export de la base de données "locale" qui se trouve au centre André-Chastel. Lorsque les chercheur·se·s apportent des changements à la base de données locale, ces modifications ne s'appliquent pas à la base en ligne si celle-ci n'est pas connectée dynamiquement. C'est donc un système de versions qu'il faut prendre en compte. Cela signifi que, par exemple, qu'après une étape de recherche qui enrichit le contenu de CONBAVIL, on effectue une mise à jour de la base de données en ligne pour l'aligner avec le  contenu [^15]. Ce faisant, il faut notamment prendre compte du fait que le contenu de la base peut changer. La version de la base de données que nous avons employée pour la rédaction de ce mémoire n'est donc pas tout à fait identitique ni à celle en ligne, ni à celle "maîtresse"[^16] au centre André-Chastel.
+
+#### Présentation du formulaire
+
+À l'occasion de la complétion de la base de données en 2009, un outil d'interrogation en ligne a été créé pour faciliter son utilisation et augmenter son accessibilité. Il s'agit d'un formulaire disponible sur le site internet de l'INHA [^7]. L'interface de consultation de la base de données détermine ses utilisations possibles. Nous allons donc effectuer une analyse de cette interface afin d'identifier les moyens actuellement disponibles au public-chercheur·se·s pour se servir de CONBAVIL
+
+Le formulaire se divise en trois sections. Tout d'abord, la section "Interrogation sur le projet" contient les informations relatives à l'architecture: fonction et emplacement de l'édifice, type d'intervention, intervenant et coût. La deuxième section "Interrogation sur le rapport issu de l'examen du projet" se réfère au fonctionnement du Conseil: date de la séance du conseil, rapporteur et contenu du rapport, décision, cote dans les archives et présence de dessins. Finalement, la dernière section est un choix de procédures administratives. Le formulaire contient des champs "plein texte", où l'utilisateur·rice peut écrire en toutes lettres ce qu'il·elle recherche, et des listes déroulantes, où il faut choisir un critère dans les options dans la liste. Les cases à cocher sont des critères booléen (oui/non), ce qui signifie que le critère concerné agit comme un filtre s'il est coché. 
+
+Le résultat d'une recherche via le formulaire apparaît sous la forme d'une liste de fiches qui correspondent aux critères sélectionnés. Pour consulter les détails, le chercheur doit parcourir la liste de façon linéaire. Chaque fiche présente <!-- éditorialise? au sens minimal ---> le contenu d'une entrée dans la base de données. Nous avons testé cet outil d'interrogation en ligne, toujours avec la liste de question qui nous servent de cas d'utilisation [^10].
+
+<!-- exemples avec le format Filemaker-->
+
+#### Q1
+
+Pour trouver les dépôts de mendicités créés par Napoléon, nous devons identifier la dénomination de façon hiérarchique. La liste déroulante suggère d'abord les catégories, nous sélectionnons "architecture hospitalière, d'assistance ou de protection sociale". Apparaissent alors les types d'édifices qui appartiennent à cette catégorie. Cela sous-entend que l'utilisateur doit être capable d'identifier la catégorie d'un type d'édifice ou y aller par "essai/erreur" puisque les types se mettent à jour en fonction de la sélection de la catégorie.
+
+<img src="/home/lenamk/Documents/atlasNumerique/Redaction/img/BoudonSzambien/1-depotmendicite.png" alt="1-depotmendicite" style="zoom:45%;" />
+
+Nous avons ensuite sélectionné "Napoléon" dans le contenu du rapport (car on peut exclure qu'il ait été architecte ou intervenant du projet). Puisque cocher élément remarquable pourrait éliminer les options plein texte, mais que si Napoléon est un élément remarquable, son nom est probablement contenu dans le rapport, nous n'avons pas coché cette option. On a également préféré inscrire Napoléon sans préciser "I" ou "Ier" dans le but d'inclure le plus de résultats possible. On ne peut malheureusement pas exclure la possibilité que d'autres graphies aient été employées.
+
+<img src="/home/lenamk/Documents/atlasNumerique/Redaction/img/BoudonSzambien/1-napoleon.png" alt="1-napoleon" style="zoom:33%;" />
+
+<img src="/home/lenamk/Documents/atlasNumerique/Redaction/img/BoudonSzambien/1-listeresultats.png" alt="1-listeresultats" style="zoom:33%;" />
+
+Dans les trois résultats qui correspondent notre recherche, nous constatons que le nom de Napoléon est mentionné en référence à des articles du "code Napoléon", c'est-à-dire au code civil. En fait, en prenant du recul par rapport au formulaire pour se concentrer sur le contexte historique, on comprend que la question fait plutôt référence au décret impérial du 5 juillet 1808, où Napoléon prescrit la création de dépôts de mendicités dans chaque département (Peny, 2011: parag. 1-2). S'il en existait déjà certains avant, ce sont donc ceux créés après 1808 qui répondent à cette question.
+
+En revenant au formulaire, on constate toutefois qu'on ne peut pas choisir un intervalle de dates, mais seulement sélectionner une date avec un degré de précision qui va de l'année, au mois puis au jour. Lorsqu'on lance la requête pour tous les dépôts de mendicités, on obtient un total de 930 enregistrements répartis sur 47 pages. La dernière entrée de la première page de résultats est datée de mars 1808, mais nous ne parvenons pas à afficher la page suivante [^8]. Outre ce problème, nous devrions ensuite compter les entrées manuellement, sachant que les délibérations peuvent concerner la même affaire. Pour exclure ce problème, il faudrait toutes les consulter et tenter d'établir lesquelles sont liées.
+
+En conclusion, malgré l'indexation des dépôts de mendicités dans la base de données, l'interface n'assiste pas encore suffisamment les chercheur·se·s pour répondre à une telle question "en quelques clics". 
+
+#### Q3
+
+Pour identifier les rapports confiés à Chalgrin dès son retour "au pouvoir" sous le Directoire, il suffit de sélectionner "Chalgrin" comme rapporteur et l'on obtient effectivement 102 résultats en quelques clics. La date de son retour "au pouvoir" sous le Directoire est à déterminer pour le spécialiste qui se pose cette question. Il en est de même pour les résultats obtenus
+
+<img src="/home/lenamk/Documents/memoire/Redaction/img/BoudonSzambien/3-Chalgrin.png" height="50px"><img src="/home/lenamk/Documents/memoire/Redaction/img/BoudonSzambien/3-102resultats.png" alt="3-103resultats" style="zoom: 33%;" />
+
+
+
+#### Q4
+
+Revenir à la question 4 (le nombre et la nature des chantiers dirigés par l'architecte Boissonnade en Aveyron dans les années 1830) nous permet d'identifier une série de limitations dans l'interface. Nous retrouvons la possibilité de sélectionner l'Aveyron mais pas l'intervalle de temps des années 1830. Ensuite, en ce qui concerne l'architecte, nous pouvons utiliser la troncature du nom, " Boisson* " pour inclure les deux graphies (Boissonnade et Boissonade) [^9]. 
+
+<img src="/home/lenamk/Documents/atlasNumerique/Redaction/img/BoudonSzambien/4-Boisson-Aveyron.png" alt="4-Boisson-Aveyron" style="zoom: 67%;" />
+
+Nous y avons trouvé des résultats "non justifiés", comme dans la troisième notice, où nous ne trouvons pas de mention de Boissonnade ni d'autre termes qui commenceraient par ces lettres. Nous ne savons pas pourquoi cette notice apparaît, mais cela signale un problème de transparence, car l'interface n'explicite pas les résultats pour l'utilisateur·rice.
+
+### 2.2.3 Observations critiques sur l'outil 
+
+Le formulaire présente un avancement important dans le cycle de vie de la base de donnée <!-- terme plus linéaire, parcours? développement ? -->. Il offre un accès à CONBAVIL depuis n'importe quel ordinateur personnel connecté à internet. L'interface assiste la recherche au sein de ces archives et permet d'en consulter le contenu. Il en devient presque inimaginable de comparer l'interrogation de la base de données à un déplacement aux archives pour parcourir la dizaine de registre qui concerne la période à la recherche des délibérations qui concernent le travail de l'architecte Boissonnade en Aveyron (cf. Q4). Cela signifie notamment des chercheur·se·s qui n'avaient pas prévu ou ne pouvaient pas consulter les archives y ont désormais accès. Accessible en ligne, l'interface permet à un plus grand nombre de se pencher sur le contenu des archives du Conseil des bâtiments civils et facilite les recherches dans CONBAVIL.
+
+Nous avons cependant constaté que l'interface présente plusieurs inconvénients pour la recherche. En sus des contraintes sur l'interrogation du contenu que nous avons révélées dans les cas d'utilisations, certains éléments de l'expérience utilisateur (UX) complexifient la recherche. 
+
+Tout d'abord, on ne peut pas consulter la base sans sélectionner un critère de recherche. Lorsqu'on la découvre et qu'on ne connaît pas nécessairement son contenu, c'est impossible de l'explorer sans tout de suite devoir sélectionner des critères. Ensuite, lorsqu'on lance une recherche, on ne voit plus les critères sélectionnés, mais seulement la liste de résultats. On ne peut donc pas vérifier les critères et repérer une possible erreur. Lorsqu'on revient en arrière, il faut faire retour avec la fonction précédent du navigateur, il n'y a pas de boutons qui permette de retourner à la requête pour la modifier par exemple. En pesant retour, les critères précédents sont souvent encore présents mais ça ne se remarque pas facilement [^11]. On ne peut pas non plus enregistrer ou partager une recherche, ou les résultats, ce qui est problématique pour publier des résultats. 
+
+Ensuite apparaît un problème classique en informatique: la confrontation entre la facilité et la flexibilité du logiciel employé. On peut "tout" faire avec des requêtes SQL, mais il faut savoir écrire ses requêtes. Il n'y a qu'à cliquer et à sélectionner des critères de recherche dans une interface comme le formulaire de l'INHA. Toutefois,ce type de "solution clef en main" est très restrictive. Il y a des requêtes qu'on pourrait faire très facilement et qui n'y sont pas prévues. On ne peut pas dévier des options prédéfinies. Tout type d'utilisation qui n'est pas prévu par les concepteur·rice·s de l'interface est donc impossible. Quels que soit la qualité de l'interface et les améliorations que l'on peut y apporter, les moyens d'interrogation sont fini (*finite*).
+
+Nous avons également manqué de retours (*feedback* visuel) entre la recherche effectuée et les données. Cela a créé un doute constant: est-ce bien ça que je cherchais, est-ce que ce résultat correspond à ma recherche? On ne peut pas critiquer le résultat obtenu car les critères de sélection ne sont pas mis de l'avant lors de la consultation des fiches. L'interface étant composée de deux vues principales distinctes - le formulaire de recherche et la liste de résultats -, cela crée un effet "boîte noire" quant au processus d'interrogation de la base de données. On ne peut pas voir ses critères de recherche et les résultats obtenus en même temps. Lorsqu'il s'agit d'un critère "évident", comme un numéro de département ou la date d'un rapport, cela n'est pas forcément nécessaire. Toutefois, lorsqu'on effectue une recherche plein texte comme dans l'exemple précédet (q4), plus de transparence et de clarté parmi résultats obtenus seraient les bienvenus. 
+
+Ensuite, un problème très important de l'interface apparaît: il s'agit de la dimension quantitative, quand on parle du nombre, puis dans q5 et q6 de pourcentages. Excepté pour le "nombre d'enregistrements qui correspondent à la recherche" dont nous avons démontré la validité relative, il n'y a pas moyen d'envisager une approche quantifiée dans l'interface.
+
+<!-- transition ?  ces questions introduisent le problème, mais on veut clore la liste de questions avant d'entrer dans le vif du sujet-->
+
+Au niveau de la consultation des fiches, leur format statique les limites à des "présentoirs". Le confort d'utilisation de cette mise en page est tout à fait supérieur à un résultat en "texte pur" affiché dans un terminal. Cependant, nous avons ressenti un limitation à ne pas pouvoir sélectionner un contenu pour naviguer dans la base, contrairement au principe web des liens hypertextes auquel nous sommes habitués lors de la consultation de Wikipédia par exemple. Cela est dû à la différence fondamentale entre une base de données et des données "hyper"-liées, dans le sens de reliées par des hyperliens [^18]. 
+
+Par principe, une base de données est une boîte noire: une fois entrées, les données ne peuvent être ressorties de la base de données qu'avec une requête SQL. Il y a donc l'interface en surface, et les données sont stockées en profondeur. Au contraire, une page web est un contenu linéaire et "à plat". Tout est là, mais cela signifie que tout doit être déjà en place: un hyperlien n'existe que s'il a été entré dans la page et ne fonctionne que si la page reliée existe également. Il existe des solutions pour transposer le contenu d'une base de données en un système d'encyclopédie exploratoire où l'on navigue à travers le contenu via une série d'hyperliens. La décision de créer un formulaire nous semble due à la priorité d'outiller les chercheur·se·s pour qu'il·elle·s puissent interroger de la base de données.
+
+Ainsi, pour se focaliser sur un contenu spécifique dans l'interface de l'INHA, il faut retenir le critère en question, revenir en arrière jusqu'au formulaire ou ouvrir un nouvel onglet pour effectuer sa recherche. Nous avons cependant régulièrement ouvert un très grand nombre d'onglets pour éviter de perdre les résultats d'une recherche. Cela a pour effet de créer une avalanche d'onglets ouverts, généralement difficiles à naviguer. Il s'agit là d'un environnement contraignant pour effectuer toute forme de comparaison. 
+
+L'ensemble de ces éléments posent des défis majeurs pour faire de la recherche avec l'interface en ligne, surtout si l'on souhaite effectuer des comparaisons ou développer des approches statistiques. Pourtant, ce sont les qualités quantitatives de la base qui intéressent les chercheur·se·s. Les questions émises par Françoise Boudon et Werner Szambien en 1990 s'expriment en nombres et en pourcentages. "En traitant tous les rapports selon une analyse informatisée, on les a rendus, en bloc, supérieurs à ce qu'ils sont chacun dans leur individualité, c'est-à-dire comparables" (Boudon 2009: 13). L'intérêt de la base de donnée se situe au-delà de l'accès à la fiche individuelle,
+
+### Conclusion 2.2
+
+Dans l'objectif de mettre en valeur cette base de données, en même temps que pour ouvrir des horizons jusqu’ici non-exploités dans la recherche sur les actions du Conseil des bâtiments civils et donc sur l’histoire de l’architecture publique en France, nous faisons l'expérience de la conception d'une nouvelle interface utilisateur pour la base CONBAVIL. 
+
+Dans la partie suivante, nous passerons en revue les enjeux épistémologiques intrinsèques à la création d'une nouvelle interface de recherche. Nous procéderons ensuite à une restructuration et un enrichissement des données de CONBAVIL.
+
+
+
+## 2.3 Nouvelle interface, nouvelles approches
+
+### 2.3.1 Enjeux épistémologiques 
+
+Maintenant que nous avons des données, un des enjeux que nous souhaitons aborder avec la création d'une nouvelle interface de recherche pour CONBAVIL est le suivant: comment ne pas faire une recherche mais de la recherche avec une base de données? Nous commençons donc avec les enjeux épistémologiques sous-jacents à un projet de base de données en histoire de l'art. Ensuite, inversement, arrive la question de ce qu'on peut faire avec des données, et plus particulièrement avec nos données de CONBAVIL? Finalement, le dernier élément nécessaire pour envisager une nouvelle interface est la préparation des données. Nous abordons donc la question des formats et entrons plus en détail dans la structuration des données dans la dernière sous-partie de ce chapitre. 
+
+#### Des données aux humanités numériques
+
+Il ne suffit pas d'avoir affaire à des données en sciences humaines pour se situer dans le champs des humanités numériques. Alexandre Gefen, <!-- chercheur en littérature et en humanités numériques? trop de répétition-->, suggère plutôt de concevoir les humanités numériques comme 
+
+> "l'apparition d'un paradigme méthodologique et épistémologique qu'il importe de saisir dans toute sa puissante heuristique, sans se laisser entraîner par l'idée naïve d'une production transparente de savoirs par moissonnage du big data des corpus, masses de données qui restent des artefacts muets en l'absence d'une herméneutique spécifique" (Gefen 2015: 62). 
+
+Dans le cas de grands volumes de données, il devient nécessaire de créer de nouveaux moyens pour les étudier et les traiter l'information (Gefen 2015: 61). En fait, même dans le cas de "petites" quantités de données, on peut distinguer les approches "numérisées" de celles "numériques" (Drucker ...) . Dans le premier cas, la numérisation change le médium sans pour autant affecter la méthode. Les chercheur·se·s effectuent sur l'ordinateur un travail qui serait équivalent à celui analogue. On pourrait parler d'une approche numérisée lorsque l'on "feuillette" des archives numérisées, sans autres données ou informations que l'ordre des pages. Pour explorer des méthodes numériques, le changement de médium des archives (qui dans ce cas ne sont pas nativement numériques...) est accompagné d'outils comme l'OCR ou d'une autre forme d'extraction des données qui métamorphose le contenu et les moyens disponibles pour la production de connaissance.
+
+CONBAVIL n'est pas ce qu'on considère du *big data*, c'est-à-dire une "masse de données hétérogènes". C'est une forme d'archives numérique où l'extraction de données manuelle par des chercheur·se·s détient un riche potentiel épistémologique. De part la forme choisie pour ces données et leur quantité, il a, dès le départ, été nécessaire d'avoir un outil qui permette leur consultation et leur manipulation. Cet outil a pour but de répondre aux questions de recherche évoquées par les chercheur·se·s (2.2) mais aussi à celles actuelles dans la discipline (chapitre 1). Dans le contexte de création d'une seconde interface CONBAVIL, nous pensons toutefois qu'il est possible d'explorer et de prendre avantage d'un plus grand nombre d'opportunités offertes par le champs des humanités numériques. 
+
+
+
+#### L'utilisation de sources numériques pour la production de connaissance en histoire de l'art
+
+
+Jacques Thuillier, dans son article sur l'histoire de l'art et l'informatique en 1992, sermonne notre discipline de n'avoir su être un précurseur dans l'adaptation des innovations techniques à ses besoins et intérêts [^2]: "Un quart de siècle d'informatique n'a rien changé aux habitudes de l'histoire de l'art, tant internationale que française" (5). De la *Bibliographie d'histoire de l'art*, "seule réussite [...] évidente" relevée par Thuillier en 1992 à aujourd'hui, la création et l'utilisation de sources numériques ne cesse d'augmenter, de se diversifier et d'être encouragée (Joyeux-Prunel: ?). Malgré un côté encore marginal à ces approches, on peut constater des modifications et des évolutions importantes dans les formes d'accès aux archives et dans la production du savoir. 
+
+Faire une historiographie complète des projets de recherche innovants dans la production d'interfaces de recherche dépasse les limites de ce mémoire. L'affluence de projets et leur diversité pose la question s'ils peuvent être recensés de manière systématique à l'internationale. Notons qu'il existe déjà certains recensements très riches dont le travail de Johanna Drucker dans *Graphesis* (2013?). Afin de citer ceux particulièrement pertinents dans le cas de ce mémoire, nous les citons à titre d'exemples au long de ce chapitre. Ces cas situent notre travail tout comme ils se trouvent parfois à la source de notre inspiration pour la création de notre interface. 
+
+Un cas actuel et exemplaire d'utilisation d'archives numériques concerne les archives d'une organisation, *Experiments in Arts and Technology* (E.A.T), créée en 1966 par les artistes Robert Rauschenberg et Robert Whitman et les ingénieurs Billy Klüver et Fred Waldhauer (Leclercq 2016: 46). Une équipe interdisciplinaire, au croisement de l'histoire de l'art sociale, du design et des humanités numériques, s'est penchée sur les archives E.A.T.. Les chercheurs du médialab ont commencé par identifier et interpréter des informations contenues dans les archives pour former un ensemble de données structurées. Après ce processus d'extraction [manuelle et humaine] des données, l'objectif a été de d'équiper les historien·ne·s d'un instrument de recherche pour les explorer (Leclerq et Girard, 2013: 6). 
+
+
+Le résultat obtenu prend la forme d'un *datascape*, "à la fois outil et méthode d'analyse, de visualisation et d'exploration d'archives" (Leclercq, 2016: 45). L'interface interactive, disponible [en ligne](http://eat_datascape.medialab.sciences-po.fr/), offre la possibilité d'explorer les données sous plusieurs perspectives. Elle permet de "visualiser et [de] penser ensemble, et non comme séparés, processus et résultat, pour rendre compte de la complexité d'une réalisation à la vie particulièrement longue" (Leclercq, 2016: 50). Le *datascape* du projet E.A.T., tout comme celui produit pour étudier *Les transformations de l’économie française par le prisme du commerce international, 1716-1821* (TOFLIT18) (Loïc Charles, Guillaume Daudin, Guillaume Plique et Paul Girard, site web TOFLIT18. Consulté le 14 janvier 2021 http://toflit18.medialab.sciences-po.fr), démontrent avec aisance l'apport d'un tel instrument à la production de connaissance.
+
+
+
+### 2.3.2 Travail des données
+
+> "How can our new abilities to store vast amounts of data, to automatically classify, index, link, search and instantly retrieve it lead to new kinds of narratives" (Manovich 1999: ?)
+
+Quels moyens existe-t-il employer pour bâtir un *narrative* ou écrire l'histoire avec les données? Face à ce nouvel enjeu, il est nécessaire d'innover dans nos façon de penser et de produire des connaissances. Un défi particulier se situe dans l'interdisciplinarité de cette question. Si l'épistémologie appartient aux chercheur·se·s, les outils informatiques reviennent souvent à des "ingénieurs". Cette division des rôles et des tâches freine voire empêche l'innovation. Johanna Drucker argumente que "le design d'outil numériques pour la recherche est une responsabilité intellectuelle et non une tâche technique" (Drucker 2009: B6). Cela requiert soit une proche collaboration, soit une double formation, afin de saisir les enjeux de recherche tout en choisissant et en adaptant les technologies appropriées pour y répondre. En les considérant "dans toute leur épaisseur symbolique, psychologique et méthodologique" (Caviglia 2014 *Design and the digital humanities @Séminaire "les fabriques cartographiques contemporaires"*), on peut alors parvenir à produire de nouveaux outils et de nouvelles connaissances. 
+
+
+La création d'interface et l'interactivité transforme des données numériques en une "matière digitale" que les chercheur·se·s peuvent manipuler (Caviglia 2014). En fait, lors du travail avec une base de données, une première étape importante est la familiarisation avec le contenu. 
+
+>  "Being able to download this dataset influenced my perception of a digital collection. Even though I had access to exact copies of archival databases, they still made it difcult to consider a dataset as a single entity, as a whole. **In a database, information is scattered across a number of tables and in order to retrieve it, one has to formulate a precise query** [even when it isn't, it doesn't afford visualisation of the whole]. [...] 
+>
+>  In principle, one could create a single file export from any database, but this is not something the database paradigm afords – in the Gibsonian (1977) sense. **Databases aford partial access, while downloading a file entails that all data is contained within that file**. A study conducted by Harper et al. (2013) highlights how users see files as something they can own and manipulate, giving them a sense of control and completeness – both qualities that are useful also for analysing data." (Kraütli 2016: 145)
+
+Il faut aussi effectuer un survol des formats et de leur impact sur l'utilisation des données. Nous avons déjà analysé un format de base de données dite à plat, TEXTO, et effectué quelques comparaisons avec la possibilité d'une base de données relationnelle. Dans l'ensemble, l'avantage des bases de données est qu'elles permettent d'enregistrer et de faire des requêtes sur un grand nombre de données. Cette efficacité est toutefois due à leur côté boîte noire, on ne voit jamais toutes les données. De plus, Filemaker étant un format propriétaire, il faut payer pour avoir le logiciel qui fonctionne sur un ordinateur. Le jour où la compagnie fait faillite et ne fait plus de mises à jour pour les nouveaux ordinateurs, ça devient très difficile à maintenir. Si l'utilisation à l'interne concerne le Centre André-Chastel, nous nous intéressons aux possibilités d'utilisations par les chercheur·se·s. Pour éviter les contraintes d'accès et d'interopérabilité, ainsi que pour manipuler l'ensemble du contenu CONBAVIL, nous avons commencé par exporter les données.
+
+#### Exportation et transformation
+
+Pour des questions de conservation et de pérennité, nous avons tout d'abord choisi d'exporter les données dans le format XML (eXtensible Markup Language). Étant un simple fichier texte, ce format présente l'avantage d'être lisible sur tous les ordinateurs sans prérequis logiciel. Cela le rend plus résilient face aux évolutions des technologies. Il peut aussi être structuré lorsqu'on l'utilise avec un schéma, un ensemble de règles concernant le document. Pour "trouver" des données dans ce grand fichier linéaire, on utilise le langage XPATH qui trace un chemin vers les éléments qui correspondent à la requête. Il existe également le système de transformation de ces données, nommé XSLT (eXtensible Stylesheet Language Transformation), qui prend les informations et les retranscrit selon le format et la structure désirée. Finalement, c'est un langage qui est lisible par les machines comme par les humains. L'export des données Filemaker en un fichier XML avec un schéma correspondant a été effectué par Emmanuel Château-Dutier dans le cadre de ses recherches sur le conseil des bâtiments civils et les données CONBAVIL. Nous avons ainsi obtenu un premier accès aux données. 
+
+Une second élément important l'accès à la nouvelle interface. Tout comme l'outil d'interrogation, nous pensons que pour rendre cette base de données accessible, elle doit être sur le web. En ce qui concerne le web, il est préférable d'utiliser le format JSON (JavaScript Object Notation). C'est un format de données qui est pris en charge nativement dans les standards du web: le trio HTML, CSS et JavaScript. Dans ce trio, HTML contient le contenu textuel, CSS sert à la mise en page et Javascript à la gestion des interactions telles que des mouvements de souris et des clics. 
+
+S'il existe de très nombreuses options de format pour créer une interface de consultation des données CONBAVIL, nous avons choisi d'utiliser uniquement le trio standard du web pour plusieurs raisons. Tout d'abord, nous voulons limiter les dépendances à des logiciels ou à des outils de programmation afin d'assurer un maximum d'autonomie au projet [^12]. Cela permet aussi de maximiser le temps disponible pour travailler sur les visualisations de données. Comme il s'agit d'une expérimentation dans le cadre d'un mémoire de maîtrise et que l'apprentissage de nouvelles méthodes en programmation est chronophage, nous avons choisi de limiter la complexité des outils employés. Malgré beaucoup d'hésitation et de conseils divers, React.js, une librairie de code qui assiste la création d'interfaces utilisateur·rice·s, n'a donc pas été utilisé. Le point central du travail consiste de la librairie de code d3.js permet de créer des résultats visuels et interactifs, car l'inspiration, dès, dès le départ, était de créer une interface web visuelle et interactive.
+
+Au vu de ces décision, la chaîne de production se présente comme suit: travail à l'interne sur la base de données Filemaker, exportation vers XML pour la conservation des données, puis transformation en JSON pour leur utilisation web. Les scripts qui permettent de passer d'un format à l'autre sont faits pour être réutilisés et adaptés en cas de mise à jour dans les données. 
+
+Nous avons donc écrit un script (avec l'aide précieuse de Stéfan Sinclair) pour transformer le fichier XML en JSON. Les propriétés sont structurées différemment et certains noms ont été changés car ce travail a été effectué avec l'appui de collaborateurs et à un stade nous n'étions pas très familiers avec les données. Le choix des nom de propriété est un peu aléatoire, mais ils peuvent facilement être changés dans le script si désiré. Ensuite, il a fallut régulariser plusieurs éléments de la base de données, c'est qu'on appelle le nettoyage des données. Il a notamment été nécessaire de séparer les marqueurs d'incertitude du contenu concerné. À l'écrit, on a tendance à mettre les choses entre parenthèses ou crochet, ou encore à ajouter un point d'interrogation. Cependant, pour les machines, il vaut mieux les indiquer de la même façon, et de préférence distinguer cette information du contenu textuel. Nous avons donc retiré tous ces marqueurs pour les remplacer par une propriété supplémentaire: "unsure-" dont la valeur est vraie quand le texte comportait une indication d'incertitude. Cela permet d'uniformiser les données sans pour autant perdre cette information importante. Nous avons aussi mis à jour les références vers le Thésaurus de la désignation des œuvres architecturales, car il été modifié et ne correspondait plus tout à fait aux entrées dans CONBAVIL. 
+
+#### Enrichir les données
+
+L'aspect spatial important dans CONBAVIL nous a aussi tout de suite inspiré une approche cartographique. C'est pourquoi il fallait compléter les noms de communes, dûment ajustés aux divisions de la France actuelle par les checheur·se·s du CAC, par leur géolocalisation. Pour ce faire, nous avons tout d'abord fait une liste de toutes les communes mentionnées dans CONBAVIL. Nous avons ensuite cherché un fichier de données ouvertes qui contient la géolocalisation de toutes les communes françaises. Il a ainsi été possible de trouver de compléter la liste des communes de leur géolocalisation. Il reste certains problèmes d'encodage (la façon dont on écrit les accent) qui causent des erreurs dans l'alignement des données. Pour ce qui est des emplacements qui ne font pas partie de la France actuelle, les données comportaient le nom et le pays actuel. Nous avons utilisé un service de géolocalisation d'Open Street Map intitulé "Nominatim" pour obtenir les géolocalisations de ces lieux.
+
+Une fois cette liste des communes enrichie des géolocalisations, nous avons ajouté les géolocalisations de ces communes pour l'ensemble des mentions de communes de CONBAVIL. Nous avons cependant fait face à des difficultés majeures, causées par une absence ou une perte de structuration des données au fil des changements. En effet, de nombreuses délibérations ne concernent pas un seul emplacement, mais plusieurs. Pour documenter cela, les chercheur·se·s ont entré les différentes communes, généralement séparées par des points virgules. Cependant, comme la propriété commune est un champ distinct de celle "département" et "numéro de département", il·elle·s ont également dû entrer ces informations dans leurs champs respectifs, à nouveau séparés par des points virgules lorsqu'il y en avait plusieurs. Le problème auquel nous avons fait face est la relative fréquence des homonymies entre les communes de départements distincts. Il s'est avéré à de multiples reprises qu'il n'était pas possible de déduire informatiquement quelle commune correspondait à quel département, n'ayant pas trouvé d'ordre entre les champs et leurs entrées respectives (quelle commune correspond à quel département et numéro de département). Malgré ces difficultés, nous avons réussi à compléter la géolocalisation de 22'000 délibérations <!-- reprendres le chiffre -->. Il nous semble possible de compléter celles manquantes, toutefois, dû aux contraintes temporelles, cela n'a pas été fait pour le moment.
+
+
+
+### 2.3.3 Vue distante du contenu
+
+Qu'est-ce que le contenu de la base de données CONBAVIL? Comment comprendre une base de données dans son ensemble? Son fonctionnement qui évoque une boîte noire fait son efficacité (on ne charge pas tout) mais mystifie le contenu car on ne peut pas "le voir". Avec l'exportation des données à laquelle nous avons procédé, on peut ensuite s'outiller pour produire des vues[^15] sur l'ensemble de la base de données. Nous reprenons le concept de *datascape* ou "paysage de données", qui est "à la fois outil et méthode d'analyse, de visualisation et d'exploration d'archives" (Leclerc et Girard, 2017: 45). L'idée est de produire une sorte de topographie des données de CONBAVIL. Cependant, en lieu des latitudes, longitudes, altitudes et autres éléments figurés se trouvent les données et leur propriétés. Nous avons produit deux paysages de données pour expérimenter avec le concept ainsi que pour découvrir le contenu général de CONBAVIL. 
+
+#### Datascape 1: occurences et valeurs distinctes de chaque propriété 
+
+Le premier est un simple histogramme, ou *bar chart*. [Annexe en ligne: datascape1]. Chaque barre figure une propriété et sa hauteur est calculée selon sa récurrence dans la base de données. Le système bicolore permet de distinguer les occurrences uniques (en rose) de celles multiples. L'interactivité du graphique permet d'explorer le contenu de chaque barre en cliquant dessus. Cela affiche en dessous le nombre d'occurrences total, ainsi que les valeurs distinctes, puis une liste de ces dernières. 
+
+![](/home/lenamk/Documents/atlasNumerique/Redaction/img/datascape_propriétés.png)
+
+Logiquement, les champs normalisés sont majoritairement en bleu tandis que les champs plein texte sont en rose. Dû aux grandes disparités entre les valeurs <!-- on aurait pu mettre une échelle log--->, on ne peut pas voir la partie rose, c'est-à-dire les occurrences distinctes, de certaines propriétés comme les registres (valeur: 66) ou les catégories architecturales (16). Il faut noter que le champ "id" est nécessairement rose puisque ce sont les identifiants uniques. Puisqu'il s'agit d'un moyen figurer la base de données, nous n'avons pas retiré ce champs même s'il est moins pertinent, car c'est plus un exercice de figuration (brute ou directe) que d'expression analytique.
+
+Lorsque la propriété contient 1 élément pour chaque fiche, le résultat est de 26954. C'est le cas pour la date de réunion. Il y a exactement une date par fiche, donc 26954 valeurs pour le champs date. Les valeurs distinctes nous informent que la base de données contient 4199 dates différentes. C'est une façon d'inférer que, sauf erreur [^ 7], c'est un poil moins de 4200 séances du conseil dont les procès-verbaux ont été numérisés.
+
+Le type de bâtiment est un exemple d'une propriété est renseignée plusieurs fois par fiche. Le nombre d'occurrence monte à 43555, ce qui donne une moyenne de 1.5. Statistiquement parlant, on pourrait penser que la moitié des fiches comportent 1 type d'édifice, et l'autre moitié 2. Cependant, nous savons que plusieurs fiches ne comportent pas de type de bâtiment car il s'agit d'affaires administratives. Nous relevons donc ici l'utilité relative de ces chiffres. L'objectif est de donner une idée, mais à eux seuls, ces chiffres ne permettent pas de tirer des conclusions. Pour arriver à une évaluation statistique plus probante, il faudrait par exemple calculer la moyenne et les écarts-types. 
+
+ <!-- ajouter exemple des dessins? 3665, Valeurs distinctes de la propriété: 3607. Si on regroupe par affaires, encore moins.. est-ce que les côtes des dessins permettraient de regrouper les affaires??? -->
+
+S'il était évident avant de produire ce graphique que la base de données contenait les 66 premiers registres des procès-verbaux, il n'y a pas eu, à notre connaissance, d'étude "distante" du contenu de CONBAVIL. Ce type de graphique donne un contexte aux informations contenues dans la base de données. Il s'agit d'un outil utile pour situer des résultats (fiche classique, fiche hors normes etc.) dans l'ensemble des données.
+
+#### Datascape 2: approche sensible d'un million d'affirmations
+
+27000 x 33 = 891'000
+
+Le second datascape est un graphique complexe et long, plutôt conceptuel ou poétique [Annexe en ligne: datascape 2]. Il s'agit d'une trame composée des propriétés dont chaque ligne est une fiche. Ce système binaire, qui signale si la propriété est renseignée (sombre) ou non (clair), est inspiré par les matrices de l'éminent cartographe et sémiologue français, Jaques Bertin[^14]. Cela crée un motif qui évoque la texture de la dentelle ou les partitions à trous d'une boîte à musique.
+
+<!-- Il faut l'imprimer pour voir l'ensemble et pouvoir parler de dimension + faire des extraits de différentes parties, pour voir si du début à la fin ça a beaucoup changé -->
+
+![](/home/lenamk/Documents/atlasNumerique/Redaction/img/datascape.png)
+
+<!-- à terminer: volonté de l'imprimer pour de vrai, voir ce qui est possible -->
+
+Nous avons augmenté la transparence des champs que nous avons créés lors du nettoyage des données car ces champs n'existent pas en tant que tel dans la base (voir chp 2.2.2). Les propriétés sont regroupées thématiquement (toponymie, rapports et avis, détails)
+
+Le principe des matrices de Bertin: système visuel de classification, la diagonalisation, qui permet d'identifier des similarités entre des entités --> travail / interpréation visuelle, capacité "instinctive" à ranger, classifier
+
+- https://aviz.fr/bertifier --> print + read + comment
+- notion de rythme, récurrence (ce qui est souvent rempli, ce qui ne l'est pas)
+- exploration visuelle, sensorielle, des données --> matière à manipuler
+
+
+
+Les paysages de données que nous avons créés sont pensés comme une étape de travail "préliminaire". Ils ne figurent pas le contenu en soit de CONBAVIL, mais plutôt des métadonnées. La différence entre données et métadonnées est une question de contexte. Dans ce cas, les données sont le contenu de chaque fiche, comme la date, l'avis, les topographie et typologie renseignées. Les métadonnées décrivent le contenu de la base de données, mais ne le contiennent pas. Par exemple, dans notre réinterprétation des matrices de Bertin, nous avons créé une métadonnées qui indiquent si "oui" ou "non" les propriétés, telle que la date, l'avis etc., sont renseignées dans la base de données. 
+
+[à terminer]
+
+### conclu 2.3.3
+
+
+
+
+
+
+
+## Conclusion chapitre
+
+
+
+
+
+
+
+
+
+
+
+___
+
+
+
+## Notes partie 1.1:
+
+[^8]: Cela a été effectué (Quand?)
+[^9]: car nous avons la reproduction numérisée de cette entrée
+[^10]: Cela requiert toutefois d'identifier l'orthographe correcte du nom, quitte à signaler d'autres utilisations
+[^11]: Script pour savoir combien min et max? 
+[^12]: La redondance est un terme utilisé dans le langage des bases de données pour parler des répétitions, lorsque l'information est enregistrée en double ou plus. C'est un principe d'éviter les redondances pour faciliter la gestion des données.
+[^13]: Les affaires étaient d'abord analysées à l'aide d'un document manuscrit, qui était ensuite saisi dans la machine. Ce système de double-vérification devait également rendre la saisie plus confortable, les ordinateurs et leurs interfaces étant moins confortables et familiers à l'époque
+[^14]: Les matrices de Jacques Bertin (http://dataphys.org/list/bertins-reorderable-matrices/ ) sont particulièrement intéressantes car la possibilité de les réorganiser en fait un puissant outil de classification. Nous reviendrons à ces questions notamment dans la partie sur l'interactivité.
+[^4]: Dans le cas des archives du Conseil des bâtiments civils, conservées aux archives nationales de France, nous avons par exemple le répertoire des côtes F/21/2470-F/21/2588. Ce dernier continent la description formelle des documents: pour chaque registre sont indiqués l'intervalle de dates des séances concernées, le nombre d'affaires administratives contenues, et l'éventuelle présence d'une table des matières. Ce répertoire a été mis à jour par Brigitte Labat-Poussin et Werner Szambien à l'occasion du dépouillement dont il est question dans ce chapitre. ↩
+[^5]: on peut compare cela à l'index d'un livre: en faisant confiance à la qualité de l'index, on pourrait en tirer certaines conclusions. Par exemple, l'auteur fait 23 fois références à ce lieu, c'est un lieu important dans l'ouvrage. Toutefois, la validité et la pertinence de cette méthode d'analyse doit être défendue afin d'éviter les évidences et les conclusions précoces.
+[^1]: La prosopographie est un champ de l'histoire qui consiste en l'étude sociologique d'individus partageant un attribut ─ dans notre cas, les architectes ─ afin de définir ce que ce groupe a en commun (Lemercier et Zalc, 2008: ch II, parag. 6-7)a
+[^6]: La série de procès-verbaux se poursuit, mais 1840 a été choisie comme date butoir car la qualité des procès-verbaux diminue à ce moment, notamment dû à la réduction du format des volumes ainsi qu'à la piètre qualité de l'écriture (Boudon 2009: 9)
+[^15]: Le terme "vue" est employé en informatique pour décrire une perspective sur le contenu. Ce terme est intéressant car il sous-entend un positionnement par rapport aux données, (add a schema?)
+[^32]: Parce que c'était plus simple d'utilisation et plus commun (?) à l'époque
+
+
+
+___
+
+## Notes partie 1.2
+
+[^6]: À moins d'avoir un ordinateur personnel équipé du logiciel et d'une copie autorisée de la base.
+[^7]: https://www.inha.fr/fr/ressources/outils-documentaires/conseil-des-batiments-civils-conbavil/interroger-conbavil.html
+[^8]: Le problème semble être causé par le trop grand nombre de pages, car, pour une recherche qui comporte par exemple six pages de résultats, le bas de la page énumère les pages de résultats, cliquables pour leur consultation.
+[^9]: Il y a également un "Boisson-Quincy" dans la base, mais sa seule mention est dans les Yvelines (conbavil26321), ça ne fausse pas cette requête. Toutefois, pour savoir cela, nous avons fait recherche plein texte dans le fichier de données. C'est difficile à vérifier pour un·e utilisateur·rice qui n'a que l'interface
+
+
+
+[^10]: 
+[^11]: C'était relativement inconsistant lors de nos essais. 
+[^12]: On reste dépendant des technologies du web, un point important concerne notamment les navigateurs, nécessaires pour aller sur le web mais qui évoluent beaucoup... 
+[^1]: Avertissement: n'ayant pas  accès à la base de données dans son format original, les proposition suivantes sont des exemples basés sur la [documentation](http://127.0.0.1:8080/viz/Structure/index.html) que nous avons réunie et inspirés par la requête à effectuer.<!-- exemples de requêtes: format TEXTO -->
+[^2]: Pour écrire une requête, on prend souvent la question à reculons car la façon dont on tend à les formuler en français continent souvent les informations détaillées à la fin. On commence donc avec l'intervalle de temps et le département, puis on s'attaque aux questions de l'auteur, pour finalement décrire la forme sous laquelle on veut obtenir le résultat.
+[^3]: pour la majorité des utilisateur·rice·s
+[^16]: traduction libre du terme anglais couramment utilisé en informatique "master"
+[^15]: L'alignement, en informatique, signifie une comparaison de deux versions d'un contenu. L'un est considéré "plus avancé" que l'autre, et l'alignement permet d'identifier les différences ainsi que la mise à jour du contenu neuf ou modifié.
+[^18]: À ne pas confondre avec des données liées, une technologie beaucoup plus récente: LOD...
+
+
+
+## Notes partie 1.3
+
+[^1]: Nous avons mis "simple" entre guillemets car si le fond reste quasi-identique via reproduction photographie haute résolution, la forme matérielle change. Cela implique la question de la classification, comment stocker et référencer ces archives numérisées.
+[^2]: À contrario, parmi les institutions culturelle, les bibliothèques ont été très rapides pour envisager l'apport conséquent que l'informatique pouvait apporter à leur domaine
+[^3]: 
+[^4]: C.f. la création de la grille et l'entrée des données, la partie 2.1.1 de ce mémoire
+[^6]: prévu par Emmnauel et les AN? 
+[^ 7]: Au-delà des potentielles erreurs de transcription, il pourrait y avoir des irrégularités dans la conversion du calendrier républicain par exemple.
 
