@@ -4,7 +4,7 @@ Ceci est une page web pour faciliter la relecture de mon mémoire de maîtrise, 
 
 Actuellement en cours de rédaction, je mets en ligne des parties prêtes à la relectures. Ceci est un travail en cours, le contenu va donc évoluer régulièrement. Par exemple, les titres sont tous temporaires. Commentaires et suggestions bienvenus, soit à même la page via [hypothesis](https://web.hypothes.is/#features), soit par courriel: lena.krause@umontreal.ca
 
-Dernière date de modification: 24 février 2021.
+Dernière date de modification: 10 mars 2021.
 
 ___
 
@@ -20,7 +20,7 @@ ___
 
 ### Chapitre 1: Administration et architecture publique en France au XIXe siècle
 
-[Chapitre 1](./Redaction/Chapitre1.md) 
+[Chapitre 1](./Redaction/Chapitre1.md) (1ère ébauche)
 
 - 1.1 Administration en France au lendemain de la Révolution
   - La division du territoire en départements
@@ -37,21 +37,28 @@ ___
   - Archives du projet architectural
   - Approches quantitatives, spatiales et cartographiques
 
-Nous prévoyons une sorte d'interlude entre les deux premiers chapitres car la transition semble (à priori) un peu rude
-
 
 
 ### Chapitre 2: CONBAVIL et ses données
 
-*Introduction* (à venir): présentation du contexte, introduction à l'histoire et aux méthodes quantitatives
+[Chapitre 2](./Redaction/Chapitre2.md) 
 
-- [2.1 Créer une base de données](./Redaction/Chapitre2-p1.md)
-- [2.2 Utiliser une base de données](./Redaction/Chapitre2-p2.md)
-- [2.3 Nouvelles approches, nouvelles interfaces](./Redaction/Chapitre2-p3.md)
-
-
+- 2.1 Créer une base de données 
+  - La naissance d'un projet
+  - La conception de CONBAVIL
+  - Contraintes conceptuelles et logicielles
+- 2.2 L'accès aux données 
+  - Les formes d'accès au contenu d'une base de données
+  - Les requêtes SQL
+  - Interface de l'INHA
+- 2.3 Nouvelle interface, nouvelles approches
+  - Enjeux épistémologiques 
+  - Travail des données
+  - Vue distante du contenu
 
 ### Chapitre 3: Atlas
+
+Chapitre construit autour du prototype de l'atlas que nous avons créé (en cours de rédaction).
 
 - 3.1 Espaces et interprétation des données 
 
@@ -60,21 +67,17 @@ Nous prévoyons une sorte d'interlude entre les deux premiers chapitres car la t
   - *Cartographie*
   - *Visualisation de données*
 
-- 3.2 Pratiques de visualisation et de cartographie
-
-  - Cartographie
+- [3.2 Pratiques de visualisation et de cartographie](./Redaction/Chapitre3-p2.md) (à revoir, extrait de la [publication](http://revuecaptures.org/article-dune-publication/constellations-de-donn%C3%A9es-historiques) dans la revue *Captures* )
+- Cartographie
   - Chronologie
   - Typologie
-
+  
 - 3.3 Editorialisation et atlas
 
   - *Atlas*
   - *Prototype, instrument de recherche*
   - *Editorialisation*
 
-  
-
-Chapitre construit autour du prototype de l'atlas que nous avons créé. La [Publication](http://revuecaptures.org/article-dune-publication/constellations-de-donn%C3%A9es-historiques) dans la revue *Captures* (2020) devrait servir de base pour une partie de ce chapitre ([Ébauche de structure](.Redaction/Chapitre3_structure.md)).
 
 ___
 
