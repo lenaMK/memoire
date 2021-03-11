@@ -24,11 +24,9 @@ ___
 
 - 1.1 Administration en France au lendemain de la Révolution
   - La division du territoire en départements
-
-  - Une administration centralisée
+- Une administration centralisée
   - La rationalisation de l'action public
 - 1.2 Formes de savoir et de pouvoir au début du XIXème siècle 
-  
   - Miroirs du territoire
   - Statistique
   - Pensée cartographique

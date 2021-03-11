@@ -363,21 +363,13 @@ Les propriétés sont regroupées thématiquement (toponymie, rapports et avis, 
 
 Les paysages de données que nous avons créés sont pensés comme une étape de travail "préliminaire". Ils ne figurent pas le contenu en soit de CONBAVIL, mais plutôt des métadonnées. La différence entre données et métadonnées est une question de contexte. Dans ce cas, les données sont le contenu de chaque fiche, comme la date, l'avis, les topographie et typologie renseignées. Les métadonnées décrivent le contenu de la base de données, mais ne le contiennent pas. Par exemple, dans notre réinterprétation des matrices de Bertin, nous avons créé une métadonnées qui indiquent si "oui" ou "non" les propriétés, telle que la date, l'avis etc., sont renseignées dans la base de données. 
 
-### 
+
 
 ## Conclusion chapitre
 
-[à rédiger]
-
-
-
-___
-
-
+Ce chapitre nous a permis de nous familiariser avec le contenu de la base de données ainsi que d'en développer une compréhension critique. Nous avons également commencé les préparatifs pour la conception d'une nouvelle interface de recherche dont il est question dans le chapitre suivant.
 
 ## Notes 
-
-## 
 
 [^1]: Cela a été effectué (Quand?)
 [^ 2 ]: Dans le cas des archives du Conseil des bâtiments civils, conservées aux archives nationales de France, nous avons par exemple le répertoire des côtes F/21/2470-F/21/2588. Ce dernier continent la description formelle des documents: pour chaque registre sont indiqués l'intervalle de dates des séances concernées, le nombre d'affaires administratives contenues, et l'éventuelle présence d'une table des matières. Ce répertoire a été mis à jour par Brigitte Labat-Poussin et Werner Szambien à l'occasion du dépouillement dont il est question dans ce chapitre.
@@ -399,10 +391,6 @@ ___
 
 [^18]: C'était relativement inconsistant lors de nos essais. 
 [^19]: À ne pas confondre avec des données liées, une technologie beaucoup plus récente: LOD...
-
-
-
-## Notes partie 2.3
 
 [^20]: Nous avons mis "simple" entre guillemets car si le fond reste quasi-identique via reproduction photographie haute résolution, la forme matérielle change. Cela implique la question de la classification, comment stocker et référencer ces archives numérisées.
 [^21]: C.f. la création de la grille et l'entrée des données, la partie 2.1.1 de ce mémoire
