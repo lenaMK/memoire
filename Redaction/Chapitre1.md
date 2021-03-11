@@ -60,7 +60,7 @@ Malgré cette volonté d'organisation intemporelle à la logique transcendante, 
 [Installation d'un **pouvoir fort et autoritaire: traduit les projets antérieurs ambitieux en des institutions efficaces** (code civil, lycée, administration préfectorale, recensements, bureau de la statistique)
 unification de la nation passe par une _diffusion des connaissances sur les territoires qui la composent_]
 
-![](/home/lenamk/Documents/memoire/Redaction/img/FranceActuelleEtSesAnciensDefenseurs_1838.jpeg)
+![](./img/FranceActuelleEtSesAnciensDefenseurs_1838.jpeg)
 
 Fig. 3 . *La France actuelle et ses anciens défenseurs. Carte de France physique et administrative* (1838) dressée par P. Tardieu. Bibliothèque nationale de France: https://gallica.bnf.fr/ark:/12148/btv1b53083503z
 
@@ -112,7 +112,7 @@ L'utilisation d'un support matériel comme le papier pour le traitement de l'inf
 
 > "Il s'agissait d'être capable de descendre dans les détails, en même temps de pouvoir classer méthodiquement toutes les affaires, et de produire des analyses. Le savoir devenait l'instrument du pouvoir" ([Chateau-Dutier 2016:215](zotero://open-pdf/library/items/ZTRDV8HS?page=215))
 
-![](/home/lenamk/Documents/memoire/Redaction/img/TableauGeneralDeLaFrance_1838.jpeg)
+![](./img/TableauGeneralDeLaFrance_1838.jpeg)
 
 Fig. 4 *Tableau général de la France embrassant les parties physique, statistique...* (1838), Chandelet. Bibliothèque nationale de France: https://gallica.bnf.fr/ark:/12148/btv1b53083011k.r=btv1b53083011k?rk=21459;2
 
@@ -140,13 +140,13 @@ Le changement de régime politique influe également sur la place de la cartogra
 
 La carte produit une description plus ou moins standardisée du royaume (Desrosières 2008b: classer et mesurer?). Elle devient de ce fait, et comme la statistique, un outil de prédiction pour l'administration. Le maillage départemental, cohérent et stable après 1840, est systématiquement utilisé pour faire apparaître les régularité de l'organisation spatiale des diverses parties de la France. Tout au long du XIXe siècle, les cartes thématiques, dressées à partir des statistiques du territoire, servent de support à des rapprochements, à des mises en corrélation entre les phénomènes les plus variés (Desrosières 1997: 57). 
 
-![](/home/lenamk/Documents/memoire/Redaction/img/CarteInstructionPopulaire.jpeg)
+![](./img/CarteInstructionPopulaire.jpeg)
 
 *Carte figurative de l'instruction populaire de la France* (1826), Charles Dupin, J. Collon dessinateur. Bibliothèque nationale de France: https://gallica.bnf.fr/ark:/12148/btv1b530830640
 
 L'unification politique et administrative du territoire (1790) ouvre aussi la voie à un mouvement de cartographie statistique, qui s'amorce dès 1830 (Palsky 1996). L’invention de la lithographie contribue à ce déliement des utilisations et on assiste à un véritable bourgeonnement d’usages de la cartographie, pour témoigner ou argumenter autour de sujets aussi divers que l’état de l’instruction ou la criminalité. Le Baron Pierre Charles Dupin, véritable pionnier dans la représentation cartographique, crée en 1826 la première carte faisant état d’une distribution, celle du degré d’instruction de la population (Annexe 1). S’ensuit rapidement l’idée d’une *Statistique comparée de l’état de l’instruction et du nombre de crimes* (Adriano Balbi et André Michel Guerry, 1829. Annexe 2) ou de la distribution de la population (Frère Armand Joseph de Montizon, 1830. Annexe 3)[1](#sdfootnote1sym). La cartographie dépasse la représentation topographique pour devenir thématique et s’allie aux premières études statistiques (Palsky 1996). Son usage est primé pour sa capacité à exprimer des informations quantitatives et sa qualité d’immédiateté visuelle. 
 
-![](/home/lenamk/Documents/memoire/Redaction/img/Statistique_EducationCrime.jpeg)
+![](./img/Statistique_EducationCrime.jpeg)
 
 *Statistique comparée de l'état de l'instruction et du nombre des crimes  dans les divers Arrondissements des Académies et des Cours Royales de France* (1827) A. Balbi et A.-M. Guerry. Bibliothèque nationale de France: https://gallica.bnf.fr/ark:/12148/btv1b53093802z
 
@@ -180,7 +180,7 @@ Leur rôle de ces architectes-fonctionnaires était d'assister le ministre de l'
 
 Grâce à cette connaissance et à cette surveillance, les architectes du Conseil et le Ministère de l'Intérieur purent établir une politique d’équipement guidant l’aménagement des édifices institutionnels nécessaires à l’assise du pouvoir sur le territoire. L'architecture publique atteignit ainsi un "niveau de contrôle jamais envisagé, ou même rêvé jusque-là, par les institutions" ([Chateau-Dutier 2016: T1, 48](zotero://open-pdf/library/items/ZTRDV8HS?page=48)). La collaboration entre les autorités locales et le pouvoir centrale permit la dénonciation des entrepreneurs négligeant comme la valorisation de ceux dont le travail était loué ([Chateau-Dutier 2016:T1,  50](zotero://open-pdf/library/items/ZTRDV8HS?page=50)). Les exigences du Conseil des bâtiments civils, notamment la production de plans d'alignements, et les détails requis dans les plans architecturaux qui leurs étaient envoyé, traduit la volonté de " tout représenter et tout définir [et] alimentait le fantasme d’une administration omnisciente capable de tout voir et de tout contrôler." (Château-Dutier 2016: T2, 589)
 
-Au conseil et à l'administration des bâtiments civils était associé un bureau des cartes et plans ([Chateau-Dutier 2016:94](zotero://open-pdf/library/items/ZTRDV8HS?page=94)). On y classait et conservait notamment les plans d'alignements et les autres plans associés à des interventions urbanistiques, les cartes qui situaient les bâtiments dans la ville et les plans d'architecture. Il y avait également un service de "levées et formation des cartes" ([Chateau-Dutier 2016:96](zotero://open-pdf/library/items/ZTRDV8HS?page=96)). S'il s'agit là de cartes à l'échelle locale, nous émettons l'hypothèse que le bureau des Bâtiments Civils recevait également des cartes à l'échelle nationale. Celles-ci permettaient un regard d'ensemble sur le territoire et traçaient les limites administratives lors des évolutions du territoire, comme pour celle suivant le traité du 31 mai 1814. ![](/home/lenamk/Documents/memoire/Redaction/img/Carte_CBC_btv1b8445701j.jpeg)
+Au conseil et à l'administration des bâtiments civils était associé un bureau des cartes et plans ([Chateau-Dutier 2016:94](zotero://open-pdf/library/items/ZTRDV8HS?page=94)). On y classait et conservait notamment les plans d'alignements et les autres plans associés à des interventions urbanistiques, les cartes qui situaient les bâtiments dans la ville et les plans d'architecture. Il y avait également un service de "levées et formation des cartes" ([Chateau-Dutier 2016:96](zotero://open-pdf/library/items/ZTRDV8HS?page=96)). S'il s'agit là de cartes à l'échelle locale, nous émettons l'hypothèse que le bureau des Bâtiments Civils recevait également des cartes à l'échelle nationale. Celles-ci permettaient un regard d'ensemble sur le territoire et traçaient les limites administratives lors des évolutions du territoire, comme pour celle suivant le traité du 31 mai 1814. ![](./img/Carte_CBC_btv1b8445701j.jpeg)
 
 Royaume de France, suivant le traité signé le 31 mai 1814 (1814) (Signé : Chemot, ingénieur)
 

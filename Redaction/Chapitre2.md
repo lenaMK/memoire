@@ -48,14 +48,14 @@ Si ce système semble s'apparenter à l'utilisation d'un tableur excel, il s'en 
 
 Il faut également penser ces critères de description à partir des archives à dépouiller. Ce sont des textes manuscrits, plus précisément une série de procès-verbaux structurés par séance et délibérations (composées d'un rapport et d'un avis), avec quelques annotations en marge [Annexe 1: exemple de procès-verbal et sa transcription]. Ces procès-verbaux sont produits dès la création du Conseil en 1795 et le modèle de base de données doit prendre en compte leur évolution à travers le temps, jusqu'en 1840 [^4]. Pour ce faire, on procède par carottage pour obtenir un échantillon des procès-verbaux réparti au fil des années. L'étude rapprochée de cet échantillon permet de prendre en compte les changements dans le processus administratif à travers le temps. 
 
-<img src="/home/lenamk/Documents/memoire/Redaction/img/fiche2308-f-21-2534-001/f-21-2534-0001-a1.JPG" alt="Annexe1" style="zoom:50%;" />
+<img src="./img/fiche2308-f-21-2534-001/f-21-2534-0001-a1.JPG" alt="Annexe1" style="zoom:50%;" />
 
 À partir de cet échantillon, les chercheur·se·s identifient des critères pertinents pour leur dépouillement. Ces critères deviendront les propriétés -  ou champs - de la base de données. Le défi est de créer "une grille d'item, assez large pour englober tous les cas traités par le Conseil, assez restreinte pour ne pas rendre l'entreprise démesurée" (Szambien et Boudon, 1990: 3). Dans le modèle mis en place en 1989 puis ajusté aux débuts de l'entreprise [Annexe 2: liste des champs dans TEXTO], chaque entrée est décrite selon des champs qui décrivent tour à tour les documents physiques (la côte d'archive, le registre concerné et la page), la séance (sa date), et l'affaire en question. Celle-ci est constituée d'un rapport (dont le rapporteur est identifié), d'un avis émis par le conseil, des informations géographiques et typologiques, de détails financiers, des mentions de noms de personnes ou de lieu (similaire à un index), l'identification des personnes (intervenants ou architectes) et, finalement, d'éventuels liens vers d'autres rapports ou affaires. En sus, la base de données se décrit elle-même, c'est-à-dire qu'elle contient des champs consacré à documenter l'entrée des données (qui, quand, ...). 
 
 
 
 
-<img src="/home/lenamk/Documents/memoire/Redaction/img/format1-TEXTO-transcrit.png" style="zoom: 33%;" />
+<img src="./img/format1-TEXTO-transcrit.png" style="zoom: 33%;" />
 
 Pour transposer cette grille dans un modèle de base de donnée, il faut aussi définir le type de réponse attendu pour chaque propriété. On distingue, dans CONBAVIL, des champs à compléter avec des mots clés (il peut y en avoir plusieurs, séparés par des ";") et ceux dont la rédaction se fait en texte libre. Les champs en textes libres sont "proches" du documents. Ils ne sont toutefois pas des transcriptions, mais plutôt des résumés ou des analyses sommaires du contenu des archives. Cela est notamment dû à la limitation de la longueur des entrées à 4000 signes dans TEXTO. Ces champs peuvent contenir des incertitudes dues à la lisbilité du manuscrit par exemple.
 
@@ -67,9 +67,9 @@ Malgré la charge de travail qui incombe aux chercheur·se·s pour effectuer cet
 
 Une fois la grille définie, il faut la compléter pour chaque délibération. C'est le début du long processus d'entrée des données. Prenons pour exemple la première délibération de la séance du 9 juin 1838 (Annexe 1)  [^5], qui provient du registre F21*2534 (COF21), dossier n1 (DOS), page 1 (PAG). On identifie en marge le département et l'objet de l'affaire. La date de la séance est en titre, et le nom du rapporteur se trouve en dessous. S'ensuit le rapport dont on peut extraire l'historique (Conseil municipal: délibération du 14 août 1836 approuvé), qu'il s'agit d'un aménagement de place (nature du projet), à la place d'Orléans (rue) à Vic (ville - ancienne graphie). L'avis du rapporteur et celui du conseil ont été résumés. 
 
-<img src="/home/lenamk/Documents/memoire/Redaction/img/fiche2308-f-21-2534-001/2308_json.png" alt="Vue des données" style="zoom:35%;" />
+<img src="./img/fiche2308-f-21-2534-001/2308_json.png" alt="Vue des données" style="zoom:35%;" />
 
-<img src="/home/lenamk/Documents/memoire/Redaction/img/fiche2308-f-21-2534-001/fiche2308.png" style="zoom: 67%;" />
+<img src="./img/fiche2308-f-21-2534-001/fiche2308.png" style="zoom: 67%;" />
 
 Le travail des chercheur·se·s consiste donc à lire (déchiffrer) le texte manuscrit, puis à identifier les éléments requis pour compléter la grille d'analyse. Cet exercice de lecture analytique permet d'isoler des détails pertinents dans les champs indexés tout en résumant le contexte dans les champs plein texte (Boudon 2009: 14). L'entrée des données se faisait en deux temps. D'abord la lecture et la complétion de la grille sur papier, puis la transcription dans le logiciel TEXTO, installé sur un bull micral 65 [Annexe 4: image de bull micral]. Cette double saisie était une mesure de sécurité (Boudon Szambien 1990: 6). Elle semble également nécessaire car TEXTO est un logiciel monoposte, c'est-à-dire qu'on ne peut le manipuler que depuisun seul ordinateur (Vouteau 2005:18) De plus, nous pensons qu'il faut envisager le confort des chercheur·se·s, car les ordinateurs n'étaient ni portables, ni dotés d'interfaces conviviales comme le démontre par exemple les noms des champs à compléter (Annexe 2). 
 
@@ -109,7 +109,7 @@ L'ampleur de ce projet est extraordinaire: les 66 premiers registres des procès
 
 Lorsque le projet reprend suite sa suspension de huit ans, il est nécessaire de faire des ajustements matériels, car l'informatique personnelle a beaucoup évolué durant ce laps de temps. Le premier logiciel documentaire utilisé, Texto avait une mémoire limitée (pas plus de 4000 signes par fiche) qui obligeait à adopter un style télégraphique, voire à réduire le texte avec la simple mention « [détail] »(Boudon 2009: 26). Le choix pour le nouveau logiciel a été FileMaker Pro. Il s'agit d'une base de données relationelles qui n'impose pas de limite. La rédaction des fiches en devient plus naturelle et lisible, sans les "abréviations qui gênent la lecture" (Boudon 2009: 26). Cela a également permis de renommer les champs, ce qui a augmenté la lisibilité et le confort pour l'entrée des données (Annexe [InterfaceFileMaker]). L'ajout d'une entité personne a également été effectué, toutefois, son emploi n'est pas systémique.  
 
-![](/home/lenamk/Documents/memoire/Redaction/img/format3-Filemaker.png)
+![](./img/format3-Filemaker.png)
 
 Dans ce laps de temps, d'autres projets de numérisations ont aussi été réalisés, dont la série iconographique F21 1875-1908 aux archives nationales. Ce fonds d'archives contient les images numérisées des calques des projets acceptés, généralement datés du jour d'adoption du projet et parfois assortis de légendes. Ces dessins sont donc un complément d'un grand intérêt pour CONBAVIL. Leur numérisation et mise en ligne sur Archim (http://www2.culture.gouv.fr/documentation/archim/Batim.html), désormais classés topographiquement et majoritairement datés et identifiés, a permis un travail systématique de mise en relation entre le fond iconographique et les rapports dans CONBAVIL. Les cotes des dessins ont donc été ajoutées à la base lors de cette seconde étape dans sa création (Boudon 2009: 10-11).
 
@@ -226,7 +226,7 @@ En conclusion, malgré l'indexation des dépôts de mendicités dans la base de 
 
 Pour identifier les rapports confiés à Chalgrin dès son retour "au pouvoir" sous le Directoire, il suffit de sélectionner "Chalgrin" comme rapporteur et l'on obtient effectivement 102 résultats en quelques clics. La date de son retour "au pouvoir" sous le Directoire est à déterminer pour le spécialiste qui se pose cette question. Il en est de même pour les résultats obtenus
 
-<img src="/home/lenamk/Documents/memoire/Redaction/img/BoudonSzambien/3-Chalgrin.png" height="50px"><img src="/home/lenamk/Documents/memoire/Redaction/img/BoudonSzambien/3-102resultats.png" alt="3-103resultats" style="zoom: 33%;" />
+<img src="./img/BoudonSzambien/3-Chalgrin.png" height="50px"><img src="./img/BoudonSzambien/3-102resultats.png" alt="3-103resultats" style="zoom: 33%;" />
 
 
 
