@@ -1,20 +1,22 @@
 #  Chapitre 3
 
+Nous voulons désormais créer un espace de travail pour l'exploration et l'interprétation des données de CONBAVIL. Il s'agit de concevoir un dispositif exploratoire qui a pour source d'inspiration les questions de recherche évoquées par les chercheur·se·s impliqué·e·s dans la création de la base, l'historiographie des recherches sur le sujet (**chap1**), le contexte historique - la statistique, la cartographie thématique et le raisonnement administratif. Nous cherchons ensuite des concordances entre ces approches et les moyens techniques actuels.
+
 ## 3.1 Espaces et interprétation des données 
-
-Nous voulons désormais créer un espace de travail pour l'exploration et l'interprétation des données de CONBAVIL. 
-
-Donner matière à la construction d'une interface avec une approche bottom-up: partir des données pour construire une interface, même si tout au long, les questions de recherche et l'approche sont informées par le sujet (chap1). 
 
 Une interface donne forme aux données, elle dicte donc notre façon d'y réfléchir et les questions qu'on voudrait y poser. Les interfaces produisent des affordances épistémologiques parce qu'elles sont le cadre au sein duquel nous posons nos questions, nos observations, nos hypothèses et nos déductions à propos de la base de données.
 
 Puisqu'il existe déjà un outil d'interrogation, nous voulons plutôt créer un instrument de recherche. Si le premier permet de chercher un contenu spécifique (heuristique) via des requêtes SQL ou l'outil d'interrogation, le second est pensé comme instrument de recherche et dispositif critique qui serait à l'origine de questionnements (herméneutique). Cela permettrait ainsi de produire de nouvelles connaissances. 
 
-Nous voulons aussi offrir un approche différente de CONBAVIL, faire des données des objets à manipuler. L
+Nous voulons faire des donnéesde CONBAVIL des objets à manipuler pour les chercheur·se·s.  
 
-=/= mise en page mais mise en scène de l'information [drucker] ; table de travail ou table de montage [Didi-huberman] " introduit le multiple, le divers, l'hybridité de tout montage"
 
-Ce dispositif exploratoire a pour source d'inspiration les questions de recherche évoquées par les chercheur·se·s, impliqués dans la création de la base, l'historiographie des recherches sur le sujet (**chap1**), le contexte historique (statistique, carto thématique, raisonnement administratif) et les moyens techniques actuels qui s'accordent avec ces préoccupations. Il sera question de la forme de ce dispositif dans le troisième chapitre. Dans cette partie, nous allons tout d'abord réfléchir aux éléments que nous souhaitons agencer dans l'interface.
+
+=/= mise en page mais mise en scène de l'information [drucker] ; 
+
+table de travail ou table de montage [Didi-huberman] " introduit le multiple, le divers, l'hybridité de tout montage"
+
+
 
 sources d'inspiration 
 
@@ -25,9 +27,56 @@ sources d'inspiration
 
 Interdisciplinarité --> cartographie & visualisation de données (sémiologie, graphisme, développement d'interface)
 
+### 3.1.1 Approche critique des données et des outils 
+
+#### critique des données = Johanna Drucker: Graphesis 
+
+- data is capta
+- importance d'une lecture critique des données --> à même la visualisation/l'interface
+- créer des outils qui privilégient cette approche 
+
+Matteo Treleani, Qu'est-ce que la patrimoine numérique, chap 3: la circulation des archives
+
+- distance par rapport à l'immersion, comment visualiser l'impossibilité de percevoir le passé, et ainsi assurer qu'on garde un regard critique sur le construit présenté
+- visibilité des filtres du dispositif qui nous donne accès au passé
+
+<!-- verhoeven? =/= utiliser les données pour montrer ce qu'on sait déjà, mais propose une approche critique -->
+
+#### critique de la carto, miroir, inverser opération
+
+l'administration comme une "opération d'objectivation [...] qui remplace des objets et le monde par des référentiels" (Sabatier)
+
+contre-administration? comment inverser cette opération objectivation pour retrouver, sous une forme théorique, ces objets et le monde. 
+
+Réflexion inspirée par la contre-cartographie: utiliser les instruments du pouvoir contre lui pour révéler son fonctionnement (invert), ses éventuels biais
 
 
-### Analyse quantitative et statistique --> chap1.3.3 ?
+
+##### Profanation, détournement et contre-cartographie: approche critique
+
+les archives (et les données) sont le produit d'une administration --> un type de raisonnement
+
+Utiliser ce dispositif pour développer une approche critique de l'action de cette administration via les traces qu'elles nous a laissées, c'est-à-dire ses archives
+
+
+
+utiliser et s'approprier les dispositifs de l'administration et du gouvernement: cartographie et statistique, pour identifier ses critères, sa logique
+
+##### copie théorique 
+
+La production d'une "copie théorique" peut mettre en relief certains enjeux (de pouvoir?)sous-jacents. 
+
+ch1: "copie théorique": n'est pas une simple reproduction du "réel" à l'identique. C'est une représentation simplifiée et abstraite, construite à partir des relations fonctionnelles dont on s'est assuré qu'elles n'entre pas en contradiction avec les données disponibles et qu'elles répondent à des principes de cohérence interne. Ainsi, elle ne constitue pas une duplication du réel mais le produit d'une structure qui en réduit - en fonction des hypothèses initiales et de règles logico-mathématiques préalables - l'opacité. (Lepetit, 1989: 197)
+
+- l'analyse historique n'atteint jamais son but: le réel est hors de nos prises
+- **aucun objet d'étude historique ne frappe par son évidence, la métaphore du miroir est de ce point de vue trompeuse**
+- exprimée en termes réalistes, l'opposition entre micro et macro-analyse est mal posée. Elle ne se situe pas au niveau du réel mais de sa représentation: il s'agit de deux modes de saisie conceptuelle des phénomènes, de deux manières de réduire leur opacité. Aucune n'est plus "réelle" que l'autre.
+
+ (Lepetit, 1989: 197)
+
+
+
+### 3.1.2 Analyse quantitative et statistique --> ref chap1.3.3 ?
 
 Garric --> comparaisons, statistiques 
 
@@ -45,7 +94,7 @@ archives d'une administration =
 
 <!-- est-ce que j'ai un exemple de projet intéressant pour les statistiques? placer Joyeux-Prunel ici?? -->
 
-### De la cartographie à la visualisation de données
+### 3.1.3 De la cartographie à la visualisation de données
 
 intérêt pour la cartographie --> pensée spatiale liée au côté topographique des données, mais aussi à une envie de percevoir les dynamiques et changements, à travers le temps et l'espace. 
 
@@ -71,38 +120,75 @@ En outre, nous élargissons cette approche cartographique pour y inclure des for
 
 statut des visualisation: ne sont jamais présentées comme des fins en soi ... mais plutôt comme une matière pour l'élaboration intellectuelle ̣- mouvante et incarnée dans divers modes d'inscrption, mobilisant en même temps les nouveaux outils et des séquences de pratiques et des protocloes de travails existants. Les images produites ne sont ainsi pas uniquement conçues comme des outils d'interprétation, mais aussi de tri, de paramétrage, voire même d'enrichissement et de transformation des données (caviglia 2014)
 
-### Approche critique des données et des outils 
 
-#### critique des données = Johanna Drucker: Graphesis 
 
-- data is capta
-- importance d'une lecture critique des données --> à même la visualisation/l'interface
-- créer des outils qui privilégient cette approche 
 
-Matteo Treleani, Qu'est-ce que la patrimoine numérique, chap 3: la circulation des archives
 
-- distance par rapport à l'immersion, comment visualiser l'impossibilité de percevoir le passé, et ainsi assurer qu'on garde un regard critique sur le construit présenté
-- visibilité des filtres du dispositif qui nous donne accès au passé
+## 3.2 Pratiques de visualisation et de cartographie
 
-<!-- verhoeven? =/= utiliser les données pour montrer ce qu'on sait déjà, mais propose une approche critique -->
+L’exploitation des données de Conbavil que nous proposons prend diverses formes diagrammatiques : cartographie, mais aussi chronologie et typologie. Ces formes visuelles sont réexaminées à travers l’utilisation d’un nouveau format de production : la visualisation interactive. Grâce aux technologies du web 2.0 et particulièrement à la bibliothèque JavaScript D3.js, les données sont converties en graphiques directement dans le navigateur. Ces *data-driven visualizations* sont programmées pour s’animer sous l’action de l’utilisateur, qui peut ainsi sélectionner les données à afficher ou régler le niveau de détail lors de sa consultation (Bostock, 2019a). Dès lors, chaque visualisation devient une proposition, une vue sur les données. La perspective change selon la caractéristique mise de l’avant par le graphique : la géolocalisation pour la carte, la date de discussion de l’affaire pour la chronologie et le type architectural pour la classification hiérarchique rayonnante.
 
-#### critique de la carto, miroir, inverser opération
 
-l'administration comme une "opération d'objectivation [...] qui remplace des objets et le monde par des référentiels" (Sabatier)
 
-contre-administration? comment inverser cette opération objectivation pour retrouver, sous une forme théorique, ces objets et le monde. 
+### 3.2.1 Cartographie
 
-Réflexion inspirée par la contre-cartographie: utiliser les instruments du pouvoir contre lui pour révéler son fonctionnement (invert), ses éventuels biais
+Pour la carte, nous partons des informations spatiales renseignées dans Conbavil, c’est-à-dire du nom des communes pour lesquelles des projets architecturaux ont été examinés par le Conseil des bâtiments civils. Nous sommes ainsi parvenue à établir une liste d’emplacements que nous avons ensuite géolocalisés[7](http://revuecaptures.org/article-dune-publication/constellations-de-données-historiques#footnote7_mdql4ec). Lors de la production de la carte, chaque commune est figurée par un point dont la taille est proportionnelle aux nombres d’affaires la concernant. Le fond de carte sélectionné est un découpage de la France en départements datant de 1831[8](http://revuecaptures.org/article-dune-publication/constellations-de-données-historiques#footnote8_wb1lc8q). Celui-ci situe les communes tout en restant dans une relative abstraction, ce qui favorise la lisibilité de la carte. Les limites départementales offrent un repère géographique tout en rappelant le contexte historique. Il serait bien entendu préférable de disposer d’un fond de carte qui rende compte des évolutions des divisions administratives du territoire au cours des années, mais, malheureusement, ce jeu de données géo-historiques n’est pas encore disponible pour la France de cette époque.
 
-ch1: "copie théorique": n'est pas une simple reproduction du "réel" à l'identique. C'est une représentation simplifiée et abstraite, construite à partir des relations fonctionnelles dont on s'est assuré qu'elles n'entre pas en contradiction avec les données disponibles et qu'elles répondent à des principes de cohérence interne. Ainsi, elle ne constitue pas une duplication du réel mais le produit d'une structure qui en réduit - en fonction des hypothèses initiales et de règles logico-mathématiques préalables - l'opacité. (Lepetit, 1989: 197)
+<iframe src="https://www.public.archi/atlas-numerique/viz/carteCommunes/index.html" title="Lena Krause, *[Carte des départements français et densité des projets Conbavil](https://www.public.archi/atlas-numerique/viz/carteCommunes/index.html)* (2019), Produite comme prototype dans le cadre du projet *Atlas numérique de l’architecture publique en France (1795-1840)*, Montréal : Université de Montréal "</iframe>
 
-- l'analyse historique n'atteint jamais son but: le réel est hors de nos prises
-- **aucun objet d'étude historique ne frappe par son évidence, la métaphore du miroir est de ce point de vue trompeuse**
-- exprimée en termes réalistes, l'opposition entre micro et macro-analyse est mal posée. Elle ne se situe pas au niveau du réel mais de sa représentation: il s'agit de deux modes de saisie conceptuelle des phénomènes, de deux manières de réduire leur opacité. Aucune n'est plus "réelle" que l'autre.
 
- (Lepetit, 1989: 197)
 
-### Interfaces
+Cette carte permet ainsi de mener, pour la première fois, une analyse visuelle, spatiale et quantitative des données de Conbavil. Une étude primaire révèle que son agencement est le reflet de la hiérarchie administrative française. Le plus grand nombre des affaires traitées par le Conseil se situent dans la capitale administrative du pays, Paris. Les projets majeurs sont regroupés dans les chefs-lieux des départements, tandis que les autres communes répertoriées font seulement l’objet de quelques délibérations, habituellement pour des affaires de moindre envergure. Ce constat fait écho à notre critique des cartes produites par Teyssot et Érouard. Cependant, l’interactivité de la carte lui confère un tout autre potentiel. L’utilisateur peut sélectionner un ou plusieurs lieux et afficher les affaires concernées[9](http://revuecaptures.org/article-dune-publication/constellations-de-données-historiques#footnote9_qmnigzo). La carte n’est plus une fin en soi, mais devient un moyen de plonger dans les archives.
+
+
+
+### 3.2.2 Chronologie
+
+La deuxième visualisation cible quant à elle les données temporelles. À partir du code de Mike Bostock, créateur de la bibliothèque D3.js (2019b), nous avons généré une chronologie des séances du Conseil précisant le nombre de projets évalués à chaque occurrence. Ce graphique permet ainsi de rendre compte de la fréquence des séances du Conseil et de la quantité d’affaires traitées au fil du temps. Grâce à la fonction de zoom, l’utilisateur peut modifier l’axe chronologique et examiner de manière détaillée des intervalles temporels plus restreints. En dessous de cette visualisation, la légende, qui est elle-même un graphique, sert de repère. Elle situe la section visualisée et propose un autre moyen de parcourir la chronologie. Malgré tout l’intérêt de ces manipulations, l’illusion de continuité que cette figure pourrait donner à l’utilisateur constitue un problème important. En effet, le graphique génère une courbe qui relie les événements entre eux. C’est la raison pour laquelle nous avons choisi une courbe en escalier[10](http://revuecaptures.org/article-dune-publication/constellations-de-données-historiques#footnote10_pc6hjgr), qui crée des paliers entre chaque élément, pour essayer de discrétiser l’information, c’est-à-dire la séparer en des unités distinctes. Le problème persiste néanmoins en partie, car il n’est pas possible de distinguer les séances consécutives ayant le même nombre de délibérations. En outre, on ne peut pas visualiser les interruptions dans les sources : par exemple, il n’y a pas de séance entrée dans la base de données entre le 8 octobre 1833 et le 3 janvier 1834, mais la ligne continue suggère un nombre stable de délibérations pendant toute la période.
+
+<iframe src="https://www.public.archi/atlas-numerique/viz/chronologie/index.html" title="Lena Krause, [*Chronologie des séances du Conseil des bâtiments civils*](https://www.public.archi/atlas-numerique/viz/chronologie/index.html) (2019), Produite comme prototype dans le cadre du projet *Atlas numérique de l’architecture publique en France (1795-1840)*, Montréal : Université de Montréal "</iframe>
+
+
+
+Pour répondre à ces inconvénients, nous avons conçu un diagramme en bâtons. Dans cette visualisation, chaque barre représente une séance et sa hauteur le nombre de délibérations. La sélection d’une barre par un clic active l’affichage des délibérations concernées. Le repérage de la séance exacte à laquelle une affaire a été évaluée offre un contexte important, car le Conseil a parfois traité plus de cinquante dossiers au cours d’une même séance, tandis que d’autres sont consacrées exclusivement à un seul projet. Toutefois, cette visualisation présente elle aussi un problème évident de lisibilité. Limitée par son affichage sur la largeur d’un écran d’ordinateur, il nous est impossible d’y faire apparaître de façon claire les quelques 4000 séances du Conseil tenues entre 1795 et 1840. La fonction de zoom ne permet pas de changer d’échelle, uniquement d’élargir les dimensions de l’image. Malgré un travail rigoureux des couleurs, la lecture du graphique reste difficile. La solution idéale serait de parvenir à fusionner les deux graphiques en une seule visualisation, qui serait composée des barres et d’un axe chronologique interactif. Il serait également bénéfique d’ajouter quelques grands repères mettant en relation les activités du Conseil avec leur contexte historique, mais seule une connaissance fine des dynamiques politiques et administratives de l’époque permettrait des interprétations concluantes. Pour le moment, nous laissons cette tâche aux spécialistes, qui sauront enrichir la chronologie de leur expertise.
+
+[<img src="http://revuecaptures.org/sites/default/files/styles/demi_largeur/public/Krause_figure_6.png?itok=zkVzrqSd" alt="img" style="zoom:25%;" />](http://revuecaptures.org/sites/default/files/Krause_figure_6.png)
+
+Lena Krause, *Chronologie des séances du Conseil des bâtiments civils* (détail) (2019), Produite comme prototype dans le cadre du projet *Atlas numérique de l’architecture publique en France (1795-1840)*, Montréal : Université de Montréal
+
+<iframe src="https://www.public.archi/atlas-numerique/viz/barChart/index.html" title="Lena Krause, [*Séances du Conseil des bâtiments civils*](https://www.public.archi/atlas-numerique/viz/barChart/index.html) (2019), Produite comme prototype dans le cadre du projet *Atlas numérique de l’architecture publique en France (1795-1840)*, Montréal : Université de Montréal "</iframe>
+
+
+
+### 3.2.3 Typologie
+
+Finalement, nous avons puisé dans les informations d’ordre typologique compilées dans Conbavil. Les chercheur·se·s chargé·e·s du dépouillement de ces données ont catégorisé les affaires évaluées par le Conseil selon leur type architectural, en se référant au *Thésaurus de la désignation des œuvres architecturales et des espaces aménagés* (Vergain, 2015)[11](http://revuecaptures.org/article-dune-publication/constellations-de-données-historiques#footnote11_pdz4gfe). Ce dernier classe les productions architecturales selon une typologie allant jusqu’à huit niveaux de détail. Par exemple, dans la catégorie « génie civil » figure la sous-catégorie « ouvrage d’art », qui elle-même contient « pont », « égout » ou « quai ». Ce système arborescent est judicieusement visualisé dans la version interactive du graphique circulaire à plusieurs niveaux, ou *Sunburst* (Bostock, 2018a), que nous avons élaboré. Chaque niveau est composé de catégories dont la largeur figure les proportions respectives. Étant limité à deux niveaux apparents, le diagramme maintient une grande lisibilité tout en donnant accès à un contenu plus détaillé par la voie de l’interactivité (Bostock, 2018b). Cette visualisation des données de Conbavil fournit ainsi une représentation visuelle du *Thésaurus*, qui, jusqu’à présent, ne pouvait être parcouru qu’en suivant une structure hiérarchique d’hyperliens.
+
+<iframe src="https://www.public.archi/atlas-numerique/viz/sunburst/index.html" title="Lena Krause, [*Répartition des projets Conbavil par type architectural*](https://www.public.archi/atlas-numerique/viz/sunburst/index.html) (2019), Produite comme prototype dans le cadre du projet *Atlas numérique de l’architecture publique en France (1795-1840)*, Montréal : Université de Montréal "</iframe>
+
+Lena Krause, [*Répartition des projets Conbavil par type architectural*](http://atlas.lenamk.site/viz/sunburst/) (2019), Produite comme prototype dans le cadre du projet *Atlas numérique de l’architecture publique en France (1795-1840)*, Montréal : Université de Montréal 
+
+Notre soleil interactif Conbavil présente donc le contenu de la base de données par type architectural. Le fait de cliquer sur une catégorie permet de faire apparaître le niveau de profondeur suivant et le retour en arrière s’effectue en cliquant au centre du graphique. En glissant le curseur sur une catégorie, on peut voir le nombre de délibérations qui y sont associées. Rapidement, on constate que plus de la moitié des délibérations sont contenues dans trois catégories principales : « urbanisme », « architecture religieuse » et « architecture judiciaire, pénitentiaire ou de police ». La section « urbanisme » contient toutes les délibérations liées aux plans d’alignement des villes, car le Conseil était également responsable de l’ouverture des rues pour l’assainissement et l’embellissement des espaces publics (Château-Dutier, 2016, T1: 151-179). La prépondérance de l’architecture religieuse s’explique quant à elle par le grand nombre de réaffectations de bâtiments nationaux en écoles, préfectures et tribunaux, notamment (Woolf, 1987: 30-31).
+
+La carte comme le soleil sont des graphiques cumulatifs, ce qui signifie que certaines délibérations y figurent plusieurs fois si elles sont associées à plusieurs lieux ou types architecturaux. Cette décision provient, entre autres, d’une incertitude dans les données, qui ne signalent pas de hiérarchie en cas d’attribution multiple. Il faut également garder à l’esprit que la carte, par exemple, ne représente pas le phénomène bâtisseur, mais reflète plutôt les délibérations du Conseil. La taille des points dépend donc du nombre de mentions lors des séances et non de la quantité de chantiers ouverts. Les graphiques créés sont exploratoires, ils ont pour but de mener à la découverte du contenu des archives. C’est pourquoi il nous a semblé pertinent d’offrir le plus grand nombre de points d’entrée possibles dans les données.
+
+## 3.3 Editorialisation : atlas
+
+### 3.3.1 Théorie ( )
+
+- jacob, besse, didi-huberman
+- interactivité, manipulation
+
+### 3.3.2 Interface ( 3.1.4??)
+
+- Christian Jacob, *Lieux de savoir* 2013
+
+Instrumentation de la recherche: défi : interaction en vue de développer "les environnements logiciels qui permettront d'entreprendre ce travail expérimental sur les données. Élaborer des outils spécifiques et pointus, répondant à des logiques intellectuelles particulières
+
+- potentiel d'instruments de visualisation qui [...] permettraient de mettre à l'épreuve des hypothèses de travail en temps réel " ( Jacob 2013: cf lien ./1180) 
+- besoin de faire varier la focale, de passer du local au global et inversement, mais aussi de passer d'une visualisation à l'autre "à mes yeux, l'environnement de recherche numérique idéal permettrait de passer d'une forme de visualisation à l'autre, d'un point de vue à l'autre. Il permettrait de mettre à l'épreuve en temps réel des hypothèses de travail, de procéder par des expérimentations successibes
+- défi principal de l'instrumentation de la recherche aujourd'hui me semble être celui de la transitivité et de la fluidité
+- réflexion critique sur les instrumentations de la recherche, sur les ergonoies des nouveaux outils, sur la manipulation et l'exploitation intellectuelle des documents qui s'accumulent chaque jour davantage sur nos disques durs
 
 Outre exemples déjà donné: EAT ...
 
@@ -118,73 +204,15 @@ Outre exemples déjà donné: EAT ...
 
 
 
-## Pratiques de visualisation et de cartographie
-
-L’exploitation des données de Conbavil que nous proposons prend diverses formes diagrammatiques : cartographie, mais aussi chronologie et typologie. Ces formes visuelles sont réexaminées à travers l’utilisation d’un nouveau format de production : la visualisation interactive. Grâce aux technologies du web 2.0 et particulièrement à la bibliothèque JavaScript D3.js, les données sont converties en graphiques directement dans le navigateur. Ces *data-driven visualizations* sont programmées pour s’animer sous l’action de l’utilisateur, qui peut ainsi sélectionner les données à afficher ou régler le niveau de détail lors de sa consultation (Bostock, 2019a). Dès lors, chaque visualisation devient une proposition, une vue sur les données. La perspective change selon la caractéristique mise de l’avant par le graphique : la géolocalisation pour la carte, la date de discussion de l’affaire pour la chronologie et le type architectural pour la classification hiérarchique rayonnante.
-
-
-
-### Cartographie
-
-Pour la carte, nous partons des informations spatiales renseignées dans Conbavil, c’est-à-dire du nom des communes pour lesquelles des projets architecturaux ont été examinés par le Conseil des bâtiments civils. Nous sommes ainsi parvenue à établir une liste d’emplacements que nous avons ensuite géolocalisés[7](http://revuecaptures.org/article-dune-publication/constellations-de-données-historiques#footnote7_mdql4ec). Lors de la production de la carte, chaque commune est figurée par un point dont la taille est proportionnelle aux nombres d’affaires la concernant. Le fond de carte sélectionné est un découpage de la France en départements datant de 1831[8](http://revuecaptures.org/article-dune-publication/constellations-de-données-historiques#footnote8_wb1lc8q). Celui-ci situe les communes tout en restant dans une relative abstraction, ce qui favorise la lisibilité de la carte. Les limites départementales offrent un repère géographique tout en rappelant le contexte historique. Il serait bien entendu préférable de disposer d’un fond de carte qui rende compte des évolutions des divisions administratives du territoire au cours des années, mais, malheureusement, ce jeu de données géo-historiques n’est pas encore disponible pour la France de cette époque.
-
-Lena Krause, *[Carte des départements français et densité des projets Conbavil](http://atlas.lenamk.site/viz/carteCommunes/)* (2019), Produite comme prototype dans le cadre du projet *Atlas numérique de l’architecture publique en France (1795-1840)*, Montréal : Université de Montréal 
-
-Cette carte permet ainsi de mener, pour la première fois, une analyse visuelle, spatiale et quantitative des données de Conbavil. Une étude primaire révèle que son agencement est le reflet de la hiérarchie administrative française. Le plus grand nombre des affaires traitées par le Conseil se situent dans la capitale administrative du pays, Paris. Les projets majeurs sont regroupés dans les chefs-lieux des départements, tandis que les autres communes répertoriées font seulement l’objet de quelques délibérations, habituellement pour des affaires de moindre envergure. Ce constat fait écho à notre critique des cartes produites par Teyssot et Érouard. Cependant, l’interactivité de la carte lui confère un tout autre potentiel. L’utilisateur peut sélectionner un ou plusieurs lieux et afficher les affaires concernées[9](http://revuecaptures.org/article-dune-publication/constellations-de-données-historiques#footnote9_qmnigzo). La carte n’est plus une fin en soi, mais devient un moyen de plonger dans les archives.
-
-
-
-### Chronologie
-
-La deuxième visualisation cible quant à elle les données temporelles. À partir du code de Mike Bostock, créateur de la bibliothèque D3.js (2019b), nous avons généré une chronologie des séances du Conseil précisant le nombre de projets évalués à chaque occurrence. Ce graphique permet ainsi de rendre compte de la fréquence des séances du Conseil et de la quantité d’affaires traitées au fil du temps. Grâce à la fonction de zoom, l’utilisateur peut modifier l’axe chronologique et examiner de manière détaillée des intervalles temporels plus restreints. En dessous de cette visualisation, la légende, qui est elle-même un graphique, sert de repère. Elle situe la section visualisée et propose un autre moyen de parcourir la chronologie. Malgré tout l’intérêt de ces manipulations, l’illusion de continuité que cette figure pourrait donner à l’utilisateur constitue un problème important. En effet, le graphique génère une courbe qui relie les événements entre eux. C’est la raison pour laquelle nous avons choisi une courbe en escalier[10](http://revuecaptures.org/article-dune-publication/constellations-de-données-historiques#footnote10_pc6hjgr), qui crée des paliers entre chaque élément, pour essayer de discrétiser l’information, c’est-à-dire la séparer en des unités distinctes. Le problème persiste néanmoins en partie, car il n’est pas possible de distinguer les séances consécutives ayant le même nombre de délibérations. En outre, on ne peut pas visualiser les interruptions dans les sources : par exemple, il n’y a pas de séance entrée dans la base de données entre le 8 octobre 1833 et le 3 janvier 1834, mais la ligne continue suggère un nombre stable de délibérations pendant toute la période.
-
-Pour répondre à ces inconvénients, nous avons conçu un diagramme en bâtons. Dans cette visualisation, chaque barre représente une séance et sa hauteur le nombre de délibérations. La sélection d’une barre par un clic active l’affichage des délibérations concernées. Le repérage de la séance exacte à laquelle une affaire a été évaluée offre un contexte important, car le Conseil a parfois traité plus de cinquante dossiers au cours d’une même séance, tandis que d’autres sont consacrées exclusivement à un seul projet. Toutefois, cette visualisation présente elle aussi un problème évident de lisibilité. Limitée par son affichage sur la largeur d’un écran d’ordinateur, il nous est impossible d’y faire apparaître de façon claire les quelques 4000 séances du Conseil tenues entre 1795 et 1840. La fonction de zoom ne permet pas de changer d’échelle, uniquement d’élargir les dimensions de l’image. Malgré un travail rigoureux des couleurs, la lecture du graphique reste difficile. La solution idéale serait de parvenir à fusionner les deux graphiques en une seule visualisation, qui serait composée des barres et d’un axe chronologique interactif. Il serait également bénéfique d’ajouter quelques grands repères mettant en relation les activités du Conseil avec leur contexte historique, mais seule une connaissance fine des dynamiques politiques et administratives de l’époque permettrait des interprétations concluantes. Pour le moment, nous laissons cette tâche aux spécialistes, qui sauront enrichir la chronologie de leur expertise.
-
-[![img](http://revuecaptures.org/sites/default/files/styles/demi_largeur/public/Krause_figure_6.png?itok=zkVzrqSd)](http://revuecaptures.org/sites/default/files/Krause_figure_6.png)
-
-Lena Krause, *Chronologie des séances du Conseil des bâtiments civils* (détail) (2019), Produite comme prototype dans le cadre du projet *Atlas numérique de l’architecture publique en France (1795-1840)*, Montréal : Université de Montréal
-
-Lena Krause, [*Chronologie des séances du Conseil des bâtiments civils*](http://atlas.lenamk.site/viz/chronologie/) (2019), Produite comme prototype dans le cadre du projet *Atlas numérique de l’architecture publique en France (1795-1840)*, Montréal : Université de Montréal 
-
-Lena Krause, [*Séances du Conseil des bâtiments civils*](http://atlas.lenamk.site/viz/barChart/) (2019), Produite comme prototype dans le cadre du projet *Atlas numérique de l’architecture publique en France (1795-1840)*, Montréal : Université de Montréal 
-
-### Typologie
-
-Finalement, nous avons puisé dans les informations d’ordre typologique compilées dans Conbavil. Les chercheur·se·s chargé·e·s du dépouillement de ces données ont catégorisé les affaires évaluées par le Conseil selon leur type architectural, en se référant au *Thésaurus de la désignation des œuvres architecturales et des espaces aménagés* (Vergain, 2015)[11](http://revuecaptures.org/article-dune-publication/constellations-de-données-historiques#footnote11_pdz4gfe). Ce dernier classe les productions architecturales selon une typologie allant jusqu’à huit niveaux de détail. Par exemple, dans la catégorie « génie civil » figure la sous-catégorie « ouvrage d’art », qui elle-même contient « pont », « égout » ou « quai ». Ce système arborescent est judicieusement visualisé dans la version interactive du graphique circulaire à plusieurs niveaux, ou *Sunburst* (Bostock, 2018a), que nous avons élaboré. Chaque niveau est composé de catégories dont la largeur figure les proportions respectives. Étant limité à deux niveaux apparents, le diagramme maintient une grande lisibilité tout en donnant accès à un contenu plus détaillé par la voie de l’interactivité (Bostock, 2018b). Cette visualisation des données de Conbavil fournit ainsi une représentation visuelle du *Thésaurus*, qui, jusqu’à présent, ne pouvait être parcouru qu’en suivant une structure hiérarchique d’hyperliens.
-
-Lena Krause, [*Répartition des projets Conbavil par type architectural*](http://atlas.lenamk.site/viz/sunburst/) (2019), Produite comme prototype dans le cadre du projet *Atlas numérique de l’architecture publique en France (1795-1840)*, Montréal : Université de Montréal 
-
-Notre soleil interactif Conbavil présente donc le contenu de la base de données par type architectural. Le fait de cliquer sur une catégorie permet de faire apparaître le niveau de profondeur suivant et le retour en arrière s’effectue en cliquant au centre du graphique. En glissant le curseur sur une catégorie, on peut voir le nombre de délibérations qui y sont associées. Rapidement, on constate que plus de la moitié des délibérations sont contenues dans trois catégories principales : « urbanisme », « architecture religieuse » et « architecture judiciaire, pénitentiaire ou de police ». La section « urbanisme » contient toutes les délibérations liées aux plans d’alignement des villes, car le Conseil était également responsable de l’ouverture des rues pour l’assainissement et l’embellissement des espaces publics (Château-Dutier, 2016, T1: 151-179). La prépondérance de l’architecture religieuse s’explique quant à elle par le grand nombre de réaffectations de bâtiments nationaux en écoles, préfectures et tribunaux, notamment (Woolf, 1987: 30-31).
-
-La carte comme le soleil sont des graphiques cumulatifs, ce qui signifie que certaines délibérations y figurent plusieurs fois si elles sont associées à plusieurs lieux ou types architecturaux. Cette décision provient, entre autres, d’une incertitude dans les données, qui ne signalent pas de hiérarchie en cas d’attribution multiple. Il faut également garder à l’esprit que la carte, par exemple, ne représente pas le phénomène bâtisseur, mais reflète plutôt les délibérations du Conseil. La taille des points dépend donc du nombre de mentions lors des séances et non de la quantité de chantiers ouverts. Les graphiques créés sont exploratoires, ils ont pour but de mener à la découverte du contenu des archives. C’est pourquoi il nous a semblé pertinent d’offrir le plus grand nombre de points d’entrée possibles dans les données.
-
-## Editorialisation : atlas
-
-### Théorie ( )
-
-- jacob, besse, didi-huberman
-- interactivité, manipulation
-
-### Interface ( )
-
-- Christian Jacob, *Lieux de savoir* 2013
-
-Instrumentation de la recherche: défi : interaction en vue de développer "les environnements logiciels qui permettront d'entreprendre ce travail expérimental sur les données. Élaborer des outils spécifiques et pointus, répondant à des logiques intellectuelles particulières
-
-- potentiel d'instruments de visualisation qui [...] permettraient de mettre à l'épreuve des hypothèses de travail en temps réel " ( Jacob 2013: cf lien ./1180) 
-- besoin de faire varier la focale, de passer du local au global et inversement, mais aussi de passer d'une visualisation à l'autre "à mes yeux, l'environnement de recherche numérique idéal permettrait de passer d'une forme de visualisation à l'autre, d'un point de vue à l'autre. Il permettrait de mettre à l'épreuve en temps réel des hypothèses de travail, de procéder par des expérimentations successibes
-- défi principal de l'instrumentation de la recherche aujourd'hui me semble être celui de la transitivité et de la fluidité
-- réflexion critique sur les instrumentations de la recherche, sur les ergonoies des nouveaux outils, sur la manipulation et l'exploitation intellectuelle des documents qui s'accumulent chaque jour davantage sur nos disques durs
-
-
-
-### L’atlas numérique comme instrument de recherche
+### 3.3.3 L’atlas numérique comme instrument de recherche
 
 Les visualisations que nous présentons ici constituent une première étape dans notre processus de recherche. Telle une machine bâtisseuse, la politique d’équipement de la France est, à la période qui nous intéresse, un engrenage dont les besoins et les contraintes se reflètent dans sa chronologie, dans son organisation spatiale et dans ses choix d’infrastructure. Nous cherchons donc, afin d’étudier son fonctionnement, à concevoir un instrument de recherche à partir de nos visualisations.
 
 Des liens entre les visualisations ont été tissés à deux niveaux. Tout d’abord, celles-ci sont regroupées dans un même espace éditorial qui reprend le modèle de l’atlas. Christian Jacob définit l’atlas géographique comme un « dispositif qui permet de concilier le tout et le détail. Il est régi par une logique cumulative et analytique, qui conduit de la vision globale aux images partielles » (1992: 97). La forme-atlas est transformée lors de sa reprise par des artistes ou par des historien·ne·s de l’art. Dans ce domaine, il peut devenir, selon Georges Didi-Huberman, une « forme visuelle du savoir » comportant « [un] paradigme *esthétique* de la forme visuelle, et [un] paradigme *épistémique* du savoir » (2011: 12). Sa réception est une activité non linéaire : on ne *lit* pas mais on *consulte* un atlas. Cette particularité autorise l’émergence d’une forme de « connaissance par l’imagination » grâce à « la puissance intrinsèque du *montage* qui consiste à découvrir […] des liens que l’observation directe est incapable de discerner » (13). En somme, regrouper les visualisations produites à partir des archives numérisées du Conseil des bâtiments civils dans un atlas numérique crée un espace propice à la réflexion et à la recherche.
 
-Lena Krause, [*Exemple d’interactivité entre deux visualisations : carte et avis du Conseil*](http://atlas.lenamk.site/viz/carteAvis) (2019), Produite comme prototype dans le cadre du projet *Atlas numérique de l’architecture publique en France (1795-1840)*, Montréal : Université de Montréal 
+<iframe src="https://www.public.archi/atlas-numerique/viz/carteAvis/index.html" title="Lena Krause, [*Exemple d’interactivité entre deux visualisations : carte et avis du Conseil*](https://www.public.archi/atlas-numerique/viz/carteAvis/index.html) (2019), Produite comme prototype dans le cadre du projet *Atlas numérique de l’architecture publique en France (1795-1840)*, Montréal : Université de Montréal "</iframe>
+
+
 
 Des liens dynamiques intégrés dans le code permettent de relier entre elles les différentes composantes de l’atlas. Chaque graphique est créé à partir du même jeu de données. Nous avons donc pu mettre en place un système qui reproduit la sélection d’un sous-ensemble (d’un intervalle chronologique, d’un lieu ou d’une catégorie architecturale) dans les autres visualisations. Offrant d’abord un aperçu global, les visualisations se transforment ensuite au fur et à mesure du parcours interactif en des perspectives de plus en plus détaillées, qui descendent en profondeur jusqu’à la consultation d’une seule affaire. Chaque action de l’utilisateur, guidée par ses hypothèses et par ses réflexions, façonne donc la constellation que forment les données dans l’atlas. La manipulation aide la chercheuse ou le chercheur à analyser le contenu de Conbavil et l’invite à émettre des hypothèses sur sa signification. Pour le moment, ces liens dynamiques sont implémentés entre la carte et un graphique des avis du Conseil. Initialement, tous les lieux sont sélectionnés et le graphique figure l’ensemble des affaires. On peut ensuite modifier la sélection de lieux, ce qui entraîne un ajustement du graphique des avis. Et, inversement, la sélection d’un avis se reflète automatiquement sur la carte[12](http://revuecaptures.org/article-dune-publication/constellations-de-données-historiques#footnote12_ajhxl80). On peut ainsi observer de façon spatiale, grâce à ces liens, les dispositions du Conseil face aux projets soumis. Aussi, la dynamique entre les visualisations permet l’étude de phénomènes par la recherche des corrélations : par exemple, les membres du Conseil étaient réputés intransigeants avec les architectes de province jugés « peu capables » (Château-Dutier, 2016, T2: 591), allant jusqu’à corriger leurs projets à grands coups de crayon sur les plans fournis. Nous pouvons rechercher ce phénomène dans l’atlas, en modifiant la sélection des avis et des lieux, afin d’identifier d’éventuelles régions où le taux de refus ou de modification serait plus élevé.
 
@@ -196,7 +224,7 @@ Lena Krause, *Modélisation de l’atlas* (2019) , Produite comme prototype dans
 
 La création d’une nouvelle interface pour la base de données Conbavil sous la forme d’un atlas peut être comprise comme un acte d’éditorialisation[14](http://revuecaptures.org/article-dune-publication/constellations-de-données-historiques#footnote14_psr6wnd). Il s’agit d’une démarche processuelle, expérimentale et surtout multiple (Vitali-Rosati, 2016: 68). La visualisation et la cartographie ont considérablement évolué avec l’apparition des logiciels et outils informatiques. D’après les historiennes Claire Lemercier et Claire Zalc, « il n’est plus question de publier chaque tableau ou graphique péniblement obtenu, mais plutôt de les utiliser pour avancer dans une recherche, quitte à n’en montrer au lecteur final que quelques-uns » (2008: n.p.). Comparativement aux grandes équipes de chercheur·se·s, ingénieur·e·s, informaticien·ne·s, cartographes et perforateur·rice·s de cartes, indispensables aux grandes enquêtes collectives menées dans les années 70, il est de nos jours possible de réduire le personnel, le temps, les connaissances et les coûts nécessaires à la création de cartes (Lemercier, 2008)[15](http://revuecaptures.org/article-dune-publication/constellations-de-données-historiques#footnote15_7tulxje). Cela favorise particulièrement l’expérimentation, tant avec les formes et les variables graphiques qu’avec les calculs et les statistiques privilégiés pour la cartographie thématique. Aussi, les nombreuses itérations possibles au cours du processus de production nous invitent à repenser chaque élément jusqu’à ce qu’il convienne aux besoins du projet.
 
-### Editorialisation ( )
+### 3.3.4 Editorialisation ( )
 
 - Editorialisation et enjeux
 - Instrument de recherche 
@@ -204,26 +232,4 @@ La création d’une nouvelle interface pour la base de données Conbavil sous l
 Il serait tentant de penser que l’interactivité de l’atlas déconstruit des enjeux de pouvoir dans le champ du savoir. Il ne faut toutefois pas oublier les choix effectués lors de sa production. Du point de vue du contenu, les archives sont produites par des instances dans un contexte historique déterminé, à savoir une administration française issue de la première moitié du XIXe siècle pour le Conseil des bâtiments civils. La base de données, pour sa part, est issue du travail de chercheur·se·s au tournant du XXIe siècle. Les connaissances obtenues à partir de ces données ne représentent donc pas une vérité, mais plutôt un point de vue[16](http://revuecaptures.org/article-dune-publication/constellations-de-données-historiques#footnote16_5pi61ps). En ce qui concerne l’interface de l’atlas, son élaboration se base sur diverses institutions, telles que Open Street Map pour le géoréférencement ou le thésaurus architectural de l’Inventaire général du patrimoine culturel. Ces références formatent le contenu selon des ontologies du savoir précises, des perspectives dont il n’est pas impossible de remettre la pertinence en cause. Par exemple, la toponymie contemporaine peut s’avérer problématique dans le cadre d’études historiques. Il faut donc garder à l’esprit les formes de pouvoir et d’autorité qui subsistent dans la production du savoir de notre atlas. C’est la raison pour laquelle nous souhaitons encourager la réutilisation et l’appropriation de son code en le publiant sous une licence libre[17](http://revuecaptures.org/article-dune-publication/constellations-de-données-historiques#footnote17_bnrpj0k). L’objectif est de faciliter les ajouts, les modifications et les contre-propositions, ainsi que la réutilisation du code pour d’autres projets. Nous savons que cela nécessite un niveau de littératie numérique encore peu répandu parmi les chercheur·se·s en histoire de l’art. Cependant, grâce à l’accessibilité et à la transparence de notre dispositif, nous invitons celles et ceux qui seraient intéressé·e·s à se former par la pratique, ou du moins à développer une compréhension plus fine du code afin de pouvoir, éventuellement, y apposer un regard critique.
 
 Si la construction de notre atlas est un processus en constante évolution, nous pensons avoir démontré le potentiel de la cartographie et de la visualisation pour transformer l’étude d’une base de données. L’interface visuelle et interactive de l’atlas numérique offre une approche inédite du contenu des archives du Conseil des bâtiments civil et permet de renouveler la recherche en faisant usage des méthodes numériques disponibles aujourd’hui. À la manière du millefeuille topographique imaginé par Dario Gamboni, l’atlas plonge l’utilisateur dans « [des] profondeur[s] qui invite[nt] à l’excavation » (2008: 6). Il reste cependant ancré dans des préoccupations contemporaines à ses sources, afin de se distancier d’éventuels anachronismes que l’écart entre les archives du XIXe siècle et les nouvelles technologies du web appliquées à une base de données pourraient générer. S’il n’est pas toujours évident de savoir comment se servir des données dans la recherche en histoire de l’art, la cartographie et la visualisation se révèlent être des instruments précieux dans le contexte numérique.
-
-___
-
-
-
-
-
-
-
-## Profanation, détournement et contre-cartographie: approche critique
-
-les archives (et les données) sont le produit d'une administration --> un type de raisonnement
-
-Utiliser ce dispositif pour développer une approche critique de l'action de cette administration via les traces qu'elles nous a laissées, c'est-à-dire ses archives
-
-
-
-utiliser et s'approprier les dispositifs de l'administration et du gouvernement: cartographie et statistique, pour identifier ses critères, sa logique
-
-La production d'une "copie théorique" peut mettre en relief certains enjeux (de pouvoir?)sous-jacents. 
-
-
 
