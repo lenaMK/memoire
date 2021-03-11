@@ -1,82 +1,18 @@
 #  Chapitre 3
 
-Nous voulons désormais créer un espace de travail pour l'exploration et l'interprétation des données de CONBAVIL. Il s'agit de concevoir un dispositif exploratoire qui a pour source d'inspiration les questions de recherche évoquées par les chercheur·se·s impliqué·e·s dans la création de la base, l'historiographie des recherches sur le sujet, le contexte historique, c'est-à-dire la statistique, la cartographie thématique et la rationalisation administrative. Nous cherchons, dans un premier temps, des concordances entre ces questions et les moyens méthodologiques et technologiques à notre disposition. Nous expérimentons ensuite avec leur mise en pratique, avant de les rassembler dans un espace éditorial commun: l'atlas numérique de l'architecture publique en France (1795 - 1840). Cet atlas est à la fois un outil de réflexion théorique autour des enjeux d'éditorialisation et de conception d'interfaces de recherche, et un micro-prototype issu de l'application pratique de ces opérateurs théoriques. 
+Nous voulons désormais créer un espace de travail pour l'exploration et l'interprétation des données de CONBAVIL. Il s'agit de concevoir un dispositif exploratoire qui a pour source d'inspiration les questions de recherche évoquées par les chercheur·se·s impliqué·e·s dans la création de la base, l'historiographie des recherches sur le sujet, le contexte historique, c'est-à-dire la statistique, la cartographie thématique et la rationalisation administrative. Nous cherchons, dans un premier temps, des concordances entre ces questions et les moyens méthodologiques et technologiques à notre disposition. Nous expérimentons ensuite avec leur mise en pratique de façon isolée, avant de les rassembler dans un espace éditorial commun: l'atlas numérique de l'architecture publique en France (1795 - 1840). Cet atlas est à la fois un outil de réflexion théorique autour des enjeux d'éditorialisation et de conception d'interfaces de recherche, et un micro-prototype issu de l'application pratique de ces opérateurs théoriques. 
 
 ## 3.1 Espaces et interprétation des données 
 
 Une interface donne forme aux données, elle dicte donc notre façon d'y réfléchir et les questions qu'on voudrait y poser. Les interfaces produisent des affordances épistémologiques parce qu'elles sont le cadre au sein duquel nous posons nos questions, nos observations, nos hypothèses et nos déductions à propos de la base de données.
 
-Puisqu'il existe déjà un outil d'interrogation, nous voulons plutôt créer un instrument de recherche. Si le premier permet de chercher un contenu spécifique (heuristique) via des requêtes SQL ou l'outil d'interrogation, le second est pensé comme instrument de recherche et dispositif critique qui serait à l'origine de questionnements (herméneutique). Cela permettrait ainsi de produire de nouvelles connaissances. 
+Puisqu'il existe déjà un outil d'interrogation, nous voulons plutôt créer un instrument de recherche. Si le premier permet de chercher un contenu spécifique (heuristique) via des requêtes SQL ou l'outil d'interrogation, le second est pensé comme instrument de recherche et dispositif critique qui serait à l'origine de questionnements (herméneutique).
 
-Nous voulons faire des donnéesde CONBAVIL des objets à manipuler pour les chercheur·se·s.  
-
-
-
-=/= mise en page mais mise en scène de l'information [drucker] ; 
-
-table de travail ou table de montage [Didi-huberman] " introduit le multiple, le divers, l'hybridité de tout montage"
+produire de nouvelles connaissances. 
 
 
 
-sources d'inspiration 
-
-- critique des données, graphesis 
-- approche quanti/statistique
-- carto - géographie de l'art
-- visualisation de données
-
-Interdisciplinarité --> cartographie & visualisation de données (sémiologie, graphisme, développement d'interface)
-
-### 3.1.1 Approche critique des données et des outils 
-
-#### critique des données = Johanna Drucker: Graphesis 
-
-- data is capta
-- importance d'une lecture critique des données --> à même la visualisation/l'interface
-- créer des outils qui privilégient cette approche 
-
-Matteo Treleani, Qu'est-ce que la patrimoine numérique, chap 3: la circulation des archives
-
-- distance par rapport à l'immersion, comment visualiser l'impossibilité de percevoir le passé, et ainsi assurer qu'on garde un regard critique sur le construit présenté
-- visibilité des filtres du dispositif qui nous donne accès au passé
-
-<!-- verhoeven? =/= utiliser les données pour montrer ce qu'on sait déjà, mais propose une approche critique -->
-
-#### critique de la carto, miroir, inverser opération
-
-l'administration comme une "opération d'objectivation [...] qui remplace des objets et le monde par des référentiels" (Sabatier)
-
-contre-administration? comment inverser cette opération objectivation pour retrouver, sous une forme théorique, ces objets et le monde. 
-
-Réflexion inspirée par la contre-cartographie: utiliser les instruments du pouvoir contre lui pour révéler son fonctionnement (invert), ses éventuels biais
-
-
-
-##### Profanation, détournement et contre-cartographie: approche critique
-
-les archives (et les données) sont le produit d'une administration --> un type de raisonnement
-
-Utiliser ce dispositif pour développer une approche critique de l'action de cette administration via les traces qu'elles nous a laissées, c'est-à-dire ses archives
-
-
-
-utiliser et s'approprier les dispositifs de l'administration et du gouvernement: cartographie et statistique, pour identifier ses critères, sa logique
-
-##### copie théorique 
-
-La production d'une "copie théorique" peut mettre en relief certains enjeux (de pouvoir?)sous-jacents. 
-
-ch1: "copie théorique": n'est pas une simple reproduction du "réel" à l'identique. C'est une représentation simplifiée et abstraite, construite à partir des relations fonctionnelles dont on s'est assuré qu'elles n'entre pas en contradiction avec les données disponibles et qu'elles répondent à des principes de cohérence interne. Ainsi, elle ne constitue pas une duplication du réel mais le produit d'une structure qui en réduit - en fonction des hypothèses initiales et de règles logico-mathématiques préalables - l'opacité. (Lepetit, 1989: 197)
-
-- l'analyse historique n'atteint jamais son but: le réel est hors de nos prises
-- **aucun objet d'étude historique ne frappe par son évidence, la métaphore du miroir est de ce point de vue trompeuse**
-- exprimée en termes réalistes, l'opposition entre micro et macro-analyse est mal posée. Elle ne se situe pas au niveau du réel mais de sa représentation: il s'agit de deux modes de saisie conceptuelle des phénomènes, de deux manières de réduire leur opacité. Aucune n'est plus "réelle" que l'autre.
-
- (Lepetit, 1989: 197)
-
-
-
-### 3.1.2 Analyse quantitative et statistique --> ref chap1.3.3 ?
+### 3.1.1 Analyse quantitative et statistique --> ref chap1.3.3 ?
 
 Garric --> comparaisons, statistiques 
 
@@ -93,6 +29,47 @@ archives d'une administration =
 - présence de politiques sous-jacentes --> liens entre les affaires ne sont pas des hasards (coïncidences) mais bien des initiatives (corrélations) verbalisées et concrétisées, exigées par décrets ou plus "flou", tendance-priorités de l'époque
 
 <!-- est-ce que j'ai un exemple de projet intéressant pour les statistiques? placer Joyeux-Prunel ici?? -->
+
+### 
+
+
+
+##### sources d'inspiration 
+
+- critique des données, graphesis 
+- approche quanti/statistique
+- carto - géographie de l'art
+- visualisation de données
+
+Interdisciplinarité --> cartographie & visualisation de données (sémiologie, graphisme, développement d'interface)
+
+### 3.1.2 Cartographie critique, profanation et détournment 
+
+- 
+
+<!-- verhoeven? =/= utiliser les données pour montrer ce qu'on sait déjà, mais propose une approche critique -->
+
+#### critique de la carto, miroir, inverser opération
+
+l'administration comme une "opération d'objectivation [...] qui remplace des objets et le monde par des référentiels" (Sabatier)
+
+contre-administration? comment inverser cette opération objectivation pour retrouver, sous une forme théorique, ces objets et le monde. 
+
+Réflexion inspirée par la contre-cartographie: utiliser les instruments du pouvoir contre lui pour révéler son fonctionnement (invert), ses éventuels biais
+
+
+
+#### Profanation, détournement et contre-cartographie: approche critique
+
+les archives (et les données) sont le produit d'une administration --> un type de raisonnement
+
+Utiliser ce dispositif pour développer une approche critique de l'action de cette administration via les traces qu'elles nous a laissées, c'est-à-dire ses archives
+
+
+
+utiliser et s'approprier les dispositifs de l'administration et du gouvernement: cartographie et statistique, pour identifier ses critères, sa logique
+
+
 
 ### 3.1.3 De la cartographie à la visualisation de données
 
@@ -118,15 +95,19 @@ En outre, nous élargissons cette approche cartographique pour y inclure des for
 
 
 
-statut des visualisation: ne sont jamais présentées comme des fins en soi ... mais plutôt comme une matière pour l'élaboration intellectuelle ̣- mouvante et incarnée dans divers modes d'inscrption, mobilisant en même temps les nouveaux outils et des séquences de pratiques et des protocloes de travails existants. Les images produites ne sont ainsi pas uniquement conçues comme des outils d'interprétation, mais aussi de tri, de paramétrage, voire même d'enrichissement et de transformation des données (caviglia 2014)
-
-
-
-
-
 ## 3.2 Pratiques de visualisation et de cartographie
 
 L’exploitation des données de Conbavil que nous proposons prend diverses formes diagrammatiques : cartographie, mais aussi chronologie et typologie. Ces formes visuelles sont réexaminées à travers l’utilisation d’un nouveau format de production : la visualisation interactive. Grâce aux technologies du web 2.0 et particulièrement à la bibliothèque JavaScript D3.js, les données sont converties en graphiques directement dans le navigateur. Ces *data-driven visualizations* sont programmées pour s’animer sous l’action de l’utilisateur, qui peut ainsi sélectionner les données à afficher ou régler le niveau de détail lors de sa consultation (Bostock, 2019a). Dès lors, chaque visualisation devient une proposition, une vue sur les données. La perspective change selon la caractéristique mise de l’avant par le graphique : la géolocalisation pour la carte, la date de discussion de l’affaire pour la chronologie et le type architectural pour la classification hiérarchique rayonnante.
+
+
+
+#### interactivité, manipulation
+
+Nous voulons faire des données de CONBAVIL des objets à manipuler pour les chercheur·se·s.  ==> d3.js, visualisation interactive
+
+=/= mise en page mais mise en scène de l'information [drucker] ; 
+
+table de travail ou table de montage [Didi-huberman] " introduit le multiple, le divers, l'hybridité de tout montage"
 
 
 
@@ -171,6 +152,14 @@ Lena Krause, [*Répartition des projets Conbavil par type architectural*](http:/
 Notre soleil interactif Conbavil présente donc le contenu de la base de données par type architectural. Le fait de cliquer sur une catégorie permet de faire apparaître le niveau de profondeur suivant et le retour en arrière s’effectue en cliquant au centre du graphique. En glissant le curseur sur une catégorie, on peut voir le nombre de délibérations qui y sont associées. Rapidement, on constate que plus de la moitié des délibérations sont contenues dans trois catégories principales : « urbanisme », « architecture religieuse » et « architecture judiciaire, pénitentiaire ou de police ». La section « urbanisme » contient toutes les délibérations liées aux plans d’alignement des villes, car le Conseil était également responsable de l’ouverture des rues pour l’assainissement et l’embellissement des espaces publics (Château-Dutier, 2016, T1: 151-179). La prépondérance de l’architecture religieuse s’explique quant à elle par le grand nombre de réaffectations de bâtiments nationaux en écoles, préfectures et tribunaux, notamment (Woolf, 1987: 30-31).
 
 La carte comme le soleil sont des graphiques cumulatifs, ce qui signifie que certaines délibérations y figurent plusieurs fois si elles sont associées à plusieurs lieux ou types architecturaux. Cette décision provient, entre autres, d’une incertitude dans les données, qui ne signalent pas de hiérarchie en cas d’attribution multiple. Il faut également garder à l’esprit que la carte, par exemple, ne représente pas le phénomène bâtisseur, mais reflète plutôt les délibérations du Conseil. La taille des points dépend donc du nombre de mentions lors des séances et non de la quantité de chantiers ouverts. Les graphiques créés sont exploratoires, ils ont pour but de mener à la découverte du contenu des archives. C’est pourquoi il nous a semblé pertinent d’offrir le plus grand nombre de points d’entrée possibles dans les données.
+
+
+
+#### statut des visualisation: 
+
+ne sont jamais présentées comme des fins en soi ... mais plutôt comme une matière pour l'élaboration intellectuelle ̣- mouvante et incarnée dans divers modes d'inscrption, mobilisant en même temps les nouveaux outils et des séquences de pratiques et des protocloes de travails existants. Les images produites ne sont ainsi pas uniquement conçues comme des outils d'interprétation, mais aussi de tri, de paramétrage, voire même d'enrichissement et de transformation des données (caviglia 2014)
+
+
 
 ## 3.3 Editorialisation : atlas
 
