@@ -8,15 +8,9 @@ Une interface donne forme aux données, elle dicte donc notre façon d'y réflé
 
 Puisqu'il existe déjà un outil d'interrogation, nous voulons plutôt créer un instrument de recherche. Si le premier permet de chercher un contenu spécifique (heuristique) via des requêtes SQL ou l'outil d'interrogation, le second est pensé comme instrument de recherche et dispositif critique qui serait à l'origine de questionnements (herméneutique).
 
-[à compléter]
+### 3.1.1 Quantitatif, statistique et cartographique
 
-produire de nouvelles connaissances. 
-
-Interdisciplinarité --> cartographie & visualisation de données (sémiologie, graphisme, développement d'interface)
-
-
-
-### 3.1.1 Analyse quantitative et statistique
+#### Approches quantitatives et statistiques
 
 Notre première piste pour la création de notre instrument de recherche est issue de l'historiographie de la base de données et des archives du Conseil des bâtiments civils. Nous souhaitons poursuivre et étendre les recherches quantitatives ou statistique, ainsi que la dimension spatialisée des travaux de Georges Teyssot et Bernard Lepetit (ch1.3.3), ce qui est désormais non seulement rendu possible mais aussi facilité par CONBAVIL. Les données sont géolocalisées et d'indexées en catégories et sous-catégories architecturales, il reste à décider de la méthode à employer. 
 
@@ -25,53 +19,53 @@ Nous puisons également dans le contexte de création de la base de données pou
 > Cette base de données [...] nous conduit à imaginer des enquêtes et des travaux jadis presque impossibles, ouvrant des
 > perspectives inédites sur des analyses quantitatives, économiques ou typologiques, sur des comparaisons entre régions ou sur les rapports Paris-Province, sur le mouvement de codification des règlements et des marchés de travaux, sur les combats de l’art et de la nécessité, du local et du national. (Jean-Philippe Garric dans Boudon 2009: 5)
 
-
-
 Le contexte de création de ces archives nous inspire également, car une véritable volonté de créer et d'utiliser des données qui émerge à l'époque (chapitre1.2). Si les moyens n'étaient pas encore disponibles, ni en statistique, ni en cartographie, nous pouvons aujourd'hui en faire l'exercice. Cela nous semble d'autant plus pertinent que l'objectif même des archives est de pouvoir retrouver, retracer et saisir le travail de l'administration qui l'a produite. Dans l'idéal de transparence et de traçabilité d'un état-nation dont l'administration est au service du public, les archives documentent les actions et sont mises à disposition pour permettre une sorte de vérification par le public. 
 
-### 3.1.2 Cartographie critique, profanation et détournment 
+[quantitatif versus statistique au sens méthodologique. Pourquoi c'est peu présent, pas exploité alors que c'est disponible et facilement faisable --> n'est pas dans l'intérêt de recherche, plus axé sur la pensée visuelle et la cartographie que sur jouer avec des chiffres]
 
-Les approches quantitatives et spatiales se combinent aisément 
+[à compléter: i guess maybe somewere talk about geography of art? or not...]
 
+#### Formes de pensée cartographique 
 
-
-<!-- verhoeven? =/= utiliser les données pour montrer ce qu'on sait déjà, mais propose une approche critique -->
-
-#### critique de la carto, miroir, inverser opération
-
-l'administration comme une "opération d'objectivation [...] qui remplace des objets et le monde par des référentiels" (Sabatier)
-
-contre-administration? comment inverser cette opération objectivation pour retrouver, sous une forme théorique, ces objets et le monde. 
-
-Réflexion inspirée par la contre-cartographie: utiliser les instruments du pouvoir contre lui pour révéler son fonctionnement (invert), ses éventuels biais
-
-
-
-#### Profanation, détournement et contre-cartographie: approche critique
-
-les archives (et les données) sont le produit d'une administration --> un type de raisonnement
-
-Utiliser ce dispositif pour développer une approche critique de l'action de cette administration via les traces qu'elles nous a laissées, c'est-à-dire ses archives
-
-
-
-utiliser et s'approprier les dispositifs de l'administration et du gouvernement: cartographie et statistique, pour identifier ses critères, sa logique
-
-
-
-### 3.1.3 De la cartographie à la visualisation de données
-
-intérêt pour la cartographie --> pensée spatiale liée au côté topographique des données, mais aussi à une envie de percevoir les dynamiques et changements, à travers le temps et l'espace. 
-
-
-
-Afin de parvenir à un tel résultat, il nous paraît d’abord nécessaire de « déconstruire » la carte, comme nous y invite le géographe et historien de la cartographie postmoderne Brian Harley (1989a). Ce processus a pour objectif de briser le lien entre réalité et représentation dans l’interprétation et l’analyse de la pratique cartographique. Il permet ainsi de révéler de nouvelles approches de la carte et de retracer les mécanismes sociaux liés à sa production. Nous prenons ici appui sur les réflexions du philosophe et historien Jean-Marc Besse, qui propose une conception pragmatique de la carte et, par extension, de l’acte cartographique :
+Les approches quantitatives se combinent aisément à la cartographie lors que les données possèdent une dimension spatiale. Nous avons donc entrepris les recherches théoriques et pratiques nécessaires pour cartographier les données de CONBAVIL. Nous avons appui sur les réflexions du philosophe et historien Jean-Marc Besse, qui propose une conception pragmatique de la carte et, par extension, de l’acte cartographique :
 
 > 1. Toute carte est en même temps une interprétation et un projet vis-à-vis du territoire auquel elle réfère, autrement dit toute carte se présente comme une version possible du territoire. 
 > 2. Toute carte est la traduction et la condition d’un pouvoir qui cherche à s’exercer socialement et culturellement, et qui s’appuie sur la carte pour s’assurer une forme d’autorité. 
 > 3. Toute carte développe sa stratégie par l’intermédiaire de la mise en œuvre d’un univers graphique au sein duquel elle construit son discours, un espace graphique qui n’est rien d’autre que la mise en forme d’un territoire de référence au sujet duquel le discours est construit. (Besse, 2006: 8)
 
-Notre approche de la cartographie a donc pour but de rendre visibles les dimensions interprétatives et graphiques de la carte en investiguant le potentiel du format numérique et interactif. Il s’agit aussi d’essayer de présenter un modèle alternatif de production du savoir en histoire de l’art en usant du caractère visuel et spatial de la carte. L’utilisation de l’interactivité, dont il sera question dans la troisième partie de cet article, nous permet de contrer certains effets d’autorité causés par l’illusion d’une objectivité scientifique et cartographique (Harley, 1989b: 82). Il demeure toutefois essentiel, tout au long de ce processus, de tenir compte des formes de pouvoir impliquées par la création de l’interface et de situer le savoir ainsi produit.
+Notre relevons ici l'importance de rendre visibles les dimensions interprétatives et graphiques de la carte, précepte qui ressort également d'un autre opérateur théorique que nous souhaitons employer, la cartographie critique. 
+
+La cartographique critique est un mouvement de pensée né dans les années 1990, avec pour référence l'article pionnier "Deconstructing the Map" (1989) du cartographe historien Brian Harley. Il y propose de déconstruire la carte – au sens postmoderne, un procédé qui permet de briser le lien entre réalité et représentation – afin d’encourager un tournant épistémologique dans l’interprétation et l’analyse de la pratique cartographique. Le processus de déconstruction permet de révéler de nouvelles approches de la carte et de retracer les mécanismes sociaux liés à sa production.
+
+Harley met tout d’abord le système de la cartographie en relation avec celui du discours selon Foucault, c’est-à-dire un système de possibilités qui produit de la connaissance. En dérive la question des règles qui régissent ce système. L'auteur identifie deux ensembles de règles qui sous-tendent et dominent l’histoire de la cartographie occidentale depuis le XVIIème siècle. La première concerne la production technique des cartes et les règles scientifiques de la production de connaissances. La seconde contextualise la production cartographique dans sa dimension culturelle, les cartes respectant les codes de la société qu’elles représentent tout en les renforçant. Sous le masque de la neutralité scientifique se révèle une image construite non seulement à partir de mesures d’un monde phénoménologique mais également à partir de l’ordre social qui régit ce monde.
+
+En deuxième partie, la déconstruction selon Derrida permet d’analyser en détail le texte cartographique. Dans les marges et les écarts du modèle normatif, Harley identifie la dimension symbolique du fait cartographique. La cartographie est par nature un art de la communication persuasive. Le texte cartographique est donc un texte rhétorique qui utilise les codes à disposition afin communiquer au mieux le mythe qu’il cherche à propager. La rhétorique et la science ne sont pas opposées mais considérées comme deux éléments constitutifs et révélateurs lors de l’analyse de l’objet cartographié.
+
+La troisième partie de l’article analyse les dimensions sociales et politiques de la cartographie. De retour en territoire Foucaldien, la carte est comprise comme une forme de savoir-pouvoir dans la société. Le pouvoir de la carte peut être externe, lié au pouvoir politique, ou interne, en relation avec l’impact politique de la pratique du cartographe. Ce dernier n’exerce pas son pouvoir directement sur les individus, mais sur le savoir à leur disposition. Il faut alors envisager l’impact de ces images dont la neutralité n’est plus concevable. 
+
+Le changement épistémologique proposé dans cet article rapproche selon nous la discipline de Harley de la nôtre. En effet, l’historien de la cartographie comme l’historien de l’art ne produit pas les objets de sa discipline. Cette distance critique avec l’objet étudié permet de révéler puis analyser le contexte culturel et les règles de production de ces objets. 
+
+Le mouvement de cartographie critique a ensuite mené à une nouvelle pratique, la contre-cartographie. La carte, dispositif politique et instrument de savoir et de pouvoir, est employée pour ébranler le pouvoir et défier les normes. En reversant les postures (qui crée la carte et l'emploie, à qui elle est destinée), on peut permettre une "*political practice of mapping back*" (Halder, Michel dans Kollektiv Orangotango+ 2018: 13). La proposition est d'utiliser les instruments du pouvoir contre lui, pour révéler son fonctionnement et ses biais, ainsi que pour inverser les rapports de pouvoir.
+
+#### Profanation et détournement de l'archive administrative? 
+
+Cette notion d'inversion et de renversement des pouvoir est également réfléchie par Giorgio Agamben en relation aux dispositifs. Le terme "dispositif" est employé par Foucault dans pour parler de 
+
+> "manipulation des rapports de force, d'une intervention rationnelle et concertée dans ces rapports de force, soit pour les développer dans telle direction, soit pour les bloquer, soit pour les stabiliser, les utiliser. Le dispositif, donc, est toujours inscrit dans un jeu de pouvoir, mais toujours lié à des bornes de savoir, qui en naissent, mais, tout autant, le conditionnent. C'est ça le dispositif: **des stratégies de rapports de force supportant des types de savoir, et supportés par eux**" (Foucaut, *Dits et écrits", vol III, p. 299 sq., dans Agamben 2007: 9-10)
+
+Ces dispositifs de gouvernement, par leur pratiques, leurs discours et leurs savoirs, assujettissent les individus en les rendant "libres" mais dociles (Agamben 2007: 41-42). Agamben propose de se libérer de l'emprise de ces dispositifs, non pas en œuvrant à les détruire mais en les réemployant, afin de les "rendre à l'usage commun" (Agamben 2007: 37-38). Il puise dans l'histoire pour qualifier cette action de restitution au commun et au libre usage - ou ce contre-dispositif - de "profanation"  (Agamben 2007: 39-40).
+
+Nous avons étudié, dans le premier chapitre de ce mémoire, le processus de rationalisation au sein de l'administration. La réduction de la réalité à des objets quantifiables et à des dossiers administratifs est définie par Arnaud Sabatier comme une "opération d'objectivation [...] qui remplace des objets et le monde par des référentiels" (2010: 29). L'approche de la cartographie critique vient révéler les vides et les silences dans cette transformation. La contre-cartographie nous amène à nous poser les questions suivantes: est-il possible de procéder à une profanation des archives ou de créer un processus de contre-administration critique? L'ambition est de donner l'instrument de pouvoir - que ce soit la carte, la statistique, ou l'archive - à ceux·elles qui veulent l'étudier ou le question, révélant ainsi ses biais tout en restituant leur usage au "hommes". En nous appropriant les dispositifs de l'administration et du gouvernement, nous pouvons développer une approche critique de l'action de cette administration via les traces qu'elles nous a laissées, c'est-à-dire ses archives.
+
+<!-- verhoeven? =/= utiliser les données pour montrer ce qu'on sait déjà, mais propose une approche critique -->
+
+<!-- lien avec le cadre conceptuel dans l'intro: authority must be questionned, or at least questionnable. Do I need to write it again? -->
+
+### 3.1.2 De la cartographie à la visualisation de données
+
+intérêt pour la cartographie --> pensée spatiale liée au côté topographique des données, mais aussi à une envie de percevoir les dynamiques et changements, à travers le temps et l'espace. 
+
+
 
 Le traitement des données de Conbavil forme un espace cartographique composé de multiples épaisseurs. D’une part, il est constitué d’un territoire de référence physique, la France de la première moitié du XIXe siècle, sur lequel s’applique une politique architecturale. D’autre part, les archives administratives font partie intégrante du territoire et participent elles aussi à le construire. La cartographie fournit ainsi « une méthode pour unir dans une image le concept d’un territoire et une multitude d’informations dites empiriques livrées par la fréquentation du terrain » (Besse, 2006: 15). Aux informations « empiriques », nous substituons des données issues de sources archivistiques, lesquelles se trouvent enrichies par la géolocalisation que nous leur adjoignons. Notre processus cartographique vient ainsi réinscrire l’action du Conseil des bâtiments civils sur le territoire français et révéler son empreinte sur le pays. Au-delà de l’impact du patrimoine bâti sur le territoire, nous prenons aussi en compte les projets refusés ou inaboutis. Leur cartographie nous invite « à voir et à penser ce que l’on ne voit pas et ne pense pas quand on regarde l’espace réel » (Jacob, 1992: 50). L’imaginaire bâtisseur de l’époque se matérialise par ses archives et nous offre une autre facette de l’histoire de ce territoire. Nous cherchons ainsi à mettre en pratique la pensée de l’historien de l’art Dario Gamboni, selon qui,
 
@@ -81,11 +75,11 @@ L’historien Christian Jacob théorise la relation entre archives et cartograph
 
 En outre, nous élargissons cette approche cartographique pour y inclure des formes visuelles qui ne sont pas spécifiquement topographiques, notamment des diagrammes. C’est pourquoi nous préférerons employer le terme « figuration » à celui de « représentation » pour parler de l’image produite par la cartographie : « [L]a figuration est le dessin d’un objet qui ne préexiste pas à son image, alors que l’usage courant du mot représentation fait de celle-ci la reproduction d’une réalité préexistante. » (Besse, 2006: 12) Rappelant l’étymologie du mot « diagramme », Jean-Marc Besse définit la carte comme « une *eikôn* d’un genre particulier » qui « nous renvoie d’une part à un acte d’écriture (*gramma*, relation avec *graphein*) et d’autre part [à] un acte d’articulation logique (*dia*-, à la fois distinguer et relier, enchaîner ce qui est distingué) » (2006: 15). L’assemblage de ces actes de figuration, d’écriture et d’articulation logique nous permet de définir la visualisation de données comme une forme de pensée visuelle qui figure un imaginaire raisonné et construit.
 
+### 3.1.3 Les outils de visualisation et de cartographique numérique
 
+en investiguant le potentiel du format numérique et interactif. 
 
-## 3.2 Pratiques de visualisation et de cartographie
-
-L’exploitation des données de Conbavil que nous proposons prend diverses formes diagrammatiques : cartographie, mais aussi chronologie et typologie. Ces formes visuelles sont réexaminées à travers l’utilisation d’un nouveau format de production : la visualisation interactive. Grâce aux technologies du web 2.0 et particulièrement à la bibliothèque JavaScript D3.js, les données sont converties en graphiques directement dans le navigateur. Ces *data-driven visualizations* sont programmées pour s’animer sous l’action de l’utilisateur, qui peut ainsi sélectionner les données à afficher ou régler le niveau de détail lors de sa consultation (Bostock, 2019a). Dès lors, chaque visualisation devient une proposition, une vue sur les données. La perspective change selon la caractéristique mise de l’avant par le graphique : la géolocalisation pour la carte, la date de discussion de l’affaire pour la chronologie et le type architectural pour la classification hiérarchique rayonnante.
+Il s’agit aussi d’essayer de présenter un modèle alternatif de production du savoir en histoire de l’art en usant du caractère visuel et spatial de la carte. L’utilisation de l’interactivité, dont il sera question dans la troisième partie de cet article, nous permet de contrer certains effets d’autorité causés par l’illusion d’une objectivité scientifique et cartographique (Harley, 1989b: 82). Il demeure toutefois essentiel, tout au long de ce processus, de tenir compte des formes de pouvoir impliquées par la création de l’interface et de situer le savoir ainsi produit.
 
 
 
@@ -96,6 +90,12 @@ Nous voulons faire des données de CONBAVIL des objets à manipuler pour les che
 =/= mise en page mais mise en scène de l'information [drucker] ; 
 
 table de travail ou table de montage [Didi-huberman] " introduit le multiple, le divers, l'hybridité de tout montage"
+
+
+
+## 3.2 Pratiques de visualisation et de cartographie
+
+L’exploitation des données de Conbavil que nous proposons prend diverses formes diagrammatiques : cartographie, mais aussi chronologie et typologie. Ces formes visuelles sont réexaminées à travers l’utilisation d’un nouveau format de production : la visualisation interactive. Grâce aux technologies du web 2.0 et particulièrement à la bibliothèque JavaScript D3.js, les données sont converties en graphiques directement dans le navigateur. Ces *data-driven visualizations* sont programmées pour s’animer sous l’action de l’utilisateur, qui peut ainsi sélectionner les données à afficher ou régler le niveau de détail lors de sa consultation (Bostock, 2019a). Dès lors, chaque visualisation devient une proposition, une vue sur les données. La perspective change selon la caractéristique mise de l’avant par le graphique : la géolocalisation pour la carte, la date de discussion de l’affaire pour la chronologie et le type architectural pour la classification hiérarchique rayonnante.
 
 
 
