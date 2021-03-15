@@ -8,44 +8,32 @@ Une interface donne forme aux données, elle dicte donc notre façon d'y réflé
 
 Puisqu'il existe déjà un outil d'interrogation, nous voulons plutôt créer un instrument de recherche. Si le premier permet de chercher un contenu spécifique (heuristique) via des requêtes SQL ou l'outil d'interrogation, le second est pensé comme instrument de recherche et dispositif critique qui serait à l'origine de questionnements (herméneutique).
 
+[à compléter]
+
 produire de nouvelles connaissances. 
-
-
-
-### 3.1.1 Analyse quantitative et statistique --> ref chap1.3.3 ?
-
-Garric --> comparaisons, statistiques 
-
-explorer les possibilités d'analyses quantitatives
-
-lien avec l'histoire de la statistique, un mode de pensée "fonctionnaliste" de créer et utiliser des données émerge à l'époque
-
-c'est aussi le sens des archives = on conserve tout, on documente et note dans le détail pour pouvoir "reconstruire", retrouver, ...
-
-archives d'une administration = 
-
-- pensée d'ensemble car centralisation, 
-
-- présence de politiques sous-jacentes --> liens entre les affaires ne sont pas des hasards (coïncidences) mais bien des initiatives (corrélations) verbalisées et concrétisées, exigées par décrets ou plus "flou", tendance-priorités de l'époque
-
-<!-- est-ce que j'ai un exemple de projet intéressant pour les statistiques? placer Joyeux-Prunel ici?? -->
-
-### 
-
-
-
-##### sources d'inspiration 
-
-- critique des données, graphesis 
-- approche quanti/statistique
-- carto - géographie de l'art
-- visualisation de données
 
 Interdisciplinarité --> cartographie & visualisation de données (sémiologie, graphisme, développement d'interface)
 
+
+
+### 3.1.1 Analyse quantitative et statistique
+
+Notre première piste pour la création de notre instrument de recherche est issue de l'historiographie de la base de données et des archives du Conseil des bâtiments civils. Nous souhaitons poursuivre et étendre les recherches quantitatives ou statistique, ainsi que la dimension spatialisée des travaux de Georges Teyssot et Bernard Lepetit (ch1.3.3), ce qui est désormais non seulement rendu possible mais aussi facilité par CONBAVIL. Les données sont géolocalisées et d'indexées en catégories et sous-catégories architecturales, il reste à décider de la méthode à employer. 
+
+Nous puisons également dans le contexte de création de la base de données pour les méthodes de recherches encore inexploitées. Quand il introduit CONBAVIL à l'occasion de sa mise en ligne en 2009, l'historien de l'architecture Jean-Phlippe Garric détaille l'énorme potentiel de cette base de données pour la recherche. 
+
+> Cette base de données [...] nous conduit à imaginer des enquêtes et des travaux jadis presque impossibles, ouvrant des
+> perspectives inédites sur des analyses quantitatives, économiques ou typologiques, sur des comparaisons entre régions ou sur les rapports Paris-Province, sur le mouvement de codification des règlements et des marchés de travaux, sur les combats de l’art et de la nécessité, du local et du national. (Jean-Philippe Garric dans Boudon 2009: 5)
+
+
+
+Le contexte de création de ces archives nous inspire également, car une véritable volonté de créer et d'utiliser des données qui émerge à l'époque (chapitre1.2). Si les moyens n'étaient pas encore disponibles, ni en statistique, ni en cartographie, nous pouvons aujourd'hui en faire l'exercice. Cela nous semble d'autant plus pertinent que l'objectif même des archives est de pouvoir retrouver, retracer et saisir le travail de l'administration qui l'a produite. Dans l'idéal de transparence et de traçabilité d'un état-nation dont l'administration est au service du public, les archives documentent les actions et sont mises à disposition pour permettre une sorte de vérification par le public. 
+
 ### 3.1.2 Cartographie critique, profanation et détournment 
 
-- 
+Les approches quantitatives et spatiales se combinent aisément 
+
+
 
 <!-- verhoeven? =/= utiliser les données pour montrer ce qu'on sait déjà, mais propose une approche critique -->
 
