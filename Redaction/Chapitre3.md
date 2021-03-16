@@ -57,17 +57,17 @@ Ces dispositifs de gouvernement, par leur pratiques, leurs discours et leurs sav
 
 Nous avons étudié, dans le premier chapitre de ce mémoire, le processus de rationalisation au sein de l'administration. La réduction de la réalité à des objets quantifiables et à des dossiers administratifs est définie par Arnaud Sabatier comme une "opération d'objectivation [...] qui remplace des objets et le monde par des référentiels" (2010: 29). L'approche de la cartographie critique vient révéler les vides et les silences dans cette transformation. La contre-cartographie nous amène à nous poser les questions suivantes: est-il possible de procéder à une profanation des archives ou de créer un processus de contre-administration critique? L'ambition est de donner l'instrument de pouvoir - que ce soit la carte, la statistique, ou l'archive - à ceux·elles qui veulent l'étudier ou le question, révélant ainsi ses biais tout en restituant leur usage au "hommes". En nous appropriant les dispositifs de l'administration et du gouvernement, nous pouvons développer une approche critique de l'action de cette administration via les traces qu'elles nous a laissées, c'est-à-dire ses archives.
 
+<!-- lien avec le cadre conceptuel dans l'intro: authority must be questionned, or at least questionnable. Do I need to write it again? -->
+
 <!-- verhoeven? =/= utiliser les données pour montrer ce qu'on sait déjà, mais propose une approche critique -->
 
-<!-- lien avec le cadre conceptuel dans l'intro: authority must be questionned, or at least questionnable. Do I need to write it again? -->
+
 
 ### 3.1.2 De la cartographie à la visualisation de données
 
 [intérêt pour la cartographie --> pensée spatiale liée au côté topographique des données, mais aussi à une envie de percevoir les dynamiques et changements, à travers le temps et l'espace. ]
 
-[intro - transition]
-
-Le traitement des données de Conbavil forme un espace cartographique composé de multiples épaisseurs. D’une part, il est constitué d’un territoire de référence physique, la France de la première moitié du XIXe siècle, sur lequel s’applique une politique architecturale. D’autre part, les archives administratives font partie intégrante du territoire et participent elles aussi à le construire. La cartographie fournit ainsi « une méthode pour unir dans une image le concept d’un territoire et une multitude d’informations dites empiriques livrées par la fréquentation du terrain » (Besse, 2006: 15). Aux informations « empiriques », nous substituons des données issues de sources archivistiques, lesquelles se trouvent enrichies par la géolocalisation que nous leur adjoignons. Notre processus cartographique vient ainsi réinscrire l’action du Conseil des bâtiments civils sur le territoire français et révéler son empreinte sur le pays. Au-delà de l’impact du patrimoine bâti sur le territoire, nous prenons aussi en compte les projets refusés ou inaboutis. Leur cartographie nous invite « à voir et à penser ce que l’on ne voit pas et ne pense pas quand on regarde l’espace réel » (Jacob, 1992: 50). L’imaginaire bâtisseur de l’époque se matérialise par ses archives et nous offre une autre facette de l’histoire de ce territoire. Nous cherchons ainsi à mettre en pratique la pensée de l’historien de l’art Dario Gamboni, selon qui,
+CONBAVIL forme un espace cartographique composé de multiples épaisseurs. D’une part, il est constitué d’un territoire de référence physique, la France de la première moitié du XIXe siècle, sur lequel s’applique une politique architecturale. D’autre part, les archives administratives font partie intégrante du territoire et participent elles aussi à le construire. La cartographie fournit ainsi « une méthode pour unir dans une image le concept d’un territoire et une multitude d’informations dites empiriques livrées par la fréquentation du terrain » (Besse, 2006: 15). Aux informations « empiriques », nous substituons des données issues de sources archivistiques, lesquelles se trouvent enrichies par la géolocalisation que nous leur adjoignons. Notre processus cartographique vient ainsi réinscrire l’action du Conseil des bâtiments civils sur le territoire français et révéler son empreinte sur le pays. Au-delà de l’impact du patrimoine bâti sur le territoire, nous prenons aussi en compte les projets refusés ou inaboutis. Leur cartographie nous invite « à voir et à penser ce que l’on ne voit pas et ne pense pas quand on regarde l’espace réel » (Jacob, 1992: 50). L’imaginaire bâtisseur de l’époque se matérialise par ses archives et nous offre une autre facette de l’histoire de ce territoire. Nous cherchons ainsi à mettre en pratique la pensée de l’historien de l’art Dario Gamboni, selon qui,
 
 > [p]our comprendre l’histoire d’un lieu, il importe de connaître non seulement ce qu’il a été possible d’y réaliser, mais encore ce qu’il était impossible d’y faire pour des raisons esthétiques et culturelles, techniques, sociales ou encore politiques. (2008: 9) 
 
@@ -75,23 +75,33 @@ L’historien Christian Jacob théorise la relation entre archives et cartograph
 
 En outre, nous élargissons cette approche cartographique pour y inclure des formes visuelles qui ne sont pas spécifiquement topographiques, notamment des diagrammes. C’est pourquoi nous préférerons employer le terme « figuration » à celui de « représentation » pour parler de l’image produite par la cartographie : « [L]a figuration est le dessin d’un objet qui ne préexiste pas à son image, alors que l’usage courant du mot représentation fait de celle-ci la reproduction d’une réalité préexistante. » (Besse, 2006: 12) Rappelant l’étymologie du mot « diagramme », Jean-Marc Besse définit la carte comme « une *eikôn* d’un genre particulier » qui « nous renvoie d’une part à un acte d’écriture (*gramma*, relation avec *graphein*) et d’autre part [à] un acte d’articulation logique (*dia*-, à la fois distinguer et relier, enchaîner ce qui est distingué) » (2006: 15). L’assemblage de ces actes de figuration, d’écriture et d’articulation logique nous permet de définir la visualisation de données comme une forme de pensée visuelle qui figure un imaginaire raisonné et construit.
 
+L’acte cartographique ajoute également une dimension spatiale au savoir. Non-linéaire, la carte ne dicte pas nécessairement un point de vue unique. Lorsqu’elle est conçue comme un objet de recherche, elle peut démultiplier les perspectives et les échelles tout en accumulant, tel un millefeuille[1](#sdfootnote1sym), les multiples couches temporelles qui composent l’histoire d’un lieu. Avec le développement d’outils informatiques pour la production de cartes numériques puis leur accessibilité au travers des applications web de cartographie comme Google Earth et OpenStreetMap, l’acte cartographique est transformé (Presner, Shepard, et Kawano 2014: 16) . On peut désormais envisager un acte de cartographie « épaisse », *thick mapping*  (Presner, Shepard, et Kawano 2014: 15-19) . Cette pratique allie l’approche géographique, les plateformes de cartographies numériques et les pratiques interprétatives de l’histoire pour mettre en place une forme de recherche sur l’espace qui se veut riche, nuancée et pluridimensionnelle. Cette épaisseur cartographique cristallise des opportunités nouvelles « de navigation empirique, d’épistémologie de la représentation et de rhétorique de la visualisation »  (Burdick 2012: 46) . Ce tournant spatial promeut une variété d’approches pour analyser et cartographier les fortes imbrications qui existent entre les notions de culture, de pouvoir et d’espace  (Presner, Shepard, et Kawano 2014: 53) . La richesse et la complexité des cartes que nous souhaitons produire nécessitent l’utilisation d’un langage graphique expressif. L’utilisation des variables visuelles identifiées par Bertin sera donc d’une grande utilité (Bertin 2013). L’analyse d’exemples et d’antécédents, couplée au processus d’éditorialisation, servira également à déterminer la forme graphique et numérique la plus appropriée pour notre atlas numérique de l’architecture publique.
+
+​	[1](#sdfootnote1anc) Le millefeuille comme analogie des multiples couches temporelles dans une representation topographique est une analogie imagine par Dario Gamboni dans son article *Mille fleurs ou millefeuille? Pour un invetaire à* n *dimensions  *(Gamboni 2008)* *
+
+
+
 ### 3.1.3 Les outils de visualisation et de cartographique numérique
 
-en investiguant le potentiel du format numérique et interactif. 
+Il existe une gamme d'outil variée pour la visualisation de données et la cartographie numérique. Nous les divisons en trois grandes catégories. La première concerne les logiciels pour la visualisation de données. Une recension récente des outils et logiciels est disponible dans l'ouvrage *Hands-On Data-visualization* publié en 2021 par Jack Dougherty et Ilya Ilyankou (2021: chap 6 - 8) Palladio, développé par le *Research Lab* à Standford, en est un excellent exemple dans le domaine des humanités numériques (Palladio). En chargeant les données dans le logiciel, on peut accéder à différentes vues sur les données - carte, graphe, liste et galerie - qui peuvent être filtrées selon certains critères ou à l'aide de la chronologie générée par les données (Braude 2014). Ce type de logiciel est fait pour être simple d'utilisation et ne requiert pas de connaissances particulières en informatique (même s'il faut au minimum savoir préparer ses données). Nous notons deux inconvénients quant à notre projet d'instrument de recherche. D'une part, le logiciel prédéfinit les vues possibles sur les données. On ne peut pas les adapter ni en ajouter, contraignant ainsi le choix de visualisations à celles mises à disposition. D'autre part, il s'agit d'une utilisation individuelle. On peut enregistrer le projet pour le partager avec d'autres, mais l'accès et la diffusion restent interne au logiciel <!-- on pourrait imaginer faire un iframe vu que c'est web, mais pas sûr qu'on puisse envoyer le package de données ou comment le publier...? -->. 
 
-Il s’agit aussi d’essayer de présenter un modèle alternatif de production du savoir en histoire de l’art en usant du caractère visuel et spatial de la carte. L’utilisation de l’interactivité, dont il sera question dans la troisième partie de cet article, nous permet de contrer certains effets d’autorité causés par l’illusion d’une objectivité scientifique et cartographique (Harley, 1989b: 82). Il demeure toutefois essentiel, tout au long de ce processus, de tenir compte des formes de pouvoir impliquées par la création de l’interface et de situer le savoir ainsi produit.
+<img src="https://hestia.open.ac.uk/hestia-data/uploads/2014/10/HestiaPalladioTimeLineTimeSpan1-1024x551.png" alt="Interface Palladio" style="zoom:90%;" />
 
+<!-- if i have time, enter conbavil data into palladio -->
 
+La seconde catégorie est propre à la cartographie numérique, il s'agit des systèmes d'information géographique (SIG). Ces logiciels complexes et puissants, tel que [QGIS](qgis.org) et [ArcGIS](https://www.arcgis.com/index.html), doivent être installés sur l'ordinateur des chercheur·se·s. Ils requièrent un apprentissage spécialisé en cartographie numérique mais présentent un vaste attirail d'outil pour spécifier chaque aspect technique et visuel de la carte<!-- dont j'ai bénéficié à l'école d'été du GRSH-UAM en carto numérique-->. Remontant aux années 1960, les SIG d'abord été crées pour une utilisation interne au logiciel qui permet des exports de cartes statiques (png ou pdf). Il existe désormais des extensions qui permettent certaines formes de publication interactive sur le web. Excepté pour QGIS, qui est un logiciel libre, il faut également prendre en compte le coût très élevé pour l'emploi de ces logiciels. 
 
-#### interactivité, manipulation
-
-Nous voulons faire des données de CONBAVIL des objets à manipuler pour les chercheur·se·s.  ==> d3.js, visualisation interactive
-
-=/= mise en page mais mise en scène de l'information [drucker] ; 
-
-table de travail ou table de montage [Didi-huberman] " introduit le multiple, le divers, l'hybridité de tout montage"
+<img src="./img/QGIS_pop1831.png" alt="qgis_pop_1831" style="zoom: 75%;" />
 
 
+
+La dernière catégorie d'outil sont les librairies de code, telles que Leaflet.js et D3.js. Leur emploi requiert des connaissances en programmation. Une librairie de code est un ensemble d'outils de programmation auxquels on peut faire appel pour coder un projet. Leaflet.js est conçu pour la création de cartes interactives. Nous avons par exemple testé la fonctionnalité qui permet de créer une *heat map* (Leaflet). 
+
+<img src="/home/lenamk/Documents/memoire/Redaction/img/Leaflet_heatMap.png" alt="Environnement Leaflet - CONBAVIL" style="zoom:55%;" />
+
+La librairie D3.js se spécialise quant à elle en *data-driven visualizations* (Bostock, 2019a). Les données sont converties en graphiques directement dans le navigateur. Ces graphiques s'animent sous l'action de l'utilisateur·rice·s, qui peut ainsi sélectionner les données à afficher ou régler le niveau de détail lors de la consultation.
+
+Nous avons établis plusieurs critères pour sélectionner un outil de visualisation et de cartographie pour CONBAVIL. Nous souhaitions, dès le départ, explorer une pluralité de formes visuelles, de la cartographie aux différentes formes de graphiques et de diagrammes. L'accès web et interactif à ces visualisations est également important dans la conception d'un instrument de recherche. Dans l'ensemble, nous voulions privilégier un outil qui permette la création d'un espace de recherche pour les données de CONBAVIL. C'est pourquoi nous avons choisi de travailler avec la librairie d3.js, conçue pour le web et qui offre la plus grande flexibilité et variété dans les formes de visualisation de données ainsi que dans les interactions possibles.
 
 ## 3.2 Pratiques de visualisation et de cartographie
 
@@ -150,6 +160,20 @@ ne sont jamais présentées comme des fins en soi ... mais plutôt comme une mat
 
 
 ## 3.3 Editorialisation : atlas
+
+=/= mise en page mais mise en scène de l'information [drucker] ; 
+
+table de travail ou table de montage [Didi-huberman] " introduit le multiple, le divers, l'hybridité de tout montage"
+
+
+
+Il s’agit aussi d’essayer de présenter un modèle alternatif de production du savoir en histoire de l’art en usant du caractère visuel et spatial de la carte. L’utilisation de l’interactivité, dont il sera question dans la troisième partie de cet article, nous permet de contrer certains effets d’autorité causés par l’illusion d’une objectivité scientifique et cartographique (Harley, 1989b: 82). 
+
+Il demeure toutefois essentiel, tout au long de ce processus, de tenir compte des formes de pouvoir impliquées par la création de l’interface et de situer le savoir ainsi produit.
+
+Nous voulons faire des données de CONBAVIL des objets à manipuler pour les chercheur·se·s.  ==> d3.js, visualisation interactive
+
+
 
 ### 3.3.1 Théorie ( )
 
