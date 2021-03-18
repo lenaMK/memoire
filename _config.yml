@@ -1,7 +1,7 @@
 theme: jekyll-theme-minimal
 
 
-.video-container {
+.visualization {
     position: relative;
     padding-bottom: 56.25%;
     padding-top: 35px;
