@@ -47,6 +47,8 @@ Le changement épistémologique proposé dans cet article rapproche selon nous l
 
 Le mouvement de cartographie critique a ensuite mené à une nouvelle pratique, la contre-cartographie. La carte, dispositif politique et instrument de savoir et de pouvoir, est employée pour ébranler le pouvoir et défier les normes. En reversant les postures (qui crée la carte et l'emploie, à qui elle est destinée), on peut permettre une "*political practice of mapping back*" (Halder, Michel dans Kollektiv Orangotango+ 2018: 13). La proposition est d'utiliser les instruments du pouvoir contre lui, pour révéler son fonctionnement et ses biais, ainsi que pour inverser les rapports de pouvoir.
 
+
+
 #### Profanation et détournement de l'archive administrative? 
 
 Cette notion d'inversion et de renversement des pouvoir est également réfléchie par Giorgio Agamben en relation aux dispositifs. Le terme "dispositif" est employé par Foucault dans pour parler de 
@@ -58,6 +60,8 @@ Ces dispositifs de gouvernement, par leur pratiques, leurs discours et leurs sav
 Nous avons étudié, dans le premier chapitre de ce mémoire, le processus de rationalisation au sein de l'administration. La réduction de la réalité à des objets quantifiables et à des dossiers administratifs est définie par Arnaud Sabatier comme une "opération d'objectivation [...] qui remplace des objets et le monde par des référentiels" (2010: 29). L'approche de la cartographie critique vient révéler les vides et les silences dans cette transformation. La contre-cartographie nous amène à nous poser les questions suivantes: est-il possible de procéder à une profanation des archives ou de créer un processus de contre-administration critique? L'ambition est de donner l'instrument de pouvoir - que ce soit la carte, la statistique, ou l'archive - à ceux·elles qui veulent l'étudier ou le question, révélant ainsi ses biais tout en restituant leur usage au "hommes". En nous appropriant les dispositifs de l'administration et du gouvernement, nous pouvons développer une approche critique de l'action de cette administration via les traces qu'elles nous a laissées, c'est-à-dire ses archives.
 
 <!-- lien avec le cadre conceptuel dans l'intro: authority must be questionned, or at least questionnable. Do I need to write it again? -->
+
+
 
 <!-- verhoeven? =/= utiliser les données pour montrer ce qu'on sait déjà, mais propose une approche critique -->
 
@@ -79,7 +83,15 @@ L’acte cartographique ajoute également une dimension spatiale au savoir. Non-
 
 ​	[1](#sdfootnote1anc) Le millefeuille comme analogie des multiples couches temporelles dans une representation topographique est une analogie imagine par Dario Gamboni dans son article *Mille fleurs ou millefeuille? Pour un invetaire à* n *dimensions *(Gamboni 2008)* *
 
+#### *statut des visualisation:* 
 
+ne sont jamais présentées comme des fins en soi ... mais plutôt comme une matière pour l'élaboration intellectuelle ̣- mouvante et incarnée dans divers modes d'inscription, mobilisant en même temps les nouveaux outils et des séquences de pratiques et des protocloes de travails existants. Les images produites ne sont ainsi pas uniquement conçues comme des outils d'interprétation, mais aussi de tri, de paramétrage, voire même d'enrichissement et de transformation des données (caviglia 2014)
+
+représentation versus *knowledge generators* (Drucker 2013: 65) 
+
+representation = static in relation to what they show in reference / visualization of information already known
+
+knowledge generators: capable of creating new information through their use. Dynamic, open-ended relation to what they provoke
 
 ### 3.1.3 Les outils de visualisation et de cartographie numérique
 
@@ -114,6 +126,35 @@ La librairie D3.js se spécialise quant à elle en *data-driven visualizations* 
 ​    
 
 Nous avons établis plusieurs critères pour sélectionner un outil de visualisation et de cartographie pour CONBAVIL. Nous souhaitions, dès le départ, explorer une pluralité de formes visuelles, de la cartographie aux différentes formes de graphiques et de diagrammes. L'accès web et interactif à ces visualisations est également important dans la conception d'un instrument de recherche. Dans l'ensemble, nous voulions privilégier un outil qui permette la création d'un espace de recherche pour les données de CONBAVIL. C'est pourquoi nous avons choisi de travailler avec la librairie d3.js, conçue pour le web et qui offre la plus grande flexibilité et variété dans les formes de visualisation de données ainsi que dans les interactions possibles.
+
+
+
+Application dans  le domaine des humanités numériques
+
+#### Presner et al : Hypercities & Berlin - Temporal topographies
+
+Hypercity = _real city overlaid with thick information networks that not only catalyze the present but also go back in time to document  the past and go forward to project future possibilities_ p.6
+
+épaisseur des cartes --> 
+
+- temporalité
+- manipulation 
+- multiplicité des perspectives
+
+
+
+- processes of collecting, aggregating, and visualizing ever more layers of geographic or place-specific data
+- embody temporal and historical dynamics through a multiplicity of layered narratives, sources, and even representational practices
+- Thickness:
+     * extensibility and polyvocality: diachronic and synchronic, temporally layered, and polyvalent ways of authoring, knowing, and making meaning
+     * connotes a kind of cultural analysis trained on the political, economic, linguistic, social, and other stratificatory and contextual realities in which human beings act and create
+  * kind of analysis that is intrinsically incomplete, always under contestation, and never reaching any kind of final, underlying truth
+  * _emphasize context and meaning-making through a combination of micro and macro analyses that foster a multiplicity of interpretations rather than simply reporting facts or considering maps as somehow given, objective or complete_ p.19
+    Thick mapping gives rise to forms of counter-mapping, alternative maps, multiple voices, and on-going contestations
+
+
+
+
 
 ## 3.2 Pratiques de visualisation et de cartographie
 
@@ -163,25 +204,15 @@ La carte comme le soleil sont des graphiques cumulatifs, ce qui signifie que cer
 
 
 
-#### statut des visualisation: 
-
-ne sont jamais présentées comme des fins en soi ... mais plutôt comme une matière pour l'élaboration intellectuelle ̣- mouvante et incarnée dans divers modes d'inscription, mobilisant en même temps les nouveaux outils et des séquences de pratiques et des protocloes de travails existants. Les images produites ne sont ainsi pas uniquement conçues comme des outils d'interprétation, mais aussi de tri, de paramétrage, voire même d'enrichissement et de transformation des données (caviglia 2014)
-
 
 
 ## 3.3 Editorialisation & atlas
 
-
-
-=/= mise en page mais mise en scène de l'information [drucker] ; 
-
-
-
-table de travail ou table de montage [Didi-huberman] " introduit le multiple, le divers, l'hybridité de tout montage"
-
-
+Du graphique à l'instrument de recherche
 
 ### 3.3.1 Interface - instrument de recherche
+
+> *Interface is a mediating structure that supports behaviors and tasks.. it also disciplins, constrains, and determines what can be done in any digital environment* (Drucker2013: 139)
 
 - Christian Jacob, *Lieux de savoir* 2013
 
@@ -204,15 +235,27 @@ Nous voulons faire des données de CONBAVIL des objets à manipuler pour les che
 
 
 
+#### Mise en page - en scène - montage
+
+=/= mise en page mais mise en scène de l'information [drucker] ; (139)
+
+
+
+table de travail ou table de montage [Didi-huberman] " introduit le multiple, le divers, l'hybridité de tout montage" (13)
+
+
+
 #### Sinclair et al]: rich-prospect interfaces 
 
-#### Exemple: Presner et al :temporal topographies
+"search-interface"
 
-épaisseur des cartes --> 
+users looking for an _understanding of an entire collection and how the various components comprising it interact_ are not well served by retrieval interfaces. The __limitations of a retrieval interface__ become even more apparent when potentially useful information is available in the relationships between items – how they group, for instance, or whether they are sequenced in some particular way, or if they happen to be a component in some more complicated structure such as a tree or a pattern of relationships. Often this information is stored in ways that are invisible to the user, being contained, for example, in structural and semantic markup, links and anchors, relational fields, and other forms of metadata. (Ruecker et al. 2011: 2)
 
-- temporalité
-- manipulation 
-- multiplicité des perspectives
+ribch-prospect browsing principles (2011: 4-5) "I see what i can do: Affordances of prospect" (29)
+
+
+
+
 
 **Instrument de recherche heuristique**
 
@@ -323,7 +366,7 @@ Le « faire », justement, nous amène également au sein de la nature performat
 A quoi ressemblera alors cet atlas ? Quelle forme prendra-t-il ?
 
 
- 
+
 
 - Editorialisation et enjeux
 - Instrument de recherche 
