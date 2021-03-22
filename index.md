@@ -4,7 +4,7 @@ Ceci est une page web pour faciliter la relecture de mon mémoire de maîtrise, 
 
 Actuellement en cours de rédaction, je mets en ligne des parties prêtes à la relectures. Ceci est un travail en cours, le contenu va donc évoluer régulièrement. Par exemple, les titres sont tous temporaires. Commentaires et suggestions bienvenus, soit à même la page via [hypothesis](https://web.hypothes.is/#features), soit par courriel: lena.krause@umontreal.ca
 
-Dernière date de modification: 10 mars 2021.
+Dernière date de modification: 22 mars 2021.
 
 ___
 
@@ -56,25 +56,25 @@ ___
 
 ### Chapitre 3: Atlas
 
-Chapitre construit autour du prototype de l'atlas que nous avons créé (en cours de rédaction).
+[Chapitre 3](./Redaction/Chapitre3.md) (première ébauche hasardeuse)
 
 - 3.1 Espaces et interprétation des données 
-
-  - *Approche critique des données*
-  - *Analyse quantitative et statistique* 
-  - *Cartographie*
-  - *Visualisation de données*
-
-- [3.2 Pratiques de visualisation et de cartographie](./Redaction/Chapitre3-p2.md) (à revoir, extrait de la [publication](http://revuecaptures.org/article-dune-publication/constellations-de-donn%C3%A9es-historiques) dans la revue *Captures* )
+- Le quantitatif, le statistique et le cartographique
+  - De la cartographie à la visualisation de données 
+  - Les outils de visualisation et de cartographie numérique
+- Pratiques de visualisation et de cartographie
+  - Cartographie
+  - Chronologie
+  - Typologie
+  - Observations
 - Cartographie
   - Chronologie
   - Typologie
-  
 - 3.3 Editorialisation et atlas
 
-  - *Atlas*
-  - *Prototype, instrument de recherche*
-  - *Editorialisation*
+  - Théories pour l'instrument de rechrche
+  - L'atlas numérique comme instrument de recherche
+  - Contraintes, critiques et conclusion
 
 
 ___
