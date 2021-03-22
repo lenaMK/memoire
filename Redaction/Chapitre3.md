@@ -25,6 +25,8 @@ Le contexte de création de ces archives nous inspire également, car une vérit
 
 [à compléter: i guess maybe somewere talk about geography of art? or not...]
 
+[intérêt pour la cartographie --> pensée spatiale liée au côté topographique des données, mais aussi à une envie de percevoir les dynamiques et changements, à travers le temps et l'espace. ]
+
 #### Formes de pensée cartographique 
 
 Les approches quantitatives se combinent aisément à la cartographie lors que les données possèdent une dimension spatiale. Nous avons donc entrepris les recherches théoriques et pratiques nécessaires pour cartographier les données de CONBAVIL. Nous avons appui sur les réflexions du philosophe et historien Jean-Marc Besse, qui propose une conception pragmatique de la carte et, par extension, de l’acte cartographique :
@@ -51,7 +53,7 @@ Le mouvement de cartographie critique a ensuite mené à une nouvelle pratique, 
 
 #### Profanation et détournement de l'archive administrative? 
 
-Cette notion d'inversion et de renversement des pouvoir est également réfléchie par Giorgio Agamben en relation aux dispositifs. Le terme "dispositif" est employé par Foucault dans pour parler de 
+Cette notion d'inversion et de renversement des pouvoir est également employée par Giorgio Agamben en relation aux dispositifs. Le terme "dispositif" est employé par Foucault dans pour parler de 
 
 > "manipulation des rapports de force, d'une intervention rationnelle et concertée dans ces rapports de force, soit pour les développer dans telle direction, soit pour les bloquer, soit pour les stabiliser, les utiliser. Le dispositif, donc, est toujours inscrit dans un jeu de pouvoir, mais toujours lié à des bornes de savoir, qui en naissent, mais, tout autant, le conditionnent. C'est ça le dispositif: **des stratégies de rapports de force supportant des types de savoir, et supportés par eux**" (Foucaut, *Dits et écrits", vol III, p. 299 sq., dans Agamben 2007: 9-10)
 
@@ -61,17 +63,13 @@ Nous avons étudié, dans le premier chapitre de ce mémoire, le processus de ra
 
 <!-- lien avec le cadre conceptuel dans l'intro: authority must be questionned, or at least questionnable. Do I need to write it again? -->
 
-
-
 <!-- verhoeven? =/= utiliser les données pour montrer ce qu'on sait déjà, mais propose une approche critique -->
 
 
 
 ### 3.1.2 De la cartographie à la visualisation de données
 
-[intérêt pour la cartographie --> pensée spatiale liée au côté topographique des données, mais aussi à une envie de percevoir les dynamiques et changements, à travers le temps et l'espace. ]
-
- CONBAVIL forme un espace cartographique composé de multiples épaisseurs. D’une part, il est constitué d’un territoire de référence physique, la France de la première moitié du XIXe siècle, sur lequel s’applique une politique architecturale. D’autre part, les archives administratives font partie intégrante du territoire et participent elles aussi à le construire. La cartographie fournit ainsi « une méthode pour unir dans une image le concept d’un territoire et une multitude d’informations dites empiriques livrées par la fréquentation du terrain » (Besse, 2006: 15). Aux informations « empiriques », nous substituons des données issues de sources archivistiques, lesquelles se trouvent enrichies par la géolocalisation que nous leur adjoignons. Notre processus cartographique vient ainsi réinscrire l’action du Conseil des bâtiments civils sur le territoire français et révéler son empreinte sur le pays. Au-delà de l’impact du patrimoine bâti sur le territoire, nous prenons aussi en compte les projets refusés ou inaboutis. Leur cartographie nous invite « à voir et à penser ce que l’on ne voit pas et ne pense pas quand on regarde l’espace réel » (Jacob, 1992: 50). L’imaginaire bâtisseur de l’époque se matérialise par ses archives et nous offre une autre facette de l’histoire de ce territoire. Nous cherchons ainsi à mettre en pratique la pensée de l’historien de l’art Dario Gamboni, selon qui,
+CONBAVIL forme un espace cartographique composé de multiples épaisseurs. D’une part, il est constitué d’un territoire de référence physique, la France de la première moitié du XIXe siècle, sur lequel s’applique une politique architecturale. D’autre part, les archives administratives font partie intégrante du territoire et participent elles aussi à le construire. La cartographie fournit ainsi « une méthode pour unir dans une image le concept d’un territoire et une multitude d’informations dites empiriques livrées par la fréquentation du terrain » (Besse, 2006: 15). Aux informations « empiriques », nous substituons des données issues de sources archivistiques, lesquelles se trouvent enrichies par la géolocalisation que nous leur adjoignons. Notre processus cartographique vient ainsi réinscrire l’action du Conseil des bâtiments civils sur le territoire français et révéler son empreinte sur le pays. Au-delà de l’impact du patrimoine bâti sur le territoire, nous prenons aussi en compte les projets refusés ou inaboutis. Leur cartographie nous invite « à voir et à penser ce que l’on ne voit pas et ne pense pas quand on regarde l’espace réel » (Jacob, 1992: 50). L’imaginaire bâtisseur de l’époque se matérialise par ses archives et nous offre une autre facette de l’histoire de ce territoire. Nous cherchons ainsi à mettre en pratique la pensée de l’historien de l’art Dario Gamboni, selon qui,
 
 > [p]our comprendre l’histoire d’un lieu, il importe de connaître non seulement ce qu’il a été possible d’y réaliser, mais encore ce qu’il était impossible d’y faire pour des raisons esthétiques et culturelles, techniques, sociales ou encore politiques. (2008: 9) 
 
@@ -83,15 +81,7 @@ L’acte cartographique ajoute également une dimension spatiale au savoir. Non-
 
 ​	[1](#sdfootnote1anc) Le millefeuille comme analogie des multiples couches temporelles dans une representation topographique est une analogie imagine par Dario Gamboni dans son article *Mille fleurs ou millefeuille? Pour un invetaire à* n *dimensions *(Gamboni 2008)* *
 
-#### *statut des visualisation:* 
 
-ne sont jamais présentées comme des fins en soi ... mais plutôt comme une matière pour l'élaboration intellectuelle ̣- mouvante et incarnée dans divers modes d'inscription, mobilisant en même temps les nouveaux outils et des séquences de pratiques et des protocloes de travails existants. Les images produites ne sont ainsi pas uniquement conçues comme des outils d'interprétation, mais aussi de tri, de paramétrage, voire même d'enrichissement et de transformation des données (caviglia 2014)
-
-représentation versus *knowledge generators* (Drucker 2013: 65) 
-
-representation = static in relation to what they show in reference / visualization of information already known
-
-knowledge generators: capable of creating new information through their use. Dynamic, open-ended relation to what they provoke
 
 ### 3.1.3 Les outils de visualisation et de cartographie numérique
 
@@ -131,7 +121,7 @@ Nous avons établis plusieurs critères pour sélectionner un outil de visualisa
 
 Application dans  le domaine des humanités numériques
 
-#### Presner et al : Hypercities & Berlin - Temporal topographies
+#### [Presner et al : Hypercities & Berlin - Temporal topographies]
 
 Hypercity = _real city overlaid with thick information networks that not only catalyze the present but also go back in time to document  the past and go forward to project future possibilities_ p.6
 
@@ -200,138 +190,57 @@ Lena Krause, [*Répartition des projets CONBAVIL par type architectural*](http:/
 
 Notre soleil interactif CONBAVIL présente donc le contenu de la base de données par type architectural. Le fait de cliquer sur une catégorie permet de faire apparaître le niveau de profondeur suivant et le retour en arrière s’effectue en cliquant au centre du graphique. En glissant le curseur sur une catégorie, on peut voir le nombre de délibérations qui y sont associées. Rapidement, on constate que plus de la moitié des délibérations sont contenues dans trois catégories principales : « urbanisme », « architecture religieuse » et « architecture judiciaire, pénitentiaire ou de police ». La section « urbanisme » contient toutes les délibérations liées aux plans d’alignement des villes, car le Conseil était également responsable de l’ouverture des rues pour l’assainissement et l’embellissement des espaces publics (Château-Dutier, 2016, T1: 151-179). La prépondérance de l’architecture religieuse s’explique quant à elle par le grand nombre de réaffectations de bâtiments nationaux en écoles, préfectures et tribunaux, notamment (Woolf, 1987: 30-31).
 
+### Observations 
+
 La carte comme le soleil sont des graphiques cumulatifs, ce qui signifie que certaines délibérations y figurent plusieurs fois si elles sont associées à plusieurs lieux ou types architecturaux. Cette décision provient, entre autres, d’une incertitude dans les données, qui ne signalent pas de hiérarchie en cas d’attribution multiple. Il faut également garder à l’esprit que la carte, par exemple, ne représente pas le phénomène bâtisseur, mais reflète plutôt les délibérations du Conseil. La taille des points dépend donc du nombre de mentions lors des séances et non de la quantité de chantiers ouverts. Les graphiques créés sont exploratoires, ils ont pour but de mener à la découverte du contenu des archives. C’est pourquoi il nous a semblé pertinent d’offrir le plus grand nombre de points d’entrée possibles dans les données.
 
+Johanna Drucker distingue les représentation statiques qui référencent ou visualisent une information connue, et les "générateurs de connaissances" *knowledge generators*. Ces derniers sont dynamiques et créent des ouvertures dans leur utilisation qui possèdent le potentiel de créer de nouveaux savoir (Drucker 2013: 65) 
 
+> Ces visualisations ne sont pas en fins en soi, mais plutôt une matière pour l'élaboration intellectuelle ̣- mouvante et incarnée dans divers modes d'inscription, mobilisant en même temps les nouveaux outils et des séquences de pratiques et des protocoles de travaux existants. Les images produites ne sont ainsi pas uniquement conçues comme des outils d'interprétation, mais aussi de tri, de paramétrage, voire même d'enrichissement et de transformation des données (caviglia 2014)
 
 
 
 ## 3.3 Editorialisation & atlas
 
-Du graphique à l'instrument de recherche
+Suite à nos expérimentations dans la production de visualisations individuelles, la création d'un instrument de recherche pour CONBAVIL requiert leur mise en commun dans un espace éditorial numérique. 
 
-### 3.3.1 Interface - instrument de recherche
+- Outil numérique --> interface
+- Ensemble de cartes --> atlas
+- Publication (forme éditorialie) numérique --> éditorialisation
 
-> *Interface is a mediating structure that supports behaviors and tasks.. it also disciplins, constrains, and determines what can be done in any digital environment* (Drucker2013: 139)
+Créer un instrument de recherche revient à concevoir une interface qui permet la manipulation et la recherche avec les données de CONBAVIL. Nous pouvons ainsi expérimenter avec des formes visuelles qui révéleraient certaines caractéristiques de l'engrenage de l'architecture publique en France. Ses besoins et ses contraintes se reflètent dans sa chronologie, dans son organisation spatiale et dans ses choix d’infrastructure. 
 
-- Christian Jacob, *Lieux de savoir* 2013
 
-Instrumentation de la recherche: défi : interaction en vue de développer "les environnements logiciels qui permettront d'entreprendre ce travail expérimental sur les données. Élaborer des outils spécifiques et pointus, répondant à des logiques intellectuelles particulières
 
-- potentiel d'instruments de visualisation qui [...] permettraient de mettre à l'épreuve des hypothèses de travail en temps réel " ( Jacob 2013: cf lien ./1180) 
-- besoin de faire varier la focale, de passer du local au global et inversement, mais aussi de passer d'une visualisation à l'autre "à mes yeux, l'environnement de recherche numérique idéal permettrait de passer d'une forme de visualisation à l'autre, d'un point de vue à l'autre. Il permettrait de mettre à l'épreuve en temps réel des hypothèses de travail, de procéder par des expérimentations successibes
-- défi principal de l'instrumentation de la recherche aujourd'hui me semble être celui de la transitivité et de la fluidité
-- réflexion critique sur les instrumentations de la recherche, sur les ergonoies des nouveaux outils, sur la manipulation et l'exploitation intellectuelle des documents qui s'accumulent chaque jour davantage sur nos disques durs
+### 3.3.1 Théories pour la conception d'un instrument de recherche
 
-Outre exemples déjà donné: EAT ...
+#### Interfaces
 
+Au sein d'une réflexion sur les *Lieux de savoir*, Christian Jacob s'intéresse à l'instrumentation de la recherche (2013). Il questionne l'ergonomie des outils disponibles, notamment pour la manipulation de données et leur exploitation intellectuelle. Le défi identifié revient à développer des environnements logiciels au sein desquels on pourra expérimenter avec les données. Ceux-ci offriraient les moyens de varier la focale, de passer du local au global et inversement, mais aussi de passer d'une visualisation à l'autre. Il s'agit d' "élaborer des outils spécifiques et pointus, répondant à des logiques intellectuelles particulières, notamment le potentiel d'instruments de visualisation qui [...] permettraient de mettre à l'épreuve des hypothèses de travail en temps réel" (  Jacob 2013: cf lien ./1180). Ces réflexions sont au cœur de notre démarche pour la conception d'un instrument de recherche. 
 
+Les logiciels et outils numériques comportent une dimension *back-end*, les mécanismes de l'outil, et  une interface ou *front-end*, ce que l'utilisateur voit. La médiation entre les tâches et les comportements est effectuée par l'interface, qui "discipline, contraint et détermine ce qui peut être fait dans tout environnement numérique" (Drucker 2013: 139). Pour utiliser le logiciel, on passe par les éléments de l'interfaces - boutons, objets cliquables, etc. On peut également penser la structure d'une interface sous deux aspects. Le premier provient du milieu éditorial, la mise en page, c'est-à-dire l'organisation des composantes dans un espace graphique. Le second est plus dynamique, il s'agit la mise en scène de l'information, pour concevoir l'interface comme un environnement pour l'action (Drucker 2013: 139).
 
-Il s’agit aussi d’essayer de présenter un modèle alternatif de production du savoir en histoire de l’art en usant du caractère visuel et spatial de la carte. L’utilisation de l’interactivité, dont il sera question dans la troisième partie de cet article, nous permet de contrer certains effets d’autorité causés par l’illusion d’une objectivité scientifique et cartographique (Harley, 1989b: 82). 
+Les chercheur·se·s Stan Ruecker, Milena Redzikowska et Stéfan Sinclair ont théorisé le design d'interfaces visuelles pour le patrimoine culturel numérique. Il·elle·s analysent d'abord les formes classiques d'interfaces d'extraction ou de récupération (*retrieval interface*). Celles-ci, similaires à l'interface actuelle pour la recherche dans CONBAVIL, aident l'utilisateur·rice à effectuer des requêtes dans les données. L'interface présente une formulaire pour la sélection de données qui répondent à certains critères. La machine envoie les spécifications au *back-end* , qui renvoie les données correspondantes à montrer à l'utilisation dans l'interface. Ruecker, Redikowska et Sinclair démontrent les restrictions que pose ce type d'interface dans le potentiel de recherche dans les données. L'utilisateur ne peut pas voir certaines informations utiles et disponibles concernant, par exemple, les liens entre les items: les regroupements possibles, d'éventuels séquençages ou motif s dessinés par leur mise en relation (Ruecker et al. 2011: 2). Leur publication se poursuit toutefois avec la théorisation d'une forme d'interface "d'exploration riche en perspectives" ou *rich-prospect browsing*. Celle-ci serait dotée d'une série de principes conducteurs qui visualisent les possibilités, ou *affordances*, pour la recherche dans l'interface (Ruecker et al. 2011: 3-4). Ces principes incluent notamment l'affichage de grands formats ou d'une grande quantité de données, tant qu'elles sont structurées dans un logique perceptible par l'utilisateur, fournir des informations pour la navigation dans l'interface et situer l'utilisateur dans son exploration des données.
 
-Il demeure toutefois essentiel, tout au long de ce processus, de tenir compte des formes de pouvoir impliquées par la création de l’interface et de situer le savoir ainsi produit.
+Lors de la création de nos visualisation et dans la conception de notre interface, nous nous questionnons sur la possibilité de produire un instrument de recherche centré sur l'herméneutique, qui produirait une richesse et une diversité dans l'interprétation dans les données. Il s'agirait de créer une interface dont les affordances me nous mènent pas nécessairement où on avait prévu, mais dans des espaces où on savait qu’on pouvait aller. En proposant des nouvelles perspectives incongrues, on pourrait ainsi tomber sur une dimension pertinente de l’objet qui nous intéresse. 
 
-Nous voulons faire des données de CONBAVIL des objets à manipuler pour les chercheur·se·s. ==> d3.js, visualisation interactive
 
 
+#### Atlas
 
-#### Mise en page - en scène - montage
+Nous avons également été inspirée par le concept "d'atlas" pour penser notre instrument de recherche. Christian Jacob définit l’atlas géographique comme un « dispositif qui permet de concilier le tout et le détail. Il est régi par une logique cumulative et analytique, qui conduit de la vision globale aux images partielles » (1992: 97).  La forme-atlas est associée à une variété de formes visuelles: cartes, mais aussi graphiques, chronologies, illustrations, et même des reproductions d'œuvres d'art. 
 
-=/= mise en page mais mise en scène de l'information [drucker] ; (139)
+L'atlas prend d'autres formes encore lors de son emploi par des artistes ou par des historien·ne·s de l’art. Dans ce domaine, il peut devenir, selon Georges Didi-Huberman, une « forme visuelle du savoir » comportant « [un] paradigme *esthétique* de la forme visuelle, et [un] paradigme *épistémique* du savoir » (2011: 12). Cet outil crée des zones interstitielles, des intervalles heuristiques dans son ouverture inépuisables aux possibles.  Sa réception est une activité non linéaire : on ne *lit* pas mais on *consulte* un atlas. Cette particularité, qui introduit le multiple, le divers et l'hybridité, autorise l’émergence d’une forme de « connaissance par l’imagination » grâce à « la puissance intrinsèque du *montage* qui consiste à découvrir […] des liens que l’observation directe est incapable de discerner » (Didi-Huberman 2017: 13). 
 
+L'atlas est donc une forme éditoriale qui répond aux critères d'instrument de recherche que nous souhaitons créer. Sa forme numérique permet de faciliter l'interactivité et la manipulation du contenu. L'interactivité des visualisations comme de l'atlas nous sert également à réduire la tentation de faire d'en faire des preuves. La forme mouvante reflète la construction, *constructedness*, de l'image. Un arrêt sur image devient un choix conscient qu'il faut argumenter et que l'on peut critiquer. Avec l'atlas, nous voulons donc expérimenter avec une forme d'épistémologie visuelle, spatiale et numérique en histoire de l'art. 
 
+#### Éditorialisation
 
-table de travail ou table de montage [Didi-huberman] " introduit le multiple, le divers, l'hybridité de tout montage" (13)
+Le travail envisagé est un **acte éditorial**, il s’agit de donner une forme à l’objet en question : la base de données CONBAVIL. La création d’une nouvelle interface pour la base de données CONBAVIL sous la forme d’un atlas peut être comprise comme un acte d’éditorialisation[14](http://revuecaptures.org/article-dune-publication/constellations-de-données-historiques#footnote14_psr6wnd). Il s’agit d’une démarche processuelle, expérimentale et surtout multiple (Vitali-Rosati, 2016: 68). La visualisation et la cartographie ont considérablement évolué avec l’apparition des logiciels et outils informatiques. D’après les historiennes Claire Lemercier et Claire Zalc, « il n’est plus question de publier chaque tableau ou graphique péniblement obtenu, mais plutôt de les utiliser pour avancer dans une recherche, quitte à n’en montrer au lecteur final que quelques-uns » (2008: n.p.). Comparativement aux grandes équipes de chercheur·se·s, ingénieur·e·s, informaticien·ne·s, cartographes et perforateur·rice·s de cartes, indispensables aux grandes enquêtes collectives menées dans les années 70, il est de nos jours possible de réduire le personnel, le temps, les connaissances et les coûts nécessaires à la création de cartes (Lemercier, 2008)[15](http://revuecaptures.org/article-dune-publication/constellations-de-données-historiques#footnote15_7tulxje). Cela favorise particulièrement l’expérimentation, tant avec les formes et les variables graphiques qu’avec les calculs et les statistiques privilégiés pour la cartographie thématique. Aussi, les nombreuses itérations possibles au cours du processus de production nous invitent à repenser chaque élément jusqu’à ce qu’il convienne aux besoins du projet.
 
+### 3.3.2 L’atlas numérique comme instrument de recherche
 
-
-#### Sinclair et al]: rich-prospect interfaces 
-
-"search-interface"
-
-users looking for an _understanding of an entire collection and how the various components comprising it interact_ are not well served by retrieval interfaces. The __limitations of a retrieval interface__ become even more apparent when potentially useful information is available in the relationships between items – how they group, for instance, or whether they are sequenced in some particular way, or if they happen to be a component in some more complicated structure such as a tree or a pattern of relationships. Often this information is stored in ways that are invisible to the user, being contained, for example, in structural and semantic markup, links and anchors, relational fields, and other forms of metadata. (Ruecker et al. 2011: 2)
-
-ribch-prospect browsing principles (2011: 4-5) "I see what i can do: Affordances of prospect" (29)
-
-
-
-
-
-**Instrument de recherche heuristique**
-
-Hypothèse : Visualisation et manipulation de données : nouvelles affordance pour la recherche  instrument heuristique ? 
-
-Créer une interface dont les affordances qui nous mène pas où on avait prévu, où on savait qu’on pouvait aller, mais qui nous propose des nouvelles perspectives incongrues, qui oui parfois peuvent être vides de sens, mais peut-être parfois très pertinentes, sur l’objet qui nous intéresse. (exemple du défi 10 clics wikipédia)
-
-
-
-### 3.3.2 Théories et pratiques de l'atlas
-
-- jacob, besse, didi-huberman
-- interactivité, manipulation
-
---
-
-I wanted to go further by thinking about the visualizations together, by producing a space in which they can not only coexist but also be interlinked. 
-
-My conception of an atlas was forged by various references: 
-
-1. the classical atlas as an editorial space or, as Christian Jacob proposes "an apparatus that allows to reconcile the whole and the detail.. it is ruled by a cumulative and analytical reasonning, that guides from a global outlook to partial images... " [Jacob 1992:97] 
-
-2. This mutliplicity of maps combined with images at large comes from a later form: the thematic atlas. Its content is visual and graphic, encompassing maps but also illustrations, timelines or any types of infographics, reproductions of artworks or cultural artifacts etc.
-
-3. In art history, we study a very wide range of atlases produced by artists. Art historians such as Aby Warburg also created atlases. This phenomenon was studied by philosopher and art historian Georges Didi-Huberman. He offers multiple definitions of the atlas in this discipline, highlighting that it is a **visual form of knowledge powered by imagination** [Didi-Huberman 2011:13] that emerges from the reader's capacity to link various elements in order to pursue knowledge of a given field.
-
-4. The characteristics of the atlas that I want to enhance in this digital form is the active role of the user, the ability to manipulate the objects and chose how to navigate the contents. I want to try and reproduce the serendipity of opening an atlas at a random page, letting the user make connections between "seemingly unrelated elements" while browsing through the atlas, their compliation potentially affording the production of knowledge.
-
-
-
-Speaking of users, my primary target are researchers at large, as this database was produced for research, though it could be adapter or curated for a wider audience. 
-
-I am currently working on interlinking the various visualisations I showed today. As they all represent the same dataset, each visualization becomes a potential filter, selecting a subset of the data. Here's an example ─ but this is a mockup, so please imagine this as interactive and responsive: select a location, the timeline will adjust to reflect the chronological information for said location, and same for the sunburst. Select a timeframe or a building type, all will shift and reflect the new selection. 
-
-As the view on the data is constantly adjusted and adapted to the interests of the user, one can really explore the contents of the CONBAVIL database. This interactive dimension enables a wide diversity of approaches or ways into the data, creating a dynamic platform that aims to create knowledge through exploration, association of ideas, imagination, and manipulation.
-
-Interactivity also breaks the sometimes tempting illusion that knowledge is set or that a visualization acts as proof. On the contrary, manipulating a map reveals its "constructedness" or its representational characteristic, which as such lacks "meaning" until its significance is argued by an author/user.
-
-In summary, this research tool is an experiment for a visual, digital and spatial epistemology in art history. By combining the study of territory, knowledge, and power through a spatial and quantitative method, we can renew our understanding of public architecture and its politics, that are relevant to understand the XIXth century as well as our contemporary societies.
-
-This is an experiment in progress. This presentation was to help you imagining my proposition for an atlas, but beyond CONBAVIL, I hope that ths experiment with data, mapping, visualization and knowledge production perhaps inspired some questions or approaches for your own research.
-
-
-
-Pourquoi choisir la forme un atlas ? 
-
-Premièrement, il s’agit bien d’essayer d’envisager le travail du Conseil des bâtiments civils tel qu’ils le concevaient eux-mêmes, une multiplicité de projets dans une logique d’ensemble, à l’échelle nationale. 
-
-Je vous ai montré en début de conférence de nombreuses cartes pour illustrer mon propos. Après la Révolution, les cartes connaissent une popularité grandissante, dans le but d’instruire la population et « d’ouvrir les portes du savoir ». Elles sont également diffusées à un bien plus grande échelle grâce à la lithographie. 
-
-Le développement de la cartographie est lié au contexte historique que je vous ai présenté. La volonté républicaine de démocratisation de la connaissance et la plus grande accessibilité de la cartographie donne lieu à son appropriation par des scientifiques et amateurs qui les utilisent tant pour mener des recherches, pour soutenir une argumentation ou pour l’enseignement et la pédagogie. La cartographie permet aussi de créer un imaginaire national, tout en rendant compte de la diversité régionale. Le développement de la cartographie thématique, et particulièrement l’exemple de cette (tout à fait géniale) *Carte gastronomique* de 1810 en est une excellente illustration.
-
-A cette époque se développe ainsi une « pensée cartographique » peu mise de l’avant par les archives à notre disposition (Il reste toutefois que les projets soumis à l’examen du Conseil devaient être accompagnés d’un plan qui situe l’édifice dans la ville par exemple). Me concentrer sur cette dimension spatiale m’a semblé important. 
-
-Deuxièmement, la création d’un atlas est une pratique éditoriale. Il s’agit de compiler un ensemble de documents, cartographiques ou non, sur un même sujet. Cette appellation convient donc à ma volonté de proposer une diversité de vues sur les données. Ces vues seront pour certaines cartographiques, d’autres seraient plus de l’ordre des diagrammes ou des statistiques. Il de faire des assemblages et des montages, en faisant appel à d’autres données, de géolocalisation par exemple. 
-
-Et troisièmement, l’atlas se présente comme une forme visuelle du savoir. Un atlas est conçu comme un recueil d’images ou d’informations sur un sujet donné. Création de liens et associations entre les divers éléments par la lecture active/non linéaire. L’atlas est donc une forme visuelle du savoir qui contient un potentiel épistémologique.
-
-**Un atlas numérique**
-
-Nouvelle forme (potentielle) d’épistémologie visuelle dans le numérique.
-
-Le passage d’une forme éditoriale au numérique permet de continuer à réfléchir à son fonctionnement et à son utilisation.Il faut prendre en compte les caractéristiques du numérique.
-
-Deux caractéristiques importantes : 
-
-- ​	Nouveaux moyens de visualisation de données (pas existants dans les études faites au préalable sur l’architecture publique). Faire des cartes, des diagrammes ne représente plus le même travail.
-- ​	Interactivité sur le web
-
-
-
-### 3.3.3 L’atlas numérique comme instrument de recherche
-
-Les visualisations que nous présentons ici constituent une première étape dans notre processus de recherche. Telle une machine bâtisseuse, la politique d’équipement de la France est, à la période qui nous intéresse, un engrenage dont les besoins et les contraintes se reflètent dans sa chronologie, dans son organisation spatiale et dans ses choix d’infrastructure. Nous cherchons donc, afin d’étudier son fonctionnement, à concevoir un instrument de recherche à partir de nos visualisations.
-
-Des liens entre les visualisations ont été tissés à deux niveaux. Tout d’abord, celles-ci sont regroupées dans un même espace éditorial qui reprend le modèle de l’atlas. Christian Jacob définit l’atlas géographique comme un « dispositif qui permet de concilier le tout et le détail. Il est régi par une logique cumulative et analytique, qui conduit de la vision globale aux images partielles » (1992: 97). La forme-atlas est transformée lors de sa reprise par des artistes ou par des historien·ne·s de l’art. Dans ce domaine, il peut devenir, selon Georges Didi-Huberman, une « forme visuelle du savoir » comportant « [un] paradigme *esthétique* de la forme visuelle, et [un] paradigme *épistémique* du savoir » (2011: 12). Sa réception est une activité non linéaire : on ne *lit* pas mais on *consulte* un atlas. Cette particularité autorise l’émergence d’une forme de « connaissance par l’imagination » grâce à « la puissance intrinsèque du *montage* qui consiste à découvrir […] des liens que l’observation directe est incapable de discerner » (13). En somme, regrouper les visualisations produites à partir des archives numérisées du Conseil des bâtiments civils dans un atlas numérique crée un espace propice à la réflexion et à la recherche.
+Des liens entre les visualisations ont été tissés à deux niveaux. Tout d’abord, celles-ci sont regroupées dans un même espace éditorial qui reprend le modèle de l’atlas.
 
 <iframe src="https://www.public.archi/atlas-numerique/viz/carteAvis/index.html" title="Lena Krause, [*Exemple d’interactivité entre deux visualisations : carte et avis du Conseil*](https://www.public.archi/atlas-numerique/viz/carteAvis/index.html) (2019), Produite comme prototype dans le cadre du projet *Atlas numérique de l’architecture publique en France (1795-1840)*, Montréal : Université de Montréal "</iframe>
 
@@ -345,33 +254,17 @@ Notre atlas est encore à un stade embryonnaire et il ne présente pour le momen
 
 Lena Krause, *Modélisation de l’atlas* (2019) , Produite comme prototype dans le cadre du projet *Atlas numérique de l’architecture publique en France (1795-1840)*, Montréal : Université de Montréal 
 
-La création d’une nouvelle interface pour la base de données CONBAVIL sous la forme d’un atlas peut être comprise comme un acte d’éditorialisation[14](http://revuecaptures.org/article-dune-publication/constellations-de-données-historiques#footnote14_psr6wnd). Il s’agit d’une démarche processuelle, expérimentale et surtout multiple (Vitali-Rosati, 2016: 68). La visualisation et la cartographie ont considérablement évolué avec l’apparition des logiciels et outils informatiques. D’après les historiennes Claire Lemercier et Claire Zalc, « il n’est plus question de publier chaque tableau ou graphique péniblement obtenu, mais plutôt de les utiliser pour avancer dans une recherche, quitte à n’en montrer au lecteur final que quelques-uns » (2008: n.p.). Comparativement aux grandes équipes de chercheur·se·s, ingénieur·e·s, informaticien·ne·s, cartographes et perforateur·rice·s de cartes, indispensables aux grandes enquêtes collectives menées dans les années 70, il est de nos jours possible de réduire le personnel, le temps, les connaissances et les coûts nécessaires à la création de cartes (Lemercier, 2008)[15](http://revuecaptures.org/article-dune-publication/constellations-de-données-historiques#footnote15_7tulxje). Cela favorise particulièrement l’expérimentation, tant avec les formes et les variables graphiques qu’avec les calculs et les statistiques privilégiés pour la cartographie thématique. Aussi, les nombreuses itérations possibles au cours du processus de production nous invitent à repenser chaque élément jusqu’à ce qu’il convienne aux besoins du projet.
-
-### 3.3.4 Editorialisation 
 
 
+Le potentiel de l'éditorialisation réside également dans l'évolution constante du contenu. Les technologies nécessaires pour la création de compte utilisateurs - qui pourraient, au cours de leur exploration de l'atlas, nettoyer, associer ou enrichir les données - sont disponibles. On peut également permettre l'export, statique ou interactif (intégration de la visualisation ou d'un iframe) des contenus afin de les associer à de nouvelles publications. 
 
-
-
-Le point de départ de ma réflexion, issu des conversations avec mon directeur de recherche, Emmanuel Château-Dutier, est ancré dans le concept d’éditorialisation. En effet, le travail envisagé est un **acte éditorial**, il s’agit de donner une forme à l’objet en question : la base de données CONBAVIL. 
-
-Si l’éditorialisation a été définie de multiples fois et pour des contextes variés, je me suis particulièrement intéressée à la définition qu’en fait Marcello Vitali-Rosati et qui évolue entres autres au cours du séminaire « écritures numérique et éditorialisation ».
-
-Un aspect de l’éditorialisation sur lequel j’aimerais insister aujourd’hui est la nature processuelle de l’éditorialisation. La création de cet atlas est un **processus ouvert**, qui n’est pas construit en vue d’une finalité prédéfinie. 
-
-En fait, le processus fait penser à la recherche-création par exemple, avec une approche centrée sur l’expérimentation et le « faire ». 
-
-Le « faire », justement, nous amène également au sein de la nature performative de l’éditorialisation. La forme de l’atlas n’est pas vraiment prévisible, elle est modelée au fur et à mesure par les activités entreprises. Je reviendrai sur cet aspect à la fin de ma présentation.
-
-A quoi ressemblera alors cet atlas ? Quelle forme prendra-t-il ?
+### 3.3.3 Contraintes, critique et conclusion
 
 
 
+Il serait tentant de penser que l’interactivité de l’atlas déconstruit des enjeux de pouvoir dans le champ du savoir. Il ne faut toutefois pas oublier les choix effectués lors de sa production. Du point de vue du contenu, les archives sont produites par des instances dans un contexte historique déterminé, à savoir une administration française issue de la première moitié du XIXe siècle pour le Conseil des bâtiments civils. La base de données, pour sa part, est issue du travail de chercheur·se·s au tournant du XXIe siècle. Les connaissances obtenues à partir de ces données ne représentent donc pas une vérité, mais plutôt un point de vue[16](http://revuecaptures.org/article-dune-publication/constellations-de-données-historiques#footnote16_5pi61ps). En ce qui concerne l’interface de l’atlas, son élaboration se base sur diverses institutions, telles que Open Street Map pour le géoréférencement ou le thésaurus architectural de l’Inventaire général du patrimoine culturel. Ces références formatent le contenu selon des ontologies du savoir précises, des perspectives dont il n’est pas impossible de remettre la pertinence en cause. Par exemple, la toponymie contemporaine peut s’avérer problématique dans le cadre d’études historiques. Il faut donc garder à l’esprit les formes de pouvoir et d’autorité qui subsistent dans la production du savoir de notre atlas. 
 
-- Editorialisation et enjeux
-- Instrument de recherche 
-
-Il serait tentant de penser que l’interactivité de l’atlas déconstruit des enjeux de pouvoir dans le champ du savoir. Il ne faut toutefois pas oublier les choix effectués lors de sa production. Du point de vue du contenu, les archives sont produites par des instances dans un contexte historique déterminé, à savoir une administration française issue de la première moitié du XIXe siècle pour le Conseil des bâtiments civils. La base de données, pour sa part, est issue du travail de chercheur·se·s au tournant du XXIe siècle. Les connaissances obtenues à partir de ces données ne représentent donc pas une vérité, mais plutôt un point de vue[16](http://revuecaptures.org/article-dune-publication/constellations-de-données-historiques#footnote16_5pi61ps). En ce qui concerne l’interface de l’atlas, son élaboration se base sur diverses institutions, telles que Open Street Map pour le géoréférencement ou le thésaurus architectural de l’Inventaire général du patrimoine culturel. Ces références formatent le contenu selon des ontologies du savoir précises, des perspectives dont il n’est pas impossible de remettre la pertinence en cause. Par exemple, la toponymie contemporaine peut s’avérer problématique dans le cadre d’études historiques. Il faut donc garder à l’esprit les formes de pouvoir et d’autorité qui subsistent dans la production du savoir de notre atlas. C’est la raison pour laquelle nous souhaitons encourager la réutilisation et l’appropriation de son code en le publiant sous une licence libre[17](http://revuecaptures.org/article-dune-publication/constellations-de-données-historiques#footnote17_bnrpj0k). L’objectif est de faciliter les ajouts, les modifications et les contre-propositions, ainsi que la réutilisation du code pour d’autres projets. Nous savons que cela nécessite un niveau de littératie numérique encore peu répandu parmi les chercheur·se·s en histoire de l’art. Cependant, grâce à l’accessibilité et à la transparence de notre dispositif, nous invitons celles et ceux qui seraient intéressé·e·s à se former par la pratique, ou du moins à développer une compréhension plus fine du code afin de pouvoir, éventuellement, y apposer un regard critique.
+C’est la raison pour laquelle nous souhaitons encourager la réutilisation et l’appropriation de son code en le publiant sous une licence libre[17](http://revuecaptures.org/article-dune-publication/constellations-de-données-historiques#footnote17_bnrpj0k). L’objectif est de faciliter les ajouts, les modifications et les contre-propositions, ainsi que la réutilisation du code pour d’autres projets. Nous savons que cela nécessite un niveau de littératie numérique encore peu répandu parmi les chercheur·se·s en histoire de l’art. Cependant, grâce à l’accessibilité et à la transparence de notre dispositif, nous invitons celles et ceux qui seraient intéressé·e·s à se former par la pratique, ou du moins à développer une compréhension plus fine du code afin de pouvoir, éventuellement, y apposer un regard critique.
 
 Si la construction de notre atlas est un processus en constante évolution, nous pensons avoir démontré le potentiel de la cartographie et de la visualisation pour transformer l’étude d’une base de données. L’interface visuelle et interactive de l’atlas numérique offre une approche inédite du contenu des archives du Conseil des bâtiments civil et permet de renouveler la recherche en faisant usage des méthodes numériques disponibles aujourd’hui. À la manière du millefeuille topographique imaginé par Dario Gamboni, l’atlas plonge l’utilisateur dans « [des] profondeur[s] qui invite[nt] à l’excavation » (2008: 6). Il reste cependant ancré dans des préoccupations contemporaines à ses sources, afin de se distancier d’éventuels anachronismes que l’écart entre les archives du XIXe siècle et les nouvelles technologies du web appliquées à une base de données pourraient générer. S’il n’est pas toujours évident de savoir comment se servir des données dans la recherche en histoire de l’art, la cartographie et la visualisation se révèlent être des instruments précieux dans le contexte numérique.
 
