@@ -1,14 +1,30 @@
 # Administration et architecture publique en France au XIXe siècle
 
-Afin de travailler sur la base de données CONBAVIL, nous devons commencer par étudier le contexte historique et politique dans lequel les archives qu'elle référence ont été produites. Nous allons tout d'abord chercher à comprendre le fonctionnement administratif et politique de la République. Puisque le Conseil des bâtiments civils faisait partie d'un complexe administratif dont la portée était d'envergure nationale, il nous semble important de proposer avant tout un portrait des modes de pensées et de savoir de l'époque, dans le rapport au territoire comme dans l'action de l'administration. Nous ferons ensuite l'état des connaissances actuelles sur le Conseil des bâtiments civils. Il s'agira, par cette étude, de bien comprendre le contexte de production des sources. 
+L'architecture publique est une construction de l'État. C'est donc toute une politique et une structure gouvernementale qu'il faut considérer lorsqu'on veut s'y intéresser. Cela est d'autant plus important qu'au lendemain de la Révolution française, le champs de l'architecture et des arts en général se déplace d'une représentation des privilèges de l'Élite à celle des symboles de l'État. Les changements structurels sont politiques, économiques, sociaux mais aussi intellectuels et artistiques (Loyer 1999: <!-- à chercher, dans intro-->). 
 
-<!--Finalement, nous chercherons à identifier un modèle, ou une copie théorique, qui servira de se source d'inspiration pour notre nouvelle interface pour CONBAVIL.-->
+La construction d'un Etat-Nation et de son récit national emploie par des principes comme le fameux énoncé "liberté, égalité, fraternité" (Roche-Noel <!--à retrouver et completer-->). 
+
+Imaginaire national (Anderson)
+
+Il faut également considérer l'unification de la langue et du territoire ou encore la production d'image et de récits, de cartes, de monument et d'architecture. On en trouve un excellent exemple dans la carte de "La France actuelle et ses anciens défenseurs" (Fig.1). 
+
+
+
+
+
+<img src="./img/FranceActuelleEtSesAnciensDefenseurs_1838.jpeg" style="zoom: 67%;" />
+
+Fig. 1 . *La France actuelle et ses anciens défenseurs. Carte de France physique et administrative* (1838) dressée par P. Tardieu. Bibliothèque nationale de France: https://gallica.bnf.fr/ark:/12148/btv1b53083503z
+
+
+
+Dans le premier chapitre de ce mémoire, nous étudions ce système afin de situer le contexte historique et politique dans lequel les archives en question ont été produites. Nous détaillons tout d'abord le fonctionnement administratif et politique de la République. En effet, le Conseil des bâtiments civils faisait partie d'un complexe administratif dont la portée était d'envergure nationale. Ensuite, il nous semble important de présenter un portrait des modes de pensées de l'époque, dans le rapport au territoire comme dans l'action de l'administration. Parmi les formes de savoir employées par cette administration pour définir et mesurer son action, nous détaillerons en particulier l'emploi de la cartographie et de la statistique. Finalement, nous explorons la traduction de ces modes de pensées dans le cadre spécifique de l'administration de l'architecture publique, c'est-à-dire au sein du Conseil des bâtiments civils. Nous y faisons ensuite l'état des connaissances actuelles sur le Conseil des bâtiments civils et nous chercherons à éclairer le contexte de production des sources. Cette mise en contexte et la présentation des enjeux nous serviront par la suite de cadre critique pour la construction de notre instrument de recherche. 
 
 ## L'administration en France au lendemain de la Révolution
 
 La notion de bien public prend son importance en France au lendemain de la Révolution française. L'abolition des privilèges tout comme de l'esclavage place les citoyens sur un relatif pied d'égalité [^22] . C'est l'émergence de tout un raisonnement rationnel où l'État-nation a pour rôle de fournir des biens et des services pour tous. Nous allons étudier l'instauration et l'institutionnalisation de ce paradigme issu des grandes idées des Lumières. Nous verrons ses débuts suivant la Révolution de 1789 et nous le détaillerons dans le cadre spécifique de l'architecture publique.
 
-Ces ambitions gouvernementales ont pour prérequis une organisation spatiale qui les structure et les distribue sur le territoire. Nous commençons donc cette première partie avec la division du territoire en département, pour ensuite définir le fonctionnement de la nouvelle administration, qui se caractérise par la centralisation du pouvoir et une forte rationalisation de ses décisions. Nous poursuivrons ensuite avec les formes de savoir qui étaient employées par cette administration pour définir et mesurer son action, particulièrement la cartographie et la statistique. Finalement, nous exploreront la traduction de ces modes de pensées dans le cadre spécifique de l'administration de l'architecture publique, c'est-à-dire au sein du Conseil des bâtiments civils. Cette mise en contexte et la présentation des enjeux nous serviront par la suite de cadre critique pour la construction de notre instrument de recherche. 
+Ces ambitions gouvernementales ont pour prérequis une organisation spatiale qui les structure et les distribue sur le territoire. Nous commençons donc cette première partie avec la division du territoire en département, pour ensuite définir le fonctionnement de la nouvelle administration, qui se caractérise par la centralisation du pouvoir et une forte rationalisation de ses décisions. 
 
 ### La division du territoire en départements
 
@@ -60,9 +76,7 @@ Malgré cette volonté d'organisation intemporelle à la logique transcendante, 
 [Installation d'un **pouvoir fort et autoritaire: traduit les projets antérieurs ambitieux en des institutions efficaces** (code civil, lycée, administration préfectorale, recensements, bureau de la statistique)
 unification de la nation passe par une _diffusion des connaissances sur les territoires qui la composent_]
 
-![](./img/FranceActuelleEtSesAnciensDefenseurs_1838.jpeg)
 
-Fig. 3 . *La France actuelle et ses anciens défenseurs. Carte de France physique et administrative* (1838) dressée par P. Tardieu. Bibliothèque nationale de France: https://gallica.bnf.fr/ark:/12148/btv1b53083503z
 
 ## Formes de savoir et de pouvoir au début du XIXème siècle
 
