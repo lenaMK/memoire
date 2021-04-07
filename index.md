@@ -4,7 +4,7 @@ Ceci est une page web pour faciliter la relecture de mon mémoire de maîtrise, 
 
 Actuellement en cours de rédaction, je mets en ligne des parties prêtes à la relectures. Ceci est un travail en cours, le contenu va donc évoluer régulièrement. Par exemple, les titres sont tous temporaires. Commentaires et suggestions bienvenus, soit à même la page via [hypothesis](https://web.hypothes.is/#features), soit par courriel: lena.krause@umontreal.ca
 
-Dernière date de modification: 22 mars 2021.
+Dernière date de modification: 7 avril 2021.
 
 ___
 
@@ -20,16 +20,16 @@ ___
 
 ### Chapitre 1: Administration et architecture publique en France au XIXe siècle
 
-[Chapitre 1](./Redaction/Chapitre1.md) (1ère ébauche)
+[Chapitre 1](./Redaction/Chapitre1.md) 
 
 - 1.1 Administration en France au lendemain de la Révolution
   - La division du territoire en départements
-- Une administration centralisée
+  - Une administration centralisée
   - La rationalisation de l'action public
-- 1.2 Formes de savoir et de pouvoir au début du XIXème siècle 
-  - Miroirs du territoire
-  - Statistique
-  - Pensée cartographique
+- 1.2 Formes de savoir et de pouvoir à l'œuvre
+  - Miroir du territoire ou de la nation
+  - La statistique
+  - La pensée cartographique
 - 1.3 Le conseil des bâtiments civils
   - L'administration de l'architecture publique
   - Archives du projet architectural
