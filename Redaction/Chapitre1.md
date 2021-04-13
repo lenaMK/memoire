@@ -1,3 +1,5 @@
+[TOC]
+
 # Administration et architecture publique en France au XIXe siècle
 
 L'architecture publique est une construction de l'État. Il faut donc considérer toute une politique et une structure gouvernementale lorsqu'on veut s'y intéresser. Cela est d'autant plus important qu'au lendemain de la Révolution française, le champ de l'architecture et des arts en général se déplace d'une représentation des privilèges de l'Élite à celle des symboles de l'État. Les changements structurels sont politiques, économiques, sociaux mais aussi intellectuels et artistiques (Loyer 1999: <!-- à chercher, dans intro-->). 

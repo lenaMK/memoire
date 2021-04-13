@@ -1,4 +1,6 @@
-#  Chapitre 3
+[TOC]
+
+# Chapitre 3
 
 Nous voulons désormais créer un espace de travail pour l'interprétation et l'expérimentation avec les données de CONBAVIL. Il s'agit de concevoir un dispositif exploratoire qui a pour source d'inspiration les questions de recherche évoquées par les chercheur·se·s impliqué·e·s dans la création de la base, l'historiographie des recherches sur le sujet et le contexte historique, c'est-à-dire la statistique, la cartographie thématique et la rationalisation administrative. Nous cherchons, dans un premier temps, des concordances entre ces questions et les moyens méthodologiques et technologiques à notre disposition. Nous expérimentons ensuite avec leur mise en pratique de façon isolée, avant de les rassembler dans un espace éditorial commun: l'atlas numérique de l'architecture publique en France (1795 - 1840). Cet atlas est à la fois un outil de réflexion théorique autour des enjeux d'éditorialisation et de conception d'interfaces de recherche, et un micro-prototype issu de l'application pratique de ces opérateurs théoriques. 
 
@@ -106,38 +108,42 @@ La dernière catégorie d'outil sont les librairies de code, telles que Leaflet.
 
 fig.3 *Carte des projets CONBAVIL*
 
-La librairie D3.js se spécialise quant à elle en *data-driven visualizations* (Bostock, 2019a). Les données sont converties en graphiques directement dans le navigateur. Ces graphiques s'animent sous l'action de l'utilisateur·rice·s, qui peut ainsi sélectionner les données à afficher ou régler le niveau de détail lors de la consultation.
+La librairie D3.js se spécialise quant à elle en *data-driven visualizations* (Bostock, 2019a). Les données sont converties en graphiques directement dans le navigateur. Ces graphiques, dont nous présentons des excemples ci-dessous (fig.4) s'animent sous l'action de l'utilisateur·rice·s, qui peut ainsi sélectionner les données à afficher ou régler le niveau de détail lors de la consultation.
 
 <div>
     <iframe width="100%" height="500" frameborder="0" src="https://observablehq.com/embed/@d3/gallery?cell=*">&nbsp;</iframe>
 </div>
 
-​    <a href="https://observablehq.com/@d3/gallery" target="_blank" class="return">Lien vers la source</a>
+​    Fig. 4, Galerie d'exemples de visualisations avec D3.js (2020) Mike Bostock, <a href="https://observablehq.com/@d3/gallery" target="_blank" class="return">ObservableHQ</a>
 ​    
 
-Nous avons établis plusieurs critères pour sélectionner un outil de visualisation et de cartographie pour CONBAVIL. Nous souhaitions, dès le départ, explorer une pluralité de formes visuelles, de la cartographie aux différentes formes de graphiques et de diagrammes. L'accès web et interactif à ces visualisations est également important dans la conception d'un instrument de recherche. Dans l'ensemble, nous voulions privilégier un outil qui permette la création d'un espace de recherche pour les données de CONBAVIL. C'est pourquoi nous avons choisi de travailler avec la librairie d3.js, conçue pour le web et qui offre la plus grande flexibilité et variété dans les formes de visualisation de données ainsi que dans les interactions possibles.
+Nous avons établis plusieurs critères pour sélectionner un outil de visualisation et de cartographie pour CONBAVIL. Nous souhaitions, dès le départ, explorer une pluralité de formes visuelles, de la cartographie aux différentes formes de graphiques et de diagrammes. L'accès web et interactif à ces visualisations est également important dans la conception d'un instrument de recherche. Dans l'ensemble, nous voulions privilégier un outil qui permette la création d'un espace de recherche pour les données de CONBAVIL et disposer d'un maximum de possibilités d'expérimentation visuelle. C'est pourquoi nous avons choisi de travailler avec la librairie d3.js, conçue pour le web et qui offre la plus grande flexibilité et variété dans les formes de visualisation de données ainsi que dans les interactions possibles.
 
 ## 3.2 Pratiques de visualisation et de cartographie
 
-L’exploitation des données de CONBAVIL que nous proposons prend diverses formes diagrammatiques : cartographie, mais aussi chronologie et typologie. Chaque visualisation est une proposition, une vue sur les données. La perspective change selon la caractéristique mise de l’avant par le graphique : la géolocalisation pour la carte, la date de discussion de l’affaire pour la chronologie et le type architectural pour la classification hiérarchique rayonnante.
+L’exploration visuelle des données de CONBAVIL que nous proposons prend diverses formes diagrammatiques : cartographie, mais aussi chronologie et typologie. Chaque une proposition présente une vue sur les données. La perspective change selon la caractéristique mise de l’avant par le graphique : la géolocalisation pour la carte, la date de discussion de l’affaire pour la chronologie et le type architectural pour la classification hiérarchique rayonnante.
 
-### 3.2.1 Cartographier CONBAVIL
+### 3.2.1 Expérimenter avec les échelles
 
-Pour cartographier CONBAVIL, nous partons des informations spatiales renseignées dans CONBAVIL, c’est-à-dire du nom des communes pour lesquelles des projets architecturaux ont été examinés par le Conseil des bâtiments civils. 
+Dès les premières recherches de ce mémoire, il semblait essentiel de cartographier CONBAVIL à partir informations spatiales renseignées dans CONBAVIL. Chaque délibération, c’est-à-dire chaque projet architectural évalué par le Conseil des bâtiments civils lors d'une de ses séances, continent dans sa description les noms de commune, de département et de région, ainsi que le numéro de département. Notre premier essai cartographique est inspiré des travaux de Teyssot et Lepetit, dont leur emploi de l'échelle du département. Cela semblait évident pour procéder à une comparaison entre leur travail et les nouvelles données dont nous disposons avec CONBAVIL. 
 
-<!-- carte département-->
+Le fond de carte sélectionné est un découpage de la France en départements datant de 1831[^3]. Nous l'avons ensuite complété de façon colorimétrique, exactement comme les autres cartes thématiques que nous avons vues, en indiquant la densité des projets. Comme la carte est interactive, on peut passer par dessus chaque département pour voir le nombre exact de délibérations concernées. Cliquer n'affiche, pour le moment, que le nom du département et le ce chiffre associé. Toutefois, puisque la carte est réalisée à partir des données de CONBAVIL, il serait aisé d'afficher les délibérations concernées lors de la sélection d'un département. 
+
+<div>
+    <iframe width="100%" height="129" frameborder="0"   src="https://observablehq.com/embed/47e03b0eadfc73b3?cells=viewof+gradientLegend"></iframe>
+</div>
 
 <img src="./img/CONBAVIL_carte_departements.PNG" style="zoom: 50%;" />
 
+fig. 5
+
 <!--<div><iframe src="" title="Lena Krause, *[Carte des départements français et densité des projets Conbavil](https://www.public.archi/atlas-numerique/viz/carteCommunes/index.html)* (2019), Produite comme prototype dans le cadre du projet *Atlas numérique de l’architecture publique en France (1795-1840)*, Montréal : Université de Montréal " width="640" height="480" style="display:block; margin: 0 auto;">&nbsp;</iframe></div>-->
 
+Si cette 
 
 
 
-
-
-
-
+Malgré quelques difficultés, documentées dans la partie 2.3.2, nous avons ainsi pu 
 
 Nous sommes ainsi parvenue à établir une liste d’emplacements que nous avons ensuite géolocalisés[^2]. (annexe ?)
 
@@ -169,12 +175,6 @@ heat map = fig.3 <!-- add iframe-->
 
 
 
-
-
-
-
-Lors de la production de la carte, chaque commune est figurée par un point dont la taille est proportionnelle aux nombres d’affaires la concernant. Le fond de carte sélectionné est un découpage de la France en départements datant de 1831[^3]. Celui-ci situe les communes tout en restant dans une relative abstraction, ce qui favorise la lisibilité de la carte. Les limites départementales offrent un repère géographique tout en rappelant le contexte historique. Il serait bien entendu préférable de disposer d’un fond de carte qui rende compte des évolutions des divisions administratives du territoire au cours des années, mais, malheureusement, ce jeu de données géo-historiques n’est pas encore disponible pour la France de cette époque.
-
 ##### Questions d'échelle
 
 
@@ -184,6 +184,12 @@ Lors de la production de la carte, chaque commune est figurée par un point dont
 <img src="./img/bigParis.PNG" alt="bigParis" style="zoom: 67%;" />
 
 <img src="./img/cercles.PNG" alt="cercles" style="zoom: 50%;" />
+
+### 3.12.2 Cartographie de CONBAVIL
+
+Lors de la production de la carte, chaque commune est figurée par un point dont la taille est proportionnelle aux nombres d’affaires la concernant. Le fond de carte situe les communes tout en restant dans une relative abstraction, ce qui favorise la lisibilité de la carte. Les limites départementales offrent un repère géographique tout en rappelant le contexte historique. Il serait bien entendu préférable de disposer d’un fond de carte qui rende compte des évolutions des divisions administratives du territoire au cours des années, mais, malheureusement, ce jeu de données géo-historiques n’est pas encore disponible pour la France de cette époque.
+
+##### 
 
 <div>
     <iframe src="https://www.public.archi/atlas-numerique/viz/carteCommunes/index.html" title="Lena Krause, *[Carte des départements français et densité des projets Conbavil](https://www.public.archi/atlas-numerique/viz/carteCommunes/index.html)* (2019), Produite comme prototype dans le cadre du projet *Atlas numérique de l’architecture publique en France (1795-1840)*, Montréal : Université de Montréal " width="100%" height="700" frameborder="0"  style="display:block; margin: 0 auto;">&nbsp;</iframe>
@@ -200,7 +206,7 @@ Cette carte permet ainsi de mener, pour la première fois, une analyse visuelle,
 
 ]
 
-### 3.2.2 Chronologie
+### 3.2.3 Diagrammes: Chronologie et typologie
 
 La deuxième visualisation cible quant à elle les données temporelles. À partir du code de Mike Bostock, créateur de la bibliothèque D3.js (2019b), nous avons généré une chronologie des séances du Conseil précisant le nombre de projets évalués à chaque occurrence. Ce graphique permet ainsi de rendre compte de la fréquence des séances du Conseil et de la quantité d’affaires traitées au fil du temps. Grâce à la fonction de zoom, l’utilisateur peut modifier l’axe chronologique et examiner de manière détaillée des intervalles temporels plus restreints. En dessous de cette visualisation, la légende, qui est elle-même un graphique, sert de repère. Elle situe la section visualisée et propose un autre moyen de parcourir la chronologie. Malgré tout l’intérêt de ces manipulations, l’illusion de continuité que cette figure pourrait donner à l’utilisateur constitue un problème important. En effet, le graphique génère une courbe qui relie les événements entre eux. C’est la raison pour laquelle nous avons choisi une courbe en escalier[^5], qui crée des paliers entre chaque élément, pour essayer de discrétiser l’information, c’est-à-dire la séparer en des unités distinctes. Le problème persiste néanmoins en partie, car il n’est pas possible de distinguer les séances consécutives ayant le même nombre de délibérations. En outre, on ne peut pas visualiser les interruptions dans les sources : par exemple, il n’y a pas de séance entrée dans la base de données entre le 8 octobre 1833 et le 3 janvier 1834, mais la ligne continue suggère un nombre stable de délibérations pendant toute la période.
 
@@ -220,9 +226,6 @@ Lena Krause, *Chronologie des séances du Conseil des bâtiments civils* (détai
     <iframe width="100%" height="600" frameborder="0" style="display:block; margin: 0 auto;" src="https://www.public.archi/atlas-numerique/viz/barChart/index.html" title="Lena Krause, [*Séances du Conseil des bâtiments civils*](https://www.public.archi/atlas-numerique/viz/barChart/index.html) (2019), Produite comme prototype dans le cadre du projet *Atlas numérique de l’architecture publique en France (1795-1840)*, Montréal : Université de Montréal ">&nbsp;</iframe>
 </div>
 
-
-
-### 3.2.3 Typologie
 
 Finalement, nous avons puisé dans les informations d’ordre typologique compilées dans CONBAVIL. Les chercheur·se·s chargé·e·s du dépouillement de ces données ont catégorisé les affaires évaluées par le Conseil selon leur type architectural, en se référant au *Thésaurus de la désignation des œuvres architecturales et des espaces aménagés* (Vergain, 2015)[^6]. Ce dernier classe les productions architecturales selon une typologie allant jusqu’à huit niveaux de détail. Par exemple, dans la catégorie « génie civil » figure la sous-catégorie « ouvrage d’art », qui elle-même contient « pont », « égout » ou « quai ». Ce système arborescent est judicieusement visualisé dans la version interactive du graphique circulaire à plusieurs niveaux, ou *Sunburst* (Bostock, 2018a), que nous avons élaboré. Chaque niveau est composé de catégories dont la largeur figure les proportions respectives. Étant limité à deux niveaux apparents, le diagramme maintient une grande lisibilité tout en donnant accès à un contenu plus détaillé par la voie de l’interactivité (Bostock, 2018b). Cette visualisation des données de CONBAVIL fournit ainsi une représentation visuelle du *Thésaurus*, qui, jusqu’à présent, ne pouvait être parcouru qu’en suivant une structure hiérarchique d’hyperliens.
 

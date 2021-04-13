@@ -1,3 +1,5 @@
+[TOC]
+
 # Chapitre 2: les données CONBAVIL
 
 Ce chapitre présente une analyse critique des données de CONBAVIL. En amont des particularités de notre base de données, une première critique concerne le terme "données", qui sonne intrinsèquement comme un fait, quelque chose qui "est donné". Pour contrer cet effet, la chercheuse et *digital humanist* Johanna Drucker martèle "*all data is capta*" (Drucker 2013: 129 ). Par ce changement de terminologie, elle souhaite souligner le cadre interprétatif sous-jacent à la captation des données. 
