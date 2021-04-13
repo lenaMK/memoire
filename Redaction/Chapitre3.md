@@ -102,7 +102,7 @@ Nous avons ici employé QGIS pour visualiser les données du recensement des com
 
 La dernière catégorie d'outil sont les librairies de code, telles que Leaflet.js et D3.js. Leur emploi requiert des connaissances en programmation. Une librairie de code est un ensemble d'outils de programmation auxquels on peut faire appel pour coder un projet. Leaflet.js, par exemple, est conçue pour la création de cartes interactives. Nous en avons testé la fonctionnalité qui permet de créer une *heat map* (fig. 3), nous y reviendrons dans la sous-partie sur la cartographie 3.2.1.
 
-<img src="/home/lenamk/Documents/memoire/Redaction/img/Leaflet_heatMap.png" alt="Environnement Leaflet - CONBAVIL" style="zoom:55%;" />
+<img src="./img/Leaflet_heatMap.png" alt="Environnement Leaflet - CONBAVIL" style="zoom:55%;" />
 
 fig.3 *Carte des projets CONBAVIL*
 
@@ -121,11 +121,13 @@ Nous avons établis plusieurs critères pour sélectionner un outil de visualisa
 
 L’exploitation des données de CONBAVIL que nous proposons prend diverses formes diagrammatiques : cartographie, mais aussi chronologie et typologie. Chaque visualisation est une proposition, une vue sur les données. La perspective change selon la caractéristique mise de l’avant par le graphique : la géolocalisation pour la carte, la date de discussion de l’affaire pour la chronologie et le type architectural pour la classification hiérarchique rayonnante.
 
-### 3.2.1 Cartographie
+### 3.2.1 Cartographier CONBAVIL
 
-Pour la carte, nous partons des informations spatiales renseignées dans CONBAVIL, c’est-à-dire du nom des communes pour lesquelles des projets architecturaux ont été examinés par le Conseil des bâtiments civils. 
+Pour cartographier CONBAVIL, nous partons des informations spatiales renseignées dans CONBAVIL, c’est-à-dire du nom des communes pour lesquelles des projets architecturaux ont été examinés par le Conseil des bâtiments civils. 
 
 <!-- carte département-->
+
+<img src="./img/CONBAVIL_carte_departements.PNG" style="zoom: 50%;" />
 
 <!--<div><iframe src="" title="Lena Krause, *[Carte des départements français et densité des projets Conbavil](https://www.public.archi/atlas-numerique/viz/carteCommunes/index.html)* (2019), Produite comme prototype dans le cadre du projet *Atlas numérique de l’architecture publique en France (1795-1840)*, Montréal : Université de Montréal " width="640" height="480" style="display:block; margin: 0 auto;">&nbsp;</iframe></div>-->
 
@@ -133,13 +135,55 @@ Pour la carte, nous partons des informations spatiales renseignées dans CONBAVI
 
 
 
-Nous sommes ainsi parvenue à établir une liste d’emplacements que nous avons ensuite géolocalisés[^2]. 
+
+
+
+
+Nous sommes ainsi parvenue à établir une liste d’emplacements que nous avons ensuite géolocalisés[^2]. (annexe ?)
+
+heat map = fig.3 <!-- add iframe-->
+
+<img src="./img/heapmap_france.PNG" alt="heapmap_france" style="zoom: 25%;" />
+
+
+
+
+
+##### Exemples d'erreurs en cartographie numérique 
+
+(Mettre en annexe?)
+
+<img src="./img/minimalF$.PNG" alt="minimalF$" style="zoom:30%;" />
+
+
+
+<img src="./img/artContemporain.png" alt="artContemporain" style="zoom: 33%;" />
+
+<img src="./img/smallerFail.PNG" alt="smallerFail" style="zoom:25%;" />
+
+<img src="./img/prettyFailbis.PNG" alt="prettyFailbis" style="zoom:25%;" />
+
+<img src="./img/moreorless.PNG" alt="moreorless" style="zoom: 25%;" />
+
+
+
+
 
 
 
 
 
 Lors de la production de la carte, chaque commune est figurée par un point dont la taille est proportionnelle aux nombres d’affaires la concernant. Le fond de carte sélectionné est un découpage de la France en départements datant de 1831[^3]. Celui-ci situe les communes tout en restant dans une relative abstraction, ce qui favorise la lisibilité de la carte. Les limites départementales offrent un repère géographique tout en rappelant le contexte historique. Il serait bien entendu préférable de disposer d’un fond de carte qui rende compte des évolutions des divisions administratives du territoire au cours des années, mais, malheureusement, ce jeu de données géo-historiques n’est pas encore disponible pour la France de cette époque.
+
+##### Questions d'échelle
+
+
+
+<img src="./img/ProjetsConbavilFrance1831-communes.PNG" alt="ProjetsConbavilFrance1831-communes" style="zoom: 50%;" />
+
+<img src="./img/bigParis.PNG" alt="bigParis" style="zoom: 67%;" />
+
+<img src="./img/cercles.PNG" alt="cercles" style="zoom: 50%;" />
 
 <div>
     <iframe src="https://www.public.archi/atlas-numerique/viz/carteCommunes/index.html" title="Lena Krause, *[Carte des départements français et densité des projets Conbavil](https://www.public.archi/atlas-numerique/viz/carteCommunes/index.html)* (2019), Produite comme prototype dans le cadre du projet *Atlas numérique de l’architecture publique en France (1795-1840)*, Montréal : Université de Montréal " width="100%" height="700" frameborder="0"  style="display:block; margin: 0 auto;">&nbsp;</iframe>
