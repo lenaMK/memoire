@@ -123,11 +123,11 @@ Nous avons établis plusieurs critères pour sélectionner un outil de visualisa
 
 L’exploration visuelle des données de CONBAVIL que nous proposons prend diverses formes diagrammatiques : cartographie, mais aussi chronologie et typologie. Chaque une proposition présente une vue sur les données. La perspective change selon la caractéristique mise de l’avant par le graphique : la géolocalisation pour la carte, la date de discussion de l’affaire pour la chronologie et le type architectural pour la classification hiérarchique rayonnante.
 
-### 3.2.1 Expérimenter avec les échelles
+### 3.2.1 Premières expérimentations
 
 Dès les premières recherches de ce mémoire, il semblait essentiel de cartographier CONBAVIL à partir informations spatiales renseignées dans CONBAVIL. Chaque délibération, c’est-à-dire chaque projet architectural évalué par le Conseil des bâtiments civils lors d'une de ses séances, continent dans sa description les noms de commune, de département et de région, ainsi que le numéro de département. Notre premier essai cartographique est inspiré des travaux de Teyssot et Lepetit, dont leur emploi de l'échelle du département. Cela semblait évident pour procéder à une comparaison entre leur travail et les nouvelles données dont nous disposons avec CONBAVIL. 
 
-Le fond de carte sélectionné est un découpage de la France en départements datant de 1831[^3]. Nous l'avons ensuite complété de façon colorimétrique, exactement comme les autres cartes thématiques que nous avons vues, en indiquant la densité des projets. Comme la carte est interactive, on peut passer par dessus chaque département pour voir le nombre exact de délibérations concernées. Cliquer n'affiche, pour le moment, que le nom du département et le ce chiffre associé. Toutefois, puisque la carte est réalisée à partir des données de CONBAVIL, il serait aisé d'afficher les délibérations concernées lors de la sélection d'un département. 
+Le fond de carte sélectionné est un découpage de la France en départements datant de 1831[^3]. Nous l'avons ensuite complétée de façon colorimétrique, exactement comme les autres cartes thématiques que nous avons vues, en indiquant la densité des projets. Notre carte se distingue par son interactivité. On peut passer sa souris par dessus chaque département pour voir le nombre exact de délibérations concernées. Cliquer n'affiche, pour le moment, que le nom du département et le ce chiffre associé dans la console du navigateur. Toutefois, puisque la carte est réalisée à partir des données de CONBAVIL, il serait aisé d'afficher les délibérations concernées lors de la sélection d'un département. 
 
 <div>
     <iframe width="100%" height="129" frameborder="0"   src="https://observablehq.com/embed/47e03b0eadfc73b3?cells=viewof+gradientLegend"></iframe>
@@ -135,47 +135,53 @@ Le fond de carte sélectionné est un découpage de la France en départements d
 
 <img src="./img/CONBAVIL_carte_departements.PNG" style="zoom: 50%;" />
 
-fig. 5
+fig. 5 *Carte des départements français et densité des projets CONBAVIL* (2018), Lena Krause, carte réalisée sur ObservableHQ pendant le cours LLCU-498&698 "Digital Humanities Project" donné par Prof. Stéfan Sinclair.
 
 <!--<div><iframe src="" title="Lena Krause, *[Carte des départements français et densité des projets Conbavil](https://www.public.archi/atlas-numerique/viz/carteCommunes/index.html)* (2019), Produite comme prototype dans le cadre du projet *Atlas numérique de l’architecture publique en France (1795-1840)*, Montréal : Université de Montréal " width="640" height="480" style="display:block; margin: 0 auto;">&nbsp;</iframe></div>-->
 
-Si cette 
+Malgré le succès de cette première entreprise de cartographie numérique, nous trouvons que cette carte un peu décevante du point de vue herméneutique. À cette échelle, la cartographie des données présente un intérêt relatif. La densité de délibérations dans le département du Nord pose quelques questions, toutefois, on ne peut pas vraiment observer de tendance grâce à la spatialisation produite ici. Un·e chercheur·se qui travaillerait sur un département français pourrait immédiatement consulter les délibérations qui y sont associées. Outre la dimension visuelle de la requête, le résultat demeurerait cependant équivalent à une recherche par département effectuée dans l'interface de l'INHA. 
 
+Nous avons donc choisi de poursuivre nos expérimentations à une plus petite échelle: les communes. Avec plus de 30'000 communes françaises, il est presque impensable d'envisager un projet de cartographie thématique à cette échelle sans l'assistance d'un outil informatique. Nous avons d'ailleurs fait l'erreur un peu naîve d'employer le même code pour cartographier les communes que celui pour les département. Ce code dessine le contour de chaque élément puis inscrit son nom en son centre. Comme fond de carte, nous avons employé des données sur les divisions administratives françaises disponibles en ligne[^2].Le résultat (fig. 6) produit un dense nuage de noms qui recouvrent le territoire et dont on entrevoit des extraits en zone liminaire. Pour visualiser le maillage des communes, nous l'avons ouvert avec QGIS (fig. 7).
 
+<img src="./img/mapOfCommunes.png" alt="mapOfCommunes" style="zoom: 67%;" />
 
-Malgré quelques difficultés, documentées dans la partie 2.3.2, nous avons ainsi pu 
+fig. 6 *Carte des communes françaises*, Lena Krause (2018), capture d'écran de la visualisation réalisée sur [ObservableHQ](https://observablehq.com/d/05c73472e7a61b64)
 
-Nous sommes ainsi parvenue à établir une liste d’emplacements que nous avons ensuite géolocalisés[^2]. (annexe ?)
+![communesF](./img/communesF.PNG)
 
-heat map = fig.3 <!-- add iframe-->
+fig. 7 *Carte des communes françaises*, Lena Krause (2019), capture d'écran des données visualisées sur QGIS 
 
-<img src="./img/heapmap_france.PNG" alt="heapmap_france" style="zoom: 25%;" />
+Ce ne sont toutefois pas les 30'000 apparaissent dans CONBAVIL. Comme nous l'avons détaillé dans le chapitre précédent (2.3.2), nous avons établi la liste des communes dans CONBAVIL, auxquelles nous avons ensuite associé une géolocalisation. Nous avons également décidé qu'en considérant les communes à l'échelle de la France, le centroid serait une indication plus simple à gérer que la représentation de chaque aire[^7]. Sur la suggestion de Prof. Stéfan Sinclair, nous avons réalisé, avec son aide précieuse, notre première carte (fig. 5) dans l'environnement de code en ligne [*ObservableHQ*](https://observablehq.com/about) . Ces "cahiers numériques" ou *notebooks* sont conçus pour faciliter l'apprentissage et l'emploi de la librairie D3.js. Nous avons cependant dû quitter cet environnement car les données de CONBAVIL sont très lourdes à charger. De plus, nous n'avons pas le droit de les rendre accessibles publiquement en ligne, ce qui compliquait la tâche pour les employer dans Observable. 
 
+Nous avons donc commencé à coder nos visualisation nativement, en créant une page web classique composée de fichiers HTML, CSS et Javascript. INous avons longuement réfléchi à la possibilité d'employer, en plus de d3.js pour la visualisation de données, une librairie de code comme React.js pour bâtir notre interface. Toutefois, le temps d'apprentissage nécessaire ainsi que l'ampleur du travail requis pour coder chaque visualisation nous ont dissuadé de le faire dans le cadre de ce mémoire. Nous avons déjà eu bien des complications, à commencer par un grand nombres de problèmes dans nos tentatives de cartographie numérique. 
 
-
-
-
-##### Exemples d'erreurs en cartographie numérique 
+En effet, nous avons commencé à coder nos visualisations lors d'un séjour de recherche au MédiaLab à SciencesPo Paris. Malgré l'immense aide de Paul Girard, Arnaud Pichon et l'ensemble de l'équipe tech, nous avons eu de nombreux échecs cartographiques, comme le montrent ces exemples que nous avons documentés (fig. 8 - 12). 
 
 (Mettre en annexe?)
 
 <img src="./img/minimalF$.PNG" alt="minimalF$" style="zoom:30%;" />
 
+fig. 8 *Échec cartographique #1*, Lena Krause (2019), capture d'écran
+
 
 
 <img src="./img/artContemporain.png" alt="artContemporain" style="zoom: 33%;" />
 
+fig. 9 *Échec cartographique #2*, Lena Krause (2019), capture d'écran
+
 <img src="./img/smallerFail.PNG" alt="smallerFail" style="zoom:25%;" />
+
+fig. 10 *Échec cartographique #3*, Lena Krause (2019), capture d'écran
 
 <img src="./img/prettyFailbis.PNG" alt="prettyFailbis" style="zoom:25%;" />
 
+fig. 11 *Échec cartographique #4*, Lena Krause (2019), capture d'écran
+
 <img src="./img/moreorless.PNG" alt="moreorless" style="zoom: 25%;" />
 
+fig. 12 *Échec cartographique #5*, Lena Krause (2019), capture d'écran
 
-
-
-
-##### Questions d'échelle
+#### Questions d'échelle
 
 
 
@@ -184,6 +190,16 @@ heat map = fig.3 <!-- add iframe-->
 <img src="./img/bigParis.PNG" alt="bigParis" style="zoom: 67%;" />
 
 <img src="./img/cercles.PNG" alt="cercles" style="zoom: 50%;" />
+
+
+
+
+
+
+
+heat map = fig.3 <!-- add iframe-->
+
+<img src="./img/heapmap_france.PNG" alt="heapmap_france" style="zoom: 25%;" />
 
 ### 3.12.2 Cartographie de CONBAVIL
 
@@ -318,8 +334,13 @@ Si la construction de notre atlas est un processus en constante évolution, nous
 ## Notes
 
 [^1]: Le millefeuille comme analogie des multiples couches temporelles dans une représentation topographique est une analogie imagine par Dario Gamboni dans son article *Mille fleurs ou millefeuille? Pour un inventaire à* n *dimensions *(Gamboni 2008)* *
-[^2]: Pour les communes encore existantes en France aujourd’hui, nous avons utilisé [un fichier de données mis en ligne par Grégoire David](https://france-geojson.gregoiredavid.fr/) en 2018. Ce dernier partage, au format GeoJSON, les cartes des régions, départements, arrondissements, cantons et communes de France à partir  des données publiées par l’IGN et l’INSEE. Pour les autres communes,  nous avons utilisé le service [Nominatim d’Open Street Map](https://nominatim.openstreetmap.org/).
+[^2]: Nous avons utilisé [un fichier de données mis en ligne par Grégoire David](https://france-geojson.gregoiredavid.fr/) en 2018. Ce dernier partage, au format GeoJSON, les cartes des régions, départements, arrondissements, cantons et communes de France à partir  des données publiées par l’IGN et l’INSEE. 
 [^3]: Le fond de carte provient de l’école d’été « Méthodes et outils  numériques : la cartographie informatique en histoire », organisée  en 2018 à l’UQAM (GRHS - PIREH).
 [^4]: L’affichage du contenu textuel de la base de données est encore limité  dans l’interface, mais il est disponible, pour le moment, dans la  console du navigateur
 [^5]: [La documentation de D3.js](https://github.com/d3/d3-shape#curveLinear) présente clairement les différents types de courbes et leurs biais respectifs.
 [^6]: Puisque la base de données Conbavil a été créée en s’appuyant sur une version antérieure du thésaurus (*Thésaurus de l’architecture,* 2000), des ajustements mineurs ont dû être effectués
+[^12]: Pour les communes actuellement françaises, elles sont documentées dans CONBAVIL selon leur nom actuel. Nous avons donc établit la concordance entre ces noms et les entités géographiques et administratives dans le fichier de [Grégoire David](https://france-geojson.gregoiredavid.fr/). Pour les autre, nous avons utilisé le service [Nominatim d’Open Street Map](https://nominatim.openstreetmap.org/).
+
+<!-- cf chp2??? -->
+
+[^7]: Le centroid est le centre géométrique d'une surface. Il est calculé mathématiquement et est fréquemment employé en cartographie, pour inscrire le nom des zones géographiques par exemple. 
