@@ -121,11 +121,11 @@ Nous avons établis plusieurs critères pour sélectionner un outil de visualisa
 
 ## 3.2 Pratiques de visualisation et de cartographie
 
-L’exploration visuelle des données de CONBAVIL que nous proposons prend diverses formes diagrammatiques : cartographie, mais aussi chronologie et typologie. Chaque une proposition présente une vue sur les données. La perspective change selon la caractéristique mise de l’avant par le graphique : la géolocalisation pour la carte, la date de discussion de l’affaire pour la chronologie et le type architectural pour la classification hiérarchique rayonnante.
+Dès les premières recherches de ce mémoire, il semblait essentiel de cartographier CONBAVIL à partir informations spatiales renseignées dans CONBAVIL. Nous avons beaucoup expérimenté avant d'arriver à notre carte, c'est pourquoi nous commençons par décrire notre processus, avant de présenter nos prototypes d’exploration visuelle des données de CONBAVIL. Ceux-ci prennent diverses formes diagrammatiques et chaque une proposition présente une vue sur les données. La perspective change selon la caractéristique mise de l’avant par le graphique : la géolocalisation pour la carte, la date de discussion de l’affaire pour la chronologie et le type architectural pour la classification hiérarchique rayonnante. Nous effectuons ensuite un retour critique sur ces visualisations, une étape importante avant d'en arriver la forme-atlas.
 
-### 3.2.1 Premières expérimentations
+### 3.2.1 Premières expérimentations et questions d'échelle
 
-Dès les premières recherches de ce mémoire, il semblait essentiel de cartographier CONBAVIL à partir informations spatiales renseignées dans CONBAVIL. Chaque délibération, c’est-à-dire chaque projet architectural évalué par le Conseil des bâtiments civils lors d'une de ses séances, continent dans sa description les noms de commune, de département et de région, ainsi que le numéro de département. Notre premier essai cartographique est inspiré des travaux de Teyssot et Lepetit, dont leur emploi de l'échelle du département. Cela semblait évident pour procéder à une comparaison entre leur travail et les nouvelles données dont nous disposons avec CONBAVIL. 
+Chaque délibération, c’est-à-dire chaque projet architectural évalué par le Conseil des bâtiments civils lors d'une de ses séances, continent dans sa description les noms de commune, de département et de région, ainsi que le numéro de département. Notre premier essai cartographique est inspiré des travaux de Teyssot et Lepetit, dont leur emploi de l'échelle du département. Cela semblait évident pour procéder à une comparaison entre leur travail et les nouvelles données dont nous disposons avec CONBAVIL. 
 
 Le fond de carte sélectionné est un découpage de la France en départements datant de 1831[^3]. Nous l'avons ensuite complétée de façon colorimétrique, exactement comme les autres cartes thématiques que nous avons vues, en indiquant la densité des projets. Notre carte se distingue par son interactivité. On peut passer sa souris par dessus chaque département pour voir le nombre exact de délibérations concernées. Cliquer n'affiche, pour le moment, que le nom du département et le ce chiffre associé dans la console du navigateur. Toutefois, puisque la carte est réalisée à partir des données de CONBAVIL, il serait aisé d'afficher les délibérations concernées lors de la sélection d'un département. 
 
@@ -147,17 +147,15 @@ Nous avons donc choisi de poursuivre nos expérimentations à une plus petite é
 
 fig. 6 *Carte des communes françaises*, Lena Krause (2018), capture d'écran de la visualisation réalisée sur [ObservableHQ](https://observablehq.com/d/05c73472e7a61b64)
 
-![communesF](./img/communesF.PNG)
+<img src="./img/communesF.PNG" alt="communesF" style="zoom: 67%;" />
 
 fig. 7 *Carte des communes françaises*, Lena Krause (2019), capture d'écran des données visualisées sur QGIS 
 
 Ce ne sont toutefois pas les 30'000 apparaissent dans CONBAVIL. Comme nous l'avons détaillé dans le chapitre précédent (2.3.2), nous avons établi la liste des communes dans CONBAVIL, auxquelles nous avons ensuite associé une géolocalisation. Nous avons également décidé qu'en considérant les communes à l'échelle de la France, le centroid serait une indication plus simple à gérer que la représentation de chaque aire[^7]. Sur la suggestion de Prof. Stéfan Sinclair, nous avons réalisé, avec son aide précieuse, notre première carte (fig. 5) dans l'environnement de code en ligne [*ObservableHQ*](https://observablehq.com/about) . Ces "cahiers numériques" ou *notebooks* sont conçus pour faciliter l'apprentissage et l'emploi de la librairie D3.js. Nous avons cependant dû quitter cet environnement car les données de CONBAVIL sont très lourdes à charger. De plus, nous n'avons pas le droit de les rendre accessibles publiquement en ligne, ce qui compliquait la tâche pour les employer dans Observable. 
 
-Nous avons donc commencé à coder nos visualisation nativement, en créant une page web classique composée de fichiers HTML, CSS et Javascript. INous avons longuement réfléchi à la possibilité d'employer, en plus de d3.js pour la visualisation de données, une librairie de code comme React.js pour bâtir notre interface. Toutefois, le temps d'apprentissage nécessaire ainsi que l'ampleur du travail requis pour coder chaque visualisation nous ont dissuadé de le faire dans le cadre de ce mémoire. Nous avons déjà eu bien des complications, à commencer par un grand nombres de problèmes dans nos tentatives de cartographie numérique. 
+Nous avons donc commencé à coder nos visualisation nativement, en créant une page web classique composée de fichiers HTML, CSS et Javascript. Nous avons longuement réfléchi à la possibilité d'employer, en plus de d3.js pour la visualisation de données, une librairie de code comme React.js pour bâtir notre interface. Toutefois, le temps d'apprentissage nécessaire ainsi que l'ampleur du travail requis pour coder chaque visualisation nous ont dissuadé de le faire dans le cadre de ce mémoire. Nous avons déjà eu bien des complications, à commencer par un grand nombres de problèmes dans nos tentatives de cartographie numérique. 
 
-En effet, nous avons commencé à coder nos visualisations lors d'un séjour de recherche au MédiaLab à SciencesPo Paris. Malgré l'immense aide de Paul Girard, Arnaud Pichon et l'ensemble de l'équipe tech, nous avons eu de nombreux échecs cartographiques, comme le montrent ces exemples que nous avons documentés (fig. 8 - 12). 
-
-(Mettre en annexe?)
+En effet, nous avons commencé à coder nos visualisations lors d'un séjour de recherche au MédiaLab à SciencesPo Paris. Malgré l'immense aide de Paul Girard, Arnaud Pichon et l'ensemble de l'équipe tech, nous avons eu de nombreuses difficultés en cartographie numérique, comme le montrent ces quelques exemples que nous avons documentés (fig. 8 - 12). 
 
 <img src="./img/minimalF$.PNG" alt="minimalF$" style="zoom:30%;" />
 
@@ -165,7 +163,7 @@ fig. 8 *Échec cartographique #1*, Lena Krause (2019), capture d'écran
 
 
 
-<img src="./img/artContemporain.png" alt="artContemporain" style="zoom: 33%;" />
+<img src="./img/artContemporain.png" alt="artContemporain" style="zoom: 50%;" />
 
 fig. 9 *Échec cartographique #2*, Lena Krause (2019), capture d'écran
 
@@ -181,31 +179,43 @@ fig. 11 *Échec cartographique #4*, Lena Krause (2019), capture d'écran
 
 fig. 12 *Échec cartographique #5*, Lena Krause (2019), capture d'écran
 
-#### Questions d'échelle
-
-
+Nous sommes finalement parvenues à un résultat correct dans l'encodage et la projection des données (fig.13). Cette carte, que nous avons espièglement surnommée "varicelle", place un point rouge sur chaque commune présente dans CONBAVIL. Nous avons réemployé le fond de carte de 1831, cette fois non pas comme réceptacle du contenu mais en guise de contenant, tel un guide visuel situe les communes. Si les délimitation des départements s'est modifiée souvent pendant l'époque concernée, nous ne disposons pas (encore) des versions numérique de chaque division à travers le temps. Si cela enrichirait considérablement la carte, nous sommes au moins satisfaite d'avoir un fond de carte d'époque. 
 
 <img src="./img/ProjetsConbavilFrance1831-communes.PNG" alt="ProjetsConbavilFrance1831-communes" style="zoom: 50%;" />
 
+fig. 13 *Carte varicelle CONBAVIL*, Lena Krause (2019) capture d'écran des expérimentations cartographiques
+
+Maintenant que chaque commune est figurée par un point, nous devons encore ajuster la taille des points en fonction du nombre de projets en ce lieu. La disproportion de délibérations à Paris a tout d'abord donné naissance à cette carte, dite "nez rouge" (fig. 14). 
+
 <img src="./img/bigParis.PNG" alt="bigParis" style="zoom: 67%;" />
+
+fig. 14 *Carte nez rouge CONBAVIL*, Lena Krause (2019) capture d'écran des expérimentations cartographiques
+
+Nous avons essayé d'ajuster l'échelle, et l'excès dans l'ajustement a créé une autre carte "noyée" par ses contenus (fig. 15). Cette carte, illisible à première vue, possète toutefois un curieux potentiel herméneutique. En effet, cette carte interagit avec la position de la souris. On peut ainsi l'explorer en la survolant. Chaque cercle se révèle en changeant de couleur lorsqu'il est "actif", c'est-à-dire lorsque la souris passe dessus. Ainsi, tel un explorateur dans un grotte sombre, la souris fait office de lampe de poche qui révèle les contenus entremêlés. <!-- iframe de la carte exploratoire-->
 
 <img src="./img/cercles.PNG" alt="cercles" style="zoom: 50%;" />
 
+fig. 15 *Carte spéléologique de CONBAVIL*
 
-
-
-
-
-
-heat map = fig.3 <!-- add iframe-->
+Au cours de ce processus, nous avons également expérimenté avec d'autres librairies de code, comme leaflet.js. Cette librairie de cartographie interactive facilite grandement la tâche et permet "facilement" de créer des cartes. Entre deux échecs cartographiques, nous avons choisi de tester la fonctionnalité *heat map* ou carte thermique disponible dans la librairie[^8]. Le résultat donne une vue "empâtée" où l'on ne peut rien distinguer ni sélectionner (fig. 16). Nous avons essayé d'ajuster l'échelle, mais le rendu revenait à l'effet "nez rouge parisien" ou "beurrait épais" la surface de la France. Malgré la simplicité du code, qui inclut un fond de carte géographique et une fonctionnalité de zoom, le manque d'interactivité avec les données nous a dissuadé de continuer l'emploi de cette librairie, certes pratiques, mais un peu moins adaptées à nos préoccupations de recherche. <!-- add iframe-->
 
 <img src="./img/heapmap_france.PNG" alt="heapmap_france" style="zoom: 25%;" />
 
-### 3.12.2 Cartographie de CONBAVIL
+fig. 16 *Heat map CONBAVIL*
 
-Lors de la production de la carte, chaque commune est figurée par un point dont la taille est proportionnelle aux nombres d’affaires la concernant. Le fond de carte situe les communes tout en restant dans une relative abstraction, ce qui favorise la lisibilité de la carte. Les limites départementales offrent un repère géographique tout en rappelant le contexte historique. Il serait bien entendu préférable de disposer d’un fond de carte qui rende compte des évolutions des divisions administratives du territoire au cours des années, mais, malheureusement, ce jeu de données géo-historiques n’est pas encore disponible pour la France de cette époque.
+### 3.2.2 Prototypes
 
-##### 
+Nous arrivons désormais à la section consacrée aux prototypes de ce mémoire. Malgré un côté plus "fini" que les expérimentations de la partie précédente, nous prévenons nos lecteur·rice·s qu'il y aurait encore beaucoup d'ajustement souhaités, imaginés, ou même codés mais pas tout à fait fonctionnels. Leur état est donc restreint par des contraintes temporelles, mais pourrait encore beaucoup évoluer si l'opportunité d'y retravailler advient.
+
+#### Carte
+
+Notre carte figure chaque commune par un point dont la taille est proportionnelle aux nombres d’affaires la concernant. Cette fois, l'équilibre entre la taille des points se veut plus balancé, même si Paris demeure "écrasante". L'échelle est linéaire mais est calculé à partir de la racine carrée du nombre de délibérations, afin que les cercles gardent le bon ratio 
+
+<!-- try and produce a legend in observable, then embbed it with iframe -->
+
+Le fond de carte situe les communes tout en restant dans une relative abstraction, ce qui favorise la lisibilité de la carte. Les limites départementales offrent un repère géographique tout en rappelant le contexte historique. Il serait bien entendu préférable de disposer d’un fond de carte qui rende compte des évolutions des divisions administratives du territoire au cours des années, mais, malheureusement, ce jeu de données géo-historiques n’est pas encore disponible pour la France de cette époque.
+
+
 
 <div>
     <iframe src="https://www.public.archi/atlas-numerique/viz/carteCommunes/index.html" title="Lena Krause, *[Carte des départements français et densité des projets Conbavil](https://www.public.archi/atlas-numerique/viz/carteCommunes/index.html)* (2019), Produite comme prototype dans le cadre du projet *Atlas numérique de l’architecture publique en France (1795-1840)*, Montréal : Université de Montréal " width="100%" height="700" frameborder="0"  style="display:block; margin: 0 auto;">&nbsp;</iframe>
@@ -222,7 +232,7 @@ Cette carte permet ainsi de mener, pour la première fois, une analyse visuelle,
 
 ]
 
-### 3.2.3 Diagrammes: Chronologie et typologie
+#### Chronologie 
 
 La deuxième visualisation cible quant à elle les données temporelles. À partir du code de Mike Bostock, créateur de la bibliothèque D3.js (2019b), nous avons généré une chronologie des séances du Conseil précisant le nombre de projets évalués à chaque occurrence. Ce graphique permet ainsi de rendre compte de la fréquence des séances du Conseil et de la quantité d’affaires traitées au fil du temps. Grâce à la fonction de zoom, l’utilisateur peut modifier l’axe chronologique et examiner de manière détaillée des intervalles temporels plus restreints. En dessous de cette visualisation, la légende, qui est elle-même un graphique, sert de repère. Elle situe la section visualisée et propose un autre moyen de parcourir la chronologie. Malgré tout l’intérêt de ces manipulations, l’illusion de continuité que cette figure pourrait donner à l’utilisateur constitue un problème important. En effet, le graphique génère une courbe qui relie les événements entre eux. C’est la raison pour laquelle nous avons choisi une courbe en escalier[^5], qui crée des paliers entre chaque élément, pour essayer de discrétiser l’information, c’est-à-dire la séparer en des unités distinctes. Le problème persiste néanmoins en partie, car il n’est pas possible de distinguer les séances consécutives ayant le même nombre de délibérations. En outre, on ne peut pas visualiser les interruptions dans les sources : par exemple, il n’y a pas de séance entrée dans la base de données entre le 8 octobre 1833 et le 3 janvier 1834, mais la ligne continue suggère un nombre stable de délibérations pendant toute la période.
 
@@ -243,6 +253,10 @@ Lena Krause, *Chronologie des séances du Conseil des bâtiments civils* (détai
 </div>
 
 
+
+
+#### Typologie
+
 Finalement, nous avons puisé dans les informations d’ordre typologique compilées dans CONBAVIL. Les chercheur·se·s chargé·e·s du dépouillement de ces données ont catégorisé les affaires évaluées par le Conseil selon leur type architectural, en se référant au *Thésaurus de la désignation des œuvres architecturales et des espaces aménagés* (Vergain, 2015)[^6]. Ce dernier classe les productions architecturales selon une typologie allant jusqu’à huit niveaux de détail. Par exemple, dans la catégorie « génie civil » figure la sous-catégorie « ouvrage d’art », qui elle-même contient « pont », « égout » ou « quai ». Ce système arborescent est judicieusement visualisé dans la version interactive du graphique circulaire à plusieurs niveaux, ou *Sunburst* (Bostock, 2018a), que nous avons élaboré. Chaque niveau est composé de catégories dont la largeur figure les proportions respectives. Étant limité à deux niveaux apparents, le diagramme maintient une grande lisibilité tout en donnant accès à un contenu plus détaillé par la voie de l’interactivité (Bostock, 2018b). Cette visualisation des données de CONBAVIL fournit ainsi une représentation visuelle du *Thésaurus*, qui, jusqu’à présent, ne pouvait être parcouru qu’en suivant une structure hiérarchique d’hyperliens.
 
 <div>
@@ -253,7 +267,7 @@ Lena Krause, [*Répartition des projets CONBAVIL par type architectural*](http:/
 
 Notre soleil interactif CONBAVIL présente donc le contenu de la base de données par type architectural. Le fait de cliquer sur une catégorie permet de faire apparaître le niveau de profondeur suivant et le retour en arrière s’effectue en cliquant au centre du graphique. En glissant le curseur sur une catégorie, on peut voir le nombre de délibérations qui y sont associées. Rapidement, on constate que plus de la moitié des délibérations sont contenues dans trois catégories principales : « urbanisme », « architecture religieuse » et « architecture judiciaire, pénitentiaire ou de police ». La section « urbanisme » contient toutes les délibérations liées aux plans d’alignement des villes, car le Conseil était également responsable de l’ouverture des rues pour l’assainissement et l’embellissement des espaces publics (Château-Dutier, 2016, T1: 151-179). La prépondérance de l’architecture religieuse s’explique quant à elle par le grand nombre de réaffectations de bâtiments nationaux en écoles, préfectures et tribunaux, notamment (Woolf, 1987: 30-31).
 
-### Observations 
+### 3.2.3 Observations critiques
 
 La carte comme le soleil sont des graphiques cumulatifs, ce qui signifie que certaines délibérations y figurent plusieurs fois si elles sont associées à plusieurs lieux ou types architecturaux. Cette décision provient, entre autres, d’une incertitude dans les données, qui ne signalent pas de hiérarchie en cas d’attribution multiple. Il faut également garder à l’esprit que la carte, par exemple, ne représente pas le phénomène bâtisseur, mais reflète plutôt les délibérations du Conseil. La taille des points dépend donc du nombre de mentions lors des séances et non de la quantité de chantiers ouverts. Les graphiques créés sont exploratoires, ils ont pour but de mener à la découverte du contenu des archives. C’est pourquoi il nous a semblé pertinent d’offrir le plus grand nombre de points d’entrée possibles dans les données.
 
@@ -301,7 +315,7 @@ L'atlas est donc une forme éditoriale qui répond aux critères d'instrument de
 
 Le travail envisagé est un **acte éditorial**, il s’agit de donner une forme à l’objet en question : la base de données CONBAVIL. La création d’une nouvelle interface pour la base de données CONBAVIL sous la forme d’un atlas peut être comprise comme un acte d’éditorialisation[14](http://revuecaptures.org/article-dune-publication/constellations-de-données-historiques#footnote14_psr6wnd). Il s’agit d’une démarche processuelle, expérimentale et surtout multiple (Vitali-Rosati, 2016: 68). La visualisation et la cartographie ont considérablement évolué avec l’apparition des logiciels et outils informatiques. D’après les historiennes Claire Lemercier et Claire Zalc, « il n’est plus question de publier chaque tableau ou graphique péniblement obtenu, mais plutôt de les utiliser pour avancer dans une recherche, quitte à n’en montrer au lecteur final que quelques-uns » (2008: n.p.). Comparativement aux grandes équipes de chercheur·se·s, ingénieur·e·s, informaticien·ne·s, cartographes et perforateur·rice·s de cartes, indispensables aux grandes enquêtes collectives menées dans les années 70, il est de nos jours possible de réduire le personnel, le temps, les connaissances et les coûts nécessaires à la création de cartes (Lemercier, 2008)[15](http://revuecaptures.org/article-dune-publication/constellations-de-données-historiques#footnote15_7tulxje). Cela favorise particulièrement l’expérimentation, tant avec les formes et les variables graphiques qu’avec les calculs et les statistiques privilégiés pour la cartographie thématique. Aussi, les nombreuses itérations possibles au cours du processus de production nous invitent à repenser chaque élément jusqu’à ce qu’il convienne aux besoins du projet.
 
-### 3.3.2 L’atlas numérique comme instrument de recherche
+### 3.3.2 Un atlas numérique comme instrument de recherche
 
 Des liens entre les visualisations ont été tissés à deux niveaux. Tout d’abord, celles-ci sont regroupées dans un même espace éditorial qui reprend le modèle de l’atlas.
 
@@ -321,7 +335,7 @@ Lena Krause, *Modélisation de l’atlas* (2019) , Produite comme prototype dans
 
 Le potentiel de l'éditorialisation réside également dans l'évolution constante du contenu. Les technologies nécessaires pour la création de compte utilisateurs - qui pourraient, au cours de leur exploration de l'atlas, nettoyer, associer ou enrichir les données - sont disponibles. On peut également permettre l'export, statique ou interactif (intégration de la visualisation ou d'un iframe) des contenus afin de les associer à de nouvelles publications. 
 
-### 3.3.3 Contraintes, critique et conclusion
+### 3.3.3 L'imaginaire et ses limites
 
 
 
@@ -344,3 +358,4 @@ Si la construction de notre atlas est un processus en constante évolution, nous
 <!-- cf chp2??? -->
 
 [^7]: Le centroid est le centre géométrique d'une surface. Il est calculé mathématiquement et est fréquemment employé en cartographie, pour inscrire le nom des zones géographiques par exemple. 
+[^8]: Avec l'aide, toujours et encore, du très excellent Arnaud Pichon
