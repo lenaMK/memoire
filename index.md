@@ -4,7 +4,7 @@ Ceci est une page web pour faciliter la relecture de mon mémoire de maîtrise, 
 
 Actuellement en cours de rédaction, je mets en ligne des parties prêtes à la relectures. Ceci est un travail en cours, le contenu va donc évoluer régulièrement. Par exemple, les titres sont tous temporaires. Commentaires et suggestions bienvenus, soit à même la page via [hypothesis](https://web.hypothes.is/#features), soit par courriel: lena.krause@umontreal.ca
 
-Dernière date de modification: 7 avril 2021.
+Dernière date de modification: 14 avril 2021.
 
 ___
 
@@ -23,17 +23,17 @@ ___
 [Chapitre 1](./Redaction/Chapitre1.md) 
 
 - 1.1 Administration en France au lendemain de la Révolution
-  - La division du territoire en départements
-  - Une administration centralisée
-  - La rationalisation de l'action public
+  - 1.1.1 La division du territoire en départements
+  - 1.1.2 Une administration centralisée
+  - 1.1.3 La rationalisation de l'action public
 - 1.2 Formes de savoir et de pouvoir à l'œuvre
-  - Miroir du territoire ou de la nation
-  - La statistique
-  - La pensée cartographique
+  - 1.2.1 Miroir du territoire ou de la nation
+  - 1.2.2 La statistique
+  - 1.2.3 La pensée cartographique
 - 1.3 Le conseil des bâtiments civils
-  - L'administration de l'architecture publique
-  - Archives du projet architectural
-  - Approches quantitatives, spatiales et cartographiques
+  - 1.3.1 L'administration de l'architecture publique
+  - 1.3.2 Archives du projet architectural
+  - 1.3.3 Approches quantitatives, spatiales et cartographiques
 
 
 
@@ -42,39 +42,74 @@ ___
 [Chapitre 2](./Redaction/Chapitre2.md) 
 
 - 2.1 Créer une base de données 
-  - La naissance d'un projet
-  - La conception de CONBAVIL
-  - Contraintes conceptuelles et logicielles
+  - 2.1.1 La naissance d'un projet
+    - Documenter des archives
+    - Une approche quantitative et informatique
+  - 2.1.2 La conception de CONBAVIL
+    - Le choix du logiciel 
+    - Créer de la grille de dépouillement
+    - L'entrée des données
+  - 2.1.3 Contraintes conceptuelles et logicielles
+    - Interprétation: des archives aux données
+    - La "reconstitution conceptuelle" 
+    - Les limites du logiciel
+  - Les premiers résultats
 - 2.2 L'accès aux données 
-  - Les formes d'accès au contenu d'une base de données
-  - Les requêtes SQL
-  - Interface de l'INHA
+  - Que faire avec une base de données?
+  - 2.2.1 Les formes d'accès au contenu d'une base de données
+    - SQL
+    - Vues
+    - Web
+  - 2.2.2 Les requêtes SQL
+    - Q2
+    - Q4
+  - 2.2.3 Interface de l'INHA
+    - Présentation du formulaire
+      - Q1
+      - Q3
+      - Q4
+    - Observations critiques sur l'outil 
 - 2.3 Nouvelle interface, nouvelles approches
-  - Enjeux épistémologiques 
-  - Travail des données
-  - Vue distante du contenu
+  - 2.3.1 Enjeux épistémologiques 
+    - Des données aux humanités numériques
+    - Nature des données CONBAVIL
+    - L'utilisation de sources numériques pour la production de connaissance en histoire de l'art
+  - 2.3.2 Travail des données
+    - Exportation et transformation
+    - Enrichir les données
+  - 2.3.3 Vue distante du contenu
+    - Datascape 1: occurences et valeurs distinctes de chaque propriété 
+    - Datascape 2: approche sensible de près d'un million d'affirmations
+- Conclusion 
 
 ### Chapitre 3: Atlas
 
-[Chapitre 3](./Redaction/Chapitre3.md) (première ébauche hasardeuse)
+[Chapitre 3](./Redaction/Chapitre3.md) (version stable jusqu'au 3.2.2, en cours de rédaction pour la suite)
 
 - 3.1 Espaces et interprétation des données 
-- Le quantitatif, le statistique et le cartographique
-  - De la cartographie à la visualisation de données 
-  - Les outils de visualisation et de cartographie numérique
-- Pratiques de visualisation et de cartographie
-  - Cartographie
-  - Chronologie
-  - Typologie
-  - Observations
-- Cartographie
-  - Chronologie
-  - Typologie
-- 3.3 Editorialisation et atlas
-
-  - Théories pour l'instrument de rechrche
-  - L'atlas numérique comme instrument de recherche
-  - Contraintes, critiques et conclusion
+  - 3.1.1 Quantitatif, statistique et cartographique
+    - Approches quantitatives et statistiques
+    - Formes de pensée cartographique 
+    - Profanation et détournement de l'archive administrative? 
+  - 3.1.2 De la cartographie à la visualisation de données
+  - 3.1.3 Les outils de visualisation et de cartographie numérique
+    - Les logiciels
+    - Les SIG
+    - Les librairies de code
+- 3.2 Pratiques de visualisation et de cartographie
+  - 3.2.1 Premières expérimentations et questions d'échelle
+  - 3.2.2 Prototypes
+    - Carte
+    - Chronologie 
+    - Typologie
+  - 3.2.3 Observations critiques
+- 3.3 Editorialisation & atlas
+  - 3.3.1 Théories pour la conception d'un instrument de recherche
+    - Interfaces
+    - Atlas
+    - Éditorialisation
+  - 3.3.2 Un atlas numérique comme instrument de recherche
+  - 3.3.3 L'imaginaire et ses limites
 
 
 ___
