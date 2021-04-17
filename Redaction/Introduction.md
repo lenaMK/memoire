@@ -113,10 +113,6 @@ Dans notre troisième chapitre, nous pourrons alors présenter notre proposition
 
 
 
-
-
-
-
 [^ 1]: Sous-série F21* des Archives nationales (F21* 2470 à F21 * 2536, soit les années 1795 à 1840)
 [^2]:  Le Conseil était une administration consultative placée auprès de l’administration centrale pour éclairer le ministre de l’Intérieur par ses avis dans les décisions qu’il avait à prendre en matière d’architecture (@chateau-dutierConseilBatimentsCivils2016: T1, 27).
 

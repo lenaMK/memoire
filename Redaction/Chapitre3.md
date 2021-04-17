@@ -38,25 +38,15 @@ Nous avons donc entrepris les recherches théoriques et pratiques nécessaires p
 > 2. Toute carte est la traduction et la condition d’un pouvoir qui cherche à s’exercer socialement et culturellement, et qui s’appuie sur la carte pour s’assurer une forme d’autorité. 
 > 3. Toute carte développe sa stratégie par l’intermédiaire de la mise en œuvre d’un univers graphique au sein duquel elle construit son discours, un espace graphique qui n’est rien d’autre que la mise en forme d’un territoire de référence au sujet duquel le discours est construit. (Besse, 2006: 8)
 
-Notre relevons ici l'importance de rendre visibles les dimensions interprétatives et graphiques de la carte, précepte qui ressort également d'un autre opérateur théorique que nous employons, la cartographie critique.  Il s'agit d'un mouvement de pensée né dans les années 1990, avec pour référence l'article pionnier du cartographe historien Brian Harley, "*Deconstructing the Map*" (1989). Il y propose de déconstruire la carte – au sens postmoderne, un procédé qui permet de briser le lien entre réalité et représentation – afin d’encourager un tournant épistémologique dans l’interprétation et l’analyse de la pratique cartographique. Le processus de déconstruction permet de révéler de nouvelles approches de la carte et de retracer les mécanismes sociaux liés à sa production (Harley 1989: 2).
-
-Harley met tout d’abord le système de la cartographie en relation avec celui du discours selon Foucault, c’est-à-dire un système de possibilités qui produit de la connaissance. L'auteur identifie deux ensembles de règles qui sous-tendent et dominent l’histoire de la cartographie occidentale depuis le XVIIème siècle. La première concerne la production technique des cartes et les règles scientifiques de la production de connaissances. La seconde contextualise la production cartographique dans sa dimension culturelle, les cartes respectant les codes de la société qu’elles représentent tout en les renforçant. Sous le masque de la neutralité scientifique se révèle une image construite non seulement à partir de mesures d’un monde phénoménologique mais également à partir de l’ordre social qui régit ce monde (Harley 1989: 3-7).
+Notre relevons ici l'importance de rendre visibles les dimensions interprétatives et graphiques de la carte, précepte qui ressort également dans les principes de la cartographie critique (Harley 1989). Dans son article "*Deconstructing the Map*" (1989), Harley met tout d’abord le système de la cartographie en relation avec celui du discours selon Foucault, c’est-à-dire un système de possibilités qui produit de la connaissance. L'auteur identifie deux ensembles de règles qui sous-tendent et dominent l’histoire de la cartographie occidentale depuis le XVIIème siècle. La première concerne la production technique des cartes et les règles scientifiques de la production de connaissances. La seconde contextualise la production cartographique dans sa dimension culturelle, les cartes respectant les codes de la société qu’elles représentent tout en les renforçant. Sous le masque de la neutralité scientifique se révèle une image construite non seulement à partir de mesures d’un monde phénoménologique mais également à partir de l’ordre social qui régit ce monde (Harley 1989: 3-7).
 
 Dans la deuxième partie de l'article, l'auteur emploie la déconstruction selon Derrida pour analyser en détail le texte cartographique. Dans les marges et les écarts du modèle normatif, Harley identifie la dimension symbolique du fait cartographique. La cartographie est par nature un art de la communication persuasive. Le texte cartographique est donc un texte rhétorique qui utilise les codes à disposition afin communiquer au mieux le mythe qu’il cherche à propager. La rhétorique et la science ne sont pas opposées mais considérées comme deux éléments constitutifs et révélateurs lors de l’analyse de l’objet cartographié.(Harley 1989:  7-11). Harley poursuit avec les dimensions sociales et politiques de la cartographie. De retour en territoire Foucaldien, la carte est comprise comme une forme de savoir-pouvoir dans la société. Le pouvoir de la carte peut être externe, lié au pouvoir politique, ou interne, en relation avec l’impact politique de la pratique du cartographe. Ce dernier n’exerce pas son pouvoir directement sur les individus, mais sur le savoir à leur disposition. Il faut alors envisager l’impact de ces images dont la neutralité n’est plus concevable. (Harley 1989: 11-14). 
 
 Le changement épistémologique proposé dans cet article rapproche selon nous la discipline de Harley de la nôtre. En effet, l’historien de la cartographie comme l’historien de l’art ne produit pas les objets de sa discipline. Cette distance critique avec l’objet étudié permet de révéler puis analyser le contexte culturel et les règles de production de ces objets. <!-- Denis Wood, the power of Maps 1992--> Le mouvement de cartographie critique a ensuite permis l'émergence, au cours des années 2000, d'une nouvelle pratique: la contre-cartographie. La carte, dispositif politique et instrument de savoir et de pouvoir, est employée pour ébranler le pouvoir et défier les normes. En reversant les postures (qui crée la carte et l'emploie, à qui elle est destinée), on peut permettre une "*political practice of mapping back*" (Halder, Michel dans Kollektiv Orangotango+ 2018: 13). La proposition est d'utiliser les instruments du pouvoir contre lui, pour révéler son fonctionnement et ses biais, ainsi que pour inverser les rapports de pouvoir.
 
-#### Profanation et détournement de l'archive administrative? 
+La création d’un atlas numérique peut présenter diverses modalités de production de savoir en histoire de l’art. Dans le cas de l’*Atlasmuseum *(Pringuet 2017)*,* l’outil développé ne sert, du moins pas encore, pas tant à l’analyse qu’au recensement des œuvres d’art public en France, par le moyen d’une plateforme numérique participative. La diversité des modèles et usages des projets mêlant données géolocalisées et histoire de l’art[3](#sdfootnote3sym) suggère, d’une part, l’émergence d’une pratique dont les traits sont encore en train d’être définis. D’autre part, la pluralité des formes permises par le numérique offre l’opportunité de définir un modèle spécifique à chaque cadre de recherche. Ainsi, l’enjeu n’est pas de reproduire des modèles mais d’adapter sa méthode aux caractéristiques du projet de recherche[4](#sdfootnote4sym).
 
-Cette notion d'inversion et de renversement des pouvoir est également employée par Giorgio Agamben en relation aux dispositifs. L'auteur commence par définir le terme "dispositif" lorsqu'il est employé par Foucault, qui prend le sens de  
 
-> "manipulation des rapports de force, d'une intervention rationnelle et concertée dans ces rapports de force, soit pour les développer dans telle direction, soit pour les bloquer, soit pour les stabiliser, les utiliser. Le dispositif, donc, est toujours inscrit dans un jeu de pouvoir, mais toujours lié à des bornes de savoir, qui en naissent, mais, tout autant, le conditionnent. C'est ça le dispositif: **des stratégies de rapports de force supportant des types de savoir, et supportés par eux**" (Foucaut, *Dits et écrits", vol III, p. 299 sq., dans Agamben 2007: 9-10)
-
-Ces dispositifs de gouvernement, par leur pratiques, leurs discours et leurs savoirs, assujettissent les individus en les rendant "libres" mais dociles (Agamben 2007: 41-42). Agamben propose de se libérer de l'emprise de ces dispositifs, non pas en œuvrant à les détruire mais en les réemployant, afin de les "rendre à l'usage commun" (Agamben 2007: 37-38). Il puise dans l'histoire pour qualifier cette action de restitution au commun et au libre usage - ou ce contre-dispositif - de "profanation" (Agamben 2007: 39-40).
-
-Nous avons étudié, dans le premier chapitre de ce mémoire, le processus de rationalisation au sein de l'administration. La réduction de la réalité à des objets quantifiables et à des dossiers administratifs est définie par Arnaud Sabatier comme une "opération d'objectivation [...] qui remplace des objets et le monde par des référentiels" (2010: 29). L'approche de la cartographie critique vient révéler les vides et les silences dans cette transformation. La contre-cartographie nous amène à nous poser les questions suivantes: est-il possible de procéder à une profanation des archives ou de créer un processus de contre-administration critique? 
-
-Cela nous semble d'autant plus pertinent que l'objectif même des archives est de pouvoir retrouver, retracer et saisir le travail de l'administration qui l'a produite. Dans l'idéal de transparence et de traçabilité d'un état-nation dont l'administration est au service du public, les archives documentent les actions et sont mises à disposition pour permettre une sorte de vérification par le public.  Notre ambition vise donc à redonner l'instrument de pouvoir - que ce soit la carte, la statistique, ou l'archive - à ceux·elles qui veulent l'étudier ou le questionner, révélant ainsi ses biais tout en restituant leur usage au "hommes". En nous appropriant les dispositifs de l'administration et du gouvernement, nous pouvons développer une approche critique de l'action de cette administration via les traces qu'elles nous a laissées, c'est-à-dire ses archives.
 
 ### 3.1.2 De la cartographie à la visualisation de données
 
@@ -72,7 +62,7 @@ Nous préférons employer le terme « figuration » à celui de « représentati
 
 L’acte cartographique ajoute également une dimension spatiale au savoir. Non-linéaire, la carte ne dicte pas nécessairement un point de vue unique. Lorsqu’elle est conçue comme un objet de recherche, elle peut démultiplier les perspectives et les échelles tout en accumulant, tel un millefeuille[^1], les multiples couches temporelles qui composent l’histoire d’un lieu. Avec le développement d’outils informatiques pour la production de cartes numériques puis leur accessibilité au travers des applications web de cartographie comme Google Earth et OpenStreetMap, l’acte cartographique est transformé (Presner, Shepard, et Kawano 2014: 16) . 
 
-On peut désormais envisager un acte de cartographie « épaisse », *thick mapping* (Presner, Shepard, et Kawano 2014: 15-19) . Cette pratique allie l’approche géographique, les plateformes de cartographies numériques et les pratiques interprétatives de l’histoire pour mettre en place une forme de recherche sur l’espace qui se veut riche, nuancée et pluridimensionnelle. Cette épaisseur cartographique cristallise des opportunités nouvelles « de navigation empirique, d’épistémologie de la représentation et de rhétorique de la visualisation » (Burdick 2012: 46) . Ce tournant spatial promeut une variété d’approches pour analyser et cartographier les fortes imbrications qui existent entre les notions de culture, de pouvoir et d’espace (Presner, Shepard, et Kawano 2014: 53). 
+On peut désormais envisager un acte de cartographie « épaisse », *thick mapping* (Presner, Shepard, et Kawano 2014: 15-19) . Dans l'ouvrage *Hypercities* (Presner, Shepard, et Kawano 2014: 2014), les chercheur·se·s allient l’approche géographique, les plateformes de cartographies numériques et les pratiques interprétatives de l’histoire pour mettre en place une forme de recherche sur l’espace qui se veut riche, nuancée et pluridimensionnelle. Cette épaisseur cartographique cristallise des opportunités nouvelles « de navigation empirique, d’épistémologie de la représentation et de rhétorique de la visualisation » (Burdick 2012: 46) . Ce tournant spatial promeut une variété d’approches pour analyser et cartographier les fortes imbrications qui existent entre les notions de culture, de pouvoir et d’espace (Presner, Shepard, et Kawano 2014: 53). 
 
 La richesse et la complexité des cartes que nous souhaitons produire nécessitent aussi l’utilisation d’un langage graphique expressif. L’utilisation des variables visuelles identifiées par Jacques Bertin sera donc d’une grande utilité (Bertin 2013). L’analyse d’exemples et d’antécédents, couplée au processus d’éditorialisation, servira également à déterminer la forme graphique et numérique la plus appropriée pour notre atlas numérique de l’architecture publique.
 
@@ -121,7 +111,7 @@ Nous avons établis plusieurs critères pour sélectionner un outil de visualisa
 
 ## 3.2 Pratiques de visualisation et de cartographie
 
-Dès les premières recherches de ce mémoire, il semblait essentiel de cartographier CONBAVIL à partir informations spatiales renseignées dans CONBAVIL. Nous avons beaucoup expérimenté avant d'arriver à notre carte, c'est pourquoi nous commençons par décrire notre processus, avant de présenter nos prototypes d’exploration visuelle des données de CONBAVIL. Ceux-ci prennent diverses formes diagrammatiques et chaque une proposition présente une vue sur les données. La perspective change selon la caractéristique mise de l’avant par le graphique : la géolocalisation pour la carte, la date de discussion de l’affaire pour la chronologie et le type architectural pour la classification hiérarchique rayonnante. Nous effectuons ensuite un retour critique sur ces visualisations, une étape importante avant d'en arriver la forme-atlas.
+Dès les premières recherches de ce mémoire, il semblait essentiel de cartographier CONBAVIL à partir informations spatiales renseignées dans CONBAVIL. Nous avons beaucoup expérimenté avant d'arriver à notre carte, c'est pourquoi nous commençons par décrire notre processus <!-- intérêt valeur académique des erreurs-->, avant de présenter nos prototypes d’exploration visuelle des données de CONBAVIL. Ceux-ci prennent diverses formes diagrammatiques et chaque une proposition présente une vue sur les données. La perspective change selon la caractéristique mise de l’avant par le graphique : la géolocalisation pour la carte, la date de discussion de l’affaire pour la chronologie et le type architectural pour la classification hiérarchique rayonnante. Nous effectuons ensuite un retour critique sur ces visualisations, une étape importante avant d'en arriver la forme-atlas.
 
 ### 3.2.1 Premières expérimentations et questions d'échelle
 
@@ -263,14 +253,107 @@ Notre soleil interactif CONBAVIL présente donc le contenu de la base de donnée
 
 La carte comme le soleil sont des graphiques cumulatifs, ce qui signifie que certaines délibérations y figurent plusieurs fois si elles sont associées à plusieurs lieux ou types architecturaux. Cette décision provient, entre autres, d’une incertitude dans les données, qui ne signalent pas de hiérarchie en cas d’attribution multiple. Il faut également garder à l’esprit que la carte, par exemple, ne représente pas le phénomène bâtisseur, mais reflète plutôt les délibérations du Conseil. La taille des points dépend donc du nombre de mentions lors des séances et non de la quantité de chantiers ouverts. Les graphiques créés sont exploratoires, ils ont pour but de mener à la découverte du contenu des archives. C’est pourquoi il nous a semblé pertinent d’offrir le plus grand nombre de points d’entrée possibles dans les données.
 
-Limites: 
+Nous devons également souligner les silences dans nos visualisations. Dans le cas de la carte, celle-ci ne figure que le territoire 
 
-exemple --> Ce que la carte ne représente pas: 
-
-- affaires administratives
-- territoires outre-mer : pourtant si intéressants..
+ pas les affaires administratives ni toute autre délibération qui n'est pas associée à un lieu. Nous avions pensé créer une petite île, un territoire symbolique pour visualiser les affaires sans lieux. 
 
 
+
+```
+{
+    "file": "FRAN/F/21/2533",
+    "meeting": "1837-01-03",
+    "id": "conbavil14195",
+    "title": "prison pour les condamnés politiques",
+    "commune": "",
+    "unsureCommune": true,
+    "departement": "Ile de la Réunion",
+    "numDepartement": "974",
+    "oldDepartement": "Isle Bourbon",
+    "region": "La Réunion",
+    "recommendation": "La nature de l'édifice et la situation géographique (climat) rendent le programme indispensable pour juger du projet. Le jugement rendu sera conjectural. L'absence d'enceinte et d'un chemin de ronde, indispensables en métropole, ne s'imposent peut-être pas. L'élévation des bâtiments sur 3 niveaux n'est pas souhaitable (discipline). Le toit devrait être très saillant (ombre). Une seule salle pour réfectoire et ateliers paraît insuffisante.",
+    "advice": "adoption avec réserve",
+    "reportAuthor": "Caristie",
+    "report": "Manquent programme, devis descriptif et estimatif.",
+    "participants": [],
+    "buildingCategory": [
+      "architecture judiciaire pénitentiaire ou de police"
+    ],
+    "buildingType": [
+      "prison"
+    ],
+    "projectGenre": [
+      "construction"
+    ]
+  },{
+    "file": "FRAN/F/21/2533",
+    "meeting": "1837-01-27",
+    "id": "conbavil01540",
+    "commune": "Salazie",
+    "departement": "Ile de la Réunion",
+    "numDepartement": "974",
+    "oldDepartement": "Ile Bourbon",
+    "region": "La Réunion",
+    "eventPrecedent": "1837-01-03 (même cote, dos.1, p.1)",
+    "recommendation": "esquisse n°1 la meilleure.",
+    "advice": "adoption",
+    "reportAuthor": "Caristie",
+    "report": "A la demande du ministre de la Marine, et en l'absence de l'auteur, le rapporteur chargé de corriger le projet. Présente plusieurs variantes:- choix du site: 1 cirque naturel dans le quartier de Salazie, 'la hute du petit diable' au bord de la rivière du Mât.- prison séparée de la caserne, bâtiment d'1 niveau sur rez-de-chaussée, chambres individuelles ou jumelées, plus spacieuses que dans le 1° projet (cube d'air nécessaire dans ce climat chaud); ateliers multiples pour 'offrir aux détenus les moyens de trouver dans le travail 1 adoucissement à l'ennui de leur captivité'.",
+    "participants": [
+      {
+        "persName": "Anonyme",
+        "occupation": "ingénieur en chef",
+        "role": "author"
+      },
+      {
+        "persName": "[Du Campe de Rosamel, Claude]",
+        "occupation": "ministre de la Marine",
+        "role": "intervenor"
+      }
+    ],
+    "mentionPlace": "Le Mât, rivière",
+    "buildingCategory": [
+      "architecture militaire",
+      "architecture judiciaire pénitentiaire ou de police"
+    ],
+    "buildingType": [
+      "bagne",
+      "caserne"
+    ],
+    "projectGenre": [
+      "construction"
+    ]
+  },
+  {
+    "file": "FRAN/F/21/2533",
+    "meeting": "1837-08-28",
+    "id": "conbavil13612",
+    "commune": "",
+    "unsureCommune": true,
+    "departement": "Ile de la Réunion",
+    "numDepartement": "974",
+    "oldDepartement": "Isle Bourbon",
+    "region": "La Réunion",
+    "advice": "adoption",
+    "reportAuthor": "Caristie",
+    "report": "Réclamation porte sur les frais de copies de dessins, de rédaction du devis. Somme très modérée, légitimement due.",
+    "participants": [],
+    "fundingFees": "3.500F",
+    "buildingCategory": [
+      "architecture judiciaire pénitentiaire ou de police"
+    ],
+    "buildingType": [
+      "prison"
+    ],
+    "projectGenre": [
+      "construction"
+    ],
+    "administrativeObject": [
+      "réclamation d'honoraires",
+      "rémunération"
+    ]
+  },
+```
 
 
 
@@ -322,7 +405,9 @@ Le travail envisagé est un **acte éditorial**, il s’agit de donner une forme
 
 Des liens entre les visualisations ont été tissés à deux niveaux. Tout d’abord, celles-ci sont regroupées dans un même espace éditorial qui reprend le modèle de l’atlas.
 
-<iframe src="https://www.public.archi/atlas-numerique/viz/carteAvis/index.html" title="Lena Krause, [*Exemple d’interactivité entre deux visualisations : carte et avis du Conseil*](https://www.public.archi/atlas-numerique/viz/carteAvis/index.html) (2019), Produite comme prototype dans le cadre du projet *Atlas numérique de l’architecture publique en France (1795-1840)*, Montréal : Université de Montréal "</iframe>
+<div>
+   <iframe src="https://www.public.archi/atlas-numerique/viz/carteAvis/index.html" title="Lena Krause, [*Exemple d’interactivité entre deux visualisations : carte et avis du Conseil*](https://www.public.archi/atlas-numerique/viz/carteAvis/index.html) (2019), Produite comme prototype dans le cadre du projet *Atlas numérique de l’architecture publique en France (1795-1840)*, Montréal : Université de Montréal ">&nsbp;</iframe>
+</div>    
 
 
 
