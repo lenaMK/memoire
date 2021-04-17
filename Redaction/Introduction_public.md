@@ -1,12 +1,14 @@
-# Intro 
-
->The finest historians will not be those who succumb to the dehumanizing methods of social sciences, whatever their uses and values, which I hasten to acknowledge. Nor will the historian worship at the shrine of that Bitch-goddess, QUANTIFICATION. History offers radically different values and methods.(Carl Bridenbaugh 1963: 326)
-
-## Sujet
+# Introduction
 
 ### Des données en histoire de l'art? 
 
+>The finest historians will not be those who succumb to the dehumanizing methods of social sciences, whatever their uses and values, which I hasten to acknowledge. Nor will the historian worship at the shrine of that Bitch-goddess, QUANTIFICATION. History offers radically different values and methods.(Carl Bridenbaugh 1963: 326)
+
+## 
+
 L'approche quantitative et l'usage de données dans les disciplines historiques a souvent été perçu comme entrant en confliat avec les valeurs fondamentales de ces displines. 
+
+... (à compléter)
 
 
 
@@ -20,7 +22,7 @@ Finalement, une base de données se définit également comme une banque de donn
 
 Malgré un côté encore marginal à ces approches, on peut constater des modifications et des évolutions importantes dans les formes d'accès aux archives et dans la production du savoir. Faire une historiographie complète des projets de recherche innovants dans la production d'interfaces de recherche dépasse les limites de ce mémoire. L'affluence de projets et leur diversité pose la question s'ils peuvent être rassemblés et documentés de manière systématique à l'internationale. Notons qu'il existe déjà certains recensements très riches dont le travail de Johanna Drucker dans *Graphesis* (2014). Parmi les exemples d'utilsiation du numérique en histoire de l'art, nous relevons les projets *Local/Global: Mapping Nineteenth-Century London's Art Market* (Fletcher Helmrecih 2012) ou encore *Mapping Art Markets in Europe 1500-1800* (Raux 2012 <!-- check how to reference it: http://www.artmarkets.eu/equipe/?lang=en -->). La thèse de doctorat de Florian Kraütli, *Visualising Cutlural Data. Exploring Digital Collection Through Timeline Visualisations* (2016) expérimente avec une palette d'approches visuelles originales et conçues spécifiquement pour ces données. Certains cas plus rares comme *E.A.T Datascape* ainsi que d'autres projets de l'équipe du Médialab (SciencesPo Paris) et *Hypecities* de Todd Presner, David Shepard et Yoh Kawano se distinguent particulièrement par la création d'interfaces interactives avec un riche potentiel épistémologique. 
 
-### problématique  générale
+<!--problématique  générale-->
 
 Dans l'ensemble, nous notons toutefois que ce type de pratique demeure toutefois exceptionnel. Dans une ère de plus en plus de chercheur·se·s produisent des données, les outiller quant à leur emploi s'avère nécessaire. Ce mémoire vise à poursuivre les recherches quant à l'utilisation des donnée sen histoire de l'art, particulièrement dans le potentiel de l'instrumentation de la recherche (Jacob 2013:  lien ./1180). Quels type d'interface permet de faire de la recherche en histoire de l'art avec une base de données? Comment la concevoir et de quels moyens dispose-t-on pour la créer? 
 
@@ -34,7 +36,7 @@ L'examen des archives du conseil des bâtiments civils est renouvelé par la cr�
 
 Ce mémoire reprend et poursuit les questions de recherches autour des archives du Conseil des bâtiments civils avec une démarche expérimentale quant à l'utilisation de la base de données CONBAVIL. À l'heure actuelle, la base CONBAVIL est accessible sur le web et peut être interrogée à partir d’un formulaire[^3]. Ce mode d’accès offre déjà, à travers le travail de numérisation effectué, des avantages conséquents pour la recherche au sein de ces archives[2](#sdfootnote2sym). Cependant, le format proposé limite l’utilisation de cet outil documentaire, particulièrement en ce qui concerne l’affichage des résultats de la recherche. En effet, les résultats sont présentés sous la forme d’une liste. Chaque élément de la liste est une fiche qui documente un projet présenté à une séance du conseil. Le chercheur doit donc parcourir de façon linéaire les résultats de sa recherche, une fiche à la fois. Ce format fait défaut à plusieurs niveaux. On ne peut naviguer à travers les données, ajuster ses critères au cours de sa recherche, ni comparer des résultats au sein de l’interface. Pourtant, ce sont justement ce type de caractéristiques du numérique qui font la richesse de ce médium : la différence d’accès au contenu, ici rendue possible par l’utilisation d’une base de données plutôt que la manipulation d’archives, légitime une approche numérique de la recherche en histoire de l’art[^4].
 
-### problématique spécifique au cas d'étude
+<!--problématique du cas d'étude-->
 
 Ainsi, pour véritablement mettre en valeur cette base de données, en même temps que pour ouvrir des horizons jusqu’ici non-exploités dans la recherche sur les actions du Conseil des bâtiments civils et donc sur l’histoire de l’architecture publique en France, ce mémoire propose de renouveler l’utilisation de la base CONBAVIL. Cela requiert tant l'étude du contexte historique et de la production de ces données que la refonte de son interface, afin de créer un outil de recherche dont l’objectif sera d’exploiter pleinement les caractéristiques du numérique. Au terme de cette recherche, les connaissances acquises lors de la création et l’utilisation de cet outil devraient, en elles-mêmes, constituer un apport à la connaissance sur le fonctionnement du Conseil des bâtiments civils entre 1795 et 1840. Il s'agit de concevoir de nouvelles méthodes de recherche à l'intersection entre les questions historiques et les nouvelles technologies pour identifier celles qui semblent fécondes à la production de savoir.
 
@@ -77,6 +79,14 @@ Quant au choix de la forme éditoriale :  atlas
 Dans ce mémoire, il s’agit donc d’étudier comment l’éditorialisation d’une base de données en un atlas numérique peut informer la recherche en histoire de l’art. Dans le contexte d’une étude sur l’architecture publique en France à la première moitié du XIXe siècle, nous pensons qu’étudier l’évolution des dynamiques d’équipements instaurées par le Conseil des bâtiments civils, à travers le temps et de façon spatialisée, nous renseignera sur les pratique de cette institution qui a fondé l’architecture publique en France telle que nous la connaissons aujourd’hui.
 
 ## Plan
+
+Le premier chapitre de ce mémoire est consacré à l'étude du Conseil des bâtiments civils et de la période historique concernée ...
+
+Dans le deuxième chapitre, il s'agira de produire analyse critique de la "mise en données" des archives et d'analyser la base de donnée ainsi produite ... 
+
+Notre troisième chapitre comporte notre proposition pour un atlas numérique ainsi qu'un premier prototype du fonctionnement de ce dernier ...
+
+
 
 
 
