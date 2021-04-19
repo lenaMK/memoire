@@ -22,6 +22,18 @@
 
 10. *Carte Philosophique figurant la Population de la France*, 1830, Armand-Joseph Frère de Montizon. [Gallica](https://gallica.bnf.fr/ark:/12148/btv1b8492261j)
 
+11. Alexandre-Jean-Baptiste-Guy de Gisors (1762-1835). *Détails faits par le soussigné qui sont en calque à son rapport concernant un projet d’établissement thermal au Mont Dore* (Puy-de-Dôme), séance du 18 avril 1814. Dessin sur calque à l’encre noire et rouge, lavis gris et rose.Paris, Bibliothèque de l’Institut, Ms. 1044
+
+12. *Royaume de France, suivant le traité signé le 31 mai 1814*, 1814, (Signé : Chemot, ingénieur). [Gallica](https://gallica.bnf.fr/ark:/12148/btv1b8445701j)
+
+13. Cartons de la sous-série, F21. Paris, Archives Nationales de France 
+
+14. Registres des procès-verbaux du Conseil des bâtiments civils. Paris, Archives nationales de France
+
+15. *Tableaux de distribution des projets par département de 1800 à 1851*, 1978, Gilbert Érouard, « Écoles et édifices judiciaire », analyse quantitative de Georges Teyssot et Gilbert Érouart, dans Georges Teyssot, « La Ville-équipement, la production architecturale des bâtiments civils 1795-1848 », *Architecture, Mouvement, Continuité*, no 45, 1978, p. 89 
+
+16. *Répartition des projets examinés par le Conseil des bâtiments civils (an IV – 1851)*, 1988, Bernard Lepetit, dans Bernard Lepetit, *Les villes dans la France moderne : 1740-1840*, Paris, Albin Michel, 1988, p. 259 
+
     
 
 
