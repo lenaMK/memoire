@@ -8,10 +8,12 @@
 	1.1.1 [La division et l’unification du territoire](http://lenamk.site/memoire/Redaction/Chapitre1#la-division-et-lunification-du-territoire) 
 	1.1.2 [La centralisation administrative](http://lenamk.site/memoire/Redaction/Chapitre1#la-centralisation-administrative)
 	1.1.3 [La rationalisation de l’action publique](http://lenamk.site/memoire/Redaction/Chapitre1#la-rationalisation-de-laction-publique) 
+
 1.2 [Des formes de savoir et de pouvoir à l’œuvre](http://lenamk.site/memoire/Redaction/Chapitre1#des-formes-de-savoir-et-de-pouvoir-à-lœuvre)
     1.2.1 [Miroir du territoire ou de la nation](http://lenamk.site/memoire/Redaction/Chapitre1#miroir-du-territoire-ou-de-la-nation)
     1.2.2 [La statistique](http://lenamk.site/memoire/Redaction/Chapitre1#la-statistique)
     1.2.3 [La pensée cartographique](http://lenamk.site/memoire/Redaction/Chapitre1#la-pensée-cartographique)
+
 1.3 [Le Conseil des bâtiments civils](http://lenamk.site/memoire/Redaction/Chapitre1#le-conseil-des-bâtiments-civils)
 	1.3.1 [L’administration de l’architecture publique](http://lenamk.site/memoire/Redaction/Chapitre1#ladministration-de-larchitecture-publique)
 	1.3.2 [Archives du projet architectural de la Nation](http://lenamk.site/memoire/Redaction/Chapitre1#archives-du-projet-architectural-de-la-nation)

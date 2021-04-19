@@ -389,9 +389,9 @@ Lors de la création de nos visualisation et dans la conception de notre interfa
 
 
 
-#### Atlas
+#### La forme-atlas
 
-Nous avons également été inspirée par le concept "d'atlas" pour penser notre instrument de recherche. Christian Jacob définit l’atlas géographique comme un « dispositif qui permet de concilier le tout et le détail. Il est régi par une logique cumulative et analytique, qui conduit de la vision globale aux images partielles » (1992: 97).  La forme-atlas est associée à une variété de formes visuelles: cartes, mais aussi graphiques, chronologies, illustrations, et même des reproductions d'œuvres d'art. 
+Nous avons également été inspirée par le concept d' "atlas" pour penser notre instrument de recherche. Christian Jacob définit l’atlas géographique comme un « dispositif qui permet de concilier le tout et le détail. Il est régi par une logique cumulative et analytique, qui conduit de la vision globale aux images partielles » (1992: 97).  La forme-atlas est associée à une variété de formes visuelles: cartes, mais aussi graphiques, chronologies, illustrations, et même des reproductions d'œuvres d'art. 
 
 L'atlas prend d'autres formes encore lors de son emploi par des artistes ou par des historien·ne·s de l’art. Dans ce domaine, il peut devenir, selon Georges Didi-Huberman, une « forme visuelle du savoir » comportant « [un] paradigme *esthétique* de la forme visuelle, et [un] paradigme *épistémique* du savoir » (2011: 12). Cet outil crée des zones interstitielles, des intervalles heuristiques dans son ouverture inépuisables aux possibles.  Sa réception est une activité non linéaire : on ne *lit* pas mais on *consulte* un atlas. Cette particularité, qui introduit le multiple, le divers et l'hybridité, autorise l’émergence d’une forme de « connaissance par l’imagination » grâce à « la puissance intrinsèque du *montage* qui consiste à découvrir […] des liens que l’observation directe est incapable de discerner » (Didi-Huberman 2017: 13). 
 
