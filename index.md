@@ -14,9 +14,7 @@ ___
 
 
 
-### Introduction
-
--  [Introduction](./Redaction/Intro.md)
+[Introduction](./Redaction/intro.md)
 
 ### Chapitre 1: Administration et architecture publique en France au XIXe siècle
 
