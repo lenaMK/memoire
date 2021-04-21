@@ -257,33 +257,35 @@ Finalement, nous avons puisé dans les informations d’ordre typologique compil
 
 **Fig. 3-21** Lena Krause, [*Répartition des projets CONBAVIL par type architectural*](http://atlas.lenamk.site/viz/sunburst/), prototype de l'*Atlas numérique de l’architecture publique en France (1795-1840)*, iframe, 2019
 
-Notre soleil interactif CONBAVIL présente donc le contenu de la base de données par type architectural. Le fait de cliquer sur une catégorie permet de faire apparaître le niveau de profondeur suivant et le retour en arrière s’effectue en cliquant au centre du graphique. En glissant le curseur sur une catégorie, on peut voir le nombre de délibérations qui y sont associées. Rapidement, on constate que plus de la moitié des délibérations sont contenues dans trois catégories principales : "urbanisme", "architecture religieuse" et "architecture judiciaire, pénitentiaire ou de police". La section "urbanisme" contient toutes les délibérations liées aux plans d’alignement des villes, car le Conseil était également responsable de l’ouverture des rues pour l’assainissement et l’embellissement des espaces publics (Château-Dutier 2016, T1: 151-179). La prépondérance de l’architecture religieuse s’explique quant à elle par le grand nombre de réaffectations de bâtiments nationaux en écoles, préfectures et tribunaux, notamment (Woolf 1987: 30-31).
+Notre soleil interactif CONBAVIL présente donc le contenu de la base de données par type architectural. Le fait de cliquer sur une catégorie permet de faire apparaître le niveau de profondeur suivant et le retour en arrière s’effectue en cliquant au centre du graphique. En glissant le curseur sur une catégorie, on peut voir le nombre de délibérations qui y sont associées. Rapidement, on constate que plus de la moitié des délibérations sont contenues dans trois catégories principales : "urbanisme", "architecture religieuse" et "architecture judiciaire, pénitentiaire ou de police". La section "urbanisme" contient toutes les délibérations liées aux plans d’alignement des villes, car le Conseil était également responsable de l’ouverture des rues pour l’assainissement et l’embellissement des espaces publics (Château-Dutier 2016: T1,151-179). La prépondérance de l’architecture religieuse s’explique quant à elle par le grand nombre de réaffectations de bâtiments nationaux en écoles, préfectures et tribunaux, notamment (Woolf 1987: 30-31).
 
 ### 3.2.3 Observations critiques
 
-La carte comme le soleil sont des graphiques cumulatifs, ce qui signifie que certaines délibérations y figurent plusieurs fois si elles sont associées à plusieurs lieux ou types architecturaux. Cette décision provient, entre autres, d’une incertitude dans les données, qui ne signalent pas de hiérarchie en cas d’attribution multiple. Il faut également garder à l’esprit que la carte, par exemple, ne représente pas le phénomène bâtisseur, mais reflète plutôt les délibérations du Conseil. La taille des points dépend donc du nombre de mentions lors des séances et non de la quantité de chantiers ouverts. Les graphiques créés sont exploratoires, ils ont pour but de mener à la découverte du contenu des archives. C’est pourquoi il nous a semblé pertinent d’offrir le plus grand nombre de points d’entrée possibles dans les données.
+Ces prototypes invitent à une toute nouvelle forrme d'exploration des données CONBAVIL. Ils présentent des sortes de vues distantes données, même s'il faut revenir à la notion de "figuration" pour préciser la nature de ces vues. En effet, la carte comme le soleil sont des graphiques cumulatifs, ce qui signifie que certaines délibérations y figurent plusieurs fois si elles sont associées à plusieurs lieux ou types architecturaux. Cette décision provient, entre autres, d’une incertitude dans les données, qui ne signalent pas de hiérarchie en cas d’attribution multiple. Ce ne sont donc pas des vues distantes "neutres", où chaque donnée est représentée une seule fois, mais bien une figuration centrée sur des caractéristiques des données. Il faut donc employer certaines précautions avant d'émettre des analyses d'ensemble sur leurs contenus. Cependant, l'enjeu étant de créer des visualisations exploratoires, il nous a semblé pertinent d’offrir le plus grand nombre de points d’entrée possibles menant à la découverte des données qui y sont contenues.
 
-Nous devons également souligner les silences dans nos visualisations. Dans le cas de la carte, celle-ci ne figure que le territoire 
+Il faut également garder à l’esprit que la carte, par exemple, ne représente pas le phénomène bâtisseur, mais reflète plutôt les délibérations du Conseil. La taille des points dépend donc du nombre de mentions lors des séances et non de la quantité de chantiers ouverts. Vice-versa, nous devons également souligner les silences dans nos visualisations. La carte se limite au territoire avoisinant la France métropolitaine. Certains points plus éloignés, comme Tanger au Maroc, sont à peine visibile. Il faudrait consciemment le chercher pour le trouver. De plus, les déliébrations concernant l'outre-mer sont introuvables. Il faudrait, par exemple, effectuer un montage cartographique pour placer les départements d'outre-mer. De même, il manque les affaires administratives et les délibérations qui ne sont pas associée à un lieu. Nous avions pensé créer une petite île, un territoire symbolique, pour visualiser les affaires sans lieux. Ces ajouts permettraient de présenter une gréographie plus complète de CONBAVIL. 
 
- pas les affaires administratives ni toute autre délibération qui n'est pas associée à un lieu. Nous avions pensé créer une petite île, un territoire symbolique pour visualiser les affaires sans lieux. 
+Nous n'en avons identifiés que trois délibérations "lointaines". Elles concernent une même affaire située sur l'Île de la Réunion: la construction d'une prison pour les condamnés politiques. Nous "paraphrasons" les données ci-dessous, car en sus de leur absence de notre carte, elles sont un exemple intéressant d'un programme architectural très particulier. Nous souhaitons rendre visible, et non effacer, ces contenus spécifiques qui se distinguent par une diversité, par exemple, géographique. Pour ce faire, il faudra procéder à d'autres itération de prototypage, afin de progressivement trouver des solutions, qu'elles soient de l'ordre visuel ou technique, pour inclure d'avantage de délibérations, jusqu'à figuer toutes celles qui "pertinentes", dans nos visualisations. 
 
-
-
-```
-
-```
-
-
+> [conbavil14195](https://www.inha.fr/conbavil/notice.php?pv=14195) --> 1837-01-03, *Prison pour les condamnés politiques*, Ilse Bourbon, La Réunion. Adoption avec Réserve, Caristie. Report: manquent programme, devis descriptif et estimatif. Construction d'une prison
+>
+> *La nature de l'édifice et la situation géographique (climat) rendent le programme indispensable pour juger du projet. Le jugement rendu sera conjectural. L'absence d'enceinte et d'un chemin de ronde, indispensables en métropole, ne s'imposent peut-être pas. L'élévation des bâtiments sur 3 niveaux n'est pas souhaitable (discipline). Le toit devrait être très saillant (ombre). Une seule salle pour réfectoire et ateliers paraît insuffisante.*
+>
+> [conbavil01540](https://www.inha.fr/conbavil/notice.php?pv=01540) --> 1837-01-27, Salazie, Ile Bourbon, La Rénion. Adoption, Caristie, en présence d'un ingénieur en chef anonyme et de Claude Du Campe de Rosamel (Ministre de la Marine). Rivière Le Mât. Construction d'un bagne/caserne
+>
+> *A la demande du ministre de la Marine, et en l'absence de l'auteur, le rapporteur chargé de corriger le projet. Présente plusieurs variantes:- choix du site: 1 cirque naturel dans le quartier de Salazie, 'la hute du petit diable' au bord de la rivière du Mât.- prison séparée de la caserne, bâtiment d'1 niveau sur rez-de-chaussée, chambres individuelles ou jumelées, plus spacieuses que dans le 1° projet (cube d'air nécessaire dans ce climat chaud); ateliers multiples pour 'offrir aux détenus les moyens de trouver dans le travail 1 adoucissement à l'ennui de leur captivité'.*
+>
+> [conbavil13612](https://www.inha.fr/conbavil/notice.php?pv=13612) --> 1837-08-28, Isle Bourbon, La Réunion. Adoption, Caristie, réclamation 3500F pour la construction d'une prison 
 
 Johanna Drucker distingue les représentation statiques qui référencent ou visualisent une information connue, et les "générateurs de connaissances" *knowledge generators*. Ces derniers sont dynamiques et créent des ouvertures dans leur utilisation qui possèdent le potentiel de créer de nouveaux savoir (Drucker 2013: 65) 
 
-> Ces visualisations ne sont pas en fins en soi, mais plutôt une matière pour l'élaboration intellectuelle ̣- mouvante et incarnée dans divers modes d'inscription, mobilisant en même temps les nouveaux outils et des séquences de pratiques et des protocoles de travaux existants. Les images produites ne sont ainsi pas uniquement conçues comme des outils d'interprétation, mais aussi de tri, de paramétrage, voire même d'enrichissement et de transformation des données (caviglia 2014)
+> Ces visualisations ne sont pas en fins en soi, mais plutôt une matière pour l'élaboration intellectuelle ̣- mouvante et incarnée dans divers modes d'inscription, mobilisant en même temps les nouveaux outils et des séquences de pratiques et des protocoles de travaux existants. Les images produites ne sont ainsi pas uniquement conçues comme des outils d'interprétation, mais aussi de tri, de paramétrage, voire même d'enrichissement et de transformation des données (Caviglia 2014)
 
-
+Pour atteindre ce degré épistémologique, nous pensons que les visualisations doivent être éditorialisées en un instrument de recherche. 
 
 ## 3.3 Editorialisation & atlas
 
-Suite à nos expérimentations dans la production de visualisations individuelles, la création d'un instrument de recherche pour CONBAVIL requiert leur mise en commun dans un espace éditorial numérique. 
+Pour rassembler nos visualisations dans espace éditorial commun, nous avons puisé dans trois 
 
 - Outil numérique --> interface
 - Ensemble de cartes --> atlas
@@ -293,7 +295,7 @@ Créer un instrument de recherche revient à concevoir une interface qui permet 
 
 
 
-### 3.3.1 Théories pour la conception d'un instrument de recherche
+### 3.3.1 Dispositions conceptuelles
 
 #### Interfaces
 
@@ -305,11 +307,13 @@ Les chercheur·se·s Stan Ruecker, Milena Redzikowska et Stéfan Sinclair ont th
 
 Lors de la création de nos visualisation et dans la conception de notre interface, nous nous questionnons sur la possibilité de produire un instrument de recherche centré sur l'herméneutique, qui produirait une richesse et une diversité dans l'interprétation dans les données. Il s'agirait de créer une interface dont les affordances me nous mènent pas nécessairement où on avait prévu, mais dans des espaces où on savait qu’on pouvait aller. En proposant des nouvelles perspectives incongrues, on pourrait ainsi tomber sur une dimension pertinente de l’objet qui nous intéresse. 
 
-
+<!-- changer l'ordre???-->
 
 #### La forme-atlas
 
 Nous avons également été inspirée par le concept d' "atlas" pour penser notre instrument de recherche. Christian Jacob définit l’atlas géographique comme un  "dispositif qui permet de concilier le tout et le détail. Il est régi par une logique cumulative et analytique, qui conduit de la vision globale aux images partielles " (1992: 97). La forme-atlas est associée à une variété de formes visuelles: cartes, mais aussi graphiques, chronologies, illustrations, et même des reproductions d'œuvres d'art. 
+
+<!-- histoire de la forme atlas, du XIXe au XXIe-->
 
 L'atlas prend d'autres formes encore lors de son emploi par des artistes ou par des historien·ne·s de l’art. Dans ce domaine, il peut devenir, selon Georges Didi-Huberman, une  "forme visuelle du savoir " comportant  "[un] paradigme *esthétique* de la forme visuelle, et [un] paradigme *épistémique* du savoir " (2011: 12). Cet outil crée des zones interstitielles, des intervalles heuristiques dans son ouverture inépuisables aux possibles. Sa réception est une activité non linéaire : on ne *lit* pas mais on *consulte* un atlas. Cette particularité, qui introduit le multiple, le divers et l'hybridité, autorise l’émergence d’une forme de  "connaissance par l’imagination " grâce à  "la puissance intrinsèque du *montage* qui consiste à découvrir […] des liens que l’observation directe est incapable de discerner " (Didi-Huberman 2017: 13). 
 
