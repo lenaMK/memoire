@@ -23,10 +23,18 @@
 
 img 
 
+<div>
+  <iframe src="https://www.public.archi/atlas-numerique/viz/carteCommunes/index.html" title="Lena Krause, *[Carte des départements français et densité des projets Conbavil](http://atlas.lenamk.site/viz/carteCommunes/)*, prototype de l'*Atlas numérique de l’architecture publique en France (1795-1840)*, 2019" width="100%" height="700" frameborder="0" style="display:block; margin: 0 auto;" id="fig3-17">&nbsp;</iframe> </div>
+
+**Fig. 17** Lena Krause, *[Carte des départements français et densité des projets Conbavil](http://atlas.lenamk.site/viz/carteCommunes/)*, prototype de l'*Atlas numérique de l’architecture publique en France (1795-1840)*, iframe, 2019
+
+alt="Fig. 3-17: https://www.public.archi/atlas-numerique/viz/carteCommunes/index.html" 
+
 - src="./img/FranceActuelleEtSesAnciensDefenseurs_1838.jpeg" 
-- alt="*[Titre](./img/ref.jpeg)*, date"
-- style="width: 100%"
-- id="num" ex: "fig1-1"
+- alt="*[Titre](http://lenamk.site/memoire/Redaction/img/ref.jpeg)*, date" http://lenamk.site/memoire/Redaction/
+- style="width: 100%" id="fig3-" 
+- ex: "fig1-1"
+- 
 
 <img src="./img/FranceActuelleEtSesAnciensDefenseurs_1838.jpeg" alt="*[La France actuelle et ses anciens défenseurs. Carte de France physique et administrative](./img/FranceActuelleEtSesAnciensDefenseurs_1838.jpeg)*, 1838" style="width: 100%" id="fig" />
 
