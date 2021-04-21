@@ -210,13 +210,13 @@ Le résultat d'une recherche via le formulaire apparaît sous la forme d'une lis
 
 Pour trouver les dépôts de mendicités créés par Napoléon, nous devons identifier la dénomination de façon hiérarchique. La liste déroulante suggère d'abord les catégories, nous sélectionnons "architecture hospitalière, d'assistance ou de protection sociale". Apparaissent alors les types d'édifices qui appartiennent à cette catégorie. Cela sous-entend que l'utilisateur doit être capable d'identifier la catégorie d'un type d'édifice ou y aller par "essai/erreur" puisque les types se mettent à jour en fonction de la sélection de la catégorie.
 
-<img src="/home/lenamk/Documents/atlasNumerique/Redaction/img/BoudonSzambien/1-depotmendicite.png" alt="1-depotmendicite" style="zoom:45%;" />
+<img src="./img/BoudonSzambien/1-depotmendicite.png" alt="1-depotmendicite" style="zoom:45%;" />
 
 Nous avons ensuite sélectionné "Napoléon" dans le contenu du rapport (car on peut exclure qu'il ait été architecte ou intervenant du projet). Puisque cocher élément remarquable pourrait éliminer les options plein texte, mais que si Napoléon est un élément remarquable, son nom est probablement contenu dans le rapport, nous n'avons pas coché cette option. On a également préféré inscrire Napoléon sans préciser "I" ou "Ier" dans le but d'inclure le plus de résultats possible. On ne peut malheureusement pas exclure la possibilité que d'autres graphies aient été employées.
 
-<img src="/home/lenamk/Documents/atlasNumerique/Redaction/img/BoudonSzambien/1-napoleon.png" alt="1-napoleon" style="zoom:33%;" />
+<img src="./img/BoudonSzambien/1-napoleon.png" alt="1-napoleon" style="zoom:33%;" />
 
-<img src="/home/lenamk/Documents/atlasNumerique/Redaction/img/BoudonSzambien/1-listeresultats.png" alt="1-listeresultats" style="zoom:33%;" />
+<img src="./img/BoudonSzambien/1-listeresultats.png" alt="1-listeresultats" style="zoom:33%;" />
 
 Dans les trois résultats qui correspondent notre recherche, nous constatons que le nom de Napoléon est mentionné en référence à des articles du "code Napoléon", c'est-à-dire au code civil. En fait, en prenant du recul par rapport au formulaire pour se concentrer sur le contexte historique, on comprend que la question fait plutôt référence au décret impérial du 5 juillet 1808, où Napoléon prescrit la création de dépôts de mendicités dans chaque département (Peny, 2011: parag. 1-2). S'il en existait déjà certains avant, ce sont donc ceux créés après 1808 qui répondent à cette question.
 
@@ -236,7 +236,7 @@ Pour identifier les rapports confiés à Chalgrin dès son retour "au pouvoir" s
 
 Revenir à la question 4 (le nombre et la nature des chantiers dirigés par l'architecte Boissonnade en Aveyron dans les années 1830) nous permet d'identifier une série de limitations dans l'interface. Nous retrouvons la possibilité de sélectionner l'Aveyron mais pas l'intervalle de temps des années 1830. Ensuite, en ce qui concerne l'architecte, nous pouvons utiliser la troncature du nom, " Boisson* " pour inclure les deux graphies (Boissonnade et Boissonade) [^17]. 
 
-<img src="/home/lenamk/Documents/atlasNumerique/Redaction/img/BoudonSzambien/4-Boisson-Aveyron.png" alt="4-Boisson-Aveyron" style="zoom: 67%;" />
+<img src="./img/BoudonSzambien/4-Boisson-Aveyron.png" alt="4-Boisson-Aveyron" style="zoom: 67%;" />
 
 Il y a du bruit des résultats, comme dans la troisième notice, où nous ne trouvons pas de mention de Boissonnade ni d'autre termes qui commenceraient par ces lettres. Nous ne savons pas pourquoi cette notice apparaît, mais cela signale un problème de transparence, car l'interface n'explicite pas les résultats pour l'utilisateur·rice.
 
@@ -288,7 +288,7 @@ De part la forme choisie pour ces données et leur quantité, il a, dès le dép
 
 Un cas actuel et exemplaire de création et d'utilisation de données est issue des archives d'une organisation, *Experiments in Arts and Technology* (E.A.T), fondée en 1966 par les artistes Robert Rauschenberg et Robert Whitman et les ingénieurs Billy Klüver et Fred Waldhauer (Leclercq 2016: 46). Une équipe interdisciplinaire, au croisement de l'histoire de l'art sociale, du design et des humanités numériques, s'est penchée sur les archives E.A.T.. Les chercheurs du médialab ont commencé par identifier et interpréter des informations contenues dans les archives pour former un ensemble de données structurées. Après ce processus d'extraction [manuelle et humaine] des données, l'objectif a été de d'équiper les historien·ne·s d'un instrument de recherche pour les explorer (Leclerq et Girard, 2013: 6). 
 
-<img src="/home/lenamk/Documents/memoire/Redaction/img/EATDatascape.png" style="zoom:67%;" />
+<img src="./img/EATDatascape.png" style="zoom:67%;" />
 
 fig. 1 *EAT Datascape*, Christophe Leclerq, Paul Girard, Patrick Browne et Daniele Guido (2013) , MédiaLab, SciencesPo Paris. 
 
@@ -337,7 +337,7 @@ Qu'est-ce que le contenu de la base de données CONBAVIL? Comment comprendre une
 
 Le premier est un simple histogramme, ou *bar chart*. [Annexe en ligne: datascape1]. Chaque barre figure une propriété et sa hauteur est calculée selon sa récurrence dans la base de données. Le système bicolore permet de distinguer les occurrences uniques (en rose) de celles multiples. L'interactivité du graphique permet d'explorer le contenu de chaque barre en cliquant dessus. Cela affiche en dessous le nombre d'occurrences total, ainsi que les valeurs distinctes, puis une liste de ces dernières. 
 
-![](/home/lenamk/Documents/atlasNumerique/Redaction/img/datascape_propriétés.png)
+![](./img/datascape_propriétés.png)
 
 Logiquement, les champs normalisés sont majoritairement en bleu tandis que les champs plein texte sont en rose. Dû aux grandes disparités entre les valeurs <!-- on aurait pu mettre une échelle log--->, on ne peut pas voir la partie rose, c'est-à-dire les occurrences distinctes, de certaines propriétés comme les registres (valeur: 66) ou les catégories architecturales (16). Il faut noter que le champ "id" est nécessairement rose puisque ce sont les identifiants uniques. Puisqu'il s'agit d'un moyen figurer la base de données, nous n'avons pas retiré ce champs même s'il est moins pertinent, car c'est plus un exercice de figuration (brute ou directe) que d'expression analytique.
 
@@ -353,7 +353,7 @@ S'il était évident avant de produire ce graphique que la base de données cont
 
 Le second datascape est un graphique complexe et long, plutôt conceptuel ou poétique [Annexe en ligne: datascape 2]. Il s'agit d'une trame composée des propriétés (colonnes) dont chaque ligne est une fiche. Ce système binaire, qui signale si la propriété est renseignée (sombre) ou non (clair), est inspiré par les matrices de l'éminent cartographe et sémiologue français, Jaques Bertin[^27]. Le principe des matrices de Bertin est un système visuel de classification, la diagonalisation, qui permet d'identifier des similarités entre des entités. Il s'agit d'employer capacité instictive d'interprétation visuelle pour ranger et classifier dl'information (source?!<!-- à choisir-->).
 
-![](/home/lenamk/Documents/atlasNumerique/Redaction/img/datascape.png)
+![](./img/datascape.png)
 
 <!-- Il faudrait l'imprimer pour voir l'ensemble et pouvoir parler de dimension + faire des extraits de différentes parties, pour voir si du début à la fin ça a beaucoup changé -->
 
