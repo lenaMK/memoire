@@ -285,15 +285,7 @@ Pour atteindre ce degré épistémologique, nous pensons que les visualisations 
 
 ## 3.3 Editorialisation & atlas
 
-Pour rassembler nos visualisations dans espace éditorial commun, nous avons puisé dans trois 
-
-- Outil numérique --> interface
-- Ensemble de cartes --> atlas
-- Publication (forme éditorialie) numérique --> éditorialisation
-
-Créer un instrument de recherche revient à concevoir une interface qui permet la manipulation et la recherche avec les données de CONBAVIL. Nous pouvons ainsi expérimenter avec des formes visuelles qui révéleraient certaines caractéristiques de l'engrenage de l'architecture publique en France. Ses besoins et ses contraintes se reflètent dans sa chronologie, dans son organisation spatiale et dans ses choix d’infrastructure. 
-
-
+Pour rassembler nos visualisations dans espace éditorial commun, nous avons puisé dans le théories d'interface et d'éditorialisation, ainsi que pris la forme-atlas comme source d'inspiration. Nous pouvons ainsi penser aux enjeux de recherche, mais aussi à la manipulation des données tout en gardant une dimension visuelle et spatiale. Somme toute, il s'agit de mobiliser l'ensemble des recherches que nous avons effectuées jusqu'à présent pour produire un instrument de recherche. Celui-ci révélerait certaines caractéristiques de l'engrenage de l'architecture publique en France, ainsi que le potentiel contenu dans la visualisation et l'éditorialisation de données en histoire de l'art. 
 
 ### 3.3.1 Dispositions conceptuelles
 
@@ -307,15 +299,35 @@ Les chercheur·se·s Stan Ruecker, Milena Redzikowska et Stéfan Sinclair ont th
 
 Lors de la création de nos visualisation et dans la conception de notre interface, nous nous questionnons sur la possibilité de produire un instrument de recherche centré sur l'herméneutique, qui produirait une richesse et une diversité dans l'interprétation dans les données. Il s'agirait de créer une interface dont les affordances me nous mènent pas nécessairement où on avait prévu, mais dans des espaces où on savait qu’on pouvait aller. En proposant des nouvelles perspectives incongrues, on pourrait ainsi tomber sur une dimension pertinente de l’objet qui nous intéresse. 
 
-<!-- changer l'ordre???-->
-
 #### La forme-atlas
 
 Nous avons également été inspirée par le concept d' "atlas" pour penser notre instrument de recherche. Christian Jacob définit l’atlas géographique comme un  "dispositif qui permet de concilier le tout et le détail. Il est régi par une logique cumulative et analytique, qui conduit de la vision globale aux images partielles " (1992: 97). La forme-atlas est associée à une variété de formes visuelles: cartes, mais aussi graphiques, chronologies, illustrations, et même des reproductions d'œuvres d'art. 
 
+Au cours de nos recherches, nous avons découvert et consulté des atlas français du XIXe siècle. Détailler les évolutions de cette forme éditoriale serait un travail qui dépasse largement l'envergure de ce mémoire. Nous signalons plutôt quelques exemplaires pour montrer certaines caractéristiques que nous avons pu y observer. L'*Atlas de la République française* publié en 1802, est composé de 102 feuilles indiquant les départements, les arrondissements communaux, les justices de paix actuelles et les anciens cantons (fig. 3-22: 6971). Son rôle est défini dans le titre comme "servant à l'intelligence du Tableau Général de la nouvelle division de la France". Avec un contenu plutôt "classique" pour un atlas, il présente une série de cartes des départements ainsi qu'une carte de France divisée en département. S'y adjoingnent des tableaux des populations et la "nouvelle division en justices de paix, [qui] change entièrement celle des anciens cantons [et qu']il importe de connâitre l'effet de cette division"
+
+**Fig. 3-22** 6971 page de titre: 
+
+La *Statistique générale et particulière de la France et de ses colonies, avec une nouvelle descrpition topographique, physique, agricole, politique, industrielle et commerciale de cet état; etc.* Sept Volumes in-8°, avec une Collection de 19 Tableaux et 9 Grandes cartes enluminées, ...., continent un liste de cartes et de tableaux. Si les cartes se rapprochent des autres exemplaires précédents, les tableaux statistiques nous ont impressionnée par la quantité de chiffres qui y sont minutieusement rapportés, notamment dans le *Tableau général par ordre alphabétique de départemens, des naissances, mariages et décès qui on eu lieu en France pendant l'an IX* (fig. 3-24: 6991).
+
+**Fig. 3-24** 6991 *Tableau général par ordre alphabétique de départemens, des naissances, mariages et décès qui on eu lieu en France pendant l'an IX* 
+
+
+
+À la fin du XIXe, ces grandes listes statistiques évoluent vers des formes visuelles qui nous sont plus familières, comme dans l'*Atlas de statistique graphique de la ville de Paris...* publié entre 1889 et 1981 par Jacques Bertillon. 
+
+endance beaucoup plus visuelle à la fin du XIXe (fig. 3-26 à 24).
+
+**Fig. 3-25** https://gallica.bnf.fr/ark:/12148/btv1b52510505s/f34 *Vente en gros de la volaille et du gibier aux halles centrales*
+
+**Fig. 3-26** https://gallica.bnf.fr/ark:/12148/btv1b52510505s/f37 *Paris 1888. Octroi de Paris_ Produits par bureaux et par nature de recettes*
+
+évolue vers une t
+
 <!-- histoire de la forme atlas, du XIXe au XXIe-->
 
-L'atlas prend d'autres formes encore lors de son emploi par des artistes ou par des historien·ne·s de l’art. Dans ce domaine, il peut devenir, selon Georges Didi-Huberman, une  "forme visuelle du savoir " comportant  "[un] paradigme *esthétique* de la forme visuelle, et [un] paradigme *épistémique* du savoir " (2011: 12). Cet outil crée des zones interstitielles, des intervalles heuristiques dans son ouverture inépuisables aux possibles. Sa réception est une activité non linéaire : on ne *lit* pas mais on *consulte* un atlas. Cette particularité, qui introduit le multiple, le divers et l'hybridité, autorise l’émergence d’une forme de  "connaissance par l’imagination " grâce à  "la puissance intrinsèque du *montage* qui consiste à découvrir […] des liens que l’observation directe est incapable de discerner " (Didi-Huberman 2017: 13). 
+Aujourd'hui, l'atlas prend d'autres formes encore, notamment lors de son emploi par des artistes ou par des historien·ne·s de l’art. Dans ce domaine, il peut devenir, selon Georges Didi-Huberman, une  "forme visuelle du savoir " comportant  "[un] paradigme *esthétique* de la forme visuelle, et [un] paradigme *épistémique* du savoir " (2011: 12). Cet outil crée des zones interstitielles, des intervalles heuristiques dans son ouverture inépuisables aux possibles. Sa réception est une activité non linéaire : on ne *lit* pas mais on *consulte* un atlas. Cette particularité, qui introduit le multiple, le divers et l'hybridité, autorise l’émergence d’une forme de  "connaissance par l’imagination " grâce à  "la puissance intrinsèque du *montage* qui consiste à découvrir […] des liens que l’observation directe est incapable de discerner " (Didi-Huberman 2017: 13). 
+
+Dans l'espace numérique, la forme atlas inspire auss... Christelle.
 
 L'atlas est donc une forme éditoriale qui répond aux critères d'instrument de recherche que nous souhaitons créer. Sa forme numérique permet de faciliter l'interactivité et la manipulation du contenu. L'interactivité des visualisations comme de l'atlas nous sert également à réduire la tentation de faire d'en faire des preuves. La forme mouvante reflète la construction, *constructedness*, de l'image. Un arrêt sur image devient un choix conscient qu'il faut argumenter et que l'on peut critiquer. Avec l'atlas, nous voulons donc expérimenter avec une forme d'épistémologie visuelle, spatiale et numérique en histoire de l'art. 
 
