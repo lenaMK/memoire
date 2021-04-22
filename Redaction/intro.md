@@ -40,7 +40,7 @@ La nature spatialisée de l’architecture publique et des données CONBAVIL nou
 
 Plus spécifiquement, nous employons comme opérateur théorique central dans ce mémoire la cartographie critique. Il s’agit d’un mouvement de pensée né dans les années 1990, avec pour référence l’article pionnier du géographe et historien des cartes Brian Harley, « *Deconstructing the Map* » (1989). Il y propose de déconstruire la carte – au sens postmoderne, un procédé qui permet de briser le lien entre réalité et représentation – afin d’encourager un tournant épistémologique dans l’interprétation et l’analyse de la pratique cartographique. Le processus de déconstruction permet de révéler de nouvelles approches de la carte et de retracer les mécanismes sociaux liés à sa production (Harley 1989 : 2).
 
-La cartographie critique outille donc, en premier lieu, à l’étude des cartes. Elle révèle les biais de son approche scientifique, ses outils rhétoriques, son impact sur le savoir et son utilisation liée au pouvoir politique. Alors que la période que nous étudions s’anime et se transforme sous l’instauration de nouveaux systèmes administratifs ainsi que de formes de savoir et de pouvoir, il devient très utile de développer une approche critique des structures et des modes de pensées qui régissent cette époque. Cela comprend le fonctionnement de l’administration (Château-Dutier 2016; Moullier 2004; Napoli 2003) ainsi que son rapport au territoire par l’emploi de la cartographie (Palsky 1996; Verdier 2001; Blond 2008) et de la statistique (Desrosières 2008; Supiot). Les parallèles entre la cartographie et la statistique sont souvent mutuellement évoqués dans ces écrits. Nous proposons ici de rassembler les critiques de ces disciplines fondamentales à l’État-Nation afin de mettre en relief leurs similarités et révéler leurs mécanismes de production d’autorité. 
+La cartographie critique outille donc, en premier lieu, à l’étude des cartes. Elle révèle les biais de son approche scientifique, ses outils rhétoriques, son impact sur le savoir et son utilisation liée au pouvoir politique. Alors que la période que nous étudions s’anime et se transforme sous l’instauration de nouveaux systèmes administratifs ainsi que de formes de savoir et de pouvoir, il devient très utile de développer une approche critique des structures et des modes de pensées qui régissent cette époque. Cela comprend le fonctionnement de l’administration (Château-Dutier 2016; Moullier 2004; Napoli 2003) ainsi que son rapport au territoire par l’emploi de la cartographie (Palsky 1996; Verdier 2001; Blond 2008) et de la statistique (Desrosières 2008; Supiot 2014; Perrot et Al. 1981). Les parallèles entre la cartographie et la statistique sont souvent mutuellement évoqués dans ces écrits. Nous proposons ici de rassembler les critiques de ces disciplines fondamentales à l’État-Nation afin de mettre en relief leurs similarités et révéler leurs mécanismes de production d’autorité. 
 
 Du XIXe au XXIe siècle, la cartographie critique invite donc à questionner les normes scientifiques qui régissent la production de connaissances. Nous pouvons appliquer cette analyse critique des formes d’autorité aux structures de savoir et de pouvoir tout comme aux données, rejoignant ainsi le domaine de la pensée critique des données *Critical Data Studies* (Iliadis et Russo 2016). Dans le domaine des humanités numériques, Johanne Drucker spécifie qu’avant de penser à l’analyse ou à la visualisation de données, nous devons commencer par discuter de façon critique la collecte des données pour révéler leurs biais et leurs silences, c’est-à-dire les choix qui ont dicté leur structuration (Drucker 2014 : 127). 
 
@@ -76,7 +76,15 @@ Dans le deuxième chapitre, il sera question de la transformation des archives e
 
 Nous pourrons alors présenter notre prototype d’interface, des visualisations à l’atlas numérique, dans le dernier chapitre de ce mémoire. Les enjeux théoriques de la cartographie et la visualisation interactive des données constitueront le fondement de notre instrument de recherche. Nous présenterons ensuite les trois prototypes principaux réalisés pour ce travail, avec une volonté de documenter le processus complexe duquel ils sont issus. Il s’agira également de démontrer leurs enjeux tout en prenant garde quand aux questions qu’ils suscitent. Nous terminerons avec notre proposition pour un atlas numérique ainsi qu’un prototype fonctionnement d’un extrait de ce dernier qui fait la démonstration d’un lien dynamique entre deux visualisations. L’analyse du potentiel tout comme des limites de ce dispositif nous amènera alors à clore ce travail. 
 
+___
 
+## Bibliographie
+
+
+
+
+
+___
 
 ## Notes
 

@@ -2,7 +2,7 @@
 
 <!-- À déplacer dans la section statique gauche dans le site-->
 
-### Chapitre 1: [Administration et architecture publique en France au XIXe siècle](lenamk.site/memoire/Redaction/Chapitre1#administration-et-architecture-publique-en-france-au-xixe-siècle)
+**Chapitre 1: [Administration et architecture publique en France au XIXe siècle](lenamk.site/memoire/Redaction/Chapitre1#administration-et-architecture-publique-en-france-au-xixe-siècle)**
 
 1.1 [L’administration de la France au lendemain de la Révolution](lenamk.site/memoire/Redaction/Chapitre1#ladministration-de-la-france-au-lendemain-de-la-révolution)
 	1.1.1 [La division et l’unification du territoire](http://lenamk.site/memoire/Redaction/Chapitre1#la-division-et-lunification-du-territoire) 
@@ -20,7 +20,7 @@
 	1.3.3 [Approches quantitatives, spatiales ou cartographiques](http://lenamk.site/memoire/Redaction/Chapitre1#approches-quantitatives-spatiales-ou-cartographiques)
 [Conclusions du chapitre](http://lenamk.site/memoire/Redaction/Chapitre1#conclusions-du-chapitre)
 [Notes](http://lenamk.site/memoire/Redaction/Chapitre1#notes)
-[Bibliographie du chapitre](http://lenamk.site/memoire/Redaction/Chapitre1#)
+[Bibliographie du chapitre](http://lenamk.site/memoire/Redaction/Chapitre1#Bibliographie)
 
 <!-- mettre à jour les liens en cas de changement de nom de partie-->
 
@@ -312,6 +312,16 @@ Ce premier chapitre, ancré dans le XIXe siècle, a pour but d’assurer l’int
 
 ___
 
+## Bibliographie
+
+
+
+(à venir)
+
+
+
+___
+
 ## Notes
 
 [^1]: Cela reste relatif, notamment dû à l’exclusion encore quasi-complète des femmes de la société civile.
@@ -323,6 +333,3 @@ ___
 
 
 
-## Bibliographie du chapitre
-
-(à venir)
