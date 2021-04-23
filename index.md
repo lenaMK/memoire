@@ -4,7 +4,21 @@ Ceci est une page web pour faciliter la relecture de mon mémoire de maîtrise, 
 
 Actuellement en cours de rédaction, je mets en ligne des parties prêtes à la relectures. Ceci est un travail en cours, le contenu va donc évoluer régulièrement. Par exemple, les titres sont tous temporaires. Commentaires et suggestions bienvenus, soit à même la page via [hypothesis](https://web.hypothes.is/#features), soit par courriel: lena.krause@umontreal.ca
 
-Dernière date de modification: 22 avril 2021.
+Dernière date de modification: 23 avril 2021 [ajout de la conclusion].
+
+À terminer: 
+
+- [ ] Corrections (contenu & ortho-typo)
+
+- [ ] Figures chapitre 2 et 3.3 
+
+- [ ] Bibliographie
+
+- [ ] Ajustement du jekyll pour la version en ligne
+
+- [ ] Nettoyage du repo
+
+  
 
 ___
 
@@ -108,6 +122,8 @@ ___
     - Éditorialisation
   - 3.3.2 Un atlas numérique comme instrument de recherche
   - 3.3.3 L'imaginaire et ses limites
+  
+  [Conclusion](./Redaction/Conclusion.md)
 
 
 ___

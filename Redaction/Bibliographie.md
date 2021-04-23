@@ -72,11 +72,11 @@ Ruecker, Stan, Milena Radzikowska et Stéfan Sinclair. 2016. *Visual Interface D
 
 Sabatier, Arnaud. 2010. *Critique de la rationalité administrative: pour une pensée de l’accueil*. L’Harmattan.
 
-Souchon, Cécile. 2011. « Les avis des membres du Conseil des Bâtiments civils relatifs aux constructions de temples protestants et à leur esthétique (XIXe siècle) ». *Chrétiens et sociétés. XVIe-XXIe siècles*, no Numéro spécial I (mars) : 173-200. https://doi.org/10.4000/chretienssocietes.2740.
+Souchon, Cécile. 2011. « Les avis des membres du Conseil des Bâtiments civils relatifs aux constructions de temples protestants et à leur esthétique (XIXe siècle) ». *Chrétiens et sociétés. XVIe-XXIe siècles*, n° spécial I (mars) : 173-200. https://doi.org/10.4000/chretienssocietes.2740.
 
 Supiot, Alain. 2015. *La gouvernance par les nombres: cours au Collège de France (2012-2014)*. Poids et mesures du monde. Nantes : Institut d’études avancées de Nantes ; Paris.
 
-Teyssot, Georges. 1978. « La Ville-équipement, la production architecturale des bâtiments civils 1795 - 1840 ». *Architecture, Mouvement, Contiunité*, no 45 : 86-94.
+Teyssot, Georges. 1978. « La Ville-équipement, la production architecturale des bâtiments civils 1795 - 1840 ». *Architecture, Mouvement, Contiunité*, n° 45 : 86-94.
 
 Thuillier, Jacques. 1992. « L’informatique en histoire de l’art : où en sommes-nous ? » *Revue de l’Art* 97 (1) : 5-10. https://doi.org/10.3406/rvart.1992.347996.
 
