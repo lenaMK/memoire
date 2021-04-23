@@ -1,8 +1,8 @@
-# Intro 
+# Introduction 
 
 
 
-## Sujet
+## Présentation du sujet
 
 ### Des données en histoire de l’art? 
 
