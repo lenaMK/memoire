@@ -295,7 +295,7 @@ Il ne suffit pas d'avoir affaire à des données en sciences humaines pour se si
 
 > l'apparition d'un paradigme méthodologique et épistémologique qu'il importe de saisir dans toute sa puissante heuristique, sans se laisser entraîner par l'idée naïve d'une production transparente de savoirs par moissonnage du big data des corpus, masses de données qui restent des artefacts muets en l'absence d'une herméneutique spécifique (Gefen 2015: 62). 
 
-Dans le cas de grands volumes de données, il devient nécessaire de créer de nouveaux moyens pour les étudier et les traiter l'information (Gefen 2015: 61). En fait, même dans le cas de "petites" quantités de données, on peut distinguer les approches "numérisées" de celles "numériques" (Drucker 2013) . Dans le premier cas, la numérisation change le médium sans pour autant affecter la méthode. Les chercheur·se·s effectuent sur l'ordinateur un travail qui serait équivalent aux méthodes analogues. On pourrait parler d'une approche numérisée lorsque l'on "feuillette" des archives numérisées, sans autres données ou informations que l'ordre des pages. Pour explorer des méthodes numériques, le changement de médium des archives (qui, dans ce cas, ne sont pas nativement numériques) s'accompagnéed'outils comme l'OCR ou d'une autre forme d'extraction des données qui métamorphose le contenu et les moyens disponibles pour la production de connaissance.
+Dans le cas de grands volumes de données, il devient nécessaire de créer de nouveaux moyens pour les étudier et les traiter l'information (Gefen 2015: 61). En fait, même dans le cas de "petites" quantités de données, on peut distinguer les approches "numérisées" de celles "numériques" (Drucker 2013) . Dans le premier cas, la numérisation change le médium sans pour autant affecter la méthode. Les chercheur·se·s effectuent sur l'ordinateur un travail qui serait équivalent aux méthodes analogues. On pourrait parler d'une approche numérisée lorsque l'on "feuillette" des archives numérisées, sans autres données ou informations que l'ordre des pages. Pour explorer des méthodes numériques, le changement de médium des archives (qui, dans ce cas, ne sont pas nativement numériques) s'accompagne d'outils comme l'OCR ou d'une autre forme d'extraction des données qui métamorphose le contenu et les moyens disponibles pour la production de connaissance.
 
 #### Nature des données CONBAVIL
 
@@ -355,15 +355,17 @@ Qu'est-ce que le contenu de la base de données CONBAVIL? Comment comprendre une
 
 #### Datascape 1: occurrences et valeurs distinctes de chaque propriété 
 
-Le premier est un simple histogramme, ou *bar chart* (fig. . Chaque barre figure une propriété et sa hauteur est calculée selon sa récurrence dans la base de données. Le système bicolore permet de distinguer les occurrences uniques (en rose) de celles multiples. L'interactivité du graphique permet d'explorer le contenu de chaque barre en cliquant dessus. Cela affiche en dessous le nombre d'occurrences total, ainsi que les valeurs distinctes, puis une liste de ces dernières. 
+Le premier est un simple histogramme, ou *bar chart* ([fig. 2-15](#fig2-15)). Chaque barre figure une propriété et sa hauteur est calculée selon sa récurrence dans la base de données. Le système bicolore permet de distinguer les occurrences uniques (en rose) de celles multiples. L'interactivité du graphique permet d'explorer le contenu de chaque barre en cliquant dessus. Cela affiche en dessous le nombre d'occurrences total, ainsi que les valeurs distinctes, puis une liste de ces dernières. 
 
 
 
-![](./img/datascape_propriétés.png)
+<div>
+ <iframe src="https://public.archi/atlas-2021/viz/datascape/index.html" title="Lena Krause, Datascape#1, recherche associée à l'*Atlas numérique de l’architecture publique en France (1795-1840)*, iframe, 2020" alt="Fig. 2-15: https://public.archi/atlas-2021/viz/datascape/index.html" width="100%" height="600" frameborder="0" style="display:block; margin: 0 auto;" id="fig2-15">&nbsp;</iframe>
+</div>
 
 **Fig. 2-15** Lena Krause, *[Datascape #1](https://public.archi/atlas-2021/viz/datascape/index.html)*, recherche associée à l'*Atlas numérique de l’architecture publique en France (1795-1840)*, iframe, 2020
 
-Logiquement, les champs normalisés sont majoritairement en bleu tandis que les champs plein texte sont en rose. Dû aux grandes disparités entre les valeurs <!-- on aurait pu mettre une échelle log--->, on ne peut pas voir la partie rose, c'est-à-dire les occurrences distinctes, de certaines propriétés comme les registres (valeur: 66) ou les catégories architecturales (16). Il faut noter que le champ "id" est nécessairement rose puisque ce sont les identifiants uniques. Puisqu'il s'agit d'un moyen figurer la base de données, nous n'avons pas retiré ce champs même s'il est moins pertinent, car c'est plus un exercice de figuration (brute ou directe) que d'expression analytique.
+Logiquement, les champs normalisés sont majoritairement en bleu tandis que les champs plein texte sont en rose. Dû aux grandes disparités entre les valeurs, on ne peut pas voir la partie rose, c'est-à-dire les occurrences distinctes, de certaines propriétés comme les registres (valeur: 66) ou les catégories architecturales (16). Il faut noter que le champ "id" est nécessairement rose puisque ce sont les identifiants uniques. Puisqu'il s'agit d'un moyen figurer la base de données, nous n'avons pas retiré ce champs même s'il est moins pertinent, car c'est plus un exercice de figuration (brute ou directe) que d'expression analytique.
 
 Lorsque la propriété contient 1 élément pour chaque fiche, le résultat est de 26954. C'est le cas pour la date de réunion. Il y a exactement une date par fiche, donc 26954 valeurs pour le champs date. Les valeurs distinctes nous informent que la base de données contient 4199 dates différentes. C'est une façon d'inférer que, sauf erreur [^ 26], c'est un poil moins de 4200 séances du conseil dont les procès-verbaux ont été numérisés.
 
@@ -373,11 +375,11 @@ S'il était évident avant de produire ce graphique que la base de données cont
 
 #### Datascape 2: approche sensible de près d'un million d'affirmations
 
-Le second datascape est un graphique complexe et long, plutôt conceptuel ou poétique [Annexe en ligne: datascape 2]. Il s'agit d'une trame composée des propriétés (colonnes) dont chaque ligne est une fiche. Ce système binaire, qui signale si la propriété est renseignée (sombre) ou non (clair), est inspiré par les matrices de l'éminent cartographe et sémiologue français, Jaques Bertin[^27]. Le principe des matrices de Bertin est un système visuel de classification, la diagonalisation, qui permet d'identifier des similarités entre des entités. Il s'agit d'employer capacité instictive d'interprétation visuelle pour ranger et classifier dl'information.
+Le second datascape est un graphique complexe et long, plutôt conceptuel ou poétique ([fig. 2-17](#fig2-17)). Il s'agit d'une trame composée des propriétés (colonnes) dont chaque ligne est une fiche. Ce système binaire, qui signale si la propriété est renseignée (sombre) ou non (clair), est inspiré par les matrices de l'éminent cartographe et sémiologue français, Jaques Bertin[^27]. Le principe des matrices de Bertin est un système visuel de classification, la diagonalisation, qui permet d'identifier des similarités entre des entités. Il s'agit d'employer capacité instictive d'interprétation visuelle pour ranger et classifier dl'information.
 
-![](./img/datascape.png)
+<img src="./img/datascape.png" title="Lena Krause, Datascape #2, recherche associée à l'*Atlas numérique de l’architecture publique en France (1795-1840)*, capture d'écran, 2020" alt="Lena Krause, [*Datascape #2*](https://public.archi/atlas-2021/viz/datascape/index.html), recherche associée à l'*Atlas numérique de l’architecture publique en France (1795-1840)*, capture d'écran, 2020" />
 
-<!-- Il faudrait l'imprimer pour voir l'ensemble et pouvoir parler de dimension + faire des extraits de différentes parties, pour voir si du début à la fin ça a beaucoup changé -->
+**Fig. 2-16** Lena Krause, *[Datascape #2](https://public.archi/atlas-2021/viz/datascape/index.html)*, recherche associée à l'*Atlas numérique de l’architecture publique en France (1795-1840)*, capture d'écran, 2020
 
 Les propriétés sont regroupées thématiquement (toponymie, rapports et avis, détails). Nous avons augmenté la transparence des champs que nous avons créés lors du nettoyage des données car ces champs n'existent pas en tant que tel dans la base (voir chp 2.2.2). L'effet recherché est de facilité une exploration sensorielle des données. La structure évoque la texture de la dentelle ou les partitions à trous d'une boîte à musique, des matières que nous pouvons manipuler et parmi lesquelles nous pouvoir ressentir avec aisance la présence de motifs. Pour ce faire, nous pensons qu'il faudrait littéralement imprimer, perler, tricoter ou effectuer en légo ce graphique. Ce retour à une matérialité permettrait un renouveau dans notre perspective et dans notre sensibilité face aux données présentées. 
 
@@ -385,9 +387,19 @@ Les paysages de données que nous avons créés sont pensés comme une étape de
 
 
 
+
+
+
+
 ## Conclusion chapitre
 
 Ce chapitre nous a permis de nous familiariser avec le contenu de la base de données ainsi que d'en développer une compréhension critique. Nous avons également commencé les préparatifs pour la conception d'une nouvelle interface de recherche dont il est question dans le chapitre suivant.
+
+
+
+
+
+
 
 ___
 
