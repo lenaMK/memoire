@@ -187,10 +187,13 @@ Ces hypothèses issues des probabilités peuvent être enrichies par des connais
 
 Comme second exemple, nous avons choisi la question du nombre et de la nature des chantiers dirigés par l'architecte Boissonnade en Aveyron dans les années 1830 (q4). On cherche des fiches dont l'auteur est un architecte (PAUT = "architecte") et dont le nom est "Boissonnade", au cours des années 1830 (DAR BETWEEN '1830-01-01' AND '1839-12-31')[^13]. Il faudra ensuite les regrouper par type d'intervention et compter les occurrences pour chaque type. Initialement, identifier les délibérations en Aveyron dont Boissonnade est l'architecte semble plutôt évident: AUT="Boissonnade". Il faut toutefois prendre en compte les problèmes d'orthographe, car les noms de personnes ont été mentionnées et orthographiées tels que les chercheur·se·s ont pu les lire (Boudon 2009: 20). En parcourant les données, nous avons remarqué qu'il y a (au moins) deux orthographes employées: "Boissonnade" et "Boissonade". De plus, nous avons soulevé dans la partie 2.1 le problème de TEXTO, dont le fonctionnement à plat requiert d'entrer les cas avec de multiples auteurs dans les champs AUT, AUT1, AUT2, puis d'inclure une série de nom séparés par des virgules dans AUT2 s'il y en a encore plus, et il reste à savoir si les professions (PAUT2) sont renseignées de la même façon.
 
-`SELECT PJT, Count(*)`
-`FROM conbavil`
-`WHERE Depart='12 AND (DAR BETWEEN '1830-01-01' AND '1839-12-31')(((AUT='Boissonnade' OR AUT='Boissonade) AND PAUT='architecte') OR ((AUT1='Boissonnade' OR AUT1='Boissonade) AND PAUT1='architecte') OR (Contains(AUT2, 'Boissonnade') OR Contains(AUT2, 'Boissonade')) AND Contains(PAUT2,'architecte'))`
-`GROUP BY PJT`
+> `SELECT PJT, Count(*)`
+>
+> `FROM conbavil`
+>
+> ``WHERE Depart='12 AND (DAR BETWEEN '1830-01-01' AND '1839-12-31')(((AUT='Boissonnade' OR AUT='Boissonade) AND PAUT='architecte') OR ((AUT1='Boissonnade' OR AUT1='Boissonade) AND PAUT1='architecte') OR (Contains(AUT2, 'Boissonnade') OR Contains(AUT2, 'Boissonade')) AND Contains(PAUT2,'architecte'))`
+>
+> `GROUP BY PJT`
 
 Afin d'identifier la nature et le nombre des projets, nous regroupons (Group by) par nature du projet (PJT) et sélectionnons le résultat en affichant chaque groupe et son nombre d'occurrences (Count). L'absence de normalisation dans les noms, en sus du problème des multiples champs auteurs, rend la requête complexe et touffue. Si on ne connaît pas les spécificités de la base, il y a un gros risque de ne pas penser à ces détails et d'ainsi passer à côté de plusieurs résultats. L'incertitude syntaxique, le choix des champs et les renseignements multiples peuvent causer des résultats que l'on peut qualifier de "bruit" - pour ceux qui ne devraient pas être là s'il n'y avait pas ces inconvénients et ce degré de complexité - ou de "silence" pour les résultats qui absents pour les mêmes raisons. Lors du travail avec des requêtes et des données, prendre conscience des possibles bruits et silences est une étape essentiel pour pouvoir être critique des résultats obtenus.
 
