@@ -173,9 +173,11 @@ Pour connaître le nombre d'églises transformées en école dans le départemen
 
 Nous voulons donc interroger la base de données pour savoir s'il existe des fiches qui correspondent aux critères suivants: la date (DAR) de la fiche doit être comprise entre 1802 et 1810 ─ '1802-01-01' et '1810-12-31' . Le département doit correspondre à la Nièvre; on peut l'écrire en toutes lettres 'AL = "Nièvre" ' mais si l'on veut éviter des problèmes d'orthographe et d'accents, on peut également utiliser le numéro de département (L), '59'. Le type d'intervention(PJT) doit être une nouvelle affectation et le type d'édifice (DES) soit une église, soit une école, ou les deux. Dans les cas de nouvelles affectations, les chercheur·se·s ont tenté de documenter les deux fonctions de l'édifice, c'est-à-dire le type d'édifice avant (église) et après (école) le changement. Cependant, ce n'était pas toujours possible. Dans ces situations, il est recommandé de "viser large" au début ─ le type d'édifice est soit une église, soit une école─ puis de choisir une façon de trier les résultats s'il y en a trop.
 
-`SELECT *`
-`FROM conbavil`
-`WHERE (DAR BETWEEN '1802-01-01' AND '1810-12-31') AND L='58' AND (DES='église'|'école') AND PJT='nouvelle affectation'`
+>`SELECT *`
+>
+>`FROM conbavil`
+>
+>`WHERE (DAR BETWEEN '1802-01-01' AND '1810-12-31') AND L='58' AND (DES='église'|'école') AND PJT='nouvelle affectation'`
 
 Lorsqu'on effectue une telle requête, on a en tête une hypothèse concernant le nombre de résultats. Dans ce cas-ci, on commence avec les 27'000 fiches contenues dans CONBAVIL. Par un simple calcul de probabilité (qui ne prend pas en compte les spécificités de la base), on peut estimer que la fourchette de date en élimine environs les 4/5èmes (8 ans sur 45). Dans le cas d'une répartition égale à travers le temps, il nous en reste un cinquième, donc environ 5000 fiches. Le choix du département de la Nièvre exclut tous les autres (plus d'une centaine, surtout avec les régions annexées à l'époque). À nouveau, même en faisant l'hypothèse d'une répartition égale des fiches entre les départements (on sait que n'est pas le cas, mais nous visons large), il resterait un centième donc 50 fiches. De plus, en ne considérant que les nouvelles affectations, on élimine toutes les nouvelles constructions ainsi que les réparations. on peut ainsi se douter qu'on aura peu de résultats pour cette requête. Finalement, si l'on spécifie les deux types d'édifices, église et école, en restera-t-il? 
 
