@@ -173,11 +173,9 @@ Pour connaître le nombre d'églises transformées en école dans le départemen
 
 Nous voulons donc interroger la base de données pour savoir s'il existe des fiches qui correspondent aux critères suivants: la date (DAR) de la fiche doit être comprise entre 1802 et 1810 ─ '1802-01-01' et '1810-12-31' . Le département doit correspondre à la Nièvre; on peut l'écrire en toutes lettres 'AL = "Nièvre" ' mais si l'on veut éviter des problèmes d'orthographe et d'accents, on peut également utiliser le numéro de département (L), '59'. Le type d'intervention(PJT) doit être une nouvelle affectation et le type d'édifice (DES) soit une église, soit une école, ou les deux. Dans les cas de nouvelles affectations, les chercheur·se·s ont tenté de documenter les deux fonctions de l'édifice, c'est-à-dire le type d'édifice avant (église) et après (école) le changement. Cependant, ce n'était pas toujours possible. Dans ces situations, il est recommandé de "viser large" au début ─ le type d'édifice est soit une église, soit une école─ puis de choisir une façon de trier les résultats s'il y en a trop.
 
-```
-SELECT *
-FROM conbavil
-WHERE (DAR BETWEEN '1802-01-01' AND '1810-12-31') AND L='58' AND (DES='église'|'école') AND PJT='nouvelle affectation'
-```
+`SELECT *`
+`FROM conbavil`
+`WHERE (DAR BETWEEN '1802-01-01' AND '1810-12-31') AND L='58' AND (DES='église'|'école') AND PJT='nouvelle affectation'`
 
 Lorsqu'on effectue une telle requête, on a en tête une hypothèse concernant le nombre de résultats. Dans ce cas-ci, on commence avec les 27'000 fiches contenues dans CONBAVIL. Par un simple calcul de probabilité (qui ne prend pas en compte les spécificités de la base), on peut estimer que la fourchette de date en élimine environs les 4/5èmes (8 ans sur 45). Dans le cas d'une répartition égale à travers le temps, il nous en reste un cinquième, donc environ 5000 fiches. Le choix du département de la Nièvre exclut tous les autres (plus d'une centaine, surtout avec les régions annexées à l'époque). À nouveau, même en faisant l'hypothèse d'une répartition égale des fiches entre les départements (on sait que n'est pas le cas, mais nous visons large), il resterait un centième donc 50 fiches. De plus, en ne considérant que les nouvelles affectations, on élimine toutes les nouvelles constructions ainsi que les réparations. on peut ainsi se douter qu'on aura peu de résultats pour cette requête. Finalement, si l'on spécifie les deux types d'édifices, église et école, en restera-t-il? 
 
@@ -187,12 +185,10 @@ Ces hypothèses issues des probabilités peuvent être enrichies par des connais
 
 Comme second exemple, nous avons choisi la question du nombre et de la nature des chantiers dirigés par l'architecte Boissonnade en Aveyron dans les années 1830 (q4). On cherche des fiches dont l'auteur est un architecte (PAUT = "architecte") et dont le nom est "Boissonnade", au cours des années 1830 (DAR BETWEEN '1830-01-01' AND '1839-12-31')[^13]. Il faudra ensuite les regrouper par type d'intervention et compter les occurrences pour chaque type. Initialement, identifier les délibérations en Aveyron dont Boissonnade est l'architecte semble plutôt évident: AUT="Boissonnade". Il faut toutefois prendre en compte les problèmes d'orthographe, car les noms de personnes ont été mentionnées et orthographiées tels que les chercheur·se·s ont pu les lire (Boudon 2009: 20). En parcourant les données, nous avons remarqué qu'il y a (au moins) deux orthographes employées: "Boissonnade" et "Boissonade". De plus, nous avons soulevé dans la partie 2.1 le problème de TEXTO, dont le fonctionnement à plat requiert d'entrer les cas avec de multiples auteurs dans les champs AUT, AUT1, AUT2, puis d'inclure une série de nom séparés par des virgules dans AUT2 s'il y en a encore plus, et il reste à savoir si les professions (PAUT2) sont renseignées de la même façon.
 
-> ```
-> SELECT PJT, Count(*)
-> FROM conbavil
-> WHERE Depart='12 AND (DAR BETWEEN '1830-01-01' AND '1839-12-31')(((AUT='Boissonnade' OR AUT='Boissonade) AND PAUT='architecte') OR ((AUT1='Boissonnade' OR AUT1='Boissonade) AND PAUT1='architecte') OR (Contains(AUT2, 'Boissonnade') OR Contains(AUT2, 'Boissonade')) AND Contains(PAUT2,'architecte'))
-> GROUP BY PJT
-> ```
+`SELECT PJT, Count(*)`
+`FROM conbavil`
+`WHERE Depart='12 AND (DAR BETWEEN '1830-01-01' AND '1839-12-31')(((AUT='Boissonnade' OR AUT='Boissonade) AND PAUT='architecte') OR ((AUT1='Boissonnade' OR AUT1='Boissonade) AND PAUT1='architecte') OR (Contains(AUT2, 'Boissonnade') OR Contains(AUT2, 'Boissonade')) AND Contains(PAUT2,'architecte'))`
+`GROUP BY PJT`
 
 Afin d'identifier la nature et le nombre des projets, nous regroupons (Group by) par nature du projet (PJT) et sélectionnons le résultat en affichant chaque groupe et son nombre d'occurrences (Count). L'absence de normalisation dans les noms, en sus du problème des multiples champs auteurs, rend la requête complexe et touffue. Si on ne connaît pas les spécificités de la base, il y a un gros risque de ne pas penser à ces détails et d'ainsi passer à côté de plusieurs résultats. L'incertitude syntaxique, le choix des champs et les renseignements multiples peuvent causer des résultats que l'on peut qualifier de "bruit" - pour ceux qui ne devraient pas être là s'il n'y avait pas ces inconvénients et ce degré de complexité - ou de "silence" pour les résultats qui absents pour les mêmes raisons. Lors du travail avec des requêtes et des données, prendre conscience des possibles bruits et silences est une étape essentiel pour pouvoir être critique des résultats obtenus.
 
@@ -202,7 +198,7 @@ Afin d'identifier la nature et le nombre des projets, nous regroupons (Group by)
 
 #### Présentation du formulaire
 
-À l'occasion de la complétion de la base de données en 2009, un outil d'interrogation en ligne a été créé pour faciliter son utilisation et augmenter son accessibilité. Il s'agit d'un formulaire disponible sur le site internet de l'INHA [^14]. L'interface de consultation de la base de données détermine ses utilisations possibles. Nous allons donc effectuer une analyse de cette interface afin d'identifier les moyens actuellement disponibles pour se servir de CONBAVIL pour leurs recherches. 
+À l'occasion de la complétion de la base de données en 2009, un outil d'interrogation en ligne a été créé pour faciliter son utilisation et augmenter son accessibilité. Il s'agit d'un formulaire disponible sur le site internet de l'INHA [^14]. L'interface de consultation de la base de données détermine ses utilisations possibles. Nous allons donc effectuer une analyse de cette interface afin d'identifier les moyens actuellement disponibles pour se servir de CONBAVIL, particulièrement pour la recherche. 
 
 Le formulaire se divise en trois sections. Tout d'abord, la section "Interrogation sur le projet" contient les informations relatives à l'architecture: fonction et emplacement de l'édifice, type d'intervention, intervenant et coût. La deuxième section "Interrogation sur le rapport issu de l'examen du projet" se réfère au fonctionnement du Conseil: date de la séance du conseil, rapporteur et contenu du rapport, décision, cote dans les archives et présence de dessins. Finalement, la dernière section est un choix de procédures administratives. Le formulaire contient des champs "plein texte", où l'utilisateur·rice peut écrire en toutes lettres ce qu'il·elle recherche, et des listes déroulantes, où il faut choisir un critère dans les options dans la liste. Les cases à cocher sont des critères booléen (oui/non), ce qui signifie que le critère concerné agit comme un filtre s'il est coché. 
 
