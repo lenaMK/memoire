@@ -117,16 +117,37 @@ La dernière catégorie d'outils que nous souhaitons évoquer concerne les bibli
 
 **Fig. 3-3** Lena Krause, *Code Leaflet.js et carte thermique des projets CONBAVIL*, capture d'écran de l'environnement de code et de la carte produite, 2021.
 
-La librairie D3.js se spécialise quant à elle dans la production de *Data-Diven Documents*[^4] (Bostock, 2019a). Initialement parue en 2011, cette librairie permet la manipulation de documents *based on data* (Bostock et al. 2011). Ces graphiques sont pensés et conçus pour le web. Les données sont converties en cartes ou en diagrammes directement dans le navigateur. Ils s'animent ensuite sous l'action de l'utilisateur·rice, qui peut ainsi sélectionner les données à afficher ou régler le niveau de détail lors de la consultation ([fig. 3-4](#fig3-4)).
+La librairie D3.js se spécialise quant à elle dans la production de *Data-Diven Documents*[^4] (Bostock, 2019a). Initialement parue en 2011, cette librairie permet la manipulation de documents *based on data* (Bostock et al. 2011). Ces graphiques sont pensés et conçus pour le web. Les données sont converties en cartes ou en diagrammes directement dans le navigateur. Nous avons, par exemple, préparé la liste des communes dans CONBAVIL, dont voici un extrait: 
+
+> ```json
+> {
+>     "properties": {
+>       "commune": "Marseille",
+>       "numDepartement": "13",
+>       "numCommune": "13055",
+>       "numDelib": 210
+>     },
+>     "geometry": {
+>       "type": "Point",
+>       "coordinates": [5.419240990190953, 43.29248952546808]      ]
+>     }
+>  } //(extrait, lignes 92 à 106, du fichier geoCommunesConbavil.json produit par l'autrice avec l'assistance de Paué Girard et Arnaud Pichon au Médialab, 2019)
+> ```
+
+Chaque commune est un objet avec des propriétés, comme son nom, ses numéros de département et de communes. Nous avons également calculé le nombre de délibérations qui concernent ce lieu (*numDelib*). Par Marseille, il s'agit de 210 délibérations. S'ajoutent à ces informations pour géolocaliser l'objet: les coordonnées de Marseille. À l'échelle à laquelle nous travaillons, le point central suffit. 
+
+Pour créer une visualisation, D3.js parcourt ces données et effectue une opération graphique pour chaque objet. Cela se traduit en instructions, telles que "pour chaque objet, placer un point [rouge] selon ses coordonnées [*x, y*] et définir la taille du point selon sa propriété *numDelib*". On peut également définir les interactions, comme "lorsque la souris passe par dessus le point, afficher le nom de la commune (*Marseille*)". 
+
+Chaque graphique D3.js requiert donc, en amont, des données ordonnées selon ce qu'on veut figurer. Il faut donc structurer ses données et les préparer à l'échelle du graphique à réaliser: barre d'un diagramme, points qui tracent une courbe, surface ou point sur une carte, etc. ([fig. 3-4](#fig3-4)). 
 
 <div>
- <iframe width="100%" height="500" frameborder="0" alt="Mike Bostock, (Galerie d'exemples de visualisations avec D3.js)[https://observablehq.com/@d3/gallery], ObservableHQ, 2020" src="https://observablehq.com/embed/@d3/gallery?cell=*" id="fig3-4" >&nbsp;</iframe>
+ <iframe width="100%" height="700" frameborder="0" alt="Mike Bostock, (Galerie d'exemples de visualisations avec D3.js)[https://observablehq.com/@d3/gallery], ObservableHQ, 2020" src="https://observablehq.com/embed/@d3/gallery?cell=*" id="fig3-4" >&nbsp;</iframe>
 </div>
 
 **Fig. 3-4** Mike Bostock, Galerie d'exemples de visualisations avec D3.js, ObservableHQ, 2020
 iframe https://observablehq.com/@d3/gallery
 
-Nous avons établis plusieurs critères pour sélectionner un outil de visualisation et de cartographie pour CONBAVIL. Nous souhaitions, dès le départ, explorer une pluralité de formes visuelles, de la cartographie aux différentes formes de graphiques et de diagrammes. L'accès web et interactif à ces visualisations est également important dans la conception d'un instrument de recherche. Dans l'ensemble, nous voulions privilégier un outil qui permette la création d'un espace de recherche pour les données de CONBAVIL et disposer d'un maximum de possibilités d'expérimentation visuelle. C'est pourquoi nous avons choisi de travailler avec la librairie d3.js, conçue pour le web et qui offre la plus grande flexibilité et variété dans les formes de visualisation de données ainsi que dans les interactions possibles.<!-- @ec lien vers la page des types de visualisations offerts --------- @lmk je ne suis pas sûre de comprendre, n'est-il pas juste au-dessus, fig 3-4? -->
+Nous avons établis plusieurs critères pour sélectionner un outil de visualisation et de cartographie pour CONBAVIL. Nous souhaitions, dès le départ, explorer une pluralité de formes visuelles, de la cartographie aux différentes formes de graphiques et de diagrammes. Nous devons également privilégier un outil qui nous permette de rester proche des données, puisque l'enjeu final relève de la création d'un espace de recherche pour les données de CONBAVIL. Finalement, l'accès web et interactif à ces visualisations s'avère être la solution au potentiel le plus riche. C'est pourquoi nous avons choisi de travailler avec la librairie d3.js, conçue pour le web et qui offre la plus grande flexibilité et variété dans les formes de visualisation de données ainsi que dans les interactions possibles.<!-- @ec lien vers la page des types de visualisations offerts --------- @lmk je ne suis pas sûre de comprendre, n'est-il pas juste au-dessus, fig 3-4? -->
 
 ## 3.2 Pratiques de visualisation et de cartographie
 
@@ -312,13 +333,112 @@ Johanna Drucker distingue les représentations statiques qui référencent ou vi
 
 > comme des fins en soi, destinées à présenter de façon attrayante les résultats d’une recherche ou même à être analysées en tant que telles ; mais plutôt comme une matière pour l’élaboration intellectuelle – mouvante et incarnée dans divers modes d’inscription, mobilisant dans un même temps les nouveaux outils et des séquences de pratiques et des protocoles de travail existants. Les images produites ne sont ainsi pas uniquement conçues comme des outils d’interprétation, mais aussi de tri, de paramétrage, voire même d’enrichissement et de transformation des données … (De Mourat 2014: n.p.)
 
-## 3.3 Éditorialisation & atlas
+## 3.3 Éditorialisation d'un atlas numérique
 
-Afin d’atteindre ce degré épistémologique, nous pensons que les visualisations doivent être éditorialisées en un instrument de recherche. La mise en relation des visualisations formera une interface qui invite justement "[au] tri, [au] paramétrage, voire même [à] l'enrichissement et [à la] transformation des données" (De Mourat 2014: n.p.). Pour cerner les enjeux de recherche, nous complétons notre analyse des formes d'utilisations actuelles de CONBAVIL (ch 2.2) avec la théorie des interfaces invitant au *rich-propect browsing* (Ruecker et al. 2011: 3-4). L'assemblage des visualisations et des cartes évoque quant à lui l'atlas, dont il faut alors définir la forme dans l'espace numérique. La manipulation des données, ainsi que d'éventuels enrichissements, transformations et réutilisations, mobilise les questions éditoriales dans l'espace numérique et nous ramènent à leur éditorialisation.
+Pour atteindre ce degré épistémologique, nos visualisations doivent reliées et rassemblées. C'est par leur mise en relation des visualisations qu'elles formeront une interface qui travaille l'interprétation "mais aussi [le] tri, [le] paramétrage, voire même [l]'enrichissement et [la] transformation des données" (De Mourat 2014: n.p.). 
 
-L'atlas numérique comme instrument de recherche mise à démultiplier la puissance des visualisations en les mettant en relation. Analyser les tendances typologiques dans une aire géographique particulière, et ce, à travers le temps, révélerait, par exemple, certaines caractéristiques de l'engrenage de l'architecture publique en France. Visualiser les relations entre les différentes couches de l'atlas et les manipuler produit une perspective inédite ainsi que d'inédites possibilités pour la recherche.
+Nous allons donc explorer comment fonctionnement de la librairie D3.js permet de coder une mécanique interactive entre nos visualisations. 
 
-### 3.3.1 Dispositions conceptuelles
+Nous verrons ensuite... 
+
+[refaire numéros figures]
+
+### 3.3.1 Mécanique interactive entre visualisations
+
+Comme nous l'avons expliqué précédemment (3.1.3), les visualisations créées avec D3.js se construisent par rapport aux données qui les "drive" (data-driven documents). Chaque visualisation figure des données (*data*) en fonction de ses propriétés, par exemple *y* une localisation et *x* le nombre de délibérations qui y sont associées. Dans le code de la carte, l'énoncé fonctionne de la façon suivante: 
+
+> Pour chaque *d* dans *data* --> pour chaque point sur la carte
+>
+> - calculer *x* //calculer le ratio entre le nombre de délibérations et l'échelle de représentation
+> - afficher *y* avec un point de taille *x* //afficher le point de la bonne taille
+> - ...
+
+Grâce à cette série d'instructions, un utilisateur peut changer le contenu de *data* et la visualisation se mettra à jour pour figurer le contenu de *data*. La meilleure façon de comprendre ce fonctionnement revient à le tester. Voici donc deux exemples de mise à jour en temps réel des données dans des visualisations. 
+
+#### Types d'affaires: construire ou réparer?
+
+Nous avons créé cette visualisation en réponse à la question posée par Françoise Boudon et Werner Szambien concernant le pourcentage des dossiers de construction et de réparation présentés au conseil pendant dix ans (q5 de la liste présentée dans le chapitre 2). Pour calculer un pourcentage des dossiers de constructions et de réparation pendant dix ans, nous travaillons avec la propriété qui désigne le type d'intervention.  Contrairement aux types architecturaux, ces interventions sont catégorisées par les chercheur·se·s du Centre André-Chastel mais elle ne sont pas normalisées en une hiérarchie ou un vocabulaire prédéfini. Il y en a donc un très grand nombre, dont par exemple : "travaux, construction, nouvelle affectation, réparation, transformation, entretien, transport, agrandissement, reconstruction, ouverture de rue, aménagement de place, aménagement de quai, pavage, démolition, ... ". Puisque nous avons conçu cette visualisation comme exercice en réponse à la question de Françoise Boudon et Werner Szambien, nous avons réparti les données de CONBAVIL en trois types d'intervention: "construction", "réparation" et "autre".
+
+L'intervalle de temps n'étant pas déterminé de façon spécifique, nous avons pris le parti d'expérimenter et de créer une visualisation où l'utilisateur·rice sélectionne l'intervalle de son choix, grâce à une petite chronologie interactive. La chronologie prend la forme d'une simple ligne du temps qui s'échelonne de 1795 à 1840. Les délimitation de la sélection temporelle sont figurées par deux curseurs, Déplacer les curseurs modifier la sélection, la partie bleue de la chronologie, également indiquée par la fourchette d'années, dont la valeur par défaut est "1805 - 1815". 
+
+La visualisation en camembert figure, en temps réel, la répartition entre les trois types d'intervention parmi les délibérations de cette période (fig . XXXX). Grâce au fonctionnement "animé" par les données de d3.js, la modification de la chronologie entraîne la mise à jour du graphique, qui recalcule à chaque fois le nombre de délibérations par type, puis le pourcentage que cela représente pour le figurer à l'écran.
+
+<div>
+ <iframe src="https://www.public.archi/atlas-2021/viz/BoudonSzambien/index.html#slider" title="Lena Krause, [*Exemple d’interactivité entre deux visualisations : carte et avis du Conseil*](https://public.archi/atlas-2021/viz/carteAvis/index.html) (2019), Produite comme prototype dans le cadre du projet *Atlas numérique de l’architecture publique en France (1795-1840)*, Montréal : Université de Montréal " height="550" id="fig3-27">&nsbp;</iframe>
+</div> 
+
+Fig ....
+
+L'interactivité du graphique invite à étudier l'évolution d'un phénomène à travers le temps. Nous avons comparé plusieurs fourchettes de dix ans pour formuler une réponse à la question de recherche. La première, de 1795 à 1805, représente la première décennie du Conseil des bâtiments civils. Le premier Empire se forme en 1804, mais pour garder le format en décade, la deuxième fourchette s'étend de 1805 à 1815. Ensuite, 1815 à 1825 et 1830 à 1840 réfèrent aux dix premières années de la Restauration et de la Monarchie, respectivement. Nous avons rassemblé nos résultats dans le tableau suivant (fig.XXX), particulièrement pour éclairer pour les lecteur·rice·s de la version papier de cet atlas[^34]. 
+
+|              | 1795-1805 (2570) | 1805-1815 (5252) | 1815-1825 (9858) | 1830-1840 (5316) |
+| ------------ | ---------------- | ---------------- | ---------------- | ---------------- |
+| Construction | 5% (122)         | 18% (966)        | 18% (1767)       | 23% (1234)       |
+| Réparation   | 12% (315)        | 10% (472)        | 10% (943)        | 4% (220)         |
+| Autre        | 83% (2133)       | 72% (3814)       | 72% (7148)       | 73% (3862)       |
+
+Fig.... 
+
+Vu ainsi, nous pouvons constater une augmentation du pourcentage de construction et une réduction du nombre de réparations. Cette classification en trois catégorie s'avère toutefois être une simplification excessive et on ne peut pas analyser ces résultats de cette visualisation face à la quantité de délibérations classées dans "autre". Il serait possible de répartir les données selon les types d'interventions qui sont fréquemment utilisés dans la base puis de rassembler les varias dans "autre". L'idéal serait de produire une typologie normée des types d'intervention, doté par exemple d'une logique hiérarchique. Nous pourrions ainsi classer "entretien" comme une sous-catégorie de "réparation" et "nouvelle affectation" une sous-catégorie de "construction" et ainsi de suite.
+
+#### Les avis du conseil: Paris vs provinces
+
+Notre deuxième expérimentation avec les interactions entre plusieurs visualisations émanent des questions sur les "rapports Paris-Province" (Garric dans Boudon 2009: 5) ainsi que des hypothèses concernant la sévérité du Conseil envers les architectes et projets provinciaux (. 
+
+
+
+concernant le rapport entre Paris et les province, particulièrement
+
+Garric --> rapport Paris province
+
+Pour le moment, ces liens dynamiques sont implémentés entre la carte et un graphique des avis du Conseil. Initialement, tous les lieux sont sélectionnés et le graphique figure l’ensemble des affaires. On peut ensuite modifier la sélection de lieux, ce qui entraîne un ajustement du graphique des avis. Et, inversement, la sélection d’un avis se reflète automatiquement sur la carte[12](http://revuecaptures.org/article-dune-publication/constellations-de-données-historiques#footnote12_ajhxl80). On peut ainsi observer de façon spatiale, grâce à ces liens, les dispositions du Conseil face aux projets soumis. Aussi, la dynamique entre les visualisations permet l’étude de phénomènes par la recherche des corrélations : par exemple, les membres du Conseil étaient réputés intransigeants avec les architectes de province jugés « peu capables » (Château-Dutier, 2016, T2: 591), allant jusqu’à corriger leurs projets à grands coups de crayon sur les plans fournis. Nous pouvons rechercher ce phénomène dans l’atlas, en modifiant la sélection des avis et des lieux, afin d’identifier d’éventuelles régions où le taux de refus ou de modification serait plus élevé.
+
+
+
+
+
+Est-ce que le Conseil des bâtiments civils était vraiment plus défavorable aux projets à l'extérieur de la capitale? 
+
+calcul de pourcentages: https://percentagecalculator.net/
+
+précautions: une des dimensions de ce rapport à travers les avis du conseil 
+
+- pas de plus sévérité qui se manifeste dans les provinces 
+- au contraire, puisqu'il y a plus de refus dans les objets parsiens (importance des projets, montant des dépenses engagées)
+- proportion supérieure des projets adoptés avec réserve (volonté de s'en remettre aux autorités locales pour trancher sur les problèmes dans le rapport)
+
+
+
+|                         | Tout (26954)                                            | Tout sauf Paris (19543)            | Uniquement Paris (4756)          |
+| ----------------------- | ------------------------------------------------------- | ---------------------------------- | -------------------------------- |
+| Refus                   | 1103 --> un peu moins de 5%                             | 719  --> **3.5%**                  | 282  --> presque **6%**          |
+| Ajournements            | 3927 --> ~15%                                           | 3099  --> 15%                      | 441--> près de 10%               |
+| Adoption                | 12107  --> presque 45%                                  | 8942  --> 45%                      | 2084 --> près de 45% (43.8)      |
+| Adoptions avec réserve  | 4461  --> 16%                                           | 3561  --> 18%                      | 489 --> poil + que 10%           |
+| Sans avis               | 5550  --> juste au dessus de 20%                        | 3367 --> **17%**                   | 1476   --> **31%**               |
+| *À propos du graphique* | *contient 27'178 valeurs dont 194 avis complémentaires* | *19688 (145 avis complémentaires)* | *4772 (16 avis complémentaires)* |
+
+
+
+<div>
+ <iframe src="https://public.archi/atlas-2021/viz/carteAvis/index.html" title="Lena Krause, [*Exemple d’interactivité entre deux visualisations : carte et avis du Conseil*](https://public.archi/atlas-2021/viz/carteAvis/index.html) (2019), Produite comme prototype dans le cadre du projet *Atlas numérique de l’architecture publique en France (1795-1840)*, Montréal : Université de Montréal " width="100%" height="700" frameborder="0" style="display:block; margin: 0 auto;" id="fig3-27">&nsbp;</iframe>
+</div> 
+
+**Fig. 3-XXX** Lena Krause, [*Exemple d’interactivité entre deux visualisations : carte et avis du Conseil*](https://public.archi/atlas-2021/viz/carteAvis/index.html), prototype de l'*Atlas numérique de l’architecture publique en France (1795-1840)*, iframe, 2019
+
+
+
+
+
+
+
+
+
+
+
+### 3.3.2 Composition théorique
+
+Pour bien saisir les enjeux entourant la conception d'un instrument de recherche, nous complétons notre analyse des formes d'utilisations actuelles de CONBAVIL (ch 2.2) en pensant à l'accès aux données avec la notion de *rich-propect browsing* (Ruecker et al. 2011: 3-4). L'assemblage des visualisations et des cartes évoque quant à lui l'atlas, dont il faut alors définir la forme dans l'espace numérique. Finalement, en ce qui cocnerne la manipulation des données, ainsi que d'éventuels enrichissements, transformations et réutilisations, nous mobilisons les questions éditoriales dans l'espace numérique et arrivons ainsi à l'éditorialisation de la base de données.
 
 #### Interfaces
 
@@ -374,93 +494,69 @@ La conception même d'un atlas et de chacune des visualisations a considérablem
 
 La forme de ce mémoire nous présente également un aperçu des multiples formes de l'éditorialisation. Nous l'avons écrit en format *Markdown* (.md) plutôt que dans un éditeur de texte comme *Word* ou *LibreOffice*. Ces derniers sont issus de la logique de la machine à écrire: des pages sur lesquelles on appose un texte. La finalité de ce format est l'impression sur des feuilles de papier. En contrepartie, le *Markdown* se concentre d'abord sur le texte, qu'il s'agit de baliser avec des indicateurs pour déterminer le style de paragraphe (titre, sous-titre, paragraphe ou citation, par exemple) et le style de caractère (italique, sous-ligné, etc.). C'est uniquement à l'export que ce contenu s'adapte à la forme désirée, qu'elle soit numérique comme pour la publication comme une page web ou qu'elle mène à la production d'un PDF pour l'impression. Le contenu du mémoire a ainsi été pensé pour qu'il se déroule dans une continuité entre le texte, les images et les *iframes*. Un *iframe*, pour *inline frame*, s'insère dans la continuité du texte numérique. À la différence d'une image, il s'agit d'une "fenêtre" sur une autre page web. Son contenu se charge réellement, ce qui lui permet d'être interactif et donc exploré par l'utilisateur. 
 
-Lorsque nous insérons un *iframe* d'une de nos visualisations dans le texte, cette visualisation prend une nouvelle forme et un nouveau sens. L'exploration des visualisation par un lecteur produit, à son tour, de nouvelles interprétations[^17]. À la différence d'une citation, les visualisations offrent un accès aux données qui peuvent ainsi être interrogées et explorées. L'argumentaire s'alterne entre le texte et les contenus interactifs dans ce mémoire pensé pour être lu et consulté en ligne. Si l'utilisation d'*iframes* présente des défis pour la publication scientifique[^18], elle offre surtout de riches perspectives sur de nouvelles façon de publier et de partager son travail. Ce mémoire contribue donc également aux expérimentations autour de nouveaux formats éditoriaux qui intègrent les données aux publications académiques [^19].
+Lorsque nous insérons un *iframe* d'une de nos visualisations dans le texte, cette visualisation prend une nouvelle forme et un nouveau sens. L'exploration des visualisation par un lecteur produit, à son tour, de nouvelles interprétations[^17]. À la différence d'une citation, les visualisations offrent un accès aux données qui peuvent ainsi être interrogées et explorées. L'argumentaire s'alterne entre le texte et les contenus interactifs dans ce mémoire pensé pour être lu et consulté en ligne. Si l'utilisation d'*iframes* présente des défis pour la publication scientifique[^18], elle offre surtout de riches perspectives sur de nouvelles façon de publier et de partager son travail. Ce mémoire contribue donc également aux expérimentations autour de nouveaux formats éditoriaux qui intègrent les données aux publications académique[^19].
 
-### 3.3.2 Un atlas numérique comme instrument de recherche
+### 3.3.3 Assemblage pratique
 
-Concrètement, nos visualisations sont tout d'abord regroupées dans un même espace éditorial. Leur publication commune forme notre proposition actuelle pour un *Atlas numérique de l'architecture publique en France (1795 -1840)*, accessible à l'adresse URL suivante: https://www.public.archi/atlas-2021/. Cette adresse présente l'exemplaire de notre atlas associé à ce mémoire de maîtrise. Un exemplaire antérieur, publié en 2020, se trouve sur https://www.public.archi/atlas-numerique/. En tant que contenu dans l'espace numérique, l'atlas est associé à un *repository*, un dépôt mais aussi un référentiel du code informatique qui 
+Concrètement, nos visualisations sont tout d'abord regroupées dans un même espace éditorial. Leur publication commune forme notre proposition actuelle pour un *Atlas numérique de l'architecture publique en France (1795 -1840)*, accessible à l'adresse URL suivante: https://www.public.archi/atlas-2021/. Cette adresse présente l'exemplaire de notre atlas associé à ce mémoire de maîtrise. Un exemplaire antérieur, publié en 2020, se trouve sur https://www.public.archi/atlas-numerique/. En tant que contenu dans l'espace numérique, l'atlas est associé à un *repository*, un dépôt mais aussi un référentiel du code informatique: https://github.com/imglab/atlasNumerique. 
 
-À chaque ajout, chaque correction du code mis en ligne, ainsi qu'à l'éventuelle modification des données ou des normes des navigateurs utilisés pour consulter l'atlas, sa forme va changer. 
+#### L'atlas des données
 
-comme un prototype car notre idée d'atlas va bien au-delà de ce que nous avons eu le temps de coder au cours de ce travail. 
+Sous sa forme actuelle, notre atlas offre un accès aux visualisations que nous avons codées. Cependant, notre vision pour cet atlas va bien au-delà de ce que nous avons eu le temps de coder au cours de ce travail. Comme nous l'avons démontré, il est possible d'intégrer des liens dynamiques dans le code, de façon à relier les différentes composantes de l'atlas. Nous pouvons donc concevoir une interface qui rassemble les différentes perspectives sur les données, c'est-à-dire les visualisations, dans un même espace ([fig. 3.28](#fig3-28)). 
 
-
-
-Montage des quelques visualisatione et qui ([fig. 3.28](#fig3-28))
-
-
-
-[![img](http://revuecaptures.org/sites/default/files/styles/demi_largeur/public/Krause_figure_10.png?itok=LCoY6crr)](http://revuecaptures.org/sites/default/files/Krause_figure_10.png)
+<img src="http://revuecaptures.org/sites/default/files/styles/demi_largeur/public/Krause_figure_10.png?itok=LCoY6crr" alt="img" style="zoom: 67%;" />
 
 **Fig. 3-28** Lena Krause, *Modélisation de l’atlas*, prototype de l'*Atlas numérique de l’architecture publique en France (1795-1840)*, 2019
 
+Puisque chaque graphique est initialement créé à partir du même jeu de données, nous pouvons mettre en place un système qui reproduit la sélection d’un sous-ensemble (d’un intervalle chronologique, d’un lieu ou d’une catégorie architecturale) dans les autres visualisations. Formellement, cela requiert deux ajouts techniques. 
 
+D'une part, nous avons besoin d'un gestionnaire de données, dans le *back end*, qui serait comme le chef d'orchestre des différentes visualisations. Il dirigerait l'atlas pour que son contenu soit harmonisé. Nommons le Zeus, puisqu'il va régner sur l'ensemble de l'atlas et qu'il va avoir de nombreux enfants. Zeus dicte quelles données doivent figurer dans l'atlas. Omniscient, il peut contenir l'ensemble ou une sélection des données de CONBAVIL. En codant toutes les visualisations de façon à ce qu'elles soient des enfants de Zeus, elle peuvent se mettre à jour et s'harmoniser pour figurer la nouvelle valeur de Zeus. 
 
-#### Interactivité et liens entre les visualisations
+> Exemples de valeurs possibles pour Zeus: 
+>
+> - toutes les données de CONBAVIL
+> - uniquement Paris
+> - uniquement les affaires entre 1815 à 1830
+> - uniquement les délibérations qui mentionnent la présence d'un ingénieur 
+> - uniquement les prisons
+> - n'importe quelle combinaison de critères sur les données
 
+D'autre part, pour que les visualisations soient informées du changement de valeur de Zeus, il faut prévoir un système de communication entre les visualisations: un *event emitter*[^55]. Puisque c'est un messager, nous l'avons nommé Hermès. Prenons pour exemple, un changement de la sélection temporelle dans la chronologie. Alors qu'elle figurait initialement toutes les données de CONBAVIL, l'utilisateur zoome pour étudier de plus près l'intervalle de 1815 à 1830. La chronologie utilise Hermes pour alerter Zeus de son changement de valeur. Une fois Zeus "filtré" pour ne concerner que l'intervalle de 1815 à 1830, Hermes émet un message à l'ensemble des visualisations pour les informer qu'elles doivent se mettre à jour[^56]. La typologie et la carte ne figureront alors elles aussi que les types architecturaux et les communes dans CONBAVIL entre 1815 et 1830.
 
+Ce système permet qu'une sélection de l'utilsateur·rice agisse comme un filtre sur les données. La sélection s'applique et se transfère sur toutes les autres visualisation. L'utilisateur·rice voit immédiatement l'effet de sélection, comme un phénomène qui se déroule sous l'action de sa souris. Il devient possible d'analyser les tendances typologiques dans une aire géographique particulière, et ce, à travers le temps. On révéleraitt ainsi, par exemple, certaines caractéristiques de l'engrenage de l'architecture publique en France. 
+
+Offrant d’abord un aperçu global, l'atlas se transforme au fur et à mesure du parcours interactif en des perspectives de plus en plus détaillées, qui descendent en profondeur jusqu’à la consultation d’une seule affaire. Chaque action de l’utilisateur, guidée par ses hypothèses et par ses réflexions, façonne donc la constellation que forment les données dans l’atlas. La manipulation aide la chercheuse ou le chercheur à analyser le contenu de CONBAVIL et l’invite à émettre des hypothèses sur sa signification. Visualiser les relations entre les différentes couches de l'atlas et les manipuler produit des possibilités inédites pour la recherche.
+
+#### Imaginaires d'un atlas numérique 
+
+Implémenter Hermes et Zeus à l’échelle de l'atlas augmente de façon exponentielle le nombre de constellations de données que l’utilisateur peut découvrir. De l’association entre ces innombrables possibilités et l’imagination de l’utilisateur émerge un dispositif qui active « la puissance intrinsèque du *montage* » évoquée précédemment (Didi-Hubermann, 2011: 13). L’espace de l’atlas s’organise autour d’une structure éditoriale déterminée par son autrice, tout en se transformant en fonction de l’action de son utilisateur. Si la consultation d’un atlas papier est contrainte par les éléments structurels et les repères de l’ouvrage imprimé, les lecteur·rice·s sont libres de naviguer au sein de son contenu, de suivre la proposition des éditeur·rice·s ou de se laisser porter par la sérendipité de consulter l’atlas au hasard des pages. Et ces mêmes possibilités se présentent dans notre proposition d’atlas numérique : l’utilisateur est libre d’explorer le contenu à sa guise, malgré un cadre défini d’actions possibles dans l’interface. La sérendipité, quant à elle, est permise lors des déambulations du curseur dans l’interface, lors de la sélection aléatoire d’un sous-ensemble de données, ou encore lors de l’affichage à l’écran d’une constellation de données produite au hasard[^57].
+
+Nous imaginons l'interface de notre atlas comme une grande table de montage, sur laquelle l'utilisateur place les vues qui l'intéressent. Stéphan Sinclair et Geoffrey Rockwell ont implémenté une grande partie de ces idées dans l'interface de lecture et d'analyse de textes numériques, [Voyant](https://voyant-tools.org/?corpus=austen) (2016). L'interface, également codée avec D3.js, présente une multiplicité de vues sur le texte pour lesquelles l'utilisateur ajuste les dimensions à l'écran en fonction de son intérêt de recherche (fig XXXX). On peut changer leur emplacement dans l'interface et paramétrer leur contenu. 
 
 <div>
- <iframe src="https://public.archi/atlas-2021/viz/carteAvis/index.html" title="Lena Krause, [*Exemple d’interactivité entre deux visualisations : carte et avis du Conseil*](https://public.archi/atlas-2021/viz/carteAvis/index.html) (2019), Produite comme prototype dans le cadre du projet *Atlas numérique de l’architecture publique en France (1795-1840)*, Montréal : Université de Montréal " width="100%" height="700" frameborder="0" style="display:block; margin: 0 auto;" id="fig3-27">&nsbp;</iframe>
+ <iframe src="https://voyant-tools.org/?corpus=austen" title="Lena Krause, [*Exemple d’interactivité entre deux visualisations : carte et avis du Conseil*](https://public.archi/atlas-2021/viz/carteAvis/index.html) (2019), Produite comme prototype dans le cadre du projet *Atlas numérique de l’architecture publique en France (1795-1840)*, Montréal : Université de Montréal " height="550" id="fig3-27">&nsbp;</iframe>
 </div> 
 
-**Fig. 3-27** Lena Krause, [*Exemple d’interactivité entre deux visualisations : carte et avis du Conseil*](https://public.archi/atlas-2021/viz/carteAvis/index.html), prototype de l'*Atlas numérique de l’architecture publique en France (1795-1840)*, iframe, 2019
+Fig 3.... Stéfan Sinclair et Geoffrey Rockwell, *Voyant tool*, iframe de l'interface avec le corpus *Austen*, 2021
+https://voyant-tools.org/?corpus=austen
 
-Des liens dynamiques intégrés dans le code permettent de relier entre elles les différentes composantes de l’atlas. Chaque graphique est créé à partir du même jeu de données. Nous avons donc pu mettre en place un système qui reproduit la sélection d’un sous-ensemble (d’un intervalle chronologique, d’un lieu ou d’une catégorie architecturale) dans les autres visualisations. Offrant d’abord un aperçu global, les visualisations se transforment ensuite au fur et à mesure du parcours interactif en des perspectives de plus en plus détaillées, qui descendent en profondeur jusqu’à la consultation d’une seule affaire. Chaque action de l’utilisateur, guidée par ses hypothèses et par ses réflexions, façonne donc la constellation que forment les données dans l’atlas. La manipulation aide la chercheuse ou le chercheur à analyser le contenu de CONBAVIL et l’invite à émettre des hypothèses sur sa signification. Pour le moment, ces liens dynamiques sont implémentés entre la carte et un graphique des avis du Conseil. Initialement, tous les lieux sont sélectionnés et le graphique figure l’ensemble des affaires. On peut ensuite modifier la sélection de lieux, ce qui entraîne un ajustement du graphique des avis. Et, inversement, la sélection d’un avis se reflète automatiquement sur la carte[12](http://revuecaptures.org/article-dune-publication/constellations-de-données-historiques#footnote12_ajhxl80). On peut ainsi observer de façon spatiale, grâce à ces liens, les dispositions du Conseil face aux projets soumis. Aussi, la dynamique entre les visualisations permet l’étude de phénomènes par la recherche des corrélations : par exemple, les membres du Conseil étaient réputés intransigeants avec les architectes de province jugés « peu capables » (Château-Dutier, 2016, T2: 591), allant jusqu’à corriger leurs projets à grands coups de crayon sur les plans fournis. Nous pouvons rechercher ce phénomène dans l’atlas, en modifiant la sélection des avis et des lieux, afin d’identifier d’éventuelles régions où le taux de refus ou de modification serait plus élevé.
+L'interface de voyant éditorialise les données qu'on lui téléverse. Elle offre de nombreuses possibilités pour la recherche et cela inclut l'export sous tous les formats imaginables: un URL qui mène directement vers la vue choisie par l'utilisateur, une façon d'intégrer (*embed*) la visualisation comme outil dans une autre page web, export des données ou export bibliographique qui permet de citer cette vue. Notre atlas proposerait donc ces fonctionnalités d'éditorialisation, dans la gestion de l'interface comme dans les possibilités d'export. 
 
-Notre atlas est encore à un stade embryonnaire et il ne présente pour le moment que quelques liens actifs entre deux visualisations. Cependant, la poursuite de ce travail à l’échelle de toutes les visualisations, permet d’augmenter de façon exponentielle le nombre de constellations de données que l’utilisateur peut découvrir. De l’association entre ces innombrables possibilités et l’imagination de l’utilisateur émerge un dispositif qui active « la puissance intrinsèque du *montage* » évoquée précédemment (Didi-Hubermann, 2011: 13). L’espace de l’atlas s’organise autour d’une structure éditoriale déterminée par son autrice, tout en se transformant en fonction de l’action de son utilisateur. Si la consultation d’un atlas papier est contrainte par les éléments structurels et les repères de l’ouvrage imprimé, les lecteur·rice·s sont libres de naviguer au sein de son contenu, de suivre la proposition des éditeur·rice·s ou de se laisser porter par la sérendipité de consulter l’atlas au hasard des pages. Et ces mêmes possibilités se présentent dans notre proposition d’atlas numérique : l’utilisateur est libre d’explorer le contenu à sa guise, malgré un cadre défini d’actions possibles dans l’interface. La sérendipité, quant à elle, est permise lors des déambulations du curseur dans l’interface, lors de la sélection aléatoire d’un sous-ensemble de données, ou encore lors de l’affichage à l’écran d’une constellation de données produite au hasard[13](http://revuecaptures.org/article-dune-publication/constellations-de-données-historiques#footnote13_n6q5i5d).
+Contrairement à *Voyant* qui est un outil fonctionnel pour tout texte numérique, notre atlas se dédie, comme un instrument de recherche, aux données de CONBAVIL. Cela nous semble nécessaire, pour le moment, car il n'existe pas de normes aussi clairement définies et employées dans les données en histoire de l'art[^58]. Chaque base de donnée décrit ses objets différemment, au point où CONBAVIL n'a, par exemple, pas pu être téléversée dans l'application destinée à rassembler les ressources documentaires produites par l'INHA: *[AGORHA](https://www.inha.fr/fr/ressources/outils-documentaires/acces-global-et-organise-aux-ressources-en-histoire-de-l-art-agorha.html)*[^59]. La spécificité, la complexité et la richesse des données de CONBAVIL nous motive a concevoir une interface de recherche qui lui serait consacrée. De plus, en tant qu'instrument de recherche spécifique pour CONBAVIL, nous pouvons éditorialiser les données, aussi dans le sens de permettre aux chercheur·se·s d'enrichir les données. Le contenu de la base de données pourrait ainsi être nettoyé[^60], étendu et mit à jour au fur et à mesure des contributions. 
 
+####  Concrétisation effective et limites 
 
+Si notre vision pour l'atlas découle de moyens informatiques réels et disponibles actuellement, sa concrétisation présenterait un niveau de complexité élevé. Tout d'abord, chacun de nos prototypes fonctionne de façon complexe. La quantité de données qui y sont figurées requiert des grandes dimensions. Les visualisations seraient probablement illisible si elles sont limitées à un sixième de l'interface par exemple. Les interactions internes aux prototypes nous ont aussi donné du fil à retordre, et malgré le temps investi dans leur création, nous remarquons toujours et encore des bugs, comme par exemple dans la carte (fig. XXXXX): les délibérations des communes à l'extérieur de la France actuelle ne s'affichent pas. Nous avons une version de la carte sur laquelle cette erreur n'apparaît pas, mais la correction de ce type de bug est si chronophage que nous avons accepté qu'il y aurait de tels bugs dans notre prototype. 
 
-
-
-<!-- @ec j’ai l’impression que vous n’avez pas suffisamment traité dans cette partie ou avant la question de la coordination des vues dans une présentation interactive. C’'est une dimension très importante à mon avis de la carto/visualisation numérique -->
-
-
-
-
-
-<img src="./img/RatioConstruction.png" alt="image-20210424173618011" style="zoom:50%;" />
-
-problème de catégorisation: on visualise ce qui a été renseigné, et comment ça  été renseigné ... (=/=réalité)
-
-#### 
-
-
-
-
-
-potentiel de l'interaction: 
-
-- cartographier et trier par type architectural (Exemple des prisons)
-- cartographier une fourchette de temps
-- voir l'évolution de la distribution des types dans le temps et dans l'espace
-
-
-
-
-
-<!-- @ec vous pourriez sans doute à la fin du travail qui donne l’occasion d’une sorte de synthèse proposer un court développement sur ce que pourrait être l’éditorialisation d’une base de donneés. Pourquoi a-t-on besoin de repenser la présentation des données, comment peut-on à la fois produire un environnement de recherche et un dispositif qui donne sens aux données. = transition vers ce que vous dites ensuite. -->
-
-#### L'atlas imaginaire
-
-
-
-
-
-
-
-####  et ses limites
-
-
-
-Le potentiel de l'éditorialisation réside également dans l'évolution constante du contenu. Les technologies nécessaires pour la création de compte utilisateurs — qui pourraient, au cours de leur exploration de l'atlas, nettoyer, associer ou enrichir les données — sont disponibles. On peut également permettre l'export, statique ou interactif (intégration de la visualisation ou d'un iframe) des contenus afin de les associer à de nouvelles publications. 
+Ensuite, peut-on réellement implémenter Zeus et Hermès? Notre utilisation d'Hermes dans la *Carte avec les avis* (fig, XXXX) révèle le nombre de cas à prendre en compte et l'immense engrenage qui serait nécessaire pour que toutes les interactions agissent sur toutes les visualisations.   
 
 vision de l'atlas, quelle suite? 
 
-question complexité  --> reste de l'interface à conceptualiser
+question complexité  
 
-- choix des vues qui travaillent ensemble, qui sont actives
+- chacune des visualisations est complexe à manipuler
+- est-ce possible d'implémenter Zeus et Hermès de façon fluide? il y aurait beaucoup de cas à résoudre pour des questions de figuration et de représentation 
+  - comment figurer ce qui n'est pas renseigné ...  
 - comment fait-on autorité dans un cadre aussi mouvant? 
 
 
@@ -479,6 +575,10 @@ Il serait tentant de penser que l’interactivité de l’atlas déconstruit des
 C’est la raison pour laquelle nous souhaitons encourager la réutilisation et l’appropriation de son code en le publiant sous une licence libre[17](http://revuecaptures.org/article-dune-publication/constellations-de-données-historiques#footnote17_bnrpj0k). L’objectif est de faciliter les ajouts, les modifications et les contre-propositions, ainsi que la réutilisation du code pour d’autres projets. Nous savons que cela nécessite un niveau de littératie numérique encore peu répandu parmi les chercheur·se·s en histoire de l’art. Cependant, grâce à l’accessibilité et à la transparence de notre dispositif, nous invitons celles et ceux qui seraient intéressé·e·s à se former par la pratique, ou du moins à développer une compréhension plus fine du code afin de pouvoir, éventuellement, y apposer un regard critique.
 
 Si la construction de notre atlas est un processus en constante évolution, nous pensons avoir démontré le potentiel de la cartographie et de la visualisation pour transformer l’étude d’une base de données. L’interface visuelle et interactive de l’atlas numérique offre une approche inédite du contenu des archives du Conseil des bâtiments civil et permet de renouveler la recherche en faisant usage des méthodes numériques disponibles aujourd’hui. À la manière du millefeuille topographique imaginé par Dario Gamboni, l’atlas plonge l’utilisateur dans "[des] profondeur[s] qui invite[nt] à l’excavation " (2008: 6). Il reste cependant ancré dans des préoccupations contemporaines à ses sources, afin de se distancier d’éventuels anachronismes que l’écart entre les archives du XIXe siècle et les nouvelles technologies du web appliquées à une base de données pourraient générer. S’il n’est pas toujours évident de savoir comment se servir de données dans la recherche en histoire de l’art, la cartographie et la visualisation se révèlent être des instruments précieux dans le contexte numérique.
+
+## Conclusion
+
+
 
 ## Notes
 
@@ -506,3 +606,11 @@ Pour les communes actuellement françaises, elles sont documentées dans CONBAVI
 [^17]: Cela s'applique principalement à l'édition web du mémoire. Pour la version "papier", nous avons choisi de produire un volume d'illustration séparé, pour que le·a lecteur·rice puisse organiser sa lecture de façon à avoir le texte et les illustrations sous les yeux. Cette alternative s'avère nécessaire puisqu'il faut déposer une version imprimée du mémoire. Somme toute, écrire dans cet environnement inhabituel et effectuer le travail éditorial supplémentaire requis pour cette double édition nous a donc paru nécessaire malgré les défis que cela représentait.
 [^18]:  Nous relevons présentement ce défi avec l'équipe de la revue *Capture*, dans lequel nous avons publié un article, partiellement issu de ce chapitre de notre mémoire (Krause 2020). L'intégration des *iframes* est prévue au printemps 2021, à l'issue d'une longue année d'expérimentation autour des enjeux que comportent ce nouveau format: http://revuecaptures.org/article-dune-publication/constellations-de-donn%C3%A9es-historiques.
 [^19]: Le terme "*Data paper*" est parfois employé pour décrire de tels articles, comme dans l'appel à communication pour la conférence DHNord2021: https://www.meshs.fr/page/dhnord2021-aac...dhnord2021.---3. Cette conférence pourra certainement éclaircir le sens et les formes des *data papers* dans la recherche en sciences humaines et sociales.
+[^55]: Nous l'utilisons pour la carte des avis du Conseil (et nous l'avons vraiment appelé 'hermes' dans le code): https://www.npmjs.com/package/eventemitter3
+[^56]: Si les visualisations sont constamment aux aguêts conscernant l'action de l'utilisateur, c'est-à-dire qu'elles réagissent de façon immédiate à leur survol par la souris par exemple, elles ont besoin de ce petit "coup de pouce" de la part d'Hermes quand il s'agit de s'actualiser par rapport aux données qui la composent (Zeus).
+[^57]: Nous avons le projet de coder un algorithme qui choisirait des variables dans l’atlas pour créer un sous-ensemble aléatoire de données. En  sélectionnant l’option « constellation aléatoire », l’utilisateur trouverait ainsi un point d’entrée arbitraire à partir duquel commencer son exploration du contenu.
+[^58]: Non seulement *Voyant* accepte un simple copier-coller d'un texte, mais, en plus, dans le domaine de la littérature, les normes d'encodage sont beaucoup plus communes, comme l'utilisation de la Text Encoding Initiative: XML-TEI par exemple (https://tei-c.org/).
+[^59]: AGORHA, pour Accès Global et Organisé aux Ressources en Histoire de l'Art: https://www.inha.fr/fr/ressources/outils-documentaires/acces-global-et-organise-aux-ressources-en-histoire-de-l-art-agorha.html
+[^60]: Le nettoyage de données consiste en leur normalisation, comme nous l'avons fait pour systématiser l'incertitude quant à l'attribution de la typologie et des communes par exemple
+[^33]: 
+[^34]: Pour comprendre l'effet interactif, il reste largement préférable d'utiliser la visualisation, disponible à l'adresse suivante: https://www.public.archi/atlas-2021/viz/BoudonSzambien/index.html#q5
