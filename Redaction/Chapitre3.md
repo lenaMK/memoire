@@ -383,21 +383,55 @@ Vu ainsi, nous pouvons constater une augmentation du pourcentage de construction
 
 #### Les avis du conseil: Paris vs provinces
 
-Notre deuxième expérimentation avec les interactions entre plusieurs visualisations émanent des questions sur les "rapports Paris-Province" (Garric dans Boudon 2009: 5) ainsi que des hypothèses concernant la sévérité du Conseil envers les architectes et projets provinciaux (. 
+Notre deuxième expérimentation avec les interactions entre plusieurs visualisations émanent des questions sur les "rapports Paris-Province" (Garric dans Boudon 2009: 5) ainsi que des hypothèses concernant la sévérité du Conseil envers les architectes et projets provinciaux. En effet, les membres du Conseil étaient réputés intransigeants avec les architectes de province jugés « peu capables » (Château-Dutier, 2016, T2: 591), allant jusqu’à corriger leurs projets à grands coups de crayon sur les plans fournis. Nous pouvons alors interroger nos données, pour savoir s'il y a, par exemple, plus de refus de projets provinciaux que de projets Parisiens.
 
+Pour ce faire, nous avons conçu des interactions entre la carte et un graphique des avis du Conseil (fig. XXXX). Initialement, tous les lieux sont sélectionnés et le graphique figure la répartition des avis du Conseil pour l'ensemble de CONBAVIL. Nous avons ensuite codé des interactions entre les deux visualisations. Nous expliquons en détail les interactions car elles sont assez complexes.
 
+> Interactivité des graphiques
+>
+> - Les éléments (cercles de la carte ou barre dans le graphique des avis) sont rouges s'ils font partie de la sélection, et deviennent gris lorsqu'ils ne le sont pas.
+> - Pour inverser de la sélection d'un élément, cliquer dessus.
+> - Pour désélectionner tous les lieux sur la carte, cliquer sur une partie vide du fond de carte. 
+> - Survoler un lieu avec sa souris change temporairement la couleur du cercle qui le figure en vert et indique le nom et le nombre de délibérations qui s'y situent.
+> - Survoler un type d'avis indique le nombre de délibérations concernées
+>
+> Interactions de la carte vers le graphique des avis
+>
+> - Cliquer sur un élément de la carte change la sélection et met à jour le graphique des avis.
+>   **Pour voir la répartition des avis pour toutes les communes sauf Paris**: 
+>   - (Réinitialiser la page au besoin)
+>   - Cliquer sur le "nez rouge" parisien
+>   - Toutes les communes sauf Paris seront dans la sélection et le graphique s'ajustera à cette sélection
+>
+> - Cliquer sur le fond de carte annule toute la sélection mais ne met pas le graphique à jour (il serait vide de toute façon).
+>   **Pour consulter les avis qui concernent Paris uniquement**: 
+>   - Cliquer le fond de carte pour désélectionner toutes les communes
+>   - Cliquer sur Paris (pour s'assurer que c'est Paris, utiliser la fonctionnalité de survol qui transformera le "nez rouge" en "nez vert")
+>   - La sélection ne contiendra que Paris et le graphique s'ajustera à cette sélection
+> - Les boutons "que les prisons", "Tout sélectionner" et "Désélectionner tout" fonctionnent pour la carte mais n'ont pas d'impact sur le graphique des avis. Les avis ne se mettent PAS à jour lors de l'utilisation de ces boutons. 
+>
+> Interactions du graphique des avis vers la carte:
+>
+> - (Réinitialiser la page au besoin)
+> - Cliquer le fond de carte pour désélectionner toutes les communes
+> - Désélectionner les avis en fonction de l'intérêt de recherche se reflète de façon colorimétrique sur la carte, c'est-à-dire que seules les communes pour lesquelles il existe ce type d'avis sont sélectionnées (en rouge). 
+>   ATTENTION: la taille des cercle ne se met pas à jour, le ratio demeure celui du nombre de projets dans la commune. Un ratio du nombre de projets correspondant aux types d'avis sélectionnés n'est PAS calculé. Cette fonctionnalité n'est donc PAS complètement fonctionnelle. 
 
-concernant le rapport entre Paris et les province, particulièrement
+Grâce aux interactions entre les visualisations, on peut  observer de façon spatiale les dispositions du Conseil face aux projets soumis. 
 
-Garric --> rapport Paris province
+Aussi, la dynamique entre les visualisations permet l’étude de phénomènes par la recherche des corrélations : par exemple, 
 
-Pour le moment, ces liens dynamiques sont implémentés entre la carte et un graphique des avis du Conseil. Initialement, tous les lieux sont sélectionnés et le graphique figure l’ensemble des affaires. On peut ensuite modifier la sélection de lieux, ce qui entraîne un ajustement du graphique des avis. Et, inversement, la sélection d’un avis se reflète automatiquement sur la carte[12](http://revuecaptures.org/article-dune-publication/constellations-de-données-historiques#footnote12_ajhxl80). On peut ainsi observer de façon spatiale, grâce à ces liens, les dispositions du Conseil face aux projets soumis. Aussi, la dynamique entre les visualisations permet l’étude de phénomènes par la recherche des corrélations : par exemple, les membres du Conseil étaient réputés intransigeants avec les architectes de province jugés « peu capables » (Château-Dutier, 2016, T2: 591), allant jusqu’à corriger leurs projets à grands coups de crayon sur les plans fournis. Nous pouvons rechercher ce phénomène dans l’atlas, en modifiant la sélection des avis et des lieux, afin d’identifier d’éventuelles régions où le taux de refus ou de modification serait plus élevé.
+Nous pouvons rechercher ce phénomène dans l’atlas, en modifiant la sélection des avis et des lieux, afin d’identifier d’éventuelles régions où le taux de refus ou de modification serait plus élevé.
 
-
-
-
+******ICICICICICICIII**********
 
 Est-ce que le Conseil des bâtiments civils était vraiment plus défavorable aux projets à l'extérieur de la capitale? 
+
+"Le Conseil des bâtiments civils est absolument inutile ; c'est le fléau de nos provinces ; il entrave nos travaux, qu'il veut mettre partout à la mode de Paris, c'est-à-dire plus frivoles que bien combinés." (Chateau-Dutier 2016: T1, 258)
+
+
+
+
 
 calcul de pourcentages: https://percentagecalculator.net/
 
@@ -406,6 +440,10 @@ précautions: une des dimensions de ce rapport à travers les avis du conseil
 - pas de plus sévérité qui se manifeste dans les provinces 
 - au contraire, puisqu'il y a plus de refus dans les objets parsiens (importance des projets, montant des dépenses engagées)
 - proportion supérieure des projets adoptés avec réserve (volonté de s'en remettre aux autorités locales pour trancher sur les problèmes dans le rapport)
+
+absence quasi totale d'architecte de province : 2016 367
+
+"de fait, l'examen de la plupart des projets de construction était traité par l'intermédiaire des représentants du roi dans les provinces : les intendants" (Chateau-Dutier 2016: T1, 57)
 
 
 
@@ -582,10 +620,6 @@ Si la construction de notre atlas est un processus en constante évolution, nous
 
 ## Notes
 
-12
-
-Pour les communes actuellement françaises, elles sont documentées dans CONBAVIL selon leur nom actuel. Nous avons donc établit la concordance entre ces noms et les entités géographiques et administratives dans le fichier de [Grégoire David](https://france-geojson.gregoiredavid.fr/). Pour les autre, nous avons utilisé le service [Nominatim d’Open Street Map](https://nominatim.openstreetmap.org/).
-
 [^1]: Créée en 1976, la *Rencontre des historiens du Limousin* est une expérience originale de collaboration entre historien·ne·s. Sous la direction de Louis Pérouas, ces chercheur·se·s ont procédé au dépouillement de milliers d’archives afin de mener une étude sur la prénomination dans la région pendant près d’un millénaire (Pérouas 1984).
 [^2]: Le millefeuille comme analogie des multiples couches temporelles dans une représentation topographique est une analogie imagine par Dario Gamboni dans son article *Mille fleurs ou millefeuille? Pour un inventaire à* n *dimensions* (Gamboni 2008)
 [^3]: Pour apprendre à utiliser un SIG ainsi que pour approfondir nos connaissances en cartographie numérique, nous avons participé à l'école d'été d'internationale du GRHS et du PIREH: "Méthodes et outils numériques : la cartographie informatique en histoire", organisée du 25 au 29 juin 2018 par P. Bastien, B. Deruelle, S. Lamassé, L. Robichaud, UQAM, Université de Sherbrooke et Paris 1 Panthéon-Sorbonne. ↩
@@ -612,5 +646,9 @@ Pour les communes actuellement françaises, elles sont documentées dans CONBAVI
 [^58]: Non seulement *Voyant* accepte un simple copier-coller d'un texte, mais, en plus, dans le domaine de la littérature, les normes d'encodage sont beaucoup plus communes, comme l'utilisation de la Text Encoding Initiative: XML-TEI par exemple (https://tei-c.org/).
 [^59]: AGORHA, pour Accès Global et Organisé aux Ressources en Histoire de l'Art: https://www.inha.fr/fr/ressources/outils-documentaires/acces-global-et-organise-aux-ressources-en-histoire-de-l-art-agorha.html
 [^60]: Le nettoyage de données consiste en leur normalisation, comme nous l'avons fait pour systématiser l'incertitude quant à l'attribution de la typologie et des communes par exemple
-[^33]: 
-[^34]: Pour comprendre l'effet interactif, il reste largement préférable d'utiliser la visualisation, disponible à l'adresse suivante: https://www.public.archi/atlas-2021/viz/BoudonSzambien/index.html#q5
+[^34]: Pour comprendre l'effet de l'interactivité, il reste largement préférable d'explorer soi-même la visualisation, disponible à l'adresse suivante: https://www.public.archi/atlas-2021/viz/BoudonSzambien/index.html#q5
+[^35]: 
+
+
+
+Pour les communes actuellement françaises, elles sont documentées dans CONBAVIL selon leur nom actuel. Nous avons donc établit la concordance entre ces noms et les entités géographiques et administratives dans le fichier de [Grégoire David](https://france-geojson.gregoiredavid.fr/). Pour les autre, nous avons utilisé le service [Nominatim d’Open Street Map](https://nominatim.openstreetmap.org/).
