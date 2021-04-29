@@ -23,6 +23,10 @@
 
 img 
 
+alt = Fig x-x : http://lenamk.site/memoire/Redaction 
+
+
+
 src="https://www.public.archi/atlas-numerique/viz/carteCommunes/index.html" title="Lena Krause, *[Carte des départements français et densité des projets Conbavil](http://atlas.lenamk.site/viz/carteCommunes/)*, prototype de l'*Atlas numérique de l’architecture publique en France (1795-1840)*, 2019" width="100%" height="700" frameborder="0" style="display:block; margin: 0 auto;" alt="Fig. 3-17: https://www.public.archi/atlas-numerique/viz/carteCommunes/index.html" id="fig3-17">&nbsp;</iframe> 
 
 **Fig. 17** Lena Krause, *[Carte des départements français et densité des projets Conbavil](http://atlas.lenamk.site/viz/carteCommunes/)*, prototype de l'*Atlas numérique de l’architecture publique en France (1795-1840)*, iframe, 2019
