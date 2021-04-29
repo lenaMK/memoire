@@ -1,29 +1,3 @@
-[TOC]
-
-<!-- À déplacer dans la section statique gauche dans le site-->
-
-**Chapitre 1: [Administration et architecture publique en France au XIXe siècle](lenamk.site/memoire/Redaction/Chapitre1#administration-et-architecture-publique-en-france-au-xixe-siècle)**
-
-1.1 [L’administration de la France au lendemain de la Révolution](lenamk.site/memoire/Redaction/Chapitre1#ladministration-de-la-france-au-lendemain-de-la-révolution)
-	1.1.1 [La division et l’unification du territoire](http://lenamk.site/memoire/Redaction/Chapitre1#la-division-et-lunification-du-territoire) 
-	1.1.2 [La centralisation administrative](http://lenamk.site/memoire/Redaction/Chapitre1#la-centralisation-administrative)
-	1.1.3 [La rationalisation de l’action publique](http://lenamk.site/memoire/Redaction/Chapitre1#la-rationalisation-de-laction-publique) 
-
-1.2 [Des formes de savoir et de pouvoir à l’œuvre](http://lenamk.site/memoire/Redaction/Chapitre1#des-formes-de-savoir-et-de-pouvoir-à-lœuvre)
-    1.2.1 [Miroir du territoire ou de la nation](http://lenamk.site/memoire/Redaction/Chapitre1#miroir-du-territoire-ou-de-la-nation)
-    1.2.2 [La statistique](http://lenamk.site/memoire/Redaction/Chapitre1#la-statistique)
-    1.2.3 [La pensée cartographique](http://lenamk.site/memoire/Redaction/Chapitre1#la-pensée-cartographique)
-
-1.3 [Le Conseil des bâtiments civils](http://lenamk.site/memoire/Redaction/Chapitre1#le-conseil-des-bâtiments-civils)
-	1.3.1 [L’administration de l’architecture publique](http://lenamk.site/memoire/Redaction/Chapitre1#ladministration-de-larchitecture-publique)
-	1.3.2 [Archives du projet architectural de la Nation](http://lenamk.site/memoire/Redaction/Chapitre1#archives-du-projet-architectural-de-la-nation)
-	1.3.3 [Approches quantitatives, spatiales ou cartographiques](http://lenamk.site/memoire/Redaction/Chapitre1#approches-quantitatives-spatiales-ou-cartographiques)
-[Conclusions du chapitre](http://lenamk.site/memoire/Redaction/Chapitre1#conclusions-du-chapitre)
-[Notes](http://lenamk.site/memoire/Redaction/Chapitre1#notes)
-[Bibliographie du chapitre](http://lenamk.site/memoire/Redaction/Chapitre1#Bibliographie)
-
-<!-- mettre à jour les liens en cas de changement de nom de partie-->
-
 # Administration et architecture publique en France au XIXe siècle
 
 L’architecture publique est une construction de l’État.<!-- @ec cette première phrase est abrupte, je comprends l’idée de construction étatique, mais dire que l’architecture publique est une construction me paraît un peu littéral --> S’y intéresser implique donc de considérer toute une politique et une structure gouvernementale. Cela est d’autant plus important qu’au lendemain de la Révolution française, le champ de l’architecture et des arts en général se déplace de la représentation des privilèges d’une élite à celle des symboles de l’État. Les changements structurels que cette transformation implique sont politiques, économiques, sociaux mais aussi intellectuels et artistiques (Loyer 1999 : <!-- à chercher, dans intro-->). 
