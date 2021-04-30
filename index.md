@@ -4,11 +4,9 @@ Ceci est une page web pour la lecture de mon mémoire de maîtrise, dirigé par 
 
 Actuellement en cours de rédaction, je mets en ligne des parties prêtes à la relectures. Ceci est un travail en cours, le contenu va donc évoluer régulièrement. Par exemple, les titres sont tous temporaires. Commentaires et suggestions bienvenus, soit à même la page via [hypothesis](https://web.hypothes.is/#features), soit par courriel: lena.krause@umontreal.ca
 
-Dernière date de modification: 28 avril 2021
+Dernière date de modification: 30 avril 2021
 
 À terminer: 
-
-- [ ] Corrections finales
 
 - [ ] Bibliographie
 
