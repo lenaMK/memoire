@@ -349,13 +349,12 @@ Qu’est-ce que le contenu de la base de données CONBAVIL? Comment comprendre u
 
 Le premier est un simple histogramme, ou *bar chart* ([fig. 2-15](#fig2-15)). Chaque barre figure une propriété et sa hauteur est calculée selon sa récurrence dans la base de données. Le système bicolore permet de distinguer les occurrences uniques (en rose) de celles multiples. L’interactivité du graphique permet d’explorer le contenu de chaque barre en cliquant dessus. Cela affiche en dessous le nombre d’occurrences total, ainsi que les valeurs distinctes, puis une liste de ces dernières. 
 
-
-
 <div>
  <iframe src="https://public.archi/atlas-2021/viz/datascape/index.html" title="Lena Krause, Datascape#1, recherche associée à l’*Atlas numérique de l’architecture publique en France (1795-1840)*, iframe, 2020" alt="Fig. 2-15 : https://public.archi/atlas-2021/viz/datascape/index.html" width="100%" height="600" frameborder="0" style="display:block; margin : 0 auto;" id="fig2-15">&nbsp;</iframe>
 </div>
 
 **Fig. 2-15** Lena Krause, *[Datascape #1](https://public.archi/atlas-2021/viz/datascape/index.html)*, recherche associée à l’*Atlas numérique de l’architecture publique en France (1795-1840)*, iframe, 2020
+https://public.archi/atlas-2021/viz/datascape/index.html
 
 Logiquement, les champs normalisés sont majoritairement en bleu tandis que les champs plein texte sont en rose. Dû aux grandes disparités entre les valeurs, on ne peut pas voir la partie rose, c’est-à-dire les occurrences distinctes, de certaines propriétés comme les registres (valeur : 66) ou les catégories architecturales (16). Il faut noter que le champ « id » est nécessairement rose puisque ce sont les identifiants uniques. Puisqu’il s’agit d’un moyen figurer la base de données, nous n’avons pas retiré ce champs même s’il est moins pertinent, car c’est plus un exercice de figuration (brute ou directe) que d’expression analytique.
 
