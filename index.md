@@ -4,13 +4,9 @@ Ceci est une page web pour la lecture de mon mémoire de maîtrise, dirigé par 
 
 Actuellement en cours de rédaction, je mets en ligne des parties prêtes à la relectures. Ceci est un travail en cours, le contenu va donc évoluer régulièrement. Par exemple, les titres sont tous temporaires. Commentaires et suggestions bienvenus, soit à même la page via [hypothesis](https://web.hypothes.is/#features), soit par courriel: lena.krause@umontreal.ca
 
-Dernière date de modification: 30 avril 2021
+Dernière date de modification: 30 avril 2021 [dépôt initial]
 
 À terminer: 
-
-- [ ] Bibliographie
-
-- [ ] Liste des figures pour le volume d'illustration
 
 - [ ] Ajustement du jekyll pour la version en ligne
 
@@ -32,6 +28,8 @@ Avant-propos
 
 Remerciements
 
+[Liste des figures](./Redaction/ListeFigures.md)
+
 #### [Introduction](./Redaction/intro.md)
 
 #### [Chapitre 1](./Redaction/Chapitre1.md): Administration et architecture publique en France au XIXe siècle
@@ -42,7 +40,7 @@ Remerciements
 
 #### [Conclusion](./Redaction/Conclusion.md)
 
-Bibliographie
+[Bibliographie](./Redaction/Bibliographie.md)
 
 
 
