@@ -86,9 +86,7 @@ Nous pourrons alors présenter notre prototype d’interface, des visualisations
 
 Dans ce mémoire, il s’agira donc d’étudier comment l’éditorialisation d’une base de données en un atlas numérique peut informer la recherche en histoire de l’art. Dans le contexte d’une étude sur l’architecture publique en France à la première moitié du XIXe siècle, nous pensons qu’étudier l’évolution des dynamiques d’équipement instaurées par le Conseil des bâtiments civils, à travers le temps et de façon spatialisée, nous renseignera sur les pratiques de cette institution qui a fondé l’architecture publique en France telle que nous la connaissons aujourd’hui.
 
-___
 
-## Notes
 
 [^1]: *CONBAVIL* (2009) [Base de données en ligne], Paris : INHA, https://www.inha.fr/fr/ressources/outils-documentaires/conseil-des-batiments-civils-conbavil.html. Consulté le 3 décembre 2017
 [^2]: Sous-série F21* des Archives nationales (F21* 2470 à F21 * 2536, soit les années 1795 à 1840).

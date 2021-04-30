@@ -23,7 +23,7 @@
 
 img 
 
-alt = Fig x-x : http://lenamk.site/memoire/Redaction
+alt = Fig. 3-x : http://lenamk.site/memoire/Redaction
 
 
 
