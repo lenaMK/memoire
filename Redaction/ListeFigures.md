@@ -8,7 +8,7 @@
 2. Roch-Joseph Julien (cartographe), César-François Cassini de Thury (cartographe du modèle), H. Boyet (graveur), _Carte de France divisée en ses XXXI gouvernements militaires et en ses provinces, dressée sur les meilleures cartes qui ont parues jusqu’à présent et sur la carte des triangles en XVIII petites feuilles, levée géométriquement par ordre du Roi, et mise au jour par Mr. Cassini de Thury, ... Dédiée et présentée à Mons. le comte de St. Florentin..._, 1754. 
 1 carte en 6 feuilles assemblées, contours colorés, 150 x 135 cm. https://gallica.bnf.fr/ark:/12148/btv1b53052984z
 
-3.  Anonyme, *Carte de France divisée en ses 83 Départements et Districts suivant les Décrets de l’Assemblée nationale*, Paris : Mondhare et Jean, 1791.
+3. Anonyme, *Carte de France divisée en ses 83 Départements et Districts suivant les Décrets de l’Assemblée nationale*, Paris : Mondhare et Jean, 1791.
    https://gallica.bnf.fr/ark:/12148/btv1b53083405g
 
 4.  Anonyme, *Carte gastronomique de la France*, Weimar : Institut géographique, tirée du *Guide des voyageurs en France...*, H.A.O. Reichard, 6e éd., Weimar : Institut géographique, 1810.
@@ -34,7 +34,7 @@ https://gallica.bnf.fr/ark:/12148/btv1b53093802z
     1 feuille, 490 x 335. Les Points signalent la population, 1 pour 10. 000 têtes. Les chiffres indiquent les départements et leurs Chefs-lieux. Les Lettres désignent les principaux fleuves. A droite et à gauche, index des départements avec le chiffre de leur population. En haut et en bas : notes, citations de Montesquieu, de Buffon.
 https://gallica.bnf.fr/ark:/12148/btv1b8492261j
     
-11. Alexandre-Jean-Baptiste-Guy de Gisors (1762-1835). *Détails faits par le sousigné qui sont en calque à son rapport concernant un projet d’établissement thermal au Mont Dore* (Puy-de-Dôme), séance du 18 avril 1814. 
+11. Alexandre-Jean-Baptiste-Guy de Gisors (1762-1835). *Détails faits par le soussigné qui sont en calque à son rapport concernant un projet d’établissement thermal au Mont Dore* (Puy-de-Dôme), séance du 18 avril 1814. 
     Dessin sur calque à l’encre noire et rouge, lavis gris et rose. Paris, Bibliothèque de l’Institut, Ms. 1044.
 
 12. (Signé : Chemot, ingénieur), *Royaume de France, suivant le traité signé le 31 mai 1814*, 1814.
@@ -56,9 +56,9 @@ https://gallica.bnf.fr/ark:/12148/btv1b8492261j
    Paris, Archives Nationales de France, F21 2534.
 2. Lena Krause, *Transcription des champs de la base de données CONBAVIL dans Texto*, 2020, à partir de Szambien et Boudon, *Les rapports présentés au Conseil des Bâtiments Civils, 1795-1840. Constitution d’une base de données*. [Rapport de recherche] 676/90, Ministère de l’équipement, du logement, des transports et de la mer / Bureau de la recherche architecturale (BRA); Université de Paris IV / Centre de recherche sur l’histoire de l’architecture moderne, 1990, p.26.
    En ligne https://hal.archives-ouvertes.fr/hal-01909887
-3. Bull Micral 60 (released in February 1986)
+3. Bull Micral 60 (released in February 1986).
    http://jean.thiery.pagesperso-orange.fr/en/2010/collect/BM-60.html, [© 2010 ModLibre.info](http://www.modlibre.info/) [(cc-by-sa license)](http://creativecommons.org/licenses/by-sa/3.0/)
-4. Lena Krause, *Fiche CONBAVIL02308 - format JSON*, capture d’écran, 2020
+4. Lena Krause, *Fiche CONBAVIL02308 - format JSON*, capture d’écran, 2020.
 5. Lena Krause, *Fiche CONBAVIL02308 - interface INHA*, capture d’écran de la délibération sur le site de l’INHA, 2020.
    https://www.inha.fr/conbavil/notice.php?pv=02308
 6. Lena Krause, *Extrait de la fiche 00232*, Capture d’écran, 2021.

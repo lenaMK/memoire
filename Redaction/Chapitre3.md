@@ -135,7 +135,7 @@ Le fond de carte sélectionné est un découpage de la France en départements d
 
 <div><iframe src="https://public.archi/atlas-2021/viz/carte/index.html" alt="Fig. 3-5: https://public.archi/atlas-2021/viz/carte/index.html" width="100%" height="950" style="display:block; margin: 0 auto;">&nbsp;</iframe></div>
 
-**Fig. 3-5 ** Lena Krause, *Carte des départements français et densité des projets CONBAVIL*, carte interactive réalisée sur ObservableHQ pendant le cours LLCU-498&698 « Digital Humanities Project » donné par Prof. Stéfan Sinclair, Version exportée pour sa publication dans notre atlas, iframe, 2018
+**Fig. 3-5** Lena Krause, *Carte des départements français et densité des projets CONBAVIL*, carte interactive réalisée sur ObservableHQ pendant le cours LLCU-498&698 « Digital Humanities Project » donné par Prof. Stéfan Sinclair, Version exportée pour sa publication dans notre atlas, iframe, 2018
 https://public.archi/atlas-2021/viz/carte/index.html
 
 Malgré le succès de cette première entreprise de cartographie numérique, cette carte nous paraît quelque peu décevante du point de vue herméneutique. À cette échelle, la cartographie des données ne présente qu’un intérêt relatif. La densité de délibérations dans le département du Nord pose quelques questions, toutefois, on ne peut pas vraiment observer de tendance diachronique avec la spatialisation produite ici. Un·e chercheur·se qui travaillerait sur un département français pourrait immédiatement consulter les délibérations qui y sont associées. Outre la dimension visuelle de la requête, le résultat demeurerait cependant équivalent à une recherche par département effectuée dans l’interface de l’INHA. 
@@ -389,9 +389,9 @@ Grâce aux interactions entre la carte et le graphique des avis, il devient poss
 | ----------------------- | ---------------------------------- | -------------------------------- |
 | Refus                   | 719  --> **3.5%**                  | 282  --> presque **6%**          |
 | Ajournements            | 3099  --> 15%                      | 441--> près de 10%               |
-| Adoption                | 8942  --> 45%                      | 2084 --> près de 45% (43.8)      |
+| Adoptions               | 8942  --> 45%                      | 2084 --> près de 45% (43.8)      |
 | Adoptions avec réserve  | 3561  --> **18%**                  | 489 --> **10%**                  |
-| Sans avis               | 3367 --> **17%**                   | 1476   --> **31%**               |
+| Sans avis               | 3367 --> **17%**                   | 1476 --> **31%**                 |
 | *À propos du graphique* | *19688 (145 avis complémentaires)* | *4772 (16 avis complémentaires)* |
 
 **Tableau 2** Lena Krause, *Comparaison Paris-Province: les avis du Conseil*, 2021
