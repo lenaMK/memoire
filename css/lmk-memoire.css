@@ -39,4 +39,8 @@ blockquote {
     align-self: center;
 }
 
-<a target="_blank" rel="noopener noreferrer" href="
+table, th, td {
+    padding: 15px;
+    border: none;
+    background-color: transparent; /*doesn't work somehow*/
+}
