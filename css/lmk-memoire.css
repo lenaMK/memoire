@@ -46,3 +46,12 @@ table, th, td {
     background-color: transparent; /*doesn't work somehow*/
 }
 
+code{
+    color: black;
+}
+
+.imgCenter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
